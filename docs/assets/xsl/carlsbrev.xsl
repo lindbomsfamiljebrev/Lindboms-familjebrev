@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: Reading Text
+                    frankensTEIn: Top Layer
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -30,12 +30,14 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="hem.html">Hem</a> |
+                    <a href="karleksbreven.html">Kärleksbreven</a> |
+                    <a href="aktenskapsbreven.html">Äktenskapsbreven</a> |
+                    <a href="carlsbrev.html">Carls brev</a> |
+                    <a href="historia.html">Historian runt breven</a> |
+                    <a href="personer.html">Personerna bakom breven</a> |
                 </nav>
-                <main id="manuscript">
+                <main>
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (three columns) -->
@@ -58,7 +60,7 @@
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-md">
-                                <article id="transcript">
+                                <article id="transcription">
                                     <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                 </article>
                             </div>
@@ -110,18 +112,11 @@
         </p>
     </xsl:template>
 
-    <!-- transform tei del into html del -->
+    <!-- do not show del in toplayer transcription-->
     <xsl:template match="tei:del">
-        <del>
+        <span style="display:none">
             <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
+        </span>
     </xsl:template>
 
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
