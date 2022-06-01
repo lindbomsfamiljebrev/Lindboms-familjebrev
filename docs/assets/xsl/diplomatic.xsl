@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: diplomatic view
+                    Lindboms familjebrev: en digital samling
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -30,7 +30,7 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
+                    <a href="index.html">Hem</a> |
                     <a href="diplomatic.html">Diplomatic Transcription</a> |
                     <a href="reading.html">Reading Text</a> |
                     <a href="toplayer.html">Top Layer</a> |
@@ -43,7 +43,7 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                <article id="scan">
-                                   <h3>Image</h3>
+                                   <h3>Breven</h3>
                                 <img width="400">
                                     <xsl:attribute name="src">
                                         <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_full']/@url"/>
@@ -60,7 +60,7 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <h3>Transcription</h3>
+                                    <h3>Transkriptioner</h3>
                                     <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                 </article>
                             </div>
