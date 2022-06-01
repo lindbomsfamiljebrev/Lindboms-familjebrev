@@ -29,6 +29,7 @@
                         <xsl:apply-templates select="//tei:TEI//tei:title"/>
                     </h1>
                 </header>
+                
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> |
                     <a href="karleksbreven.html">Kärleksbreven</a> |
