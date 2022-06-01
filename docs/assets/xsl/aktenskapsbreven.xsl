@@ -44,17 +44,16 @@
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
-                                <article id="scan">
-                                    <h3>Breven</h3>
-                                    <img width="400">
+                                <article id="thumbnail">
+                                    <img>
                                         <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_full']/@url"/>
+                                            <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='Carl19301103_1g']/@url"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1s']//tei:label"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1s']//tei:figDesc"/>
                                         </xsl:attribute>
                                     </img>
                                 </article>
