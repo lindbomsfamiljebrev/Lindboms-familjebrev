@@ -467,7 +467,7 @@
    
    <text type="letter">
       <body>
-         <pb n="01" facs="Carl19301103_1s" />
+         <pb n="01" facs="#Carl19301103_1s" />
           <opener> 
              <dateline rend="right"><placeName ref="#Gberg">Gustafsberg</placeName> 
                 <date when="1930-11-03">den 3 Nov- 1930.</date>
@@ -535,7 +535,7 @@
                    </choice> det. 
             </p>
             </div>
-            <pb n="02" facs="Carl19301103_2s" />
+            <pb n="02" facs="#Carl19301103_2s" />
          <div>
             <p>
             <lb /><addName ref="#EEL">Mamma</addName> fick brev från <persName ref="#GRE">Greta</persName> 
