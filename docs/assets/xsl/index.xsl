@@ -47,13 +47,13 @@
                                <article id="thumbnail">
                                 <img>
                                     <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='Carl19301103_1s']/@url"/>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='Carl19301103_1g']/@url"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1g']//tei:label"/>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1s']//tei:label"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1g']//tei:figDesc"/>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1s']//tei:figDesc"/>
                                     </xsl:attribute>
                                 </img>
                                </article>
