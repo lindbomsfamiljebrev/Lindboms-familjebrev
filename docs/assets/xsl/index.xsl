@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: Home
+                    Lindboms familjebrev: en digital samling
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -30,10 +30,12 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="index.html">Hem</a> |
+                    <a href="diplomatic.html">Kärleksbreven</a> |
+                    <a href="reading.html">Äktenskapsbreven</a> |
+                    <a href="toplayer.html">Carls brev</a> |
+                    <a href="historia.html">Historian runt breven</a> |
+                    <a href="personer.html">Personerna bakom breven</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -45,13 +47,13 @@
                                <article id="thumbnail">
                                 <img>
                                     <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='postit01_thumb']/@url"/>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='Carl19301103_1s']/@url"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1g']//tei:label"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1g']//tei:figDesc"/>
                                     </xsl:attribute>
                                 </img>
                                </article>
@@ -91,7 +93,7 @@
                   			</a>
                   		</div>
                   		<div class="copyright_text">
-                         2022 Wout Dillen.
+                         2022 Hanna Lindbom och Malin Sandstedt.
                       </div>
                     </div>
                 </div>

@@ -6,13 +6,15 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>DCHM Template</title>
-            <author corresp="#WD">Wout Dillen</author>
-            <principal>Wout Dillen</principal>
+            <title>Lindboms familjebrev: en digital samling</title>
+            <author corresp="#Hanna">Hanna Lindbom</author>
+            <author corresp="#Malin">Malin Sandstedt</author>
+            <principal>Hanna Lindbom</principal>
+            <principal>Malin Sandstedt</principal>
          </titleStmt>
          <publicationStmt>
-            <publisher>University of Borås</publisher>
-            <date>March 2022</date>
+            <publisher>Högskolan i Borås</publisher>
+            <date>Juni 2022</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
@@ -32,20 +34,19 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="postit01">
+      <surface xml:id="Carl19301103_1s">
          <figure>
-            <label>Post-It 01</label>
+            <label>Carl 1930-11-03 01</label>
             <figDesc>
-               A photograph of a post-it with a simple example phrase.
+               Brev från Carl till Gustaf och Greta 3/11-1930, sida 1.
             </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <graphic xml:id="Carl19301103_1g" url="assets/img/documents/Carlsbrev/Carl19301103_1"/> 
          </figure>
       </surface>
    </facsimile>
    <text>
       <body>
-            <pb facs="#postit01"/>
+         <pb facs="#Carl19301103_1s"/>
             <head>
                <hi rend="u">DCHM Template</hi>
             </head>
