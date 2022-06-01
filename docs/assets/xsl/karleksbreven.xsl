@@ -30,7 +30,7 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="hem.html">Hem</a> |
+                    <a href="index.html">Hem</a> |
                     <a href="karleksbreven.html">Kärleksbreven</a> |
                     <a href="aktenskapsbreven.html">Äktenskapsbreven</a> |
                     <a href="carlsbrev.html">Carls brev</a> |
