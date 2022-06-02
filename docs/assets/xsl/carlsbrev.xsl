@@ -52,9 +52,9 @@
 
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    <head>              
+                    <h3>              
                         3/11-1930: Brev från Carl
-                    </head> 
+                    </h3> 
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
@@ -77,8 +77,7 @@
                                             
                                         </img>
                                     </xsl:for-each>
-                                    
-                                    
+                                 
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
