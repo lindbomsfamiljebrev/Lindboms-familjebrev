@@ -43,14 +43,12 @@ h3 {
 .left {
     text-align: left;
     }
+    
 .right {
     text-align: right;
     }
     
-    div.sida {
-    margin-top: 0;
-    margin-bottom: 3em
-    }
+
 
 #details {
     padding: 2vw;
