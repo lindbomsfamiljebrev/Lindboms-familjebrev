@@ -27,8 +27,11 @@
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:TEI//tei:seriesStmt"/>
+                        <xsl:apply-templates select="//tei:TEI//tei:seriesStmt/tei:title[@type='main']"/>
                     </h1>
+                    <h2>
+                        <xsl:apply-templates select="//tei:TEI//tei:seriesStmt/tei:title[@type='sub']"/>  
+                    </h2>
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> |
