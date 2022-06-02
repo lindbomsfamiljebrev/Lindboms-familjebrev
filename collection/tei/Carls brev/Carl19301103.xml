@@ -451,7 +451,7 @@
             <figDesc>
                Brev från Carl till Gustaf och Greta 3/11-1930, sida 1.
             </figDesc>
-            <graphic xml:id="Carl19301103_1g" url="assets/img/documents/Carlsbrev/Carl19301103_1"/> 
+            <graphic xml:id="Carl19301103_1g" url="assets/img/documents/Carlsbrev/Carl19301103_1.jpg"/> 
          </figure>
       </surface>
       <surface xml:id="Carl19301103_2s">
@@ -460,13 +460,16 @@
             <figDesc>
                Brev från Carl till Gustaf och Greta 3/11-1930, sida 2.
             </figDesc>
-            <graphic xml:id="Carl19301103_2g" url="assets/img/documents/Carlsbrev/Carl19301103_2"/> 
+            <graphic xml:id="Carl19301103_2g" url="assets/img/documents/Carlsbrev/Carl19301103_2.jpg"/> 
          </figure>
       </surface>
    </facsimile>
    
    <text type="letter">
       <body>
+         <head>
+            <hi rend="u">Transkription</hi>
+         </head>
          <pb n="01" facs="#Carl19301103_1s" />
           <opener> 
              <dateline rend="right"><placeName ref="#Gberg">Gustafsberg</placeName> 
