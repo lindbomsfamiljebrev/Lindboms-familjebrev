@@ -59,7 +59,7 @@
                                     
                                     <xsl:for-each select="//tei:surface">
                                         
-                                        <img height="900">
+                                        <img height="800">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -80,6 +80,11 @@
                             <div class="col-sm">
                                 <article id="transcription">
                                     <xsl:apply-templates select="//tei:TEI//tei:text"/>
+                                    
+                                    <xsl:for-each select="//TEI/text[1]/body[1]">
+                                    <div type="sida" height="800">
+                                    </div>
+                                    </xsl:for-each>
                                 </article>
                             </div>
                         </div>
