@@ -470,7 +470,9 @@
          <head>
             <hi rend="u">Transkription</hi>
          </head>
+         <div1 type="page1">
          <pb n="01" facs="#Carl19301103_1s" />
+         
           <opener> 
              <dateline rend="right"><placeName ref="#Gberg">Gustafsberg</placeName> 
                 <date when="1930-11-03">den 3 Nov- 1930.</date>
@@ -538,6 +540,9 @@
                    </choice> det. 
             </p>
             </div>
+         </div1>
+         
+         <div1 type="page2">
             <pb n="02" facs="#Carl19301103_2s" />
          <div>
             <p>
@@ -605,7 +610,7 @@
             </p>
             
          </div>  
-         
+         </div1>
          <closer><salute>Många hälsningar från oss Gud 
                   <choice>
                      <sic>välsingne</sic>
@@ -614,6 +619,7 @@
                <lb />Eder i edert arbete i Herren.
                <lb /> <s rend="right">Eder <addName ref="#CL">Pappa</addName>.</s></salute>
          </closer>
+        
          <postscript>
            <ab>    
               <seg type="leftMargin" subtype="sideways"> 
@@ -636,7 +642,8 @@
                <lb />på en sådan Gudstjänst på morgonen?
               </seg> 
            </ab>  
-         </postscript>  
+         </postscript> 
+      
       </body>
   </text>
 </TEI>
