@@ -168,7 +168,7 @@
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='leftMargin'] [@subtype='sideways']">
-        <p>[VÄNSTERMARGINALEN]</p>
+        [VÄNSTERMARGINALEN]
         
     </xsl:template>
     
