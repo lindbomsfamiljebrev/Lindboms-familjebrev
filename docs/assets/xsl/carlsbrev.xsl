@@ -4,10 +4,12 @@
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
     
-    <!-- transform the root element (TEI) into an HTML template -->
+
+    
+    <!-- transform the root element (TEI) into an HTML template -->   
     <xsl:template match="tei:TEI">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
-        <html lang="en" xml:lang="en">
+        <html lang="sv" xml:lang="sv">
             <head>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
@@ -33,7 +35,6 @@
                     <a href="index.html">Hem</a> |
                     <a href="karleksbreven.html">Kärleksbreven</a> |
                     <a href="aktenskapsbreven.html">Äktenskapsbreven</a> |
-                    <a href="aktenskapsbreven.html">Äktenskapsbreven</a> |
                     <a href="carlsbrev.html">Carls brev</a> |
                     <a href="historia.html">Historian runt breven</a> |
                     <a href="personer.html">Personerna bakom breven</a> |
@@ -54,18 +55,25 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="scan">
-                                    <h3>Breven</h3>
-                                    <img width="400">
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_full']/@url"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
-                                        </xsl:attribute>
-                                    </img>
+                                    <h3>Brev</h3>
+                                    
+                                    <xsl:for-each select="//tei:surface">
+                                        
+                                        <img width="500">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="tei:figure/tei:graphic/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                            
+                                        </img>
+                                    </xsl:for-each>
+                                    
+                                    
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
@@ -87,7 +95,7 @@
                                 </a>
                             </div>
                             <div>
-                                2022 Wout Dillen.
+                                2022 Hanna Lindbom och Malin Sandstedt
                             </div>
                         </div>
                     </div>
