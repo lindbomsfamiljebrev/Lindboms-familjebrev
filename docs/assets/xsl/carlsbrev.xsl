@@ -51,6 +51,7 @@
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
+                    <h3>Sida 1</h3>
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
