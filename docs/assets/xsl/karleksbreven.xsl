@@ -4,7 +4,6 @@
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
     
-    <xsl:param name="files" select="'Carl19301103.xml;Carl19310210.xml;Carl19311002.xml; Carl19320207.xml; Carl19320222.xml; Carl19320410'" />
     
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="/">
@@ -46,7 +45,7 @@
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
-                                <article>
+                                <article id="scan">
                                     <h3>Brev</h3>
                                     
                                     <xsl:for-each select="//tei:surface">
