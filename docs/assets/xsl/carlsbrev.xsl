@@ -167,8 +167,8 @@
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='leftMargin'] [@subtype='sideways']">
-        <span style="text-alignment: center; margin-top: 1em;">
-        [VÄNSTERMARGINALEN]</span>
+        <p/>
+            [VÄNSTERMARGINALEN]
     </xsl:template>
     
     
