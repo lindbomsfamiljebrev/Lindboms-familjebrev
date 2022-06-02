@@ -470,7 +470,7 @@
          <head>
             <hi rend="u">3/11-1930: Brev från Carl</hi>
          </head>
-       <div type="sida1">
+       <head type="sida1">Sida 1</head>
          <pb n="01" facs="#Carl19301103_1s" />
          
           <opener> 
@@ -540,11 +540,11 @@
                    </choice> det. 
             </p>
             </div>
-       </div>
+       
          
          
-         <div type="sida">
-            <pb n="02" facs="#Carl19301103_2s" />
+        
+            <pb n="02" facs="#Carl19301103_2s" /> 
          <div>
             <p>
             <lb /><addName ref="#EEL">Mamma</addName> fick brev från <persName ref="#GRE">Greta</persName> 
@@ -646,7 +646,7 @@
               </seg>
            </ab>  
          </postscript> 
-      </div>
+      
       </body>
   </text>
 </TEI>

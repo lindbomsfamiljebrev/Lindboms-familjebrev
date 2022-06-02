@@ -57,8 +57,7 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="scan">
-                                    <h3>Brev</h3>
-                                    
+                
                                     <xsl:for-each select="//tei:surface">
                                         
                                         <img width="520">
@@ -168,10 +167,10 @@
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='leftMargin'] [@subtype='sideways']">
-        <lb />
-        <lb />
-        [VÄNSTERMARGINALEN] 
+        <span style="text-alignment: center; margin-top: 1em;">
+        [VÄNSTERMARGINALEN]</span>
     </xsl:template>
+    
     
     
     
