@@ -40,6 +40,11 @@ h3 {
     padding: 1vw;
     
 }
+.sida {        
+    display: flex;
+    align-items: center; 
+    justify-content: center
+      }
 
 #details {
     padding: 2vw;
