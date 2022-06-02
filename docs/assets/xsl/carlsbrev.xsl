@@ -40,12 +40,12 @@
                     <a href="personer.html">Personerna bakom breven</a> |
                 </nav>
                 <nav id="brevnav">
-                    <a href="index.html">Brev 1</a> |
-                    <a href="karleksbreven.html">Brev 2</a> |
-                    <a href="aktenskapsbreven.html">Brev 3</a> |
-                    <a href="aktenskapsbreven.html">Brev 4</a> |
-                    <a href="carlsbrev.html">Brev 5</a> |
-                    <a href="historia.html">Brev 6</a> |
+                    <a href="index.html">3/11-1930: Brev från Carl</a> |
+                    <a href="karleksbreven.html">3/11-1930: Brev från Carl</a> |
+                    <a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a> |
+                    <a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a> |
+                    <a href="carlsbrev.html">3/11-1930: Brev från Carl</a> |
+                    <a href="historia.html">3/11-1930: Brev från Carl</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
