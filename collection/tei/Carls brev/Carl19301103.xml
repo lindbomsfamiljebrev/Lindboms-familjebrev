@@ -470,7 +470,7 @@
          <head>
             <hi rend="u">Transkription</hi>
          </head>
-         <div1 type="page1">
+         <div type="page1">
          <pb n="01" facs="#Carl19301103_1s" />
          
           <opener> 
@@ -540,9 +540,9 @@
                    </choice> det. 
             </p>
             </div>
-         </div1>
+         </div>
          
-         <div1 type="page2">
+         <div type="page2">
             <pb n="02" facs="#Carl19301103_2s" />
          <div>
             <p>
@@ -610,7 +610,7 @@
             </p>
             
          </div>  
-         </div1>
+         </div>
          <closer><salute>Många hälsningar från oss Gud 
                   <choice>
                      <sic>välsingne</sic>
