@@ -59,7 +59,7 @@
                                     
                                     <xsl:for-each select="//tei:surface">
                                         
-                                        <img width="400">
+                                        <img height="900">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -79,7 +79,6 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <h3>Transkriptioner</h3>
                                     <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                 </article>
                             </div>
@@ -112,6 +111,7 @@
     stops the text nodes underneath (=nested in) teiHeader from being printed into our
     html-->
     <xsl:template match="tei:teiHeader"/>
+    
     
     <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
     <xsl:template match="tei:lb">
@@ -150,7 +150,7 @@
         </sup>
     </xsl:template>
     
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
+    <!-- transform tei hi (highlighting) with the attribute @rend="ul" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
     <xsl:template match="tei:hi[@rend = 'ul']">
         <u>
