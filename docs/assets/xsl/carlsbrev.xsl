@@ -49,9 +49,12 @@
                     <a href="carlsbrev.html">3/11-1930: Brev från Carl</a> |
                     <a href="historia.html">3/11-1930: Brev från Carl</a> |
                 </nav>
+                <head>
+                    <hi rend="u">3/11-1930: Brev från Carl</hi>
+                </head>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    <h3>Sida 1</h3>
+                   
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
