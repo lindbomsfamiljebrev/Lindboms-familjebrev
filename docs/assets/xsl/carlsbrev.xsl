@@ -81,10 +81,6 @@
                                 <article id="transcription">
                                     <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                     
-                                    <xsl:for-each select="//TEI/text[1]/body[1]">
-                                    <div type="sida" height="800">
-                                    </div>
-                                    </xsl:for-each>
                                 </article>
                             </div>
                         </div>
@@ -149,7 +145,7 @@
     </xsl:template>
     
     <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
+    <xsl:template match="tei:add[@place = 'above']">
         <sup>
             <xsl:apply-templates/>
         </sup>
@@ -162,6 +158,13 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
+    
+    <xsl:template match="tei:emph[@rend = 'ul']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+    
     
     
 </xsl:stylesheet>

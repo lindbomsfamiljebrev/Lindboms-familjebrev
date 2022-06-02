@@ -38,13 +38,18 @@ img  {
 h3 {
     font-weight: bold;
     padding: 1vw;
-    
-}
-.sida {        
-    display: flex;
-    align-items: center; 
-    justify-content: center
-      }
+   } 
+   
+.left {
+    text-align: left;
+    }
+.left {
+    text-align: right;
+    }
+    div.sida {
+    margin-top: 0;
+    margin-bottom: 2em
+    }
 
 #details {
     padding: 2vw;
