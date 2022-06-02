@@ -618,7 +618,8 @@
                      <corr>välsigne</corr>
                   </choice>
                <lb />Eder i edert arbete i Herren.
-               <lb /> <s rend="right">Eder <addName ref="#CL">Pappa</addName>.</s></salute>
+               <lb /> <s rend="right">Eder <addName ref="#CL">Pappa</addName>.</s>
+               <lb /></salute>
          </closer>
         
          <postscript>
