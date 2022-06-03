@@ -6,7 +6,7 @@ body {
 	line-height: 1.25;
 	font-size: 1vw;
     width: 100%;
-    text-align: justify;
+
 	}
 
 h1, h2, h3, nav, footer {
@@ -29,10 +29,7 @@ h1, h2, h3, nav, footer {
     padding: 1vw;
 }
 
-#container {
-    width: 120%;
-    
-}
+
 
 h2 {
     padding: 1vw;
