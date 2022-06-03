@@ -57,10 +57,10 @@
                     </h3> 
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
-                       
+                       <h4>sida</h4>
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
-                          
+                          <h4>Sida 1</h4>
                             <div class="col-sm">
                                 <article id="scan">
                                     
