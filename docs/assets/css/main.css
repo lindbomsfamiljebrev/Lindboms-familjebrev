@@ -37,14 +37,14 @@ h2 {
     padding: 1vw;
 }
 
-a:link {
+a {
 
     color: #b55171; 
 }
 
 a:hover {
 	color: #d1889f;
-	background-color: lightgreen;
+	
 }
 
 img  {
