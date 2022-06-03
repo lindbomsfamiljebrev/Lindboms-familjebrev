@@ -42,12 +42,13 @@
                     <a href="personer.html">Personerna bakom breven</a> |
                 </nav>
                 <nav id="brevnav">
-                    <li><a href="index.html">3/11-1930: Brev från Carl</a></li>
-                    <li><a href="karleksbreven.html">3/11-1930: Brev från Carl</a></li>
-                    <li><a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a></li>
-                    <li><a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a></li>
-                    <li><a href="carlsbrev.html">3/11-1930: Brev från Carl</a></li> 
-                    <li><a href="historia.html">3/11-1930: Brev från Carl</a></li>
+                    <li>År 1930</li>
+                    <li><a href="index.html">3/11 Brev från Carl</a></li>
+                    <li><a href="karleksbreven.html">3/11 Brev från Carl</a></li>
+                    <li><a href="aktenskapsbreven.html">3/11 Brev från Carl</a></li>
+                    <li><a href="aktenskapsbreven.html">3/11 Brev från Carl</a></li>
+                    <li><a href="carlsbrev.html">3/11 Brev från Carl</a></li> 
+                    <li><a href="historia.html">3/11 Brev från Carl</a></li>
                 </nav>
                 
                 <main id="manuscript">
@@ -101,10 +102,8 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="scan">
-                                    <article id="scan">
-                                        
-                                        <xsl:for-each select="//tei:surface[2]">
-                                            
+                                    <article id="scan">   
+                                        <xsl:for-each select="//tei:surface[2]">  
                                             <img width="600">
                                                 <xsl:attribute name="src">
                                                     <xsl:value-of select="tei:figure/tei:graphic/@url"/>
