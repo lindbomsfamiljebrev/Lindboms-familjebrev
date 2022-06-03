@@ -57,8 +57,10 @@
                     </h3> 
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
+                       
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
+                          
                             <div class="col-sm">
                                 <article id="scan">
                                     
@@ -85,7 +87,7 @@
                             <div class="col-sm">
                                 <article id="transcription">
                                     
-                                    <xsl:apply-templates select="//tei:TEI//tei:text"/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:text//tei:div[1]"/>
                                     
                                 </article>
                             </div>
@@ -93,6 +95,7 @@
                     </div>
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
+                        
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
@@ -121,7 +124,8 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <xsl:apply-templates select="//tei:TEI//tei:text"/>
+                                    
+                                    <xsl:apply-templates select="//tei:TEI//tei:text//tei:div[2]"/>
                                 </article>
                             </div>
                         </div>
