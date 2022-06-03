@@ -5,7 +5,7 @@ body {
 	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 	line-height: 1.25;
 	font-size: 1vw;
-  width: 100%;
+    width: 100%;
 	}
 
 h1, h2, h3, nav, footer {
@@ -26,6 +26,11 @@ h1, h2, h3, nav, footer {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
+}
+
+#manuscript {
+    width: 70%;
+    
 }
 
 h2 {
