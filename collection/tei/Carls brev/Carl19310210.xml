@@ -467,7 +467,7 @@
 
   <text type="letter">
       <body>
-         <div style="sida1">
+         <div n="sida1">
       
             <pb n="01" facs="#Carl19310210_1s"/>
            <opener> 
@@ -552,10 +552,10 @@
                 </p>
               </div>
          </div>
-         <div style="sida2">
-            <head>Sida 2</head>
+         <div n="sida2">
+  
               <pb n="02" facs="#Carl19310210_2s"/>
-              <div type="pastorsyrket">
+            <div type="pastorsyrket">
                  <p>
                     <lb /> de ej kan taga emot och 
                         <choice>

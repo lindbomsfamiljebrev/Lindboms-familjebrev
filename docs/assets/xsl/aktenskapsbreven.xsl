@@ -87,7 +87,7 @@
                             <div class="col-sm">
                                 <article id="transcription">
                                     
-                                    <xsl:apply-templates select="//tei:TEI//tei:text//tei:div[1]"/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida1']"/>
                                     
                                 </article>
                             </div>
@@ -125,7 +125,7 @@
                             <div class="col-sm">
                                 <article id="transcription">
                                     
-                                    <xsl:apply-templates select="//tei:TEI//tei:text//tei:div[2]"/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida2']"/>
                                 </article>
                             </div>
                         </div>
