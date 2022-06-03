@@ -70,7 +70,7 @@ li {
   border-bottom: 1px solid #555;
 }
 
-p:first-child {
+li:first-child {
   background-color: #b55171;
   border-top: none;
   color: white;
