@@ -39,8 +39,8 @@ h1, h2, h3, nav, footer {
   background-color: #f1f1f1;
   border: 1px solid #555;
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
-  position: absolute;
-  top: 40px; left: 40px;
+  position: relative;
+
 }
 
 li a {
