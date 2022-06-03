@@ -9,13 +9,23 @@ body {
     margin: 0;
 	}
 	
-.left {
+s.left {
     text-align: left;
     }
     
-.right {
+s.right {
     text-align: right;
     }
+    
+w.left {
+    text-align: left;
+    }
+    
+w.right {
+    text-align: right;
+    }
+    
+ 
     
 
 h1, h2, h3, nav, footer {
