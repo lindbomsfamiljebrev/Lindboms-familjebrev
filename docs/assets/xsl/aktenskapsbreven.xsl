@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
     
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
-        <html lang="en" xml:lang="en">
+        <html lang="sv" xml:lang="sv">
             <head>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
@@ -26,8 +27,11 @@
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:TEI//tei:title"/>
+                        <xsl:apply-templates select="//tei:TEI//tei:seriesStmt/tei:title[@type='main']"/>
                     </h1>
+                    <h2>
+                        <xsl:apply-templates select="//tei:TEI//tei:seriesStmt/tei:title[@type='sub']"/>  
+                    </h2>
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> |
@@ -37,32 +41,50 @@
                     <a href="historia.html">Historian runt breven</a> |
                     <a href="personer.html">Personerna bakom breven</a> |
                 </nav>
+                <nav id="brevnav">
+                    <a href="index.html">3/11-1930: Brev från Carl</a> |
+                    <a href="karleksbreven.html">3/11-1930: Brev från Carl</a> |
+                    <a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a> |
+                    <a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a> |
+                    <a href="carlsbrev.html">3/11-1930: Brev från Carl</a> |
+                    <a href="historia.html">3/11-1930: Brev från Carl</a> |
+                </nav>
+                
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
+                    <h3>              
+                        3/11-1930: Brev från Carl
+                    </h3> 
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
-                                <article id="thumbnail">
-                                    <img>
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='Carl19301103_1g']/@url"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1s']//tei:label"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Carl19301103_1s']//tei:figDesc"/>
-                                        </xsl:attribute>
-                                    </img>
+                                <article id="scan">
+                                    
+                                    <xsl:for-each select="//tei:surface">
+                                        
+                                        <img width="520">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="tei:figure/tei:graphic/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                            
+                                        </img>
+                                    </xsl:for-each>
+                                    
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <h3>Transkriptioner</h3>
                                     <xsl:apply-templates select="//tei:TEI//tei:text"/>
+                                    
                                 </article>
                             </div>
                         </div>
@@ -77,7 +99,7 @@
                                 </a>
                             </div>
                             <div>
-                                2022 Wout Dillen.
+                                2022 Hanna Lindbom och Malin Sandstedt
                             </div>
                         </div>
                     </div>
@@ -94,6 +116,7 @@
     stops the text nodes underneath (=nested in) teiHeader from being printed into our
     html-->
     <xsl:template match="tei:teiHeader"/>
+    
     
     <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
     <xsl:template match="tei:lb">
@@ -126,19 +149,34 @@
     </xsl:template>
     
     <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
+    <xsl:template match="tei:add[@place = 'above']">
         <sup>
             <xsl:apply-templates/>
         </sup>
     </xsl:template>
     
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
+    <!-- transform tei hi (highlighting) with the attribute @rend="ul" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
+    <xsl:template match="tei:hi[@rend = 'ul']">
         <u>
             <xsl:apply-templates/>
         </u>
     </xsl:template>
+    
+    <xsl:template match="tei:emph[@rend = 'ul']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+    
+    <xsl:template match="tei:seg[@type='leftMargin'] [@subtype='sideways']">
+        <p/>
+        <p/>
+        [VÄNSTERMARGINALEN]
+    </xsl:template>
+    
+    
+ 
     
     
 </xsl:stylesheet>
