@@ -65,12 +65,6 @@ li a:hover {
   color: white;
 }
 
-li {
-  text-align: center;
-  border-bottom: 1px solid #555;
-  font-weight: bold;
-  font-size: 1.15vw;
-}
 
 li:first-child {
   background-color: #b55171;
@@ -78,6 +72,10 @@ li:first-child {
   color: white;
   padding: 10px 16px;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 1.15vw;
+  text-align: center;
+  border-bottom: 1px solid #555;
 
 }
 
