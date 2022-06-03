@@ -62,7 +62,7 @@
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                           
-                            <div class="col-sm">
+                            <div class="col-lg">
                                 
                                 <article id="scan">
                                     
@@ -86,7 +86,7 @@
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
-                            <div class="col-sm">
+                            <div class="col-lg">
                                 <article id="transcription">
                                     
                                     <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida1']"/>
