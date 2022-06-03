@@ -8,6 +8,11 @@ body {
     width: 100%;
     margin: 0;
 	}
+
+div.sida1 {
+        padding-top: 27px
+        
+        }
 	
 s.left {
     text-align: left;
@@ -99,7 +104,7 @@ a:hover {
 
 img  {
 
-    padding-bottom: 27px;    
+    padding-top: 27px;    
     }
 
 h3 {
