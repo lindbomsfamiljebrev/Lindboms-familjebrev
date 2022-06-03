@@ -33,7 +33,7 @@ h1, h2, h3, nav, footer {
 }
 
 #sitenav {
-    margin-bottom: 1vw;
+    margin-bottom: 0;
     border-top: 4px double black;
     border-bottom: 1px solid black;
     padding: 1vw;
@@ -45,7 +45,7 @@ h1, h2, h3, nav, footer {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 20%;
+  width: 15%;
   background-color: #f1f1f1;
   border: 1px solid #555;
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
