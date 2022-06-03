@@ -61,28 +61,14 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="scan">
-                                    
-                                    <xsl:for-each select="//tei:surface">
-                                        
-                                        <img width="520">
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="tei:figure/tei:graphic/@url='assets/img/documents/Carlsbrev/Carl19310210_1.jpg'"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                            
-                                        </img>
-                                    </xsl:for-each>
-                                    
+                                     <img src='ssets/img/documents/Carlsbrev/Carl19310210_1.jpg' width="520" />
+                                      
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
+                                    
                                     <xsl:apply-templates select="//tei:TEI//tei:text//tei:div[@type='sida1']"/>
                                     
                                 </article>
@@ -100,7 +86,7 @@
                                         
                                         <img width="520">
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="tei:figure/tei:graphic/@url='assets/img/documents/Carlsbrev/Carl19310210_2.jpg'"/>
+                                                <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
                                                 <xsl:value-of select="tei:figure/tei:label"/>
@@ -117,7 +103,7 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <xsl:apply-templates select="//tei:TEI//tei:text/tei:div[@type='sida2']"/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:text/tei:div[@type ='sida2']"/>
                                    
                                 </article>
                             </div>
@@ -213,6 +199,10 @@
         <p/>
         <p/>
         [ÖVERMARGINALENEN]
+    </xsl:template>
+    
+    <xsl:template match="tei:figure">
+        <img/>   
     </xsl:template>
     
     
