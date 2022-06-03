@@ -35,11 +35,12 @@ h1, h2, h3, nav, footer {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 15%;;
+  width: 20%;
   background-color: #f1f1f1;
   border: 1px solid #555;
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
-  position: fixed; /* Make it stick, even on scroll */
+  position: absolute;
+  top: 40px; left: 40px;
 }
 
 li a {
