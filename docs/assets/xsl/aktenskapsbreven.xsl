@@ -266,7 +266,7 @@
     </xsl:template>  
     
     <xsl:template match="tei:emph[@rend = 'circle']">
-        <span style="border:1px solid black;border-radius:50%">
+        <span style="border:1px solid black;border-radius:60%">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
