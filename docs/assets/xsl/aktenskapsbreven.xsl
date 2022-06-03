@@ -42,12 +42,12 @@
                     <a href="personer.html">Personerna bakom breven</a> |
                 </nav>
                 <nav id="brevnav">
-                    <a href="index.html">3/11-1930: Brev från Carl</a> |
-                    <a href="karleksbreven.html">3/11-1930: Brev från Carl</a> |
-                    <a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a> |
-                    <a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a> |
-                    <a href="carlsbrev.html">3/11-1930: Brev från Carl</a> |
-                    <a href="historia.html">3/11-1930: Brev från Carl</a> |
+                    <li><a href="index.html">3/11-1930: Brev från Carl</a></li> |
+                    <li><a href="karleksbreven.html">3/11-1930: Brev från Carl</a></li> |
+                    <li><a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a></li> |
+                    <li><a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a></li> |
+                    <li><a href="carlsbrev.html">3/11-1930: Brev från Carl</a></li> |
+                    <li><a href="historia.html">3/11-1930: Brev från Carl</a></li> |
                 </nav>
                 
                 <main id="manuscript">
