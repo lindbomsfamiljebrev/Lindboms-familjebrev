@@ -9,27 +9,19 @@ body {
     margin: 0;
 	}
 
-div.sida1 {
+#sida1 {
         padding-top: 27px
         
         }
 	
-s.left {
+#left {
     text-align: left;
     }
     
-s.right {
+#right {
     text-align: right;
     }
     
-w.left {
-    text-align: left;
-    }
-    
-w.right {
-    text-align: right;
-    }
-
 
 h1, h2, h3, nav, footer {
     text-align: center;
