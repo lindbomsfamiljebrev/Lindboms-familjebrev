@@ -14,7 +14,7 @@ h1, h2, h3, nav, footer {
 
 #sitenav {
     margin-bottom: 1vw;
-    border-top: 1px solid black;
+    border-top: 3px double black;
     border-bottom: 1px solid black;
     padding: 1vw;
     font-size: 1.33vw;
@@ -23,7 +23,7 @@ h1, h2, h3, nav, footer {
 
 #brevnav {
     margin-bottom: 1vw;
-    border-top: 3px double black;
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
 }
