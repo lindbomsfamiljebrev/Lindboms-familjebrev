@@ -83,7 +83,7 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <xsl:apply-templates select="//tei:TEI//tei:div[@type='sida1']"/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                 </article>
                             </div>
                         </div>
