@@ -264,7 +264,9 @@
     
     <xsl:template match="tei:figure">
         <img src="{tei:graphic/@url}" alt="{tei:figDesc}"/>   
-    </xsl:template>
+    </xsl:template>    
+
+
     
     
     
