@@ -17,6 +17,8 @@ h1, h2, h3, nav, footer {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
+    font-size: 1.33vw;
+
 }
 
 #brevnav {
@@ -28,6 +30,15 @@ h1, h2, h3, nav, footer {
 
 h2 {
     padding: 1vw;
+}
+
+a {
+
+    color: #736082; 
+}
+
+a:hover {
+	color: #ab8dc3;
 }
 
 img  {
