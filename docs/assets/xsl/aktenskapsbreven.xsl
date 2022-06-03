@@ -69,7 +69,7 @@
                             <div class="col-sm">
                                 <article id="transcription">
                                     
-                                    <xsl:apply-templates select="//tei:TEI//tei:text//tei:div[@type='sida1']"/>
+                                    <xsl:apply-templates select="tei:div[@type='sida1']"/>
                                     
                                 </article>
                             </div>
@@ -81,30 +81,16 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="scan">
-                                    
-                                    <xsl:for-each select="//tei:surface">
+                                    <article id="scan">
+                                        <img src='ssets/img/documents/Carlsbrev/Carl19310210_1.jpg' width="520" />
                                         
-                                        <img width="520">
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="tei:figure/tei:graphic/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                            
-                                        </img>
-                                    </xsl:for-each>
-                                    
+                                    </article>
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <xsl:apply-templates select="//tei:TEI//tei:text/tei:div[@type ='sida2']"/>
-                                   
+                                    <xsl:apply-templates select="tei:div[@type='sida2']"/>
                                 </article>
                             </div>
                         </div>
