@@ -263,7 +263,13 @@
     
     <xsl:template match="tei:figure">
         <img src="{tei:graphic/@url}" alt="{tei:figDesc}"/>   
-    </xsl:template>    
+    </xsl:template>  
+    
+    <xsl:template match="tei:emph[@rend = 'circle']">
+        <span style="border:1px solid black;border-radius:50%">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
 
     
