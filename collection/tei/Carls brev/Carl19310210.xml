@@ -460,13 +460,14 @@
             <figDesc>
                Brev från Carl till Gustaf och Greta 10/2-1931, sida 2.
             </figDesc>
-            <graphic xml:id="Carl19310210_2g" url="assets/img/documents/Carlsbrev/Carl19310210_1.jpg"/> 
+            <graphic xml:id="Carl19310210_2g" url="assets/img/documents/Carlsbrev/Carl19310210_2.jpg"/> 
          </figure>
       </surface>
    </facsimile>
 
   <text type="letter">
       <body>
+         <head>Sida 1</head>
          <pb n="01" facs="#Carl19310210_1s"/>
            <opener> 
               <dateline rend="center"><placeName ref="#Gberg">Gustafsberg</placeName>
@@ -549,6 +550,7 @@
                   </seg>
                 </p>
               </div>
+           
                   <pb n="02" facs="#Carl19310210_2s"/>
               <div type="pastorsyrket">
                  <p>
@@ -632,17 +634,17 @@
                  </closer>
                  <postscript> 
                     <ab>
-                   <seg type="leftMargin" subtype="sideways">
-                     <lb />detta brev har jag skrivit med en glaspenna.</seg>
+                   <seg type="leftMargin" subtype="sideways" />
+                     <lb />detta brev har jag skrivit med en glaspenna.
                      
-                   <seg type="upperMargin" subtype="upsideDown">
+                   <seg type="upperMargin" subtype="upsideDown" />
                      <lb /><persName ref="#HAG">Hagby </persName>är i <placeName ref="#Mot">Motala</placeName> sen i Fredags.
                      <lb />Och <unclear>Jädda</unclear> var här i Söndags, han hade sin 
                       <choice>
                          <sic>festmö</sic>
                          <corr>fästmö</corr>
                       </choice> <s rend="right">med sig.</s>
-                   </seg>    
+                       
                 </ab>
              </postscript>  
       </body>
