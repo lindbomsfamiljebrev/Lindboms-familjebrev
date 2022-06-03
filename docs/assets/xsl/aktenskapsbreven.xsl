@@ -64,7 +64,7 @@
                             <div class="col-sm">
                                 
                                 <article id="scan">
-                                    <h4>Sida 1</h4>
+                                    
                                     <xsl:for-each select="//tei:surface[1]">
                                         
                                         <img width="520">
@@ -139,7 +139,7 @@
                             <div class="col-sm">
                                 
                                 <article id="scan">
-                                    <h4>Sida 3</h4> 
+                                   
                                     <article id="scan">
                                         
                                         <xsl:for-each select="//tei:surface[3]">
