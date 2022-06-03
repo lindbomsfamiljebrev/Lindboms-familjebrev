@@ -62,9 +62,9 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                           
                             <div class="col-sm">
-                                <h4>Sida 1</h4>
+                                
                                 <article id="scan">
-                                    
+                                    <h4>Sida 1</h4>
                                     <xsl:for-each select="//tei:surface[1]">
                                         
                                         <img width="520">
@@ -137,7 +137,9 @@
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
+                                
                                 <article id="scan">
+                                    <h4>Sida 3</h4> 
                                     <article id="scan">
                                         
                                         <xsl:for-each select="//tei:surface[3]">
