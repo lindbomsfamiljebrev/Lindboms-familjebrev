@@ -467,8 +467,9 @@
 
   <text type="letter">
       <body>
+         <div style="sida1">
          <head>Sida 1</head>
-         <pb n="01" facs="#Carl19310210_1s"/>
+            <pb n="01" facs="#Carl19310210_1s"/>
            <opener> 
               <dateline rend="center"><placeName ref="#Gberg">Gustafsberg</placeName>
                  <date when="1931-02-10"> den 10/<unclear>2</unclear> 1931</date>
@@ -550,8 +551,10 @@
                   </seg>
                 </p>
               </div>
-           
-                  <pb n="02" facs="#Carl19310210_2s"/>
+         </div>
+         <div style="sida2">
+            <head>Sida 2</head>
+              <pb n="02" facs="#Carl19310210_2s"/>
               <div type="pastorsyrket">
                  <p>
                     <lb /> de ej kan taga emot och 
@@ -646,7 +649,8 @@
                       </choice> <s rend="right">med sig.</s>
                        
                 </ab>
-             </postscript>  
+             </postscript>
+            </div>
       </body>
   </text>
 </TEI>

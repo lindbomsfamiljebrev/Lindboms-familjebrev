@@ -175,6 +175,12 @@
             [VÄNSTERMARGINALEN]
     </xsl:template>
     
+    <xsl:template match="tei:seg[@type='upperMargin'] [@subtype='upsideDown']">
+        <p/>
+        <p/>
+        [ÖVERMARGINALENEN]
+    </xsl:template>
+    
     
     
     
