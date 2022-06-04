@@ -268,10 +268,18 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
-
     
+    <xsl:template match="tei:s[@rend = 'right']">
+        <span style="text-light: left">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     
+    <xsl:template match="tei:text[@rend = 'center']">
+        <span style="text-light: center">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     
 
  
