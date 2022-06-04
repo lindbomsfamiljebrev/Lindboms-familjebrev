@@ -34,24 +34,20 @@ P {
     } 
 
 .corrsic {
-    position: absolute;
+     display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    vertical-align: middle;
     } 
 
  
 sup.corr { 
-    top: 0.5em;
     color: green;
-    display:block; 
-    position: relative; 
-    left: 0.5em;
 }
 
 sub.sic {
-    position: relative;
-    top: 1.2em;
-    left: 0.5em;
-    color: red;
-    display: block; 
+
+    color: red; 
 }   
 
 h1, h2, h3, nav, footer {
