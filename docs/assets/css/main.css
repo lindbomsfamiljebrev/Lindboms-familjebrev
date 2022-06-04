@@ -14,7 +14,16 @@ P {
     margin: 0;
 }
 
-  
+.center {
+    text-align: center;
+    
+    } 
+    
+.right {
+    float: right;
+    
+    } 
+    
 
 h1, h2, h3, nav, footer {
     text-align: center;
