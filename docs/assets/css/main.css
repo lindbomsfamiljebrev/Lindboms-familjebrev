@@ -14,9 +14,10 @@ P {
    
 }
 
-.col-sm {
+div.col-sm {
     display: block;
     text-align: justify;
+    padding-top: 27px;
 
     }
 
