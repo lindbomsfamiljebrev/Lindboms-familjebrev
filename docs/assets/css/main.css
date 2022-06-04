@@ -52,8 +52,8 @@ sub.sic {
     top: 0.5em;
     left: -0.5em;
     color: red;
-    display:block; 
-    position:relative; 
+    display: block; 
+    position: relative; 
 }   
 
 h1, h2, h3, nav, footer {
