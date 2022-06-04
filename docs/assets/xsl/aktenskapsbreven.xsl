@@ -420,5 +420,10 @@
       ________
     </xsl:template>
     
+    <xsl:template match="tei:unclear">
+        <xsl:apply-templates/>[?] 
+    </xsl:template>
+    
+    
     
 </xsl:stylesheet>
