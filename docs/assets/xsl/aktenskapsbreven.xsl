@@ -257,12 +257,9 @@
         </u>
     </xsl:template>
     <xsl:template match="tei:gap">
-        <div class="illegible">[oläsligt]</div>
+        <span style="color: #888ad1;">[oläsligt]</span>
     </xsl:template>
     
-    <xsl:template match="tei:gap">
-        <div class="illegible">[oläsligt]</div>
-    </xsl:template>
     
     <xsl:template match="tei:seg[@type='leftMargin'] [@subtype='sideways']">
         <br/>
