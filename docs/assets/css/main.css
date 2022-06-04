@@ -34,7 +34,7 @@ P {
     
 .illegible {
     color: #888ad1;
-    display: inline;
+    display: inline-block;
     }
 
 h1, h2, h3, nav, footer {
@@ -119,7 +119,7 @@ h2 {
 
 
 img {
-    margin-top: 1em; 
+    margin-top: 2em; 
 }
 
 
