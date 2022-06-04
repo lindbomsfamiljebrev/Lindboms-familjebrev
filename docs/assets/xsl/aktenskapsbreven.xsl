@@ -257,7 +257,7 @@
         </u>
     </xsl:template>
     <xsl:template match="tei:gap">
-        <span style="color: #888ad1;">[oläsligt]</span>
+        <span style="color: #888ad1">[oläsligt]</span>
     </xsl:template>
     
     
