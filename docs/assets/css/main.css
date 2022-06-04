@@ -34,7 +34,8 @@ P {
     } 
 
 .corrsic {
-    position: absolute
+    position: absolute;
+    display: block;
     } 
 
  
