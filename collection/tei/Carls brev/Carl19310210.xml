@@ -481,14 +481,14 @@
            </opener>
            <div>
               <p>
-                 <lb /> <emph rend="ulx2">Mycket</emph> <emph rend="circle">tack</emph> för brev och penningar, jag skulle ha
-                  <lb /> skrivit förr, men det är så svårt att komma sig till med
+                 <lb /> <emph rend="ulx2">Mycket</emph> <emph rend="circle">tack</emph> förtear brev och penningar, jag skulle ha
+                 <lb /> skrivit <damage agent="folding" type="hole"/>förr, men det är så svårt att komma sig till med
                   <lb /> det, för alltid är det något som kommer i 
                     <choice>
                        <sic>vegen</sic>
                        <corr>vägen</corr>
                     </choice> när man skall
-                  <lb /> till att skriva. Hela felet är bestämt att jag har för gott
+                 <lb /> till att <damage agent="folding" type="tear"/> skriva. Hela felet är bestämt att jag har för gott
                   <lb /> om tid, och därför slösar med densamma, och så löper den
                   <lb /> ifrån mig, ty tiden väntar ej, den går sin jämna gång
                   <lb /> och tar vi ej reda på den så går den ifrån oss, det är därför

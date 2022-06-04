@@ -213,6 +213,11 @@
         </h2>
     </xsl:template>
     
+    
+    <xsl:template match="tei:figure">
+        <img src="{tei:graphic/@url}" alt="{tei:figDesc}"/>   
+    </xsl:template> 
+    
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
@@ -256,8 +261,20 @@
             </span>
         </u>
     </xsl:template>
-    <xsl:template match="tei:gap">
+    <xsl:template match="tei:gap[@reason='illegible'] [@quantity='1'] [@unit='word']">
         <span style="color: #888ad1">[oläsligt]</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:gap[@reason='illegible'] [@quantity='1'] [@unit='char']">
+        <span style="color: #888ad1">[oläsligt -]</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:damage[@agent='folding'] [@type='hole']">
+        <span style="color: ##c99e81">[hål i papperet]</span> 
+    </xsl:template>
+    
+    <xsl:template match="tei:damage[@agent='folding'] [@type='tear']">
+        <span style="color: ##c99e81">[riva i papperet]</span> 
     </xsl:template>
     
     
@@ -296,11 +313,8 @@
         <br/>
         <div class="center">[NEDRE OCH HÖGRA MARGINALEN]</div> 
     </xsl:template>
- 
     
-    <xsl:template match="tei:figure">
-        <img src="{tei:graphic/@url}" alt="{tei:figDesc}"/>   
-    </xsl:template>  
+ 
     
     <xsl:template match="tei:emph[@rend = 'circle']">
         <span style="border:1px solid black;border-radius:60%">
