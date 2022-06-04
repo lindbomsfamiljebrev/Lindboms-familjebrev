@@ -36,6 +36,16 @@ h1, h2, h3, nav, footer {
 
 }
 
+a {
+
+    color: #5d6dba; 
+}
+
+a:hover {
+	color: #96a3e0;
+	
+}
+
 #brevnav {
   list-style-type: none;
   margin: 0;
@@ -69,7 +79,7 @@ li a:hover {
 
 li:first-child {
   display: block;
-  background-color: #b55171;
+  background-color: #5d6dba;
   border-top: none;
   color: white;
   padding: 10px 16px;
@@ -88,15 +98,7 @@ h2 {
     padding: 1vw;
 }
 
-a {
 
-    color: #b55171; 
-}
-
-a:hover {
-	color: #d1889f;
-	
-}
 
 img  {
 
