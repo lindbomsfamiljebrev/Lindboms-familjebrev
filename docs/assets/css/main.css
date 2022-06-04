@@ -8,13 +8,14 @@ body {
     width: 100%;
     margin: 0;
     display: block;
+    text-align: justify;
 	}
 
 P {
     margin: 0;
 }
 
-span.center {
+.center {
     text-align: center;
     
     } 
