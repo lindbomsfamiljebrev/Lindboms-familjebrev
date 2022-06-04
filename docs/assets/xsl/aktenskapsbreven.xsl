@@ -270,9 +270,33 @@
     <xsl:template match="tei:seg[@type='upperMargin'] [@subtype='upsideDown']">
         <br/>
         <br/>
-        <div class="center">[ÖVRE MARGINALEN]</div>
-        
+        <div class="center">[ÖVRE MARGINALEN]</div> 
     </xsl:template>
+    
+    <xsl:template match="tei:seg[@type='bottomMargin'] [@subtype='normal']">
+        <br/>
+        <br/>
+        <div class="center">[NEDRE MARGINALEN]</div> 
+    </xsl:template>
+
+    <xsl:template match="tei:seg[@type='topLeftMargin'] [@subtype='mixed']">
+        <br/>
+        <br/>
+        <div class="center">[VÄNSTER OCH ÖVRE MARGINALEN]</div> 
+    </xsl:template>
+    
+    <xsl:template match="tei:seg[@type='leftBottomMargin'] [@subtype='mixed']">
+        <br/>
+        <br/>
+        <div class="center">[VÄNSTER OCH NEDRE MARGINALEN]</div> 
+    </xsl:template>
+    
+    <xsl:template match="tei:seg[@type='bottomRightMargin'] [@subtype='mixed']">
+        <br/>
+        <br/>
+        <div class="center">[NEDRE OCH HÖGERMARGINALEN]</div> 
+    </xsl:template>
+ 
     
     <xsl:template match="tei:figure">
         <img src="{tei:graphic/@url}" alt="{tei:figDesc}"/>   
@@ -282,6 +306,19 @@
         <span style="border:1px solid black;border-radius:60%">
             <xsl:apply-templates/>
         </span>
+    </xsl:template>
+   
+    
+    <xsl:template match="tei:w[@rend = 'below']">
+        <sub>
+            <xsl:apply-templates/>
+        </sub>  
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'above']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>  
     </xsl:template>
     
     <xsl:template match="tei:w[@rend = 'center']">
