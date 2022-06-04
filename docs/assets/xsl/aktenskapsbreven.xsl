@@ -265,16 +265,16 @@
         <span style="color: #888ad1">[oläsligt]</span>
     </xsl:template>
     
-    <xsl:template match="tei:gap[@reason='illegible'] [@quantity='3'] [@unit='char']">
-        <span style="color: #888ad1">[oläsligt -3]</span>
+    <xsl:template match="tei:gap[@reason='illegible'] [@quantity='03'] [@unit='char']">
+        <span style="color: #7c7ec4">[oläsligt -3]</span>
     </xsl:template>
     
     <xsl:template match="tei:damage[@agent='folding'] [@type='hole']">
-        <span style="color: #c99e81">[hål i papperet]</span> 
+        <span style="color: #b0886d">[hål i papperet]</span> 
     </xsl:template>
     
     <xsl:template match="tei:damage[@agent='folding'] [@type='tear']">
-        <span style="color: #c99e81">[riva i papperet]</span> 
+        <span style="color: #b0886d">[riva i papperet]</span> 
     </xsl:template>
 
     

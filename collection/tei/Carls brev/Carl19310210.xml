@@ -489,9 +489,9 @@
                        <corr>vägen</corr>
                     </choice> när man skall
                  <lb /> till att <damage agent="folding" type="tear" /> skriva. Hela felet är bestämt att jag har för gott
-                  <lb /> om tid, och därför slösar med densamma, och så löper den
+                 <lb /> om tid, och därför <gap reason="illegible" quantity="1" unit="word" /> slösar med densamma, och så löper den
                   <lb /> ifrån mig, ty tiden väntar ej, den går sin jämna gång
-                  <lb /> och tar vi ej reda på den så går den ifrån oss, det är därför
+                 <lb /> och tar vi ej reda <gap reason="illegible" quantity="03" unit="word" />på den så går den ifrån oss, det är därför
                   <lb />Apostelen uppmanar oss att köpa tiden, ty dagarna äro onda.
                   <lb /> Ack ja vi komma till korta på alla 
                     <choice>
@@ -503,7 +503,7 @@
               </div>   
               <div type="pastorsyrket">
                  <p>
-                    <lb />Hoppas <gap reason="illegible" quantity="1" unit="word" /> att ni är friska och krya, som jag ser av ditt brev så
+                    <lb />Hoppas att ni är friska och krya, som jag ser av ditt brev så
                   <lb /> har du varit i <placeName ref="#Obro">Örebro,</placeName> jag tycker det är underligt att du
                   <lb /> skall vara på sådana platser där de ha predikant förut
                   <lb /> vore det ej på sin plats att sådana församlingar fick
