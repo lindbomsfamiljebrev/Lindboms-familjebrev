@@ -13,7 +13,10 @@ body {
     margin: 0;
 }
 
-  
+.right {
+    text-align: right;
+    
+}    
 
 h1, h2, h3, nav, footer {
     text-align: center;
@@ -34,7 +37,7 @@ a {
 }
 
 a:hover {
-	color: #6874b3;
+	color: #707cb8;
 	
 }
 
