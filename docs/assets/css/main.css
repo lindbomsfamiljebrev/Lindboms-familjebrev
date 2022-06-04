@@ -13,19 +13,7 @@ body {
     margin: 0;
 }
 
-#sida1 div {
-        padding-top: 27px
-        
-        }
-	
-#left {
-    text-align: left;
-    }
-    
-#right {
-    text-align: right;
-    }
-    
+
 
 h1, h2, h3, nav, footer {
     text-align: center;
