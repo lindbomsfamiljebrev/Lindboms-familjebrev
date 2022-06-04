@@ -270,13 +270,13 @@
     </xsl:template>
     
     <xsl:template match="tei:s[@rend = 'right']">
-        <span style="text-light: left">
+        <span style="text-align: left">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     
     <xsl:template match="tei:text[@rend = 'center']">
-        <span style="text-light: center">
+        <span style="text-align: center">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
