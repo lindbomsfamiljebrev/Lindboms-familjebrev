@@ -35,7 +35,6 @@ P {
 
 .corrsic {
     position: absolute;
-    display: block;
     } 
 
  
@@ -48,7 +47,7 @@ sup.corr {
     left: -0.5em;
 }
 
-sup.sic {
+sub.sic {
     position: relative;
     top: 0.5em;
     left: -0.5em;
