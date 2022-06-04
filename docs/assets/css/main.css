@@ -32,7 +32,17 @@ P {
     float: right;
     
     } 
-    
+ 
+sup.corr { 
+    position: relative;
+    top: 0.5em;
+}
+
+sup.sic {
+    position: relative;
+    top: 0.5em;
+    left: -0.5em;
+}   
 
 h1, h2, h3, nav, footer {
     text-align: center;
