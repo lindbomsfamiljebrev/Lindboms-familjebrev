@@ -223,9 +223,9 @@
     
     <!-- transform tei del into html del -->
     <xsl:template match="tei:del">
-        <del>
+        <s>
             <xsl:apply-templates/>
-        </del>
+        </s>
     </xsl:template>
     
     <!-- transform tei add into html sup -->
@@ -248,6 +248,18 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
+    
+    <xsl:template match="tei:emph[@rend = 'ulx2']">
+        <u>
+            <span style=" text-decoration-line: underline; text-decoration-style: double">
+                <xsl:apply-templates/>
+            </span>
+        </u>
+    </xsl:template>
+    <xsl:template match="tei:gap">
+        <div class="illegible">[oläsligt]</div>
+    </xsl:template>
+    
     <xsl:template match="tei:gap">
         <div class="illegible">[oläsligt]</div>
     </xsl:template>
