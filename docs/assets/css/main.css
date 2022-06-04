@@ -42,7 +42,7 @@ h1, h2, h3, nav, footer {
 
 a {
 
-    color: #5d6dba; 
+    color: #435091; 
 }
 
 a:hover {
@@ -83,7 +83,7 @@ li a:hover {
 
 li:first-child {
   display: block;
-  background-color: #5d6dba;
+  background-color: #435091;
   border-top: none;
   color: white;
   padding: 10px 16px;
