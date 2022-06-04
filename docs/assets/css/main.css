@@ -81,27 +81,31 @@ li a {
 
 li {
   border-bottom: 1px solid #555;
-  background-color: #435091;
+
 }
 
 /* Change the link color on hover */
 li a:hover {
   background-color: #555;
   color: white;
-}
+    }
 
-
-li:first-child {
+li.year  {
   display: block;
   background-color: #435091;
-  border-top: none;
   color: white;
   padding: 10px 16px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.18vw;
   text-align: center;
+    }
 
+
+li:first-child {
+  
+  border-top: none;
+  
 }
 
 li:last-child {
