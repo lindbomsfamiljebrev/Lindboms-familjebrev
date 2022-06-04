@@ -248,15 +248,17 @@
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='leftMargin'] [@subtype='sideways']">
-        <p/>
-        <p/>
-        [VÄNSTERMARGINALEN]
+        <br/>
+        <br/>
+        <div class="center">[VÄNSTERMARGINALEN]</div>
+        <br/>
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='upperMargin'] [@subtype='upsideDown']">
-        <p/>
-        <p/>
-        [ÖVERMARGINALENEN]
+        <br/>
+        <br/>
+        <div class="center">[ÖVERMARGINALENEN]</div>
+        <br/>
     </xsl:template>
     
     <xsl:template match="tei:figure">
