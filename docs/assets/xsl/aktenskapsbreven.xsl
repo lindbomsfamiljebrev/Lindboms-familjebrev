@@ -270,7 +270,7 @@
     </xsl:template>
     
     <xsl:template match="tei:s[@rend = 'right']">
-        <span style="text-align: right">
+        <span style="text-align: right; display: inline-block">
             <xsl:apply-templates/>
         </span>
         
