@@ -43,7 +43,7 @@ h1, h2, h3, nav, footer {
 }
 
 #sitenav {
-    margin-bottom: 0;
+    margin-bottom: 1vw;
     border-top: 4px double black;
     border-bottom: 1px solid black;
     padding: 1vw;
@@ -52,12 +52,11 @@ h1, h2, h3, nav, footer {
 }
 
 a {
-    display: block;
+	text-decoration:  none;
     color: #435091; 
 }
 
 a:hover {
-    display: block;
 	color: #8894d1;
 	
 }
