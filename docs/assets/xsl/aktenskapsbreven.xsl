@@ -266,7 +266,7 @@
     </xsl:template>
     
     <xsl:template match="tei:gap[@reason='illegible'] [@quantity='03'] [@unit='char']">
-        <span style="color: #7c7ec4">[Oläsligt: 3 bokstäver]</span>
+        <span style="color: #888ad1">[oläsligt: 3 bokstäver]</span>
     </xsl:template>
     
     <xsl:template match="tei:damage[@agent='folding'] [@type='hole']">
@@ -421,7 +421,7 @@
     </xsl:template>
     
     <xsl:template match="tei:unclear">
-        <xsl:apply-templates/>[?] 
+        <xsl:apply-templates/><span style="color: #888ad1">[?]</span>
     </xsl:template>
     
     
