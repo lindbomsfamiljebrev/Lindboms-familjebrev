@@ -14,7 +14,7 @@ P {
    
 }
 
-article.transcription {
+article#transcription {
     display: block;
     text-align: justify;
 
