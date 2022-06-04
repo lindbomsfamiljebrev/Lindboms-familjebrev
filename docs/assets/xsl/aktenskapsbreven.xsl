@@ -62,7 +62,7 @@
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                           
-                            <div class="col-lg">
+                            <div class="col-sm">
                                 
                                 <article id="scan">
                                     
@@ -86,7 +86,7 @@
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
-                            <div class="col-lg">
+                            <div class="col-sm">
                                 <article id="transcription">
                                     
                                     <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida1']"/>
@@ -102,7 +102,7 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="scan">
-                                    <article id="scan">   
+                                    
                                         <xsl:for-each select="//tei:surface[2]">  
                                             <img width="600">
                                                 <xsl:attribute name="src">
@@ -117,8 +117,7 @@
                                                 
                                             </img>
                                         </xsl:for-each> 
-                                        
-                                    </article>
+                                    
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
@@ -139,7 +138,6 @@
                                 
                                 <article id="scan">
                                    
-                                    <article id="scan">
                                         
                                         <xsl:for-each select="//tei:surface[3]">
                                             
@@ -157,7 +155,7 @@
                                             </img>
                                         </xsl:for-each> 
                                         
-                                    </article>
+                                    
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
