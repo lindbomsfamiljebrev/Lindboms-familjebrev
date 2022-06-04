@@ -270,10 +270,10 @@
     </xsl:template>
     
     <xsl:template match="tei:s[@rend = 'right']">
-        <div class="right"><span style="text-align: right">
+        <span style="text-align: right">
             <xsl:apply-templates/>
         </span>
-        </div>
+        
     </xsl:template>
     
     <xsl:template match="tei:dateline[@rend = 'center']">
