@@ -37,19 +37,22 @@
                     <a href="index.html">Hem</a> |
                     <a href="karleksbreven.html">Kärleksbreven</a> |
                     <a href="aktenskapsbreven.html">Äktenskapsbreven</a> |
-                    <a href="carlsbrev.html">Carls brev</a> |
-                    <a href="historia.html">Historian runt breven</a> |
-                    <a href="personer.html">Personerna bakom breven</a> 
+                    <a href="carlsbrev.html">Breven från Carl</a> |
+                    <a href="historia.html">Historisk kontext</a> |
+                    <a href="personer.html">Personerna bakom breven</a> |
                 </nav>
                 <nav id="brevnav">
-                    <a href="index.html">3/11-1930: Brev från Carl</a> |
-                    <a href="karleksbreven.html">3/11-1930: Brev från Carl</a> |
-                    <a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a> |
-                    <a href="aktenskapsbreven.html">3/11-1930: Brev från Carl</a> |
-                    <a href="carlsbrev.html">3/11-1930: Brev från Carl</a> |
-                    <a href="historia.html">3/11-1930: Brev från Carl</a> 
+                    <li class="year">År 1930</li>
+                    <li><a href="index.html">3/11 Brev från Carl</a></li>
+                    <li class="year">År 1931</li>
+                    <li><a href="karleksbreven.html">10/2 Brev från Carl</a></li>
+                    <li><a href="aktenskapsbreven.html">2/10 Brev från Carl</a></li>
+                    <li><a href="aktenskapsbreven.html">04/12 Brev från Carl</a></li>
+                    <li class="year">År 1932</li>
+                    <li><a href="carlsbrev.html">7/2 Brev från Carl</a></li> 
+                    <li><a href="historia.html">10/4 Brev från Carl</a></li>
                 </nav>
-
+                
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <h3>              
@@ -57,14 +60,17 @@
                     </h3> 
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
+                      
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
+                          
                             <div class="col-sm">
+                                
                                 <article id="scan">
-                
-                                    <xsl:for-each select="//tei:surface">
+                                    
+                                    <xsl:for-each select="//tei:surface[1]">
                                         
-                                        <img width="520">
+                                        <img width="600">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -77,13 +83,88 @@
                                             
                                         </img>
                                     </xsl:for-each>
-                                 
+                                        
+
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <xsl:apply-templates select="//tei:TEI//tei:text"/>
+                                    
+                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida1']"/>
+                                    
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <!-- define a row layout with bootstrap's css classes (two columns) -->
+                        
+                        <div class="row">
+                            <!-- first column: load the image based on the IIIF link in the graphic above -->
+                            <div class="col-sm">
+                                <article id="scan">
+                                    
+                                        <xsl:for-each select="//tei:surface[2]">  
+                                            <img width="600">
+                                                <xsl:attribute name="src">
+                                                    <xsl:value-of select="tei:figure/tei:graphic/@url"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="title">
+                                                    <xsl:value-of select="tei:figure/tei:label"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="alt">
+                                                    <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                                </xsl:attribute>
+                                                
+                                            </img>
+                                        </xsl:for-each> 
+                                    
+                                </article>
+                            </div>
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <div class="col-sm">
+                                <article id="transcription">
+                                    
+                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida2']"/>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <!-- define a row layout with bootstrap's css classes (two columns) -->
+                        
+                        <div class="row">
+                            <!-- first column: load the image based on the IIIF link in the graphic above -->
+                            <div class="col-sm">
+                                
+                                <article id="scan">
+                                   
+                                        
+                                        <xsl:for-each select="//tei:surface[3]">
+                                            
+                                            <img width="600">
+                                                <xsl:attribute name="src">
+                                                    <xsl:value-of select="tei:figure/tei:graphic/@url"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="title">
+                                                    <xsl:value-of select="tei:figure/tei:label"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="alt">
+                                                    <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                                </xsl:attribute>
+                                                
+                                            </img>
+                                        </xsl:for-each> 
+                                        
+                                    
+                                </article>
+                            </div>
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <div class="col-sm">
+                                <article id="transcription">
+                                    
+                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida3']"/>
                                 </article>
                             </div>
                         </div>
@@ -132,6 +213,11 @@
         </h2>
     </xsl:template>
     
+    
+    <xsl:template match="tei:figure">
+        <img src="{tei:graphic/@url}" alt="{tei:figDesc}"/>   
+    </xsl:template> 
+    
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
@@ -142,9 +228,9 @@
     
     <!-- transform tei del into html del -->
     <xsl:template match="tei:del">
-        <del>
+        <s>
             <xsl:apply-templates/>
-        </del>
+        </s>
     </xsl:template>
     
     <!-- transform tei add into html sup -->
@@ -168,25 +254,173 @@
         </u>
     </xsl:template>
     
+    <xsl:template match="tei:emph[@rend = 'ulx2']">
+        <u>
+            <span style=" text-decoration-line: underline; text-decoration-style: double">
+                <xsl:apply-templates/>
+            </span>
+        </u>
+    </xsl:template>
+    <xsl:template match="tei:gap[@reason='illegible'] [@quantity='1'] [@unit='word']">
+        <span style="color: #888ad1">[oläsligt]</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:gap[@reason='illegible'] [@quantity='03'] [@unit='char']">
+        <span style="color: #888ad1">[oläsligt: 3 bokstäver]</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:damage[@agent='folding'] [@type='hole']">
+        <span style="color: #c4906c">[hål i papperet]</span> 
+    </xsl:template>
+    
+    <xsl:template match="tei:damage[@agent='folding'] [@type='tear']">
+        <span style="color: #c4906c">[reva i papperet]</span> 
+    </xsl:template>
+
+    
     <xsl:template match="tei:seg[@type='leftMargin'] [@subtype='sideways']">
-        <p/>
-        <p/>
-            [VÄNSTERMARGINALEN]
+        <br/>
+        <br/>
+        <div class="center">[VÄNSTERMARGINALEN]</div>
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='upperMargin'] [@subtype='upsideDown']">
-        <p/>
-        <p/>
-        [ÖVERMARGINALENEN]
+        <br/>
+        <br/>
+        <div class="center">[ÖVRE MARGINALEN]</div> 
     </xsl:template>
     
+    <xsl:template match="tei:seg[@type='bottomMargin'] [@subtype='normal']">
+        <br/>
+        <br/>
+        <div class="center">[NEDRE MARGINALEN]</div> 
+    </xsl:template>
+
+    <xsl:template match="tei:seg[@type='topLeftMargin'] [@subtype='mixed']">
+        <br/>
+        <br/>
+        <div class="center">[VÄNSTRA OCH ÖVRE MARGINALEN]</div> 
+    </xsl:template>
+    
+    <xsl:template match="tei:seg[@type='leftBottomMargin'] [@subtype='mixed']">
+        <br/>
+        <br/>
+        <div class="center">[VÄNSTRA OCH NEDRE MARGINALEN]</div> 
+    </xsl:template>
+    
+    <xsl:template match="tei:seg[@type='bottomRightMargin'] [@subtype='mixed']">
+        <br/>
+        <br/>
+        <div class="center">[NEDRE OCH HÖGRA MARGINALEN]</div> 
+    </xsl:template>
+    
+ 
+    
     <xsl:template match="tei:emph[@rend = 'circle']">
-        <span style="border:1px solid black;border-radius:50%">
+        <span style="border:1px solid black;border-radius:60%">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+   
     
+    <xsl:template match="tei:w[@rend = 'below']">
+        <sub>
+            <xsl:apply-templates/>
+        </sub>  
+    </xsl:template>
     
+    <xsl:template match="tei:w[@rend = 'above']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>  
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:s[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:s[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:s[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:dateline[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:dateline[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:dateline[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:sic">
+        <span style="color: red"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="tei:corr">
+        <sup><span style="color: green">[<xsl:apply-templates/>]</span></sup>
+    </xsl:template>
+
+    <xsl:template match="tei:metamark[@rend='line']">
+      _______
+    </xsl:template>
+    
+    <xsl:template match="tei:unclear">
+        <xsl:apply-templates/><span style="color: #888ad1">[?]</span>
+    </xsl:template>
     
     
     
