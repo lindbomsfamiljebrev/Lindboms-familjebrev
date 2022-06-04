@@ -256,7 +256,6 @@
     
     <xsl:template match="tei:seg[@type='upperMargin'] [@subtype='upsideDown']">
         <br/>
-        <br/>
         <div class="center">[ÖVERMARGINALENEN]</div>
         <br/>
     </xsl:template>
