@@ -55,7 +55,7 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <h3>              
-                        3/11-1930: Brev från Carl
+                        12/10-1925: Kärleksbrev från Greta
                     </h3> 
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
