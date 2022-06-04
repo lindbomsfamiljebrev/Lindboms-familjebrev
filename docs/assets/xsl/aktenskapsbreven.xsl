@@ -246,6 +246,9 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
+    <xsl:template match="tei:gap">
+        <div class="illegible">[OLÄSLIGT]</div>
+    </xsl:template>
     
     <xsl:template match="tei:seg[@type='leftMargin'] [@subtype='sideways']">
         <br/>
@@ -270,15 +273,74 @@
         </span>
     </xsl:template>
     
+    <xsl:template match="tei:w[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:s[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>  
+    </xsl:template>
+    
     <xsl:template match="tei:s[@rend = 'right']">
         <div class="right">
             <xsl:apply-templates/>
-        </div>
-        
+        </div>  
+    </xsl:template>
+    
+    <xsl:template match="tei:s[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>  
     </xsl:template>
     
     <xsl:template match="tei:dateline[@rend = 'center']">
         <div class="center">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:dateline[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:dateline[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute[@rend = 'left']">
+        <div class="left">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
