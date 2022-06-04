@@ -34,6 +34,7 @@ P {
     
 .illegible {
     color: #888ad1;
+    display: inline;
     }
 
 h1, h2, h3, nav, footer {
