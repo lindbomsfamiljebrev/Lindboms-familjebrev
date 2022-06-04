@@ -282,19 +282,19 @@
     <xsl:template match="tei:seg[@type='topLeftMargin'] [@subtype='mixed']">
         <br/>
         <br/>
-        <div class="center">[VÄNSTER OCH ÖVRE MARGINALEN]</div> 
+        <div class="center">[VÄNSTRA OCH ÖVRE MARGINALEN]</div> 
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='leftBottomMargin'] [@subtype='mixed']">
         <br/>
         <br/>
-        <div class="center">[VÄNSTER OCH NEDRE MARGINALEN]</div> 
+        <div class="center">[VÄNSTRA OCH NEDRE MARGINALEN]</div> 
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='bottomRightMargin'] [@subtype='mixed']">
         <br/>
         <br/>
-        <div class="center">[NEDRE OCH HÖGERMARGINALEN]</div> 
+        <div class="center">[NEDRE OCH HÖGRA MARGINALEN]</div> 
     </xsl:template>
  
     
