@@ -249,7 +249,7 @@
         </u>
     </xsl:template>
     <xsl:template match="tei:gap">
-        <div class="illegible">[OLÄSLIGT]</div>
+        <div class="illegible">[oläsligt]</div>
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='leftMargin'] [@subtype='sideways']">
@@ -261,7 +261,7 @@
     <xsl:template match="tei:seg[@type='upperMargin'] [@subtype='upsideDown']">
         <br/>
         <br/>
-        <div class="center">[ÖVERMARGINALEN]</div>
+        <div class="center">[ÖVRE MARGINALEN]</div>
         
     </xsl:template>
     

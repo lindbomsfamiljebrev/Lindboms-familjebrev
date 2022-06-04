@@ -503,7 +503,7 @@
               </div>   
               <div type="pastorsyrket">
                  <p>
-                  <lb />Hoppas att ni är friska och krya, som jag ser av ditt brev så
+                    <lb />Hoppas <gap reason="illegible" quantity="1" unit="word" /> att ni är friska och krya, som jag ser av ditt brev så
                   <lb /> har du varit i <placeName ref="#Obro">Örebro,</placeName> jag tycker det är underligt att du
                   <lb /> skall vara på sådana platser där de ha predikant förut
                   <lb /> vore det ej på sin plats att sådana församlingar fick
@@ -559,7 +559,7 @@
   
               <pb n="02" facs="#Carl19310210_2s"/>
             <div type="pastorsyrket">
-               <p><gap reason="illegible" quantity="1" unit="word" />
+               <p>
                     de ej kan taga emot och 
                         <choice>
                            <sic>herberggera</sic>
