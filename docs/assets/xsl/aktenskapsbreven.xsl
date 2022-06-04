@@ -277,7 +277,7 @@
     </xsl:template>
     
     <xsl:template match="tei:dateline[@rend = 'center']">
-        <span class="float:center">
+        <span class="center">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
