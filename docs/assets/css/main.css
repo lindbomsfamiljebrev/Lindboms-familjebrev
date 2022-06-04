@@ -34,19 +34,21 @@ P {
     } 
 
 .corrsic {
-     display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
-    vertical-align: middle;
+    position: relative;
+    width: auto;
+    height: auto;
     } 
 
  
-sup.corr { 
+.corr { 
     color: green;
+    top: 0em;
+    left: 1em;
 }
 
-sub.sic {
-
+.sic {
+    top: 2em;
+    left: 1em;
     color: red; 
 }   
 
