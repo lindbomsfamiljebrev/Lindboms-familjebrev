@@ -407,9 +407,6 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="tei:sic">
-        <span style="color: red"><xsl:apply-templates/></span>
-    </xsl:template>
     <xsl:template match="tei:corr">
         <sup><span style="color: green">[<xsl:apply-templates/>]</span></sup>
     </xsl:template>
