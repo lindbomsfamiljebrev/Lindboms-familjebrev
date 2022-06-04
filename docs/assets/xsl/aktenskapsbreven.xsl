@@ -42,13 +42,13 @@
                     <a href="personer.html">Personerna bakom breven</a> |
                 </nav>
                 <nav id="brevnav">
-                    <li about="year">År 1930</li>
+                    <li class="year">År 1930</li>
                     <li><a href="index.html">3/11 Brev från Carl</a></li>
                     <li about="year">År 1931</li>
                     <li><a href="karleksbreven.html">10/2 Brev från Carl</a></li>
                     <li><a href="aktenskapsbreven.html">2/10 Brev från Carl</a></li>
                     <li><a href="aktenskapsbreven.html">04/12 Brev från Carl</a></li>
-                    <li about="year">År 1932</li>
+                    <li class="year">År 1932</li>
                     <li><a href="carlsbrev.html">7/2 Brev från Carl</a></li> 
                     <li><a href="historia.html">10/4 Brev från Carl</a></li>
                 </nav>
