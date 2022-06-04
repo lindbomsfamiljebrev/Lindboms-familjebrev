@@ -42,14 +42,14 @@ P {
  
 .corr { 
     color: green;
-    top: 0em;
+    top: -0.5em;
     left: 1em;
 }
 
 .sic {
-    top: 2em;
     left: 1em;
     color: red; 
+    bottom: -0.25em;
 }   
 
 h1, h2, h3, nav, footer {
