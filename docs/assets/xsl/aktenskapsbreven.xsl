@@ -44,7 +44,7 @@
                 <nav id="brevnav">
                     <li class="year">År 1930</li>
                     <li><a href="index.html">3/11 Brev från Carl</a></li>
-                    <li about="year">År 1931</li>
+                    <li class="year">År 1931</li>
                     <li><a href="karleksbreven.html">10/2 Brev från Carl</a></li>
                     <li><a href="aktenskapsbreven.html">2/10 Brev från Carl</a></li>
                     <li><a href="aktenskapsbreven.html">04/12 Brev från Carl</a></li>
