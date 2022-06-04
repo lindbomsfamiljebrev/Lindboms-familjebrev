@@ -15,11 +15,8 @@ P {
 }
 
 div.col-sm {
-    display: block;
-    text-align: justify;
-    padding-top: 10px;
-    padding-bottom: 17px;
-    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 17px;
 
     }
 
