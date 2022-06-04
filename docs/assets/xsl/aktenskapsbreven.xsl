@@ -407,13 +407,11 @@
         </div>
     </xsl:template>
     
-
     <xsl:template match="tei:sic">
-        <span class="corrsic"><span class="sic"><xsl:apply-templates/></span></span>
+        <span style="color: red"><xsl:apply-templates/></span>
     </xsl:template>
-    
     <xsl:template match="tei:corr">
-        <span class="corrsic"><span class="corr"><xsl:apply-templates/></span></span>
+        <sup><span style="color: green">[<xsl:apply-templates/>]</span></sup>
     </xsl:template>
 
     <xsl:template match="tei:metamark[@rend='line']">
