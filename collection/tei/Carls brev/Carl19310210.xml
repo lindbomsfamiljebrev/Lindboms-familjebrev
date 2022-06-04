@@ -641,10 +641,10 @@
                  <postscript> 
                     <ab>
                    <seg type="leftMargin" subtype="sideways" />
-                     <lb />detta brev har jag skrivit med en glaspenna.
+                     detta brev har jag skrivit med en glaspenna.
                      
                    <seg type="upperMargin" subtype="upsideDown" />
-                     <lb /><persName ref="#HAG">Hagby </persName>är i <placeName ref="#Mot">Motala</placeName> sen i Fredags.
+                     <persName ref="#HAG">Hagby </persName>är i <placeName ref="#Mot">Motala</placeName> sen i Fredags.
                      <lb />Och <unclear>Jädda</unclear> var här i Söndags, han hade sin 
                       <choice>
                          <sic>festmö</sic>
