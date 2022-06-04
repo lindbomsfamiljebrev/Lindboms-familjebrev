@@ -17,7 +17,9 @@ P {
 div.col-sm {
     display: block;
     text-align: justify;
-    padding-top: 27px;
+    padding-top: 10px;
+    padding-bottom: 17px;
+    width: 100%;
 
     }
 
@@ -113,10 +115,6 @@ h2 {
 
 
 
-img  {
-
-    padding-top: 27px;    
-    }
 
 h3 {
     font-weight: bold;
