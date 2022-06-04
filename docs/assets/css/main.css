@@ -7,13 +7,19 @@ body {
 	font-size: 1vw;
     width: 100%;
     margin: 0;
-    display: block;
-    text-align: justify;
 	}
 
 P {
     margin: 0;
+   
 }
+
+article.transcription {
+    display: block;
+    text-align: justify;
+
+    }
+
 
 .center {
     text-align: center;

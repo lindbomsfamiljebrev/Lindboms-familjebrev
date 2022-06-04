@@ -251,13 +251,13 @@
         <br/>
         <br/>
         <div class="center">[VÄNSTERMARGINALEN]</div>
-        <br/>
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='upperMargin'] [@subtype='upsideDown']">
         <br/>
-        <div class="center">[ÖVERMARGINALENEN]</div>
         <br/>
+        <div class="center">[ÖVERMARGINALENEN]</div>
+        
     </xsl:template>
     
     <xsl:template match="tei:figure">
@@ -283,7 +283,6 @@
         </div>
     </xsl:template>
     
-
  
     
     
