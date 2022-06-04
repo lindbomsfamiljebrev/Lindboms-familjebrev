@@ -417,7 +417,7 @@
     </xsl:template>
 
     <xsl:template match="tei:metamark[@rend='line']">
-      ________
+      _______
     </xsl:template>
     
     <xsl:template match="tei:unclear">
