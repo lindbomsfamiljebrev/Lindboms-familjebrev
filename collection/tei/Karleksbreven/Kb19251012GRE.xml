@@ -383,6 +383,7 @@
       <body>
          <div n="sida1">
          <pb n="01" facs="#Kb19251012GRE_1s" />
+            <lb />
          <opener>
             <dateline rend="right">
                <placeName ref="#Sthlm">Stockholm</placeName> 
