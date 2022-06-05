@@ -325,7 +325,7 @@
             <figDesc>
                Äktenskapsbrev från Greta till Gustaf 6/8-1930, sida 1.
             </figDesc>
-            <graphic xml:id="Ab19300806GRE_1g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_1"/> 
+            <graphic xml:id="Ab19300806GRE_1g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_1.jpg"/> 
          </figure>
       </surface>
       
@@ -335,7 +335,7 @@
             <figDesc>
                Äktenskapsbrev från Greta till Gustaf 6/8-1930, sida 2.
             </figDesc>
-            <graphic xml:id="Ab19300806GRE_2g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_2"/> 
+            <graphic xml:id="Ab19300806GRE_2g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_2.jpg"/> 
          </figure>
       </surface>
       
@@ -345,7 +345,7 @@
             <figDesc>
                Äktenskapsbrev från Greta till Gustaf 6/8-1930, sida 3.
             </figDesc>
-            <graphic xml:id="Ab19300806GRE_3g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_3"/> 
+            <graphic xml:id="Ab19300806GRE_3g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_3.jpg"/> 
          </figure>
       </surface>
       
@@ -355,7 +355,7 @@
             <figDesc>
                Äktenskapsbrev från Greta till Gustaf 6/8-1930, sida 4.
             </figDesc>
-            <graphic xml:id="Ab19300806GRE_4g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_4"/> 
+            <graphic xml:id="Ab19300806GRE_4g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_4.jpg"/> 
          </figure>
       </surface>
       
@@ -365,7 +365,7 @@
             <figDesc>
                Äktenskapsbrev från Greta till Gustaf 6/8-1930, sida 5.
             </figDesc>
-            <graphic xml:id="Ab19300806GRE_5g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_5"/> 
+            <graphic xml:id="Ab19300806GRE_5g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_5.jpg"/> 
          </figure>
       </surface>
       
@@ -375,13 +375,14 @@
             <figDesc>
                Äktenskapsbrev från Greta till Gustaf 6/8-1930, sida 6.
             </figDesc>
-            <graphic xml:id="Ab19300806GRE_6g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_6"/> 
+            <graphic xml:id="Ab19300806GRE_6g" url="assets/img/documents/Aktenskapsbrev/Ab19300806GRE_6.jpg"/> 
          </figure>
       </surface>
    </facsimile>
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19300806GRE_1s" />
             <opener>
                <dateline rend="right"><placeName ref="#Nra">Nora</placeName>
@@ -410,13 +411,18 @@
                  <lb />brevet, o, <persName ref="#GUS">Gustaf</persName> jag är så
                  <lb />glad över att du kommer
                  <lb />den 18, ty jag kan icke säga
-                    
+              </p>
+              </div>
+              </div>
+             <div n="sida2">
               <pb n="02"  facs="#Ab19300806GRE_2s"/>
+                <div>
+                  <p>
                   <lb />dig hur jag innerligt längtar
                   <lb />efter dig, hur skönt det skall
                   <lb />bliva när du <emph rend="ul">kommer hem.</emph>
                </p>
-            </div>
+               </div>
             <div type="kvinnohistoria">
                <p>
                   <lb />Efter omständigheterna mår jag
@@ -432,8 +438,12 @@
                   <lb />lycka o glädje. Tack lilla du för
                   <lb />bibelordet du sände, vet du lilla
                   <lb /><persName ref="#GUS">Gustaf</persName> jag har verkligen i sanning
-                  
+                </p>
+               </div>
+               </div>
                <pb n="03" facs="#Ab19300806GRE_3s" />
+                  <div type="kvinnohistoria">
+                  <p>
                   <lb />fått uppleva detta, jag erfar en
                   <lb />så stilla ro o vila har 
                      <choice>
@@ -457,9 +467,11 @@
                   <lb />vad det är
                </p>
             </div>
-            <div type="tro">
-               <p>
+            
+             <div n="sida4">
              <pb n="04" facs="#Ab19300806GRE_4s" />
+               <div type="tro">
+               <p>   
                   <lb />Nu kommer jag till själva saken
                   <lb />när jag satt här hemma ensam
                   <lb />kom Jesus mig så underbart nära
@@ -488,8 +500,13 @@
                   <lb />på symötet i måndags. Hur
                   <lb />längtar jag icke att få tala
                   <lb />vid dig att få vara hos dig
-                  
+                  </p>
+               </div>
+              </div>
+               <div n="sida5">
               <pb n="05" facs="#Ab19300806GRE_5s" />
+                  <div type="kvinnohistoria">
+                   <p>
                   <lb />det är ingen som kan förstå
                   <lb />mig, som du. Tänk lilla <persName ref="#GUS">Gustaf</persName>
                   <lb />vad vi äro lyckliga tillsamman
@@ -514,8 +531,13 @@
               <div>
                  <p> <persName>Edit Lumér</persName> och hennes
                   <lb />Far voro inne här en liten stund
-                  
+                  </p>
+               </div>
+               </div>
+               <div n="sida6">
               <pb n="06" facs="#Ab19300806GRE_6s" />
+                  <div>
+                     <p>
                   <lb />i går, ty de voro hos tant <persName ref="#SOF">Sofi</persName>
                   <lb />på kaffe. De tyckte vi hade så
                   <lb />rart.
@@ -535,7 +557,8 @@
                <closer><lb /><salute>Hälsa vännerna som du bor
                   <lb />hos. Många kyssar i hälsningar</salute>
                   <lb /><signed>Din egen <persName ref="#GRE">Greta.</persName></signed> 
-               </closer>         
+               </closer> 
+         </div>
       </body>
   </text>
 </TEI>
