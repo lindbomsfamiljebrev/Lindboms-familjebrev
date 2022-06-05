@@ -44,7 +44,7 @@
                     <li class="year">År 1930</li>
                     <li>
                         <a href="Ab19300806GRE.html">6/8 Äktenskapsbrev från Greta</a>
-                    </li> 
+                    </li>
                     <li>
                         <a href="Ab19300909GUS.html">9/9 Äktenskapsbrev från Gustaf</a>
                     </li>
@@ -53,11 +53,11 @@
                     </li>
                     <li>
                         <a href="Ab19301030GRE.html">30/10 Äktenskapsbrev från Greta!</a>
-                    </li> 
+                    </li>
                     <li>
                         <a href="Ab19301115GRE.html">15/11 Äktenskapsbrev från Greta</a>
                     </li>
-                    <li class="year">År 1931</li>    
+                    <li class="year">År 1931</li>
                     <li>
                         <a href="Ab19310813GUS.html">13/8 Äktenskapsbrev från Gustaf</a>
                     </li>
@@ -98,8 +98,9 @@
 
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    <h3><xsl:apply-templates
-                        select="//tei:TEI//tei:sourceDesc//tei:title"/></h3>
+                    <h3>
+                        <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:title"/>
+                    </h3>
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 

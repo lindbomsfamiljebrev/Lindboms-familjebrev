@@ -66,8 +66,9 @@
 
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    <h3><xsl:apply-templates
-                        select="//tei:TEI//tei:sourceDesc//tei:title"/></h3>
+                    <h3>
+                        <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:title"/>
+                    </h3>
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
@@ -100,10 +101,9 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                   
-                                        <xsl:apply-templates
-                                            select="//tei:TEI//tei:div[@n = 'sida1']"/>
-                                    
+
+                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n = 'sida1']"/>
+
                                 </article>
                             </div>
                         </div>
@@ -136,10 +136,9 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                   
-                                        <xsl:apply-templates
-                                            select="//tei:TEI//tei:div[@n = 'sida2']"/>
-                                    
+
+                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n = 'sida2']"/>
+
                                 </article>
                             </div>
                         </div>
@@ -176,10 +175,9 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    
-                                        <xsl:apply-templates
-                                            select="//tei:TEI//tei:div[@n = 'sida3']"/>
-                                    
+
+                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n = 'sida3']"/>
+
                                 </article>
                             </div>
                         </div>
@@ -302,33 +300,23 @@
 
     <xsl:template match="tei:seg[@type = 'upperMargin'][@subtype = 'upsideDown']">
         <br/>
-        <br/>
-        [ÖVRE MARGINALEN]
-    </xsl:template>
+        <br/> [ÖVRE MARGINALEN] </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'bottomMargin'][@subtype = 'normal']">
         <br/>
-        <br/>
-        [NEDRE MARGINALEN]
-    </xsl:template>
+        <br/> [NEDRE MARGINALEN] </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'topLeftMargin'][@subtype = 'mixed']">
         <br/>
-        <br/>
-        [VÄNSTRA OCH ÖVRE MARGINALEN]
-    </xsl:template>
+        <br/> [VÄNSTRA OCH ÖVRE MARGINALEN] </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'leftBottomMargin'][@subtype = 'mixed']">
         <br/>
-        <br/>
-        [VÄNSTRA OCH NEDRE MARGINALEN]
-    </xsl:template>
+        <br/> [VÄNSTRA OCH NEDRE MARGINALEN] </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'bottomRightMargin'][@subtype = 'mixed']">
         <br/>
-        <br/>
-        [NEDRE OCH HÖGRA MARGINALEN]
-    </xsl:template>
+        <br/> [NEDRE OCH HÖGRA MARGINALEN] </xsl:template>
 
 
 
