@@ -70,7 +70,7 @@
                                     
                                     <xsl:for-each select="//tei:surface[1]">
                                         
-                                        <img width="550">
+                                        <img width="500">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
