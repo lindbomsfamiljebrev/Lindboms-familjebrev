@@ -100,6 +100,7 @@
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <h3><xsl:apply-templates
                         select="//tei:TEI//tei:sourceDesc//tei:title"/></h3>
+                    
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
@@ -112,7 +113,7 @@
 
                                     <xsl:for-each select="//tei:surface[1]">
 
-                                        <img width="600">
+                                        <img width="400">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -149,7 +150,7 @@
                                 <article id="scan">
 
                                     <xsl:for-each select="//tei:surface[2]">
-                                        <img width="600">
+                                        <img width="400">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -188,7 +189,7 @@
 
                                     <xsl:for-each select="//tei:surface[3]">
 
-                                        <img width="600">
+                                        <img width="400">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -228,7 +229,7 @@
                                     
                                     <xsl:for-each select="//tei:surface[4]">
                                         
-                                        <img width="600">
+                                        <img width="400">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -256,21 +257,6 @@
                             </div>
                         </div>
                     </div>
-                </main>
-                <footer>
-                    <div class="row" id="footer">
-                        <div class="col-sm copyright">
-                            <div>
-                                <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                                    <img src="assets/img/logos/cc.svg" class="copyright_logo"
-                                        alt="Creative Commons License"/>
-                                    <img src="assets/img/logos/by.svg" class="copyright_logo"
-                                        alt="Attribution 4.0 International"/>
-                                </a>
-                            </div>
-                            <div> 2022 Hanna Lindbom och Malin Sandstedt </div>
-                        </div>
-                    </div>
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
                         
@@ -283,7 +269,7 @@
                                     
                                     <xsl:for-each select="//tei:surface[5]">
                                         
-                                        <img width="600">
+                                        <img width="400">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -323,7 +309,7 @@
                                     
                                     <xsl:for-each select="//tei:surface[6]">
                                         
-                                        <img width="600">
+                                        <img width="400">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -351,6 +337,22 @@
                             </div>
                         </div>
                     </div>
+                </main>
+                <footer>
+                    <div class="row" id="footer">
+                        <div class="col-sm copyright">
+                            <div>
+                                <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
+                                    <img src="assets/img/logos/cc.svg" class="copyright_logo"
+                                        alt="Creative Commons License"/>
+                                    <img src="assets/img/logos/by.svg" class="copyright_logo"
+                                        alt="Attribution 4.0 International"/>
+                                </a>
+                            </div>
+                            <div> 2022 Hanna Lindbom och Malin Sandstedt </div>
+                        </div>
+                    </div>
+                   
                 </footer>
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"/>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"/>
