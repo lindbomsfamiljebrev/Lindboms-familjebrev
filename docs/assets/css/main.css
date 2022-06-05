@@ -65,6 +65,7 @@ a:hover {
     border: 1px solid #555;
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
     position: absolute;
+    display: block;
 
 }
 
