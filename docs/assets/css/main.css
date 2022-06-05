@@ -18,9 +18,16 @@ P {
 .col-sm {
     margin-top: 10px;
     margin-bottom: 25px;
-    white-space: normal;
-    width: 700px;
+  
 
+    }
+    
+.row {
+    width: 700px;
+    }
+    
+.sida {
+    width: 400px;
     }
 
 
