@@ -68,7 +68,7 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <h3><xsl:apply-templates
-                        select="//tei:TEI//tei:fileDesc//tei:title"/>!!!</h3>
+                        select="//tei:TEI//tei:sourceDesc//tei:title"/>!!!</h3>
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
