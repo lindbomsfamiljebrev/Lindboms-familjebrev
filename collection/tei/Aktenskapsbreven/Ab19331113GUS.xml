@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+       <fileDesc>
+         <titleStmt>
+            <title>Äktenskapsbrev från Gustaf till Greta 13/11-1933: en elektronisk transkribering</title>
+            <author ref="#GUS">Gustaf Lindbom</author>
+            <principal>Hanna Lindbom</principal>
+            <principal>Malin Sandstedt</principal>
+            
+            <respStmt>
+               <resp>Originalbrev transkriberat av</resp>
+               <name>Hanna Lindbom</name>
+            </respStmt>
+            
+            <respStmt>
+               <resp>TEI-kodad av</resp>
+               <name>Hanna Lindbom</name> 
+            </respStmt>
+         </titleStmt>
+         
+         <editionStmt>
+            <edition n="01">
+               Första digitala utgåvan.
+            </edition>
+         </editionStmt>
+         
+         <publicationStmt>
+            <distributor>Högskolan i Borås</distributor>
+            <authority>Hanna Lindbom</authority>
+            <authority>Malin Sandstedt</authority>
+            <date>Juni 2022</date>
+            <idno>Ab19331113GUS</idno>
+            
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+                  Licenserad med en <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                     Creative Commons Erkännande</ref> licens.
+               </licence>
+            </availability>
+         </publicationStmt>
+         
+         <seriesStmt>
+            <title type="main">
+              Lindboms familjebrev: en digital samling
+            </title>
+            <title type="sub">
+               Äktenskapsbreven: digitaliserade
+            </title>
+         </seriesStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Från Marcus Lindboms privata samling av familjebrev.</repository>
+               </msIdentifier>
+               
+               <physDesc>
+                  <objectDesc form="letter">
+                     <supportDesc material="paper">
+                        <foliation>
+                           <p>Detta brev är vikt och innehåller därför ett tvåsidigt uppslag. Uppslag 
+                              räknas som två enskilda sidor.</p>
+                        </foliation>
+                        <condition>
+                           <p>Detta brev är skrivet med blyerts och därför är vissa ord lite 
+                              svårläsliga pga. svag blyerts eller att det är lite suddigt.</p>
+                        </condition>
+                     </supportDesc>    
+                  </objectDesc>
+                  <handDesc>
+                     <p>Brevet är skrivet av <persName ref="#GUS">Gustaf Lindbom</persName> i dennes handstil.</p>
+                     <p>Övriga markeringar är gjorda vid ett senare datum av en annan person. När och av vem har
+                        inte kunnat fastställas. Dessa har inte markerats i TEI.</p>
+                  </handDesc>
+               </physDesc>
+               
+               <history>
+                  <origin>        
+                     <p>Detta brev skrevs <date>1933-11-13</date> när <persName ref="#GUS">Gustaf Lindbom</persName> 
+                        och <persName ref="#GRE">Greta Lindbom</persName> är gifta. 
+                        <persName ref="#GUS">Gustaf Lindbom</persName> är kringresande pastor och
+                        paret skriver brev till varandra medan de är åtskilda.</p> 
+                  </origin>
+               </history>
+            </msDesc>
+            
+            <bibl>
+               <title>Äktenskapsbrev från Gustaf till Greta 13/11-1933</title>
+               <author ref="#GUS">Gustaf Lindbom</author>
+               <biblScope unit="page" n="05"></biblScope>
+               <series>Lindboms familjebrevsamling</series> 
+            </bibl>
+            
+         </sourceDesc>
+      </fileDesc>
+     
+     <encodingDesc>
+        <projectDesc>
+           <p>Digitaliseringen, transkriberingen och TEI-kodningen av det här brevet (och de övriga breven
+              i samlingen) utfördes som ett digitaliseringsprojekt som var en del av kursen
+              'Digitising Cultural Heritage Materials' vid Högskolan i Borås. Kursen är en del av
+              Högskolan i Borås masterprogram i Biblioteks- och Informationsvetenskap.</p>
+           
+           <p>Detta brev (och de övriga breven i samlingen) digitaliserades med tillstånd av avsändarens
+              och mottagarens närmaste levande anhöriga, <persName ref="#GUS">Gustaf Lindboms</persName> och 
+              <persName ref="#GRE">Greta Lindboms</persName> söner Johannes Lindbom och Marcus Lindbom. 
+              Marcus Lindbom är också den privata ägaren av Lindboms familjebrevsamling.</p>
+           
+           <p>Syftet med att digitalisera delar av Lindboms familjebrevsamling är att bevara breven och
+              tillgängliggöra dem så att andra kan läsa dem. Tanken är att brevens innehåll skulle kunna
+              vara av intresse för de som är intresserade av svensk historia eller svensk religionshistoria.
+              Breven ger en detaljerad insikt i människors vardagsliv i Sverige under 1920- och 1930-talen.
+              För att öka användarvänligheten för den historieintresserade har delar av breven blivit
+              markerade med olika historietematiska kategoriseringar, så som kvinnohistoria och pastorsyrket.</p>
+        </projectDesc>
+        
+        <editorialDecl>
+           <correction>
+              <p>Felstavade ord är markerade med både <gi>sic</gi> för hur ordet är stavat i källmaterialet/originalbrevet
+                 och <gi>corr</gi> för den korrekta stavningen, dessa är inneslutna i ett <gi>choice</gi> element.</p>
+              <p>Gammaldags stavning på t ex ortsnamn har inte ändrats eller markerats. Äldre ord och verbformer har
+                 inte heller ändrats eller markerts.</p>
+           </correction>
+           <hyphenation>
+              <p>Avstavinngar har transkriberats i enlighet med originalbrevet.</p>
+           </hyphenation>
+           <punctuation placement="internal">
+              <p>All interpunktion har transkriberats i enlighet med originalbrevet, förutom där det är otydligt
+                 ifall en prick är menad som en punkt för att avsluta meningen eller bara en bläckprick från att ha
+                 vilat pennan. Detta är otydligt när pricken inte efterföljs av en versal för att indikera början på en ny mening.
+                 Dessa punkter har utelämnats i transkriberingen och är omarkerade.</p>
+           </punctuation>
+           <interpretation>
+              <p>Olika historiska teman har markerats i texten med <gi>div</gi> tillsammans med ett <att>type</att> attribut 
+                 med följande attributvärden:
+                 Pastorsyrket: för text relaterad till pastorsyrket
+                 Tro: för text som berör tro och religion
+                 Kvinnohistoria: för text relaterad till kvinnohistoria
+                 Faderskap: för text som berör faderskap
+                 Vardagsliv: för text som skildrar vardagslivet och är historiskt relevant
+                 Samhallshistoria: för text relaterad till svensk samhällshistoria
+              </p>
+              
+              <p>Namn på platser och personer har markerats i texten. Bibliska personer har inte markerats. Smeknamn och namn som
+                 indikerar släktskap (t ex "mamma", "farfar") har markerats när de avser en person som är med i personregistret över
+                 personer som förekommer i breven, se <gi>listPerson</gi>.</p>
+              
+              <p>Namn på titlar på böcker och tidningar har markerats med <gi>title</gi> med attributet <att>level</att> med värdet
+                 "m" för böcker och "j" för tidningar och tidskrifter. 
+              </p>
+           </interpretation>
+           <segmentation>
+              <p>Ny rad and ny sida har markerats och sidorna har numrerats enligt läsordning.</p>
+              
+              <p>Text skriven i marginalerna har markerats med <gi>seg</gi> och attributen <att>type</att> och
+                 <att>subtype</att>:
+                 upperMargin: övre marginalen, högst upp på sidan
+                 bottomMargin:undre marginalen, längst ner på sidan
+                 leftMargin: vänstra marginalen
+                 rightMargin: högra marginalen
+                 topLeftMargin: marginalanteckning som spänner över mer än en marginal, här från den övre marginalen till den vänstra
+                 Attributvärden som använts för <att>type</att>:
+                 upsideDown: för text skriven upp-och-ner
+                 sideways: för text skriven sidledes
+                 normal: för text skriven normalt, så som övrig brevtext är skriven
+                 mixed: för marginalanteckningar skrivna med en kombination av ovanstående
+                 När marginalanteckningarna tillhör brevets sista sida är de markerade med <gi>postscript</gi> och
+                 <gi>ab</gi>. Detta för att <gi>seg</gi> ska tillåtas placeras efter <gi>closer</gi> och eftersom
+                 detta anteckningar med största sannolikhet är skrivna som tillägg efter att resten av brevet skrivits
+                 och det inte fanns mer plats på pappret.
+              </p>
+              
+              <p>Meningar som inte börjar vid vänster marginal har markerats med <gi>s</gi> och ett  <att>rend</att> attribut
+                 med ett värde som indikerar var meningens placering, t ex: center (i mitten), right (till höger).
+                 Detsamma gäller för enskilda ord med samma typ av annan placering, fast då med <gi>w</gi>
+                 (detta innefattar inte ord inskjutna i texten som tillägg).</p> 
+              
+           </segmentation>
+           
+           <p>Där det varit svårt att tolka texten på grund av hål pappret som orsakats av brevets vikning har detta
+              markerats med <gi>damage</gi> och specifierats med <att>agent</att> med värdet "folding" och 
+              <att>type</att> med värdet "hole" (för hål) eller "tear" (för sönderrivet).</p>
+           
+           <p>Oläsliga ord där den som transkriberat varit väldigt osäker på vilket ord det skulle kunna tolkas som och där
+              transkriberaren inte har en bra gissning eller velar mellan olika alternativ har fått ett <att>cert</att> attribut 
+              med värdet "low" som komplement till <gi>unclear</gi>. I övriga fall (d.v.s när den som transkriberat är inte är lika osäker) 
+              har <gi>unclear</gi> lämnats utan attribut. Helt oläsliga ord har utelämnats ur texten och markeras med <gi>gap</gi> med 
+              <att>reason</att> med värdet "illegible".</p>
+           
+           <p>Markeringar i texten gjorda av en okänd hand vid ett (okänt) senare datum har utelämnats och är omarkerade. 
+              De var inte en del av brevet när det ursprungligen skrevs eller lästes och tillför ingen relevant information.</p>
+           
+           <p>Attributet <att>hand</att> har bara använts för att markera text som skrivits av någon annan än brevets
+              huvudsakliga författare och som redan var en del av brevet när det skickades och mottogs.</p>
+        </editorialDecl>        
+     </encodingDesc>
+     
+     <profileDesc>
+        <creation>
+           <placeName ref="#Sthlm">Stockholm</placeName>
+           <date when="1933-11-13">13 november 1933</date>
+        </creation>
+        <langUsage>
+           <language ident="swe">Svenska</language>
+        </langUsage>
+        <handNotes>
+           <handNote medium="pencil" />
+        </handNotes>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="#GUS">Gustaf Lindbom</persName>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="#GRE">Greta Lindbom</persName>
+           </correspAction>
+        </correspDesc>
+        
+        <particDesc>
+           <listPerson>
+              <person xml:id="GUS">
+                 <persName ref="#GUS">
+                    <forename type="first">Gustaf</forename>
+                    <forename type ="middle">Alexander</forename>
+                    <surname>Lindbom</surname>
+                 </persName>
+                 <birth when="1900-12-30">30 december 1900</birth>
+                 <death when="1987-06-18">18 juni 1987</death>    
+                 <occupation notBefore="1924" notAfter="1930">evangelist</occupation>
+                 <occupation notBefore="1930">pastor</occupation>
+                 <note>
+                    Som evangelist reste och predikade Gustaf inom Västmanland-Närkedistriktet,
+                    huvudsakligen till församlingarna i Norberg, Frövi, Kolsva, Örebro och Kärrgruvan.
+                    Hans första arbete som pastor var i samma distrikt och innefattade även fortsättningsvis 
+                    mycket resande mellan olika församlingar.</note>
+              </person>
+              <person xml:id="GRE">
+                 <persName ref="#GRE">
+                    <forename type="first">Greta</forename>
+                    <forename type ="middle">Maria</forename>
+                    <surname type="maiden">Andersson</surname>
+                    <surname type="married">Lindbom</surname>
+                 </persName>
+                 <birth when="1898-09-21">21 september 1898</birth>
+                 <death when="1972-01-05">5 januari 1972</death>  
+                 <occupation notAfter="1930">barnsköterska</occupation>
+                 <note>Greta arbetade som barnsköterska i konsul Lennmalms familj i Stockholm innan hon gifte sig med Gustaf 1930.</note>
+              </person>
+           
+              <person xml:id="TL">
+                 <persName ref="#TL">
+                    <forename type="first">Tomas</forename>
+                    <forename type="middle">Alexander</forename>
+                    <surname>Lindbom</surname>
+                    <addName>pysen</addName>
+                    <addName>gisen</addName>
+                 </persName>
+                 <birth when="1931-08-10">10 augusti 1931</birth>
+                 <death when="2007-10-07">7 oktober 2007</death>
+              </person>
+              
+              <person xml:id="MCL">
+                 <persName ref="#MCL">
+                    <forename type="first">Maria</forename>
+                    <forename type="middle">Charlotta</forename>
+                    <surname type="maiden">Lindbom</surname>
+                    <addName>Kickan</addName>
+                 </persName>
+                 <birth>1933</birth>
+              </person>
+           
+              <person xml:id="HA">
+                 <persName ref="#HA">
+                    <forename type="first">Hulda</forename>
+                    <forename type ="middle">Maria</forename>
+                    <surname type="maiden">Malmborg</surname>
+                    <surname type="married">Andersson</surname>
+                    <addName>mamma</addName>
+                    <addName>mormor</addName>
+                 </persName>
+                 <birth>1864</birth>
+                 <death>1956</death>
+              </person>
+                                        
+              <person xml:id="ERI">
+                 <persName ref="#ERI">
+                    <forename type="first">Erik</forename>
+                    <forename type="middle">Carl</forename>
+                    <surname>Lindbom</surname>
+                 </persName>
+                 <birth>1895</birth>
+                 <death>1962</death>
+              </person>
+                            
+              <listRelation>
+                 <relation name="spouse" mutual="#GRE #GUS" notBefore="1930" />
+                 <relation type="parent" name="pappa" active="#GUS" passive="#TL" />
+                 <relation type="parent" name="mamma" active="#GRE" passive="#TL" />               
+                 <relation type="parent" name="pappa" active="#GUS" passive="#MCL" />
+                 <relation type="parent" name="mamma" active="#GRE" passive="#MCL" />       
+                 <relation name="sibling" mutual="#TL #MCL"/>
+                 <relation type="parent" name="mamma" active="#HA" passive="#GRE" />
+                 <relation name="sibling" mutual="#GUS #ERI" />              
+              </listRelation>
+           </listPerson>
+        </particDesc>
+        
+        <settingDesc>
+           <place xml:id="Sthlm">
+              <placeName ref="#Sthlm">
+                 <settlement>Stockholm</settlement>
+              </placeName>
+           </place>
+        </settingDesc>
+     
+     <textClass>
+        <keywords>
+           <list> 
+              <item xml:lang="swe">Svensk historia</item>
+              <item xml:lang="swe">Historia</item>
+              <item xml:lang="swe">Brev</item>
+              <item xml:lang="swe">Kärleksbrev</item>
+              <item xml:lang="swe">Korrespondens</item>                
+           </list>
+        </keywords>
+     </textClass>
+   </profileDesc>
+  </teiHeader>
+   
+   <facsimile>
+      <surface xml:id="Ab19331113GUS_1s">
+         <figure>
+            <label>Ab 1933-11-13 GUS 01</label>
+            <figDesc>
+               Äktenskapsbrev från Gustaf till Greta 13/11-1933, sida 1.
+            </figDesc>
+            <graphic xml:id="Ab19331113GUS_1g" url="xxx"/> 
+         </figure>
+      </surface>   
+      
+      <surface xml:id="Ab19331113GUS_2s">
+         <figure>
+            <label>Ab 1933-11-13 GUS 02</label>
+            <figDesc>
+               Äktenskapsbrev från Gustaf till Greta 13/11-1933, sida 2.
+            </figDesc>
+            <graphic xml:id="Ab19331113GUS_2g" url="xxx"/> 
+         </figure>
+      </surface>  
+      
+      <surface xml:id="Ab19331113GUS_3s">
+         <figure>
+            <label>Ab 1933-11-13 GUS 03</label>
+            <figDesc>
+               Äktenskapsbrev från Gustaf till Greta 13/11-1933, sida 3.
+            </figDesc>
+            <graphic xml:id="Ab19331113GUS_3g" url="xxx"/> 
+         </figure>
+      </surface>  
+      
+      <surface xml:id="Ab19331113GUS_4s">
+         <figure>
+            <label>Ab 1933-11-13 GUS 04</label>
+            <figDesc>
+               Äktenskapsbrev från Gustaf till Greta 13/11-1933, sida 4.
+            </figDesc>
+            <graphic xml:id="Ab19331113GUS_4g" url="xxx"/> 
+         </figure>
+      </surface>  
+      
+      <surface xml:id="Ab19331113GUS_5s">
+         <figure>
+            <label>Ab 1933-11-13 GUS 05</label>
+            <figDesc>
+               Äktenskapsbrev från Gustaf till Greta 13/11-1933, sida 5.
+            </figDesc>
+            <graphic xml:id="Ab19331113GUS_5g" url="xxx"/> 
+         </figure>
+      </surface>  
+   </facsimile>
+   
+  <text type="letter">
+      <body>
+         <pb n="01" facs="#Ab19331113GUS_1s" />
+            <opener>
+               <dateline rend="right"><placeName ref="#Sthlm">Stockholm</placeName>
+                  <date when="1933-11-13">den 13/11-33.</date>
+               </dateline>
+               <lb />
+               <lb />
+             <salute><lb />Min kära lilla goda maka och
+                  <lb />mina små älskade barn!
+                  <lb /> Många kära hälsningar
+                  <lb />varma kramar och kyssar till
+                  <lb />Er alla.
+             </salute>
+           </opener>
+           <div type="vardagsliv">
+              <p>
+                <lb />Tack för brevet jag fått i dag.
+                <lb />Hade väntat på det. Att inte
+                <lb /><persName ref="#TL">Tomas</persName> å <addName ref="#MCL">Kickan</addName>skrev något
+                <lb />till <addName ref="#GUS">pappa.</addName> Det var så sant
+                <lb />vad du skrev nämligen
+                <lb />att man under skilsmässo-
+                <lb />tiden riktigt inser vad man
+                <lb />betyder för varandra. Jag ser
+                <lb />dig inför mig och du är så
+                 
+            <pb n="02" facs="#Ab19331113GUS_2s" />
+                <lb />rar och god, ja även skön, just
+                <lb />som jag vill att du skall
+                <lb />vara. (Att du <unclear>kokar</unclear> för starkt
+                <lb /> kaffe å slatar litet över hövan
+                <lb />i gröten, å <q>”torkar äpplen”</q> det hör
+                <lb />ju när man tänker närmare
+                <lb />på saken till samlivets poesi)
+                <lb />Ja, nu när vi möts ska vi
+                <lb />som aldrig förr hålla av var-
+                <lb />andra, ty Gud har nog givet
+                <lb />oss väldigt mycket genom
+                <lb />varandra, mycket som många
+                <lb />andra sakna. O, vad jag önskar
+                <lb />att du bleve riktigt kry. Försök
+                <lb />att riktigt ta igen dig nu.
+              </p>
+           </div>
+           <div type="faderskap">
+              <p>
+                <lb />Du talade om <persName ref="#TL">Tomas.</persName> Jag tror
+                   
+           <pb n="03" facs="#Ab19331113GUS_3s" />
+                <lb />att pojken är frisk. Det lidande
+                <lb />draget är hans <q>”stämpel”</q>, det
+                <lb />kan ingen doktor taga bort.
+                <lb />Vi gå till Gud i bön med
+                <lb />honom. Herren hjälper!
+                <lb />Så tror jag att du gjorde
+                <lb />bäst i att ge honom mat
+                <lb />antingen efter eller och före
+                <lb />du själv äter. Det är så
+                <lb />svårt att riktigt kontrollera
+                <lb />annars. Så en mycket vik-
+                <lb />tig sak: Avhåll honom all-
+                <lb />deles ett tag från godsaker,
+                <lb />kakor å kaffe, inga mel-
+                <lb />lanmål, utom torrt bröd.
+                <lb />Försök får du se. Så uppe
+              
+           <pb n="04" facs="#Ab19331113GUS_4s" />
+                <lb />på allt detta, så krama
+                <lb />om honom duktigt och
+                <lb />pojken blir bra – tror jag.
+                <lb />Vill du gå till doktorn lägger
+                <lb />jag inget hinder i vägen.
+              </p>
+           </div>
+           <div>
+              <p>
+                <lb />Jag mår som en prins
+                <lb />här i stan. Skall till <persName>Björn</persName>
+                <lb />på middag i morgon. Har
+                <lb />ej träffat <persName>Sara.</persName> Du borde
+                <lb />allt ta’ jämt av och skriva
+                <lb />till <persName>Sara.</persName> Har skrivit till
+                <lb /><persName ref="#ERI">Erik</persName> i-dag. Vet ännu inget
+                <lb />om hemresan. I varje fall
+                <lb />är det nog klokt att jag
+              
+           <pb n="05" facs="#Ab19331113GUS_5s" />
+                <lb />hämtar Er då jag reser hem.
+                <lb />Underrättar så snart det blir
+                <lb />klart. Ja nu skall du alltså
+                <lb />vara trygg och lugn för
+                <lb />mig. Vi äro så lyckliga
+                <lb />med varandra. När vi nu
+                <lb />möts blir det bättre än någon-
+                <lb />sin. 
+              </p>
+            </div>
+            <closer>Hälsa <addName ref="#HA">mormor</addName> och alla
+                <lb />de andra. 
+              <salute>Själv är du inner-
+                <lb />ligt hälsad från din egen
+                <lb /><emph rend="ul">tillgivna</emph>
+              </salute>
+                <signed>
+                   <emph><persName ref="#GUS">Gustaf.</persName></emph>
+                </signed>
+           </closer>           
+      </body>
+  </text>
+</TEI>
