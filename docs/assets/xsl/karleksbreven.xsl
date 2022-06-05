@@ -124,8 +124,9 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    
+                                    <div class="litetbrev">
                                     <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida2']"/>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -162,8 +163,9 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    
+                                    <div class="litetbrev">
                                     <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida3']"/>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -200,8 +202,9 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    
+                                    <div class="litetbrev">
                                     <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida4']"/>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -238,8 +241,9 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    
+                                    <div class="litetbrev">
                                     <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida5']"/>
+                                    </div>
                                 </article>
                             </div>
                         </div>
