@@ -32,7 +32,15 @@ P {
 .stortbrev {
     width: 680px;
     margin-left: 0;
-    margin-right: -70px;
+    margin-right: 170px;
+    }
+
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: auto;
     }
 
 
@@ -141,7 +149,7 @@ h3 {
    
 img {
     margin-top: 16px;
-    margin-left: -40px;
+    margin-left: -380px;
 }
    
     
