@@ -67,7 +67,7 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <h3> 3/11-1930: Brev från Carl </h3>
-                    <div class="container">
+                    <div class="container" style="width: 1240px">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
                         <div class="row">
@@ -79,7 +79,7 @@
 
                                     <xsl:for-each select="//tei:surface[1]">
 
-                                        <img width="600">
+                                        <img width="500">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
