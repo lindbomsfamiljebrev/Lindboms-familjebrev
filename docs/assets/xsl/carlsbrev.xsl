@@ -68,7 +68,7 @@
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <h3><xsl:apply-templates
                         select="//tei:TEI//tei:sourceDesc//tei:title"/></h3>
-                    <div class="container" style="max-width: 1210px; padding-left: 0; padding-right: 0;">
+                    <div class="container" style=" padding-left: 0; padding-right: 0;">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
                         <div class="row">
@@ -80,7 +80,7 @@
 
                                     <xsl:for-each select="//tei:surface[1]">
 
-                                        <img width="500">
+                                        <img width="430">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -117,7 +117,7 @@
                                 <article id="scan">
 
                                     <xsl:for-each select="//tei:surface[2]">
-                                        <img width="600">
+                                        <img width="430">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -156,7 +156,7 @@
 
                                     <xsl:for-each select="//tei:surface[3]">
 
-                                        <img width="600">
+                                        <img width="430">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
