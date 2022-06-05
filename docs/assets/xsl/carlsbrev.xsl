@@ -66,8 +66,9 @@
 
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    <h3> 3/11-1930: Brev från Carl </h3>
-                    <div class="container" style="max-width: 1210px; padding-left: 0; padding-right; 0;">
+                    <h3><xsl:apply-templates
+                        select="//tei:TEI//tei:sourceDesc//tei:title"/></h3>
+                    <div class="container" style="max-width: 1210px; padding-left: 0; padding-right: 0;">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
                         <div class="row">
