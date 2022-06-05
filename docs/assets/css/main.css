@@ -22,12 +22,13 @@ P {
 
     }
     
-.row {
-    width: 700px;
-    }
     
-.sida {
+.litetbrev {
     width: 400px;
+    }
+
+.stortbrev {
+    width: 700px;
     }
 
 
