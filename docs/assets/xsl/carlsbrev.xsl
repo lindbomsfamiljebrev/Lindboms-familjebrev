@@ -67,7 +67,7 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <h3> 3/11-1930: Brev från Carl </h3>
-                    <div class="container" style="width: 1240px">
+                    <div class="container" style="max-width: 1210px">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
                         <div class="row">
