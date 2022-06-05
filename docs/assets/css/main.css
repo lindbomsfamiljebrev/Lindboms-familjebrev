@@ -18,17 +18,17 @@ P {
 .col-sm {
     margin-top: 10px;
     margin-bottom: 25px;
-  
+    text-align: justify;
 
     }
     
     
 .litetbrev {
-    width: 400px;
+    width: 300px;
     }
 
 .stortbrev {
-    width: 700px;
+    width: 720px;
     }
 
 
