@@ -334,17 +334,27 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 12/10-1925, sida 1.
             </figDesc>
-            <graphic xml:id="Kb19251012GRE_1g" url="xxx"/> 
+            <graphic xml:id="Kb19251012GRE_1g" url="assets/img/documents/Karleksbreven/Kb19251012GRE_1"/> 
          </figure>
       </surface>
    
-      <surface xml:id="Kb19251012GRE_2_3s">
+      <surface xml:id="Kb19251012GRE_2s">
          <figure>
             <label>Kb 1925-10-12 GRE 02-03</label>
             <figDesc>
                Kärleksbrev från Greta till Gustaf 12/10-1925, sida 2-3.
             </figDesc>
-            <graphic xml:id="Kb19251012GRE_2_3g" url="xxx"/> 
+            <graphic xml:id="Kb19251012GRE_2g" url="assets/img/documents/Karleksbreven/Kb19251012GRE_2"/> 
+         </figure>
+      </surface>
+      
+      <surface xml:id="Kb19251012GRE_3s">
+         <figure>
+            <label>Kb 1925-10-12 GRE 02-03</label>
+            <figDesc>
+               Kärleksbrev från Greta till Gustaf 12/10-1925, sida 2-3.
+            </figDesc>
+            <graphic xml:id="Kb19251012GRE_3g" url="assets/img/documents/Karleksbreven/Kb19251012GRE_3"/> 
          </figure>
       </surface>
       
@@ -354,7 +364,7 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 12/10-1925, sida 4.
             </figDesc>
-            <graphic xml:id="Kb19251012GRE_4g" url="xxx"/> 
+            <graphic xml:id="Kb19251012GRE_4g" url="assets/img/documents/Karleksbreven/Kb19251012GRE_4"/> 
          </figure>
       </surface>
       
@@ -364,7 +374,7 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 12/10-1925, sida 5.
             </figDesc>
-            <graphic xml:id="Kb19251012GRE_5g" url="xxx"/> 
+            <graphic xml:id="Kb19251012GRE_5g" url="assets/img/documents/Karleksbreven/Kb19251012GRE_5"/> 
          </figure>
       </surface>
    </facsimile>
@@ -399,7 +409,7 @@
           </div>
        </div>
        <div n="sida2">
-       <pb n="02" facs="#Kb19251012GRE_2_3s" />
+       <pb n="02" facs="#Kb19251012GRE_2s" />
          <div>
             <p>
               <lb />det jag skrev? Hoppas du icke
@@ -431,7 +441,7 @@
             </div>
          </div>
          <div n="sida3">
-         <pb n="03" facs="#Kb19251012GRE_2_3s" /> 
+         <pb n="03" facs="#Kb19251012GRE_3s" /> 
              <div>
              <p>
               <lb />lycklig. Jag känner mig så utsliten
