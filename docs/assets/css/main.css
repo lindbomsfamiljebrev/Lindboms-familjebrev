@@ -18,7 +18,7 @@ P {
 .col-sm {
     margin-top: 10px;
     margin-bottom: 25px;
-    text-align: justify;
+
 
     }
     
@@ -26,10 +26,12 @@ P {
 .litetbrev {
     width: 400px;
     margin-left: 20px;
+    text-align: justify;
     }
 
 .stortbrev {
-    width: 720px;
+    width: 710px;
+    margin-left: 0;
     }
 
 
