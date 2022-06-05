@@ -18,7 +18,6 @@ P {
 .col-sm {
     margin-top: 10px;
     margin-bottom: 25px;
-    padding-right: 0;
 
 }
 
@@ -29,10 +28,6 @@ P {
 
 .stortbrev {
     width: 680px;
-}
-
-.container {
-    width: 100%;
 }
 
 
