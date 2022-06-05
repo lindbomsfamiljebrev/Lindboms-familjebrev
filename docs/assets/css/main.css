@@ -9,6 +9,7 @@ body {
 
 }
 
+
 P {
     margin: 0;
 
@@ -60,7 +61,7 @@ a:hover {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 16%;
+    width: 19%;
     background-color: #f1f1f1;
     border: 1px solid #555;
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -124,6 +125,7 @@ h3 {
 
 img {
     margin-top: 16px;
+    margin-left: 190px;
 }
 
 
