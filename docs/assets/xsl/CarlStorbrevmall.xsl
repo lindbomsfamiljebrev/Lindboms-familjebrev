@@ -53,7 +53,7 @@
                         <a href="Carl19311002.html">2/10 Brev från Carl</a>
                     </li>
                     <li>
-                        <a href="Carl19320207.html">04/12 Brev från Carl</a>
+                        <a href="Carl19320207.html">4/12 Brev från Carl</a>
                     </li>
                     <li class="year">År 1932</li>
                     <li>

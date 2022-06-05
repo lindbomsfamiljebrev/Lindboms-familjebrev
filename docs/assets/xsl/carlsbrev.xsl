@@ -53,7 +53,7 @@
                         <a href="Carl19311002.html">2/10 Brev från Carl</a>
                     </li>
                     <li>
-                        <a href="Carl19320207.html">04/12 Brev från Carl</a>
+                        <a href="Carl19320207.html">4/12 Brev från Carl</a>
                     </li>
                     <li class="year">År 1932</li>
                     <li>
@@ -68,7 +68,7 @@
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <h3><xsl:apply-templates
                         select="//tei:TEI//tei:sourceDesc//tei:title"/></h3>
-                    <div class="container" style=" padding-left: 0; padding-right: 0;">
+                    <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
                         <div class="row">
@@ -80,7 +80,7 @@
 
                                     <xsl:for-each select="//tei:surface[1]">
 
-                                        <img width="430">
+                                        <img width="400">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -117,7 +117,7 @@
                                 <article id="scan">
 
                                     <xsl:for-each select="//tei:surface[2]">
-                                        <img width="430">
+                                        <img width="400">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -156,7 +156,7 @@
 
                                     <xsl:for-each select="//tei:surface[3]">
 
-                                        <img width="430">
+                                        <img width="400">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
