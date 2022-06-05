@@ -3,19 +3,18 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Brev från Carl till Gustaf och Greta 10/2-1931: en elektronisk
-               transkribering</title>
+            <title>Brev från Carl till Gustaf och Greta 10/2-1931: en elektronisk transkribering</title>
             <author ref="#CL">Carl Lindbom</author>
             <principal>Hanna Lindbom</principal>
             <principal>Malin Sandstedt</principal>
-
+            
             <respStmt>
                <resp>Originalbrev delvis transkriberat av</resp>
                <name>Marcus Lindbom</name>
-            </respStmt>
+            </respStmt> 
             <respStmt>
                <resp>Transkribering redigerad och kompletterad av</resp>
                <name>Hanna Lindbom</name>
@@ -25,173 +24,175 @@
                <name>Hanna Lindbom</name>
             </respStmt>
          </titleStmt>
-
+         
          <editionStmt>
-            <edition n="01"> Första digitala utgåvan. </edition>
+            <edition n="01">
+               Första digitala utgåvan.
+            </edition>
          </editionStmt>
-
+         
          <publicationStmt>
             <distributor>Högskolan i Borås</distributor>
             <authority>Hanna Lindbom</authority>
             <authority>Malin Sandstedt</authority>
             <date>Juni 2022</date>
             <idno>Carl19310210</idno>
-
+            
             <availability>
-               <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"> Licenserad med
-                  en <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/"> Creative
-                     Commons Erkännande</ref> licens. </licence>
+               <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+                  Licenserad med en <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                     Creative Commons Erkännande</ref> licens.
+               </licence>
             </availability>
          </publicationStmt>
-
+         
          <seriesStmt>
-            <title type="main"> Lindboms familjebrev: en digital samling </title>
-            <title type="sub"> Breven från Carl: digitaliserade </title>
+            <title type="main">
+               Lindboms familjebrev: en digital samling
+            </title>
+            <title type="sub">
+               Breven från Carl: digitaliserade
+            </title>
          </seriesStmt>
-
+         
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <repository>Från Marcus Lindboms privata samling av familjebrev.</repository>
                </msIdentifier>
-
+               
                <physDesc>
                   <objectDesc form="letter">
-                     <supportDesc material="paper"/>
+                     <supportDesc material="paper" />  
                   </objectDesc>
                   <handDesc>
-                     <p>Brevet är skrivet av <persName ref="#CL">Carl Lindbom</persName> i dennes
-                        handstil.</p>
-                     <p>Övriga markeringar är gjorda vid ett senare datum av en annan person. När
-                        och av vem har inte kunnat fastställas. Dessa har inte markerats i TEI.</p>
+                     <p>Brevet är skrivet av <persName ref="#CL">Carl Lindbom</persName> i dennes handstil.</p>
+                     <p>Övriga markeringar är gjorda vid ett senare datum av en annan person. När och av vem har
+                        inte kunnat fastställas. Dessa har inte markerats i TEI.</p>
                   </handDesc>
                </physDesc>
-
+               
                <history>
                   <origin>
-                     <p>Detta brev skrevs <date>1931-02-10</date> från <persName ref="#CL">Carl
-                           Lindbom</persName> till sonen <persName ref="#GUS">Gustaf
-                           Lindbom</persName> och sonens hustru <persName ref="#GRE">Greta
-                           Lindbom</persName>.</p>
+                     <p>Detta brev skrevs <date>1931-02-10</date> från 
+                        <persName ref="#CL">Carl Lindbom</persName> till sonen
+                        <persName ref="#GUS">Gustaf Lindbom</persName> och sonens hustru
+                        <persName ref="#GRE">Greta Lindbom</persName>.</p>
                   </origin>
                </history>
             </msDesc>
-
+            
             <bibl>
                <title>Brev från Carl till Gustaf och Greta 10/2-1931</title>
                <author ref="#CL">Carl Lindbom</author>
-               <biblScope unit="page" n="02"/>
-               <series>Lindboms familjebrevsamling</series>
+               <biblScope unit="page" n="02"></biblScope>
+               <series>Lindboms familjebrevsamling</series> 
             </bibl>
-
+            
          </sourceDesc>
       </fileDesc>
-
+      
       <encodingDesc>
          <projectDesc>
-            <p>Digitaliseringen, transkriberingen och TEI-kodningen av det här brevet (och de övriga
-               breven i samlingen) utfördes som ett digitaliseringsprojekt som var en del av kursen
+            <p>Digitaliseringen, transkriberingen och TEI-kodningen av det här brevet (och de övriga breven
+               i samlingen) utfördes som ett digitaliseringsprojekt som var en del av kursen
                'Digitising Cultural Heritage Materials' vid Högskolan i Borås. Kursen är en del av
                Högskolan i Borås masterprogram i Biblioteks- och Informationsvetenskap.</p>
-
-            <p>Detta brev (och de övriga breven i samlingen) digitaliserades med tillstånd av
-               mottagarnas närmaste levande anhöriga, <persName ref="#GUS">Gustaf
-                  Lindboms</persName> och <persName ref="#GRE">Greta Lindboms</persName> söner
-               Johannes Lindbom och Marcus Lindbom. Marcus Lindbom är också den privata ägaren av
-               Lindboms familjebrevsamling.</p>
-
-            <p>Syftet med att digitalisera delar av Lindboms familjebrevsamling är att bevara breven
-               och tillgängliggöra dem så att andra kan läsa dem. Tanken är att brevens innehåll
-               skulle kunna vara av intresse för de som är intresserade av svensk historia eller
-               svensk religionshistoria. Breven ger en detaljerad insikt i människors vardagsliv i
-               Sverige under 1920- och 1930-talen. För att öka användarvänligheten för den
-               historieintresserade har delar av breven blivit markerade med olika historietematiska
-               kategoriseringar, så som kvinnohistoria och pastorsyrket.</p>
+            
+            <p>Detta brev (och de övriga breven i samlingen) digitaliserades med tillstånd av 
+               mottagarnas närmaste levande anhöriga, <persName ref="#GUS">Gustaf Lindboms</persName> och 
+               <persName ref="#GRE">Greta Lindboms</persName> söner Johannes Lindbom och Marcus Lindbom. 
+               Marcus Lindbom är också den privata ägaren av Lindboms familjebrevsamling.</p>
+            
+            <p>Syftet med att digitalisera delar av Lindboms familjebrevsamling är att bevara breven och
+               tillgängliggöra dem så att andra kan läsa dem. Tanken är att brevens innehåll skulle kunna
+               vara av intresse för de som är intresserade av svensk historia eller svensk religionshistoria.
+               Breven ger en detaljerad insikt i människors vardagsliv i Sverige under 1920- och 1930-talen.
+               För att öka användarvänligheten för den historieintresserade har delar av breven blivit
+               markerade med olika historietematiska kategoriseringar, så som kvinnohistoria och pastorsyrket.</p>
          </projectDesc>
-
+         
          <editorialDecl>
             <correction>
-               <p>Felstavade ord är markerade med både <gi>sic</gi> för hur ordet är stavat i
-                  källmaterialet/originalbrevet och <gi>corr</gi> för den korrekta stavningen, dessa
-                  är inneslutna i ett <gi>choice</gi> element.</p>
-               <p>Gammaldags stavning på t ex ortsnamn har inte ändrats eller markerats. Äldre ord
-                  och verbformer har inte heller ändrats eller markerts.</p>
+               <p>Felstavade ord är markerade med både <gi>sic</gi> för hur ordet är stavat i källmaterialet/originalbrevet
+                  och <gi>corr</gi> för den korrekta stavningen, dessa är inneslutna i ett <gi>choice</gi> element.</p>
+               <p>Gammaldags stavning på t ex ortsnamn har inte ändrats eller markerats. Äldre ord och verbformer har
+                  inte heller ändrats eller markerts.</p>
             </correction>
             <hyphenation>
                <p>Avstavinngar har transkriberats i enlighet med originalbrevet.</p>
             </hyphenation>
             <punctuation placement="internal">
-               <p>All interpunktion har transkriberats i enlighet med originalbrevet, förutom där
-                  det är otydligt ifall en prick är menad som en punkt för att avsluta meningen
-                  eller bara en bläckprick från att ha vilat pennan. Detta är otydligt när pricken
-                  inte efterföljs av en versal för att indikera början på en ny mening. Dessa
-                  punkter har utelämnats i transkriberingen och är omarkerade.</p>
+               <p>All interpunktion har transkriberats i enlighet med originalbrevet, förutom där det är otydligt
+                  ifall en prick är menad som en punkt för att avsluta meningen eller bara en bläckprick från att ha
+                  vilat pennan. Detta är otydligt när pricken inte efterföljs av en versal för att indikera början på en ny mening.
+                  Dessa punkter har utelämnats i transkriberingen och är omarkerade.</p>
             </punctuation>
             <interpretation>
-               <p>Olika historiska teman har markerats i texten med <gi>div</gi> tillsammans med ett
-                     <att>type</att> attribut med följande attributvärden: Pastorsyrket: för text
-                  relaterad till pastorsyrket Tro: för text som berör tro och religion
-                  Kvinnohistoria: för text relaterad till kvinnohistoria Faderskap: för text som
-                  berör faderskap Vardagsliv: för text som skildrar vardagslivet och är historiskt
-                  relevant Samhallshistoria: för text relaterad till svensk samhällshistoria </p>
-
-               <p>Namn på platser och personer har markerats i texten. Bibliska personer har inte
-                  markerats. Smeknamn och namn som indikerar släktskap (t ex "mamma", "farfar") har
-                  markerats när de avser en person som är med i personregistret över personer som
-                  förekommer i breven, se <gi>listPerson</gi>.</p>
-
-               <p>Namn på titlar på böcker och tidningar har markerats med <gi>title</gi> med
-                  attributet <att>level</att> med värdet "m" för böcker och "j" för tidningar och
-                  tidskrifter. </p>
+               <p>Olika historiska teman har markerats i texten med <gi>div</gi> tillsammans med ett <att>type</att> attribut 
+                  med följande attributvärden:
+                  Pastorsyrket: för text relaterad till pastorsyrket
+                  Tro: för text som berör tro och religion
+                  Kvinnohistoria: för text relaterad till kvinnohistoria
+                  Faderskap: för text som berör faderskap
+                  Vardagsliv: för text som skildrar vardagslivet och är historiskt relevant
+                  Samhallshistoria: för text relaterad till svensk samhällshistoria
+               </p>
+               
+               <p>Namn på platser och personer har markerats i texten. Bibliska personer har inte markerats. Smeknamn och namn som
+                  indikerar släktskap (t ex "mamma", "farfar") har markerats när de avser en person som är med i personregistret över
+                  personer som förekommer i breven, se <gi>listPerson</gi>.</p>
+               
+               <p>Namn på titlar på böcker och tidningar har markerats med <gi>title</gi> med attributet <att>level</att> med värdet
+                  "m" för böcker och "j" för tidningar och tidskrifter. 
+               </p>
             </interpretation>
             <segmentation>
                <p>Ny rad and ny sida har markerats och sidorna har numrerats enligt läsordning.</p>
-
-               <p>Text skriven i marginalerna har markerats med <gi>seg</gi> och attributen
-                     <att>type</att> och <att>subtype</att>: upperMargin: övre marginalen, högst upp
-                  på sidan bottomMargin:undre marginalen, längst ner på sidan leftMargin: vänstra
-                  marginalen rightMargin: högra marginalen topLeftMargin: marginalanteckning som
-                  spänner över mer än en marginal, här från den övre marginalen till den vänstra
-                  Attributvärden som använts för <att>type</att>: upsideDown: för text skriven
-                  upp-och-ner sideways: för text skriven sidledes normal: för text skriven normalt,
-                  så som övrig brevtext är skriven mixed: för marginalanteckningar skrivna med en
-                  kombination av ovanstående När marginalanteckningarna tillhör brevets sista sida
-                  är de markerade med <gi>postscript</gi> och <gi>ab</gi>. Detta för att
-                     <gi>seg</gi> ska tillåtas placeras efter <gi>closer</gi> och eftersom detta
-                  anteckningar med största sannolikhet är skrivna som tillägg efter att resten av
-                  brevet skrivits och det inte fanns mer plats på pappret. </p>
-
-               <p>Meningar som inte börjar vid vänster marginal har markerats med <gi>s</gi> och ett
-                     <att>rend</att> attribut med ett värde som indikerar var meningens placering, t
-                  ex: center (i mitten), right (till höger). Detsamma gäller för enskilda ord med
-                  samma typ av annan placering, fast då med <gi>w</gi> (detta innefattar inte ord
-                  inskjutna i texten som tillägg).</p>
-
+               
+               <p>Text skriven i marginalerna har markerats med <gi>seg</gi> och attributen <att>type</att> och
+                  <att>subtype</att>:
+                  upperMargin: övre marginalen, högst upp på sidan
+                  bottomMargin:undre marginalen, längst ner på sidan
+                  leftMargin: vänstra marginalen
+                  rightMargin: högra marginalen
+                  topLeftMargin: marginalanteckning som spänner över mer än en marginal, här från den övre marginalen till den vänstra
+                  Attributvärden som använts för <att>type</att>:
+                  upsideDown: för text skriven upp-och-ner
+                  sideways: för text skriven sidledes
+                  normal: för text skriven normalt, så som övrig brevtext är skriven
+                  mixed: för marginalanteckningar skrivna med en kombination av ovanstående
+                  När marginalanteckningarna tillhör brevets sista sida är de markerade med <gi>postscript</gi> och
+                  <gi>ab</gi>. Detta för att <gi>seg</gi> ska tillåtas placeras efter <gi>closer</gi> och eftersom
+                  detta anteckningar med största sannolikhet är skrivna som tillägg efter att resten av brevet skrivits
+                  och det inte fanns mer plats på pappret.
+               </p>
+               
+               <p>Meningar som inte börjar vid vänster marginal har markerats med <gi>s</gi> och ett  <att>rend</att> attribut
+                  med ett värde som indikerar var meningens placering, t ex: center (i mitten), right (till höger).
+                  Detsamma gäller för enskilda ord med samma typ av annan placering, fast då med <gi>w</gi>
+                  (detta innefattar inte ord inskjutna i texten som tillägg).</p> 
+               
             </segmentation>
-            <p>Där det varit svårt att tolka texten på grund av hål pappret som orsakats av brevets
-               vikning har detta markerats med <gi>damage</gi> och specifierats med <att>agent</att>
-               med värdet "folding" och <att>type</att> med värdet "hole" (för hål) eller "tear"
-               (för sönderrivet).</p>
-
-            <p>Oläsliga ord där den som transkriberat varit väldigt osäker på vilket ord det skulle
-               kunna tolkas som och där transkriberaren inte har en bra gissning eller velar mellan
-               olika alternativ har fått ett <att>cert</att> attribut med värdet "low" som
-               komplement till <gi>unclear</gi>. I övriga fall (d.v.s när den som transkriberat är
-               inte är lika osäker) har <gi>unclear</gi> lämnats utan attribut. Helt oläsliga ord
-               har utelämnats ur texten och markeras med <gi>gap</gi> med <att>reason</att> med
-               värdet "illegible".</p>
-
-            <p>Markeringar i texten gjorda av en okänd hand vid ett (okänt) senare datum har
-               utelämnats och är omarkerade. De var inte en del av brevet när det ursprungligen
-               skrevs eller lästes och tillför ingen relevant information.</p>
-
-            <p>Attributet <att>hand</att> har bara använts för att markera text som skrivits av
-               någon annan än brevets huvudsakliga författare och som redan var en del av brevet när
-               det skickades och mottogs.</p>
+            <p>Där det varit svårt att tolka texten på grund av hål pappret som orsakats av brevets vikning har detta
+               markerats med <gi>damage</gi> och specifierats med <att>agent</att> med värdet "folding" och 
+               <att>type</att> med värdet "hole" (för hål) eller "tear" (för sönderrivet).</p>
+            
+            <p>Oläsliga ord där den som transkriberat varit väldigt osäker på vilket ord det skulle kunna tolkas som och där
+               transkriberaren inte har en bra gissning eller velar mellan olika alternativ har fått ett <att>cert</att> attribut 
+               med värdet "low" som komplement till <gi>unclear</gi>. I övriga fall (d.v.s när den som transkriberat är inte är lika osäker) 
+               har <gi>unclear</gi> lämnats utan attribut. Helt oläsliga ord har utelämnats ur texten och markeras med <gi>gap</gi> med 
+               <att>reason</att> med värdet "illegible".</p>
+            
+            <p>Markeringar i texten gjorda av en okänd hand vid ett (okänt) senare datum har utelämnats och är omarkerade. 
+               De var inte en del av brevet när det ursprungligen skrevs eller lästes och tillför ingen relevant information.</p>
+            
+            <p>Attributet <att>hand</att> har bara använts för att markera text som skrivits av någon annan än brevets
+               huvudsakliga författare och som redan var en del av brevet när det skickades och mottogs.</p>
          </editorialDecl>
-
+         
       </encodingDesc>
-
+      
       <profileDesc>
          <creation>
             <placeName ref="#Gberg">Gustafsberg</placeName>
@@ -201,7 +202,7 @@
             <language ident="swe">Svenska</language>
          </langUsage>
          <handNotes>
-            <handNote medium="ink"/>
+            <handNote medium="ink" />
          </handNotes>
          <correspDesc>
             <correspAction type="sent">
@@ -212,13 +213,13 @@
                <persName ref="#GUS">Gustaf Lindbom</persName>
             </correspAction>
          </correspDesc>
-
+         
          <particDesc>
             <listPerson>
                <person xml:id="CL">
                   <persName ref="#CL">
                      <forename type="first">Carl</forename>
-                     <forename type="middle">Alexander</forename>
+                     <forename type ="middle">Alexander</forename>
                      <surname>Lindbom</surname>
                      <addName>pappa</addName>
                      <addName>farfar</addName>
@@ -227,46 +228,46 @@
                   <death>1932</death>
                   <occupation>porslinsmålare</occupation>
                </person>
-
+               
                <person xml:id="GUS">
                   <persName ref="#GUS">
                      <forename type="first">Gustaf</forename>
-                     <forename type="middle">Alexander</forename>
+                     <forename type ="middle">Alexander</forename>
                      <surname>Lindbom</surname>
                   </persName>
                   <birth when="1900-12-30">30 december 1900</birth>
-                  <death when="1987-06-18">18 juni 1987</death>
+                  <death when="1987-06-18">18 juni 1987</death>    
                   <occupation notBefore="1924" notAfter="1930">evangelist</occupation>
                   <occupation notBefore="1930">pastor</occupation>
-                  <note> Som evangelist reste och predikade Gustaf inom Västmanland-Närkedistriktet,
-                     huvudsakligen till församlingarna i Norberg, Frövi, Kolsva, Örebro och
-                     Kärrgruvan. Hans första arbete som pastor var i samma distrikt och innefattade
-                     även fortsättningsvis mycket resande mellan olika församlingar.</note>
+                  <note>
+                     Som evangelist reste och predikade Gustaf inom Västmanland-Närkedistriktet,
+                     huvudsakligen till församlingarna i Norberg, Frövi, Kolsva, Örebro och Kärrgruvan.
+                     Hans första arbete som pastor var i samma distrikt och innefattade även fortsättningsvis 
+                     mycket resande mellan olika församlingar.</note>
                </person>
                <person xml:id="GRE">
                   <persName ref="#GRE">
                      <forename type="first">Greta</forename>
-                     <forename type="middle">Maria</forename>
+                     <forename type ="middle">Maria</forename>
                      <surname type="maiden">Andersson</surname>
                      <surname type="married">Lindbom</surname>
                   </persName>
                   <birth when="1898-09-21">21 september 1898</birth>
-                  <death when="1972-01-05">5 januari 1972</death>
+                  <death when="1972-01-05">5 januari 1972</death>  
                   <occupation notAfter="1930">barnsköterska</occupation>
-                  <note>Greta arbetade som barnsköterska i konsul Lennmalms familj i Stockholm innan
-                     hon gifte sig med Gustaf 1930.</note>
+                  <note>Greta arbetade som barnsköterska i konsul Lennmalms familj i Stockholm innan hon gifte sig med Gustaf 1930.</note>
                </person>
-
+               
                <person xml:id="SIG">
                   <persName ref="#SIG">
                      <forename type="first">Sigrid</forename>
                      <forename type="middle">Maria</forename>
-                     <surname type="maiden">Lindbom</surname>
+                     <surname type="maiden">Lindbom</surname> 
                      <surname type="married">Jansson</surname>
                   </persName>
                   <birth>1898</birth>
                </person>
-
+               
                <person xml:id="ELS">
                   <persName ref="#ELS">
                      <forename type="first">Elsa</forename>
@@ -275,7 +276,7 @@
                   </persName>
                   <birth>1903</birth>
                </person>
-
+               
                <person xml:id="ERI">
                   <persName ref="#ERI">
                      <forename type="first">Erik</forename>
@@ -285,7 +286,7 @@
                   <birth>1895</birth>
                   <death>1962</death>
                </person>
-
+               
                <person xml:id="EEL">
                   <persName ref="#EEL">
                      <forename type="first">Elma</forename>
@@ -297,7 +298,7 @@
                   <birth>1864</birth>
                   <death>1945</death>
                </person>
-
+               
                <person xml:id="TL">
                   <persName ref="#TL">
                      <forename type="first">Tomas</forename>
@@ -309,21 +310,21 @@
                   <birth when="1931-08-10">10 augusti 1931</birth>
                   <death when="2007-10-07">7 oktober 2007</death>
                </person>
-
+               
                <person xml:id="HUL">
                   <persName ref="#HUL">
                      <forename type="first">Hulda</forename>
                   </persName>
                   <occupation>porslinsmålerska</occupation>
                </person>
-
+               
                <person xml:id="SAR">
                   <persName ref="#SAR">
                      <forename type="first">Sara</forename>
                   </persName>
                   <occupation>porslinsmålerska</occupation>
                </person>
-
+               
                <person xml:id="SL">
                   <persName>
                      <forename>Sam</forename>
@@ -331,33 +332,33 @@
                   </persName>
                   <occupation>pastor</occupation>
                </person>
-
+               
                <person xml:id="HAG">
                   <persName ref="#HAG">
                      <surname>Hagby</surname>
                   </persName>
                </person>
-
+              
                <listRelation>
-                  <relation type="parent" name="pappa" active="#CL" passive="#GUS"/>
-                  <relation name="spouse" mutual="#GRE #GUS" notBefore="1930"/>
-                  <relation name="sibling" mutual="#GUS #SIG"/>
-                  <relation name="sibling" mutual="#GUS #ELS"/>
-                  <relation name="sibling" mutual="#GUS #ERI"/>
-                  <relation name="spouse" mutual="#CL #EEL"/>
-                  <relation type="stepParent" name="mamma" active="#EEL" passive="#GUS"/>
-                  <relation type="parent" name="pappa" active="#GUS" passive="#TL"/>
-                  <relation type="parent" name="mamma" active="#GRE" passive="#TL"/>
-                  <relation name="friend" mutual="#CL #HUL"/>
-                  <relation name="friend" mutual="#CL #SAR"/>
-                  <relation name="friend" mutual="#SAR #HUL"/>
-                  <relation name="friend" mutual="#CL #HAG"/>
-                  <relation name="friend" mutual="#GUS #HAG"/>
-
+                  <relation type="parent" name="pappa" active="#CL" passive="#GUS" />
+                  <relation name="spouse" mutual="#GRE #GUS" notBefore="1930" />
+                  <relation name="sibling" mutual="#GUS #SIG" /> 
+                  <relation name="sibling" mutual="#GUS #ELS" />
+                  <relation name="sibling" mutual="#GUS #ERI" /> 
+                  <relation name="spouse" mutual="#CL #EEL" />
+                  <relation type="stepParent" name="mamma" active="#EEL" passive="#GUS" />
+                  <relation type="parent" name="pappa" active="#GUS" passive="#TL" />
+                  <relation type="parent" name="mamma" active="#GRE" passive="#TL" />
+                  <relation name="friend" mutual="#CL #HUL" />
+                  <relation name="friend" mutual="#CL #SAR" />
+                  <relation name="friend" mutual="#SAR #HUL" />
+                  <relation name="friend" mutual="#CL #HAG" />
+                  <relation name="friend" mutual="#GUS #HAG" />
+               
                </listRelation>
             </listPerson>
          </particDesc>
-
+         
          <settingDesc>
             <place xml:id="Etuna">
                <placeName ref="#Etuna">
@@ -372,7 +373,7 @@
             <place xml:id="Fvi">
                <placeName ref="#Fvi">
                   <settlement>Frövi</settlement>
-               </placeName>
+               </placeName> 
             </place>
             <place xml:id="Gberg">
                <placeName ref="Gberg">
@@ -428,36 +429,38 @@
                </placeName>
             </place>
          </settingDesc>
-
+         
          <textClass>
             <keywords>
-               <list>
+               <list> 
                   <item xml:lang="swe">Svensk historia</item>
                   <item xml:lang="swe">Historia</item>
                   <item xml:lang="swe">Brev</item>
-                  <item xml:lang="swe">Korrespondens</item>
+                  <item xml:lang="swe">Korrespondens</item>                
                </list>
             </keywords>
          </textClass>
-
+         
       </profileDesc>
    </teiHeader>
-
+   
    <facsimile>
       <surface xml:id="Carl19310210_1s">
          <figure>
             <label>Carl 1931-02-10 01</label>
-            <figDesc> Brev från Carl till Gustaf och Greta 10/2-1931, sida 1. </figDesc>
-            <graphic xml:id="Carl19310210_1g"
-               url="assets/img/documents/Carlsbrev/Carl19310210_1.jpg"/>
+            <figDesc>
+               Brev från Carl till Gustaf och Greta 10/2-1931, sida 1.
+            </figDesc>
+            <graphic xml:id="Carl19310210_1g" url="assets/img/documents/Carlsbrev/Carl19310210_1.jpg"/> 
          </figure>
       </surface>
       <surface xml:id="Carl19310210_2s">
          <figure>
             <label>Carl 1931-02-10 02</label>
-            <figDesc> Brev från Carl till Gustaf och Greta 10/2-1931, sida 2. </figDesc>
-            <graphic xml:id="Carl19310210_2g"
-               url="assets/img/documents/Carlsbrev/Carl19310210_2.jpg"/>
+            <figDesc>
+               Brev från Carl till Gustaf och Greta 10/2-1931, sida 2.
+            </figDesc>
+            <graphic xml:id="Carl19310210_2g" url="assets/img/documents/Carlsbrev/Carl19310210_2.jpg"/> 
          </figure>
       </surface>
    </facsimile>
@@ -465,161 +468,195 @@
    <text type="letter">
       <body>
          <div n="sida1">
-
+      
             <pb n="01" facs="#Carl19310210_1s"/>
             <lb/>
-            <opener>
-               <dateline rend="center"><placeName ref="#Gberg">Gustafsberg</placeName>
-                  <date when="1931-02-10"> den 10/<unclear>2</unclear> 1931</date>
-               </dateline>
-               <lb/>
-               <lb/>
-               <lb/><salute rend="center">Kära barn, Guds rika frid!</salute>
-            </opener>
-            <div>
-               <p>
-                  <lb/>
-                  <emph rend="ulx2">Mycket</emph>
-                  <emph rend="circle">tack</emph> förbrev och penningar, jag skulle ha <lb/> skrivit
-                     <damage agent="folding" type="hole"/>förr, men det är så svårt att komma sig
-                  till med <lb/> det, för alltid är det något som kommer i <choice>
-                     <sic>vegen</sic>
-                     <corr>vägen</corr>
-                  </choice> när man skall <lb/> till att <damage agent="folding" type="tear"/>
-                  skriva. Hela felet är bestämt att jag har för gott <lb/> om tid, och därför <gap
-                     reason="illegible" quantity="1" unit="word"/> slösar med densamma, och så löper
-                  den <lb/> ifrån mig, ty tiden väntar ej, den går sin jämna gång <lb/> och tar vi
-                  ej reda <gap reason="illegible" quantity="03" unit="char"/>på den så går den ifrån
-                  oss, det är därför <lb/>Apostelen <ellipsis>
-                     <metamark rend="line"/>
-                  </ellipsis> uppmanar <unclear>oss</unclear> att köpa tiden, ty dagarna äro onda.
-                  <lb/> Ack ja vi komma till korta på alla <choice>
-                     <sic>sett, even</sic>
-                     <corr>sätt, även</corr>
-                  </choice> när det är <lb/> att utnyttja tiden rätt. </p>
+           <opener> 
+              <dateline rend="center"><placeName ref="#Gberg">Gustafsberg</placeName>
+                 <date when="1931-02-10"> den 10/<unclear>2</unclear> 1931</date>
+              </dateline>
+               <lb />
+               <lb />
+               <lb /><salute rend="center">Kära barn, Guds rika frid!</salute>
+           </opener>
+           <div>
+              <p>
+                 <lb /> <emph rend="ulx2">Mycket</emph> <emph rend="circle">tack</emph> förbrev och penningar, jag skulle ha
+                 <lb /> skrivit <damage agent="folding" type="hole" />förr, men det är så svårt att komma sig till med
+                  <lb /> det, för alltid är det något som kommer i 
+                    <choice>
+                       <sic>vegen</sic>
+                       <corr>vägen</corr>
+                    </choice> när man skall
+                 <lb /> till att <damage agent="folding" type="tear" /> skriva. Hela felet är bestämt att jag har för gott
+                 <lb /> om tid, och därför <gap reason="illegible" quantity="1" unit="word" /> slösar med densamma, och så löper den
+                  <lb /> ifrån mig, ty tiden väntar ej, den går sin jämna gång
+                 <lb /> och tar vi ej reda <gap reason="illegible" quantity="03" unit="char" />på den så går den ifrån oss, det är därför
+                 <lb />Apostelen     
+                 <ellipsis>
+                    <metamark rend="line" />
+                 </ellipsis> uppmanar <unclear>oss</unclear> att köpa tiden, ty dagarna äro onda.
+                  <lb /> Ack ja vi komma till korta på alla 
+                    <choice>
+                       <sic>sett, even</sic>
+                       <corr>sätt, även</corr>
+                    </choice> när det är
+                  <lb /> att utnyttja tiden rätt.
+                 </p> 
+              </div>   
+              <div type="pastorsyrket">
+                 <p>
+                    <lb />Hoppas att ni är friska och krya, som jag ser av ditt brev så
+                  <lb /> har du varit i <placeName ref="#Obro">Örebro,</placeName> jag tycker det är underligt att du
+                  <lb /> skall vara på sådana platser där de ha predikant förut
+                  <lb /> vore det ej på sin plats att sådana församlingar fick
+                  <lb /> reda sig själva och du fick tjäna de församlingar som
+                  <lb /> är utan predikant, nu skulle du 
+                    <choice>
+                       <sic>iveg</sic>
+                       <corr>iväg</corr>
+                    </choice> till <placeName ref="#Pda">Pålsboda, </placeName>
+                    <choice>
+                       <sic>even</sic>
+                       <corr>även</corr>
+                    </choice>
+                  <lb />  där har di ju Pred. förut. Är di små förs- så fattiga att
+                 </p>    
+              </div>
+              <div>
+                <p>
+                 <seg type="upperMargin" subtype="upsideDown"/>
+                     Kära lilla <persName ref="#GRE">Greta,</persName> jag har ej skri-
+                     <lb /> vit en enda rad till dig i det här
+                     <lb /> brevet, därför skriver jag ett extra
+                     <lb /> brev åt dig här. Som jag ser har
+                     <lb /> du varit ute och rest och hälsat på
+                     <lb /> <persName ref="#GUS">Gustaf</persName> det var ju roligt för dig att
+                     <lb /> så få göra, jag förstår att det skall
+                     <lb /> bli rätt så långsamt för dig att ej
+                     <lb /> få ha honom hemma mera men det
+                     <lb /> är så här i livet att det är så mycket vi
+                     <lb /> får försaka, men göra vi det med
+                     <lb /> tålamod och för Herren så skall vi
+                     <lb /> ej bli utan lön. Gud 
+                        <choice>
+                           <sic>välsingne</sic>
+                           <corr>välsigne</corr>
+                        </choice> dig 
+                     <lb /> och give Han dig nåd att taga allt
+                     <lb /> från Honom.
+                     <lb /> Må eder gemensamma lycka bliva
+                     <lb /> bofast hos Eder intill 
+                         <choice>
+                            <sic>enden.</sic>
+                            <corr>änden.</corr>
+                         </choice>
+                    <lb /><w rend="right"><unclear>L.A.</unclear></w> 
+                  
+                </p>
+               
             </div>
-            <div type="pastorsyrket">
-               <p>
-                  <lb/>Hoppas att ni är friska och krya, som jag ser av ditt brev så <lb/> har du
-                  varit i <placeName ref="#Obro">Örebro,</placeName> jag tycker det är underligt att
-                  du <lb/> skall vara på sådana platser där de ha predikant förut <lb/> vore det ej
-                  på sin plats att sådana församlingar fick <lb/> reda sig själva och du fick tjäna
-                  de församlingar som <lb/> är utan predikant, nu skulle du <choice>
-                     <sic>iveg</sic>
-                     <corr>iväg</corr>
-                  </choice> till <placeName ref="#Pda">Pålsboda, </placeName>
-                  <choice>
-                     <sic>even</sic>
-                     <corr>även</corr>
-                  </choice>
-                  <lb/> där har di ju Pred. förut. Är di små förs- så fattiga att </p>
-            </div>
-            <div>
-               <p>
-                  <seg type="upperMargin" subtype="upsideDown"/> Kära lilla <persName ref="#GRE"
-                     >Greta,</persName> jag har ej skri- <lb/> vit en enda rad till dig i det här
-                  <lb/> brevet, därför skriver jag ett extra <lb/> brev åt dig här. Som jag ser har
-                  <lb/> du varit ute och rest och hälsat på <lb/>
-                  <persName ref="#GUS">Gustaf</persName> det var ju roligt för dig att <lb/> så få
-                  göra, jag förstår att det skall <lb/> bli rätt så långsamt för dig att ej <lb/> få
-                  ha honom hemma mera men det <lb/> är så här i livet att det är så mycket vi <lb/>
-                  får försaka, men göra vi det med <lb/> tålamod och för Herren så skall vi <lb/> ej
-                  bli utan lön. Gud <choice>
-                     <sic>välsingne</sic>
-                     <corr>välsigne</corr>
-                  </choice> dig <lb/> och give Han dig nåd att taga allt <lb/> från Honom. <lb/> Må
-                  eder gemensamma lycka bliva <lb/> bofast hos Eder intill <choice>
-                     <sic>enden.</sic>
-                     <corr>änden.</corr>
-                  </choice>
-                  <lb/><w rend="right"><unclear>L.A.</unclear></w>
-               </p>
-
-            </div>
-
+            
          </div>
          <div n="sida2">
-
-            <pb n="02" facs="#Carl19310210_2s"/>
+  
+              <pb n="02" facs="#Carl19310210_2s"/>
             <div type="pastorsyrket">
                <p>
-                  <lb/>de ej kan taga emot och <choice>
-                     <sic>herberggera</sic>
-                     <corr>härbärgera</corr>
-                  </choice> dig? Eller vad är det <lb/> för orsak?, jag förstår att <del>att</del>
-                  det är <persName ref="#SL">Sam-Lars-.</persName> som <choice>
-                     <sic>årdnar</sic>
-                     <corr>ordnar</corr>
-                  </choice>
-                  <lb/> dina resor, eller är det församlingarna som kommer till honom <lb/> med
-                  begäran att få dig? Eller har du någon <choice>
-                     <sic>rett</sic>
-                     <corr>rätt</corr>
-                  </choice> att <choice>
-                     <sic>själf</sic>
-                     <corr>själv</corr>
-                  </choice>
-                  <lb/> avgöra var du skall arbeta? Det skulle <choice>
-                     <sic>intresera</sic>
-                     <corr>intressera</corr>
-                  </choice> mig att få <lb/> reda på hur det förhåller sig i det här fallet, ty det
-                  har alltid <lb/> varit så att de små förs- <choice>
-                     <sic>fott</sic>
-                     <corr>fått</corr>
-                  </choice> klara sig bäst de kunnat och <lb/> de stora förs- de ha haft överflöd på
-                  predikningar. </p>
+                    <lb/>de ej kan taga emot och 
+                        <choice>
+                           <sic>herberggera</sic>
+                           <corr>härbärgera</corr>
+                        </choice> dig? Eller vad är det
+                     <lb /> för orsak?, jag förstår att <del>att</del> det är <persName ref="#SL">Sam-Lars-.</persName> som 
+                        <choice>
+                           <sic>årdnar</sic>
+                           <corr>ordnar</corr>
+                        </choice>
+                     <lb /> dina resor, eller är det församlingarna som kommer till honom
+                     <lb /> med begäran att få dig? Eller har du någon 
+                        <choice>
+                           <sic>rett</sic>
+                           <corr>rätt</corr>
+                        </choice> att 
+                        <choice>
+                           <sic>själf</sic>
+                           <corr>själv</corr>
+                        </choice>
+                     <lb /> avgöra var du skall arbeta? Det skulle 
+                        <choice>
+                           <sic>intresera</sic>
+                           <corr>intressera</corr>
+                        </choice> mig att få
+                     <lb /> reda på hur det förhåller sig i det här fallet, ty det har alltid
+                     <lb /> varit så att de små förs- 
+                        <choice>
+                           <sic>fott</sic>
+                           <corr>fått</corr>
+                        </choice> klara sig bäst de kunnat och
+                     <lb /> de stora förs- de ha haft överflöd på predikningar.
+                   </p>
+              </div>
+              <div>
+                  <p>
+                     <lb /> Ja det är så här i livet, den ena skall leva i överflöd och
+                     <lb /> den andra i armod, men så är 
+                        <choice>
+                           <sic>dåck</sic>
+                           <corr>dock</corr>
+                        </choice> inte Guds mening!
+                     <lb /> Gud vill att vi skall dela med oss av både vårt andeliga och vårt
+                     <lb /> timliga goda till dem som behöva vårt bistånd.
+                     <lb /> I Söndags kom <persName>Hultman</persName> upp till mig med boken, <title level="m">Prester å Profeter</title>
+                     <lb /> så jag håller på och studerar den nu om dagarna, förut har jag läst
+                     <lb /> <persName>P.A. Westlinds</persName> bok, <title level="m">Etisk religion och Moralfilosofi.</title> 
+                        <choice>
+                           <sic>Nesta</sic>
+                           <corr>Nästa</corr>
+                        </choice> gång jag
+                     <lb /> skriver skall jag tala om min mening om dem.
+                     <lb /> Hvad 
+                        <choice>
+                           <sic>seger</sic>
+                           <corr>säger</corr>
+                        </choice> Predikanterna om <persName>Ax. Anderssons</persName> bok?
+                     <lb /> Jag känner mig ganska kry nu, det bästa jag känt mig i vinter
+                     <lb /> men någon skolagning går ej för mig, men jag får vara glad och
+                     <lb /> tacksam till Gud för det som är <addName ref="#EEL">Mamma</addName> är kry och 
+                          <persName ref="#ELS">Elsa</persName> likaså
+                     <lb /><persName>Fransson</persName> är fortfarande sjuk, och <persName>Wille-Johansson</persName> är det rätt
+                     <lb />så allvarligt med, fåse hur det kommer att gå med honom.
+                     <lb />En församlingsmedlem fick vi begrava i Söndags, det är
+                     <lb />många nu av vår förs- som får gå hem till Gud nu den ena efter den
+                     <lb />andra, men inga (födas på nytt) det ser tråkigt ut.
+                  </p>
+                </div>
+                <closer>
+                     <salute>Många kära hälsningar från oss må Gud välsigna Eder gemensamt 
+                     <lb /> med all andlig 
+                       <choice>
+                          <sic>välsingnelse</sic>
+                          <corr>välsignelse</corr>
+                       </choice> i det himmelska i Kristus Jesus
+                     <lb /> vår frälsare. Eder <addName ref="#CL">Pappa</addName>. 
+                     </salute> 
+                 </closer>
+                 <postscript> 
+                    <ab>
+                   <seg type="leftMargin" subtype="sideways" />
+                     detta brev har jag skrivit med en glaspenna.
+                     
+                   <seg type="upperMargin" subtype="upsideDown" />
+                     <persName ref="#HAG">Hagby </persName>är i <placeName ref="#Mot">Motala</placeName> sen i Fredags.
+                     <lb />Och <unclear>Jädda</unclear> var här i Söndags, han hade sin 
+                      <choice>
+                         <sic>festmö</sic>
+                         <corr>fästmö</corr>
+                      </choice> <s rend="right">med sig.</s>
+                       
+                </ab>
+             </postscript>
             </div>
-            <div>
-               <p>
-                  <lb/> Ja det är så här i livet, den ena skall leva i överflöd och <lb/> den andra
-                  i armod, men så är <choice>
-                     <sic>dåck</sic>
-                     <corr>dock</corr>
-                  </choice> inte Guds mening! <lb/> Gud vill att vi skall dela med oss av både vårt
-                  andeliga och vårt <lb/> timliga goda till dem som behöva vårt bistånd. <lb/> I
-                  Söndags kom <persName>Hultman</persName> upp till mig med boken, <title level="m"
-                     >Prester å Profeter</title>
-                  <lb/> så jag håller på och studerar den nu om dagarna, förut har jag läst <lb/>
-                  <persName>P.A. Westlinds</persName> bok, <title level="m">Etisk religion och
-                     Moralfilosofi.</title>
-                  <choice>
-                     <sic>Nesta</sic>
-                     <corr>Nästa</corr>
-                  </choice> gång jag <lb/> skriver skall jag tala om min mening om dem. <lb/> Hvad <choice>
-                     <sic>seger</sic>
-                     <corr>säger</corr>
-                  </choice> Predikanterna om <persName>Ax. Anderssons</persName> bok? <lb/> Jag
-                  känner mig ganska kry nu, det bästa jag känt mig i vinter <lb/> men någon
-                  skolagning går ej för mig, men jag får vara glad och <lb/> tacksam till Gud för
-                  det som är <addName ref="#EEL">Mamma</addName> är kry och <persName ref="#ELS"
-                     >Elsa</persName> likaså <lb/><persName>Fransson</persName> är fortfarande sjuk,
-                  och <persName>Wille-Johansson</persName> är det rätt <lb/>så allvarligt med, fåse
-                  hur det kommer att gå med honom. <lb/>En församlingsmedlem fick vi begrava i
-                  Söndags, det är <lb/>många nu av vår förs- som får gå hem till Gud nu den ena
-                  efter den <lb/>andra, men inga (födas på nytt) det ser tråkigt ut. </p>
-            </div>
-            <closer>
-               <salute>Många kära hälsningar från oss må Gud välsigna Eder gemensamt <lb/> med all
-                  andlig <choice>
-                     <sic>välsingnelse</sic>
-                     <corr>välsignelse</corr>
-                  </choice> i det himmelska i Kristus Jesus <lb/> vår frälsare. Eder <addName
-                     ref="#CL">Pappa</addName>. </salute>
-            </closer>
-            <postscript>
-               <ab>
-                  <seg type="leftMargin" subtype="sideways"/> detta brev har jag skrivit med en
-                  glaspenna. <seg type="upperMargin" subtype="upsideDown"/>
-                  <persName ref="#HAG">Hagby </persName>är i <placeName ref="#Mot"
-                     >Motala</placeName> sen i Fredags. <lb/>Och <unclear>Jädda</unclear> var här i
-                  Söndags, han hade sin <choice>
-                     <sic>festmö</sic>
-                     <corr>fästmö</corr>
-                  </choice>
-                  <s rend="right">med sig.</s>
-               </ab>
-            </postscript>
-         </div>
       </body>
-   </text>
+  </text>
 </TEI>
