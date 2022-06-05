@@ -49,10 +49,10 @@
                         <a href="Ab19300909GUS.html">9/9 Äktenskapsbrev från Gustaf</a>
                     </li>
                     <li>
-                        <a href="Ab19301026GRE.html">26/10 Äktenskapsbrev från Greta</a>
+                        <a href="Ab19301026GRE.html">26/10 Äktenskapsbrev från Greta!</a>
                     </li>
                     <li>
-                        <a href="Ab19301030GRE.html">30/10 Äktenskapsbrev från Greta</a>
+                        <a href="Ab19301030GRE.html">30/10 Äktenskapsbrev från Greta!</a>
                     </li> 
                     <li>
                         <a href="Ab19301115GRE.html">15/11 Äktenskapsbrev från Greta</a>
@@ -62,7 +62,7 @@
                         <a href="Ab19310813GUS.html">13/8 Äktenskapsbrev från Gustaf</a>
                     </li>
                     <li>
-                        <a href="Ab19310814GRE.html">14/8 Äktenskapsbrev från Greta</a>
+                        <a href="Ab19310814GRE.html">14/8 Äktenskapsbrev från Greta!</a>
                     </li>
                     <li>
                         <a href="Ab19311111GUS.html">11/11 Äktenskapsbrev från Gustaf</a>
@@ -71,7 +71,7 @@
                         <a href="Ab19311128GRE.html">28/11 Äktenskapsbrev från Greta</a>
                     </li>
                     <li>
-                        <a href="Ab19311214GRE.html">14/12 Äktenskapsbrev från Greta</a>
+                        <a href="Ab19311214GRE.html">14/12 Äktenskapsbrev från Greta!</a>
                     </li>
                     <li class="year">År 1932</li>
                     <li>

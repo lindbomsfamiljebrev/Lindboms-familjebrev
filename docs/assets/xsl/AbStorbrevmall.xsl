@@ -132,10 +132,10 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <div class="stortbrev">
+                                    
                                         <xsl:apply-templates
                                             select="//tei:TEI//tei:div[@n = 'sida1']"/>
-                                    </div>
+                                    
                                 </article>
                             </div>
                         </div>
@@ -168,10 +168,10 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <div class="stortbrev">
+                                    
                                         <xsl:apply-templates
                                             select="//tei:TEI//tei:div[@n = 'sida2']"/>
-                                    </div>
+                                    
                                 </article>
                             </div>
                         </div>
@@ -208,10 +208,50 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <div class="stortbrev">
+                                   
                                         <xsl:apply-templates
                                             select="//tei:TEI//tei:div[@n = 'sida3']"/>
-                                    </div>
+                                    
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <!-- define a row layout with bootstrap's css classes (two columns) -->
+                        
+                        <div class="row">
+                            <!-- first column: load the image based on the IIIF link in the graphic above -->
+                            <div class="col-sm">
+                                
+                                <article id="scan">
+                                    
+                                    
+                                    <xsl:for-each select="//tei:surface[4]">
+                                        
+                                        <img width="600">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="tei:figure/tei:graphic/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                            
+                                        </img>
+                                    </xsl:for-each>
+                                    
+                                    
+                                </article>
+                            </div>
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <div class="col-sm">
+                                <article id="transcription">
+                                    
+                                    <xsl:apply-templates
+                                        select="//tei:TEI//tei:div[@n = 'sida4']"/>
+                                    
                                 </article>
                             </div>
                         </div>
@@ -229,6 +269,86 @@
                                 </a>
                             </div>
                             <div> 2022 Hanna Lindbom och Malin Sandstedt </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <!-- define a row layout with bootstrap's css classes (two columns) -->
+                        
+                        <div class="row">
+                            <!-- first column: load the image based on the IIIF link in the graphic above -->
+                            <div class="col-sm">
+                                
+                                <article id="scan">
+                                    
+                                    
+                                    <xsl:for-each select="//tei:surface[5]">
+                                        
+                                        <img width="600">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="tei:figure/tei:graphic/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                            
+                                        </img>
+                                    </xsl:for-each>
+                                    
+                                    
+                                </article>
+                            </div>
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <div class="col-sm">
+                                <article id="transcription">
+                                    
+                                    <xsl:apply-templates
+                                        select="//tei:TEI//tei:div[@n = 'sida5']"/>
+                                    
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <!-- define a row layout with bootstrap's css classes (two columns) -->
+                        
+                        <div class="row">
+                            <!-- first column: load the image based on the IIIF link in the graphic above -->
+                            <div class="col-sm">
+                                
+                                <article id="scan">
+                                    
+                                    
+                                    <xsl:for-each select="//tei:surface[6]">
+                                        
+                                        <img width="600">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="tei:figure/tei:graphic/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                            
+                                        </img>
+                                    </xsl:for-each>
+                                    
+                                    
+                                </article>
+                            </div>
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            <div class="col-sm">
+                                <article id="transcription">
+                                    
+                                    <xsl:apply-templates
+                                        select="//tei:TEI//tei:div[@n = 'sida6']"/>
+                                    
+                                </article>
+                            </div>
                         </div>
                     </div>
                 </footer>
