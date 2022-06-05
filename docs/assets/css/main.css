@@ -18,7 +18,7 @@ P {
 .col-sm {
     margin-top: 10px;
     margin-bottom: 25px;
-
+    padding-right: 0;
 
     }
     
@@ -30,8 +30,9 @@ P {
     }
 
 .stortbrev {
-    width: 710px;
+    width: 680px;
     margin-left: 0;
+    margin-right: -70px;
     }
 
 
@@ -132,15 +133,16 @@ h2 {
 }
 
 
-img {
-    margin-top: 16px; 
-}
-
 
 h3 {
     font-weight: bold;
     padding: 1vw;
    } 
+   
+img {
+    margin-top: 16px;
+    margin-left: -40px;
+}
    
     
 

@@ -70,7 +70,7 @@
                                     
                                     <xsl:for-each select="//tei:surface[1]">
                                         
-                                        <img width="500">
+                                        <img width="600">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
@@ -125,8 +125,9 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    
+                                    <div class="stortbrev">
                                     <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida2']"/>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -163,8 +164,9 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    
+                                    <div class="stortbrev">
                                     <xsl:apply-templates select="//tei:TEI//tei:div[@n='sida3']"/>
+                                    </div>
                                 </article>
                             </div>
                         </div>
