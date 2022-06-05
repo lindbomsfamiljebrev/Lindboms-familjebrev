@@ -37,29 +37,30 @@
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> | <a href="karleksbreven.html">Kärleksbreven</a> |
                         <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | <a
-                        href="carlsbrev.html">Carls brev</a> | <a href="historia.html">Historian
-                        runt breven</a> | <a href="personer.html">Personerna bakom breven</a> | </nav>
+                        href="carlsbrev.html">Breven från Carl</a> | <a href="historia.html"
+                        >Historisk kontext</a> | <a href="personer.html">Personerna bakom breven</a>
+                    | </nav>
                 <nav id="brevnav">
                     <li class="year">År 1930</li>
                     <li>
-                        <a href="index.html">3/11 Brev från Carl</a>
+                        <a href="Carl19301103.html">3/11 Brev från Carl</a>
                     </li>
                     <li class="year">År 1931</li>
                     <li>
-                        <a href="karleksbreven.html">10/2 Brev från Carl</a>
+                        <a href="Carl19310210.html">10/2 Brev från Carl</a>
                     </li>
                     <li>
-                        <a href="aktenskapsbreven.html">2/10 Brev från Carl</a>
+                        <a href="Carl19311002.html">2/10 Brev från Carl</a>
                     </li>
                     <li>
-                        <a href="aktenskapsbreven.html">04/12 Brev från Carl</a>
+                        <a href="Carl19320207.html">04/12 Brev från Carl</a>
                     </li>
                     <li class="year">År 1932</li>
                     <li>
-                        <a href="carlsbrev.html">7/2 Brev från Carl</a>
+                        <a href="Carl19320207.html">7/2 Brev från Carl</a>
                     </li>
                     <li>
-                        <a href="historia.html">10/4 Brev från Carl</a>
+                        <a href="Carl19320410.html">10/4 Brev från Carl</a>
                     </li>
                 </nav>
 
@@ -98,9 +99,10 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-
-                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n = 'sida1']"/>
-
+                                    <div class="stortbrev">
+                                        <xsl:apply-templates
+                                            select="//tei:TEI//tei:div[@n = 'sida1']"/>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -133,8 +135,10 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-
-                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n = 'sida2']"/>
+                                    <div class="stortbrev">
+                                        <xsl:apply-templates
+                                            select="//tei:TEI//tei:div[@n = 'sida2']"/>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -171,8 +175,10 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-
-                                    <xsl:apply-templates select="//tei:TEI//tei:div[@n = 'sida3']"/>
+                                    <div class="stortbrev">
+                                        <xsl:apply-templates
+                                            select="//tei:TEI//tei:div[@n = 'sida3']"/>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -416,11 +422,6 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="tei:sic">
-        <span style="color: red">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
     <xsl:template match="tei:corr">
         <sup>
             <span style="color: green">[<xsl:apply-templates/>]</span>
