@@ -41,27 +41,58 @@
                         >Historisk kontext</a> | <a href="personer.html">Personerna bakom breven</a>
                     | </nav>
                 <nav id="brevnav">
-                    <li class="year">År 1925</li>
+                    <li class="year">År 1930</li>
                     <li>
-                        <a href="Kb19251012GRE.html">12/10 Kärleksbrev från Greta</a>
+                        <a href="Ab19300806GRE.html">6/8 Äktenskapsbrev från Greta</a>
+                    </li> 
+                    <li>
+                        <a href="Ab19300909GUS.html">9/9 Äktenskapsbrev från Gustaf</a>
                     </li>
                     <li>
-                        <a href="Kb19251015GUS.html">15/10 Kärleksbrev från Gustaf</a>
+                        <a href="Ab19301026GRE.html">26/10 Äktenskapsbrev från Greta</a>
                     </li>
                     <li>
-                        <a href="Kb19251202GUS.html">2/12 Kärleksbrev från Gustaf</a>
+                        <a href="Ab19301030GRE.html">30/10 Äktenskapsbrev från Greta</a>
+                    </li> 
+                    <li>
+                        <a href="Ab19301115GRE.html">15/11 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li class="year">År 1931</li>    
+                    <li>
+                        <a href="Ab19310813GUS.html">13/8 Äktenskapsbrev från Gustaf</a>
                     </li>
                     <li>
-                        <a href="Kb19251204GRE.html">4/12 Kärleksbrev från Greta</a>
+                        <a href="Ab19310814GRE.html">14/8 Äktenskapsbrev från Greta</a>
                     </li>
                     <li>
-                        <a href="Kb19251209GRE.html">9/12 Kärleksbrev från Greta</a>
+                        <a href="Ab19311111GUS.html">11/11 Äktenskapsbrev från Gustaf</a>
                     </li>
                     <li>
-                        <a href="Kb19251213GUS.html">13/12 Kärleksbrev från Gustaf</a>
+                        <a href="Ab19311128GRE.html">28/11 Äktenskapsbrev från Greta</a>
                     </li>
                     <li>
-                        <a href="Kb19251222GUS.html">22/12 Kärleksbrev från Gustaf</a>
+                        <a href="Ab19311214GRE.html">14/12 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li class="year">År 1932</li>
+                    <li>
+                        <a href="Ab19320124GUS.html">24/1 Äktenskapsbrev från Gustaf</a>
+                    </li>
+                    <li>
+                        <a href="Ab19320127GRE.html">27/1 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li>
+                        <a href="Ab19320226GUS.html">26/2 Äktenskapsbrev från Gustaf</a>
+                    </li>
+                    <li>
+                        <a href="Ab19320409GRE.html">9/4 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li class="year">År 1933</li>
+                    <li>
+                        <a href="Ab19331113GUS.html">13/11 Äktenskapsbrev från Gustaf</a>
+                    </li>
+                    <li class="year">År 1939</li>
+                    <li>
+                        <a href="Ab19390811GRE.html">11/8 Äktenskapsbrev från Greta</a>
                     </li>
                 </nav>
 

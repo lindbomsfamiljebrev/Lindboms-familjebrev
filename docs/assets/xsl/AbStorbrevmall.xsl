@@ -43,24 +43,56 @@
                 <nav id="brevnav">
                     <li class="year">År 1930</li>
                     <li>
-                        <a href="Carl19301103.html">3/11 Brev från Carl</a>
-                    </li>
-                    <li class="year">År 1931</li>
+                        <a href="Ab19300806GRE.html">6/8 Äktenskapsbrev från Greta</a>
+                    </li> 
                     <li>
-                        <a href="Carl19310210.html">10/2 Brev från Carl</a>
-                    </li>
-                    <li>
-                        <a href="Carl19311002.html">2/10 Brev från Carl</a>
+                        <a href="Ab19300909GUS.html">9/9 Äktenskapsbrev från Gustaf</a>
                     </li>
                     <li>
-                        <a href="Carl19320207.html">04/12 Brev från Carl</a>
+                        <a href="Ab19301026GRE.html">26/10 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li>
+                        <a href="Ab19301030GRE.html">30/10 Äktenskapsbrev från Greta</a>
+                    </li> 
+                    <li>
+                        <a href="Ab19301115GRE.html">15/11 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li class="year">År 1931</li>    
+                    <li>
+                        <a href="Ab19310813GUS.html">13/8 Äktenskapsbrev från Gustaf</a>
+                    </li>
+                    <li>
+                        <a href="Ab19310814GRE.html">14/8 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li>
+                        <a href="Ab19311111GUS.html">11/11 Äktenskapsbrev från Gustaf</a>
+                    </li>
+                    <li>
+                        <a href="Ab19311128GRE.html">28/11 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li>
+                        <a href="Ab19311214GRE.html">14/12 Äktenskapsbrev från Greta</a>
                     </li>
                     <li class="year">År 1932</li>
                     <li>
-                        <a href="Carl19320207.html">7/2 Brev från Carl</a>
+                        <a href="Ab19320124GUS.html">24/1 Äktenskapsbrev från Gustaf</a>
                     </li>
                     <li>
-                        <a href="Carl19320410.html">10/4 Brev från Carl</a>
+                        <a href="Ab19320127GRE.html">27/1 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li>
+                        <a href="Ab19320226GUS.html">26/2 Äktenskapsbrev från Gustaf</a>
+                    </li>
+                    <li>
+                        <a href="Ab19320409GRE.html">9/4 Äktenskapsbrev från Greta</a>
+                    </li>
+                    <li class="year">År 1933</li>
+                    <li>
+                        <a href="Ab19331113GUS.html">13/11 Äktenskapsbrev från Gustaf</a>
+                    </li>
+                    <li class="year">År 1939</li>
+                    <li>
+                        <a href="Ab19390811GRE.html">11/8 Äktenskapsbrev från Greta</a>
                     </li>
                 </nav>
 
