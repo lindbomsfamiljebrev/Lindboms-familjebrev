@@ -26,6 +26,11 @@
                <name>Hanna Lindbom</name>
                <name>Malin Sandstedt</name>
             </respStmt>
+            
+            <respStmt>
+               <resp>TEI-kod redigerad av</resp>
+               <name>Malin Sandstedt</name>
+            </respStmt>
          </titleStmt>
          
          <editionStmt>
@@ -103,7 +108,7 @@
             </msDesc>
             
             <bibl>
-               <title>Kärleksbrev från Greta till Gustaf 9/12-1925</title>
+               <title>9/12-1925: Kärleksbrev från Greta</title>
                <author ref="#GRE">Greta Andersson</author>
                <biblScope unit="page" n="08"></biblScope>
                <series>Lindboms familjebrevsamling</series>

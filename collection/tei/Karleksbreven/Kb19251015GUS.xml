@@ -19,6 +19,11 @@
                <resp>TEI-kodad av</resp>
                <name>Hanna Lindbom</name>
             </respStmt>
+            
+            <respStmt>
+               <resp>TEI-kod redigerad av</resp>
+               <name>Malin Sandstedt</name>
+            </respStmt>
          </titleStmt>
          
          <editionStmt>
@@ -81,7 +86,7 @@
             </msDesc>
             
             <bibl>
-               <title>Kärleksbrev från Gustaf till Greta 15/10-1925</title>
+               <title>15/10-1925: Kärleksbrev från Gustaf</title>
                <author ref="#GUS">Gustaf Lindbom</author>
                <biblScope unit="page" n="06"></biblScope>
                <series>Lindboms familjebrevsamling</series> 

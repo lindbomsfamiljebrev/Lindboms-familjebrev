@@ -386,7 +386,7 @@
       <body>
          <div n="sida1">
             <pb n="01" facs="#Kb19251012GRE_1s"/>
-
+            <lb />
             <opener>
                <dateline rend="right">
                   <placeName ref="#Sthlm">Stockholm</placeName>
@@ -407,6 +407,7 @@
                   något sätt ledsen på mig för </p>
             </div>
          </div>
+         
          <div n="sida2">
             <pb n="02" facs="#Kb19251012GRE_2s"/>
             <div>
@@ -423,9 +424,11 @@
                   världen tillhör är mig så <lb/>främmande o motbjudande men <lb/>ändå icke att jag
                   känner mig </p>
                <p>
-                  <seg type="bottomMargin" subtype="normal"/> Glöm icke att bedja för mig </p>
+                  <seg type="bottomMargin" subtype="normal"/> 
+                  <lb />Glöm icke att bedja för mig </p>
             </div>
          </div>
+         
          <div n="sida3">
             <pb n="03" facs="#Kb19251012GRE_3s"/>
             <div>
@@ -442,6 +445,7 @@
                   <lb/>gjorde mig riktigt ont. Det känns <lb/>så svårt att icke få deltaga i </p>
             </div>
          </div>
+         
          <div n="sida4">
             <pb n="04" facs="#Kb19251012GRE_4s"/>
             <div>
@@ -460,7 +464,8 @@
             </div>
             <div>
                <p>
-                  <seg type="upperMargin" subtype="upsideDown"/> Detta att jag skriver får du
+                  <seg type="upperMargin" subtype="upsideDown"/> 
+                  <lb />Detta att jag skriver får du
                   förlåta mig <lb/>Jag vill veta om du på något sätt <lb/>är ledsen på mig. <lb/>Min
                   adress är <address>
                      <addrLine>Karlavägen 26 2 tr. <persName>Lennmalm</persName></addrLine>
@@ -468,6 +473,7 @@
                </p>
             </div>
          </div>
+         
          <div n="sida5">
             <pb n="05" facs="#Kb19251012GRE_5s"/>
             <div>
