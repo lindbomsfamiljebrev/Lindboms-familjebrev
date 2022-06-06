@@ -1,4 +1,7 @@
 
+header h1 {
+	   font-size: 3vw;
+	   }
 
 body {
     padding: 1vw;
@@ -8,7 +11,6 @@ body {
     width: 100%;
 
 }
-
 
 
 P {
