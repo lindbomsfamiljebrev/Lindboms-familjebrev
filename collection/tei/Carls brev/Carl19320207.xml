@@ -470,21 +470,23 @@
          <figure>
             <label>Carl 1932-02-07 01</label>
             <figDesc> Brev från Carl till Gustaf och Greta 7/2-1932, sida 1. </figDesc>
-            <graphic xml:id="Carl19320207_1g" url="assets/img/documents/Carlsbrev/Carl19320207_1"/>
+            <graphic xml:id="Carl19320207_1g" url="assets/img/documents/Carlsbrev/Carl19320207_1.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="Carl19320207_2s">
          <figure>
             <label>Carl 1932-02-07 02</label>
             <figDesc> Brev från Carl till Gustaf och Greta 7/2-1932, sida 2. </figDesc>
-            <graphic xml:id="Carl19320207_2g" url="assets/img/documents/Carlsbrev/Carl19320207_2"/>
+            <graphic xml:id="Carl19320207_2g" url="assets/img/documents/Carlsbrev/Carl19320207_2.jpeg"/>
          </figure>
       </surface>
    </facsimile>
 
    <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Carl19320207_1s"/>
+         <lb />
          <opener rend="right">
             <dateline>
                <placeName ref="#Gberg">Gustafsberg.</placeName>
@@ -504,33 +506,26 @@
          <div type="tro">
             <p>
                <lb/> Som jag ser så är du ute och predikar <choice>
-                  <sic>en</sic>
-                  <corr>än</corr>
+                  <sic>en</sic><corr>än</corr>
                </choice> här, <choice>
-                  <sic> en</sic>
-                  <corr>än</corr>
+                  <sic> en</sic><corr>än</corr>
                </choice> där, ja <lb/> så ut din <add place="above">säd</add> om morgonen och håll
                ej din hand tillbaka om <lb/> aftonen för du vet ej vilket som bäst lyckas. Må Herren
                <lb/> giva dig nåd och kraft, både andeligen och lekamligen, <lb/> och tjäna Honom
                med glädje, om vi ej se så stora resultat <lb/> av vårt arbete så veta vi <choice>
-                  <sic>dåck</sic>
-                  <corr>dock</corr>
+                  <sic>dåck</sic><corr>dock</corr>
                </choice> att Herrens ord icke skall <lb/> återkomma fåfängt utan uträtta det som Han
                har av- <lb/>
                <choice>
-                  <sic>sätt</sic>
-                  <corr>sett</corr>
+                  <sic>sätt</sic><corr>sett</corr>
                </choice> det till, det är trohet Herren vill se hos sina skaffare <lb/> håll ut i
                kraft av den nåd Herren giver Dig utan att se <lb/> efter jordisk vinning eller <choice>
-                  <sic>menniskors</sic>
-                  <corr>människors</corr>
+                  <sic>menniskors</sic><corr>människors</corr>
                </choice> gunst, vilket allt är <lb/>
                <choice>
-                  <sic>förjänglighet</sic>
-                  <corr>förgänglighet</corr>
+                  <sic>förjänglighet</sic><corr>förgänglighet</corr>
                </choice> och <choice>
-                  <sic>fåfenglighet,</sic>
-                  <corr>fåfänglighet,</corr>
+                  <sic>fåfenglighet,</sic><corr>fåfänglighet,</corr>
                </choice> utan far efter att i både ord <lb/> och handling förhärliga Gud vår fader
                genom Jesus <lb/> Kristus vår frälsare, give Herren dig nåd därtill för <emph
                   rend="ul">sitt</emph>
@@ -538,16 +533,16 @@
                <s rend="right">namns skull.</s>
             </p>
          </div>
+         </div>
+         <div n="sida2">
          <pb n="02" facs="#Carl19320207_2s"/>
          <div>
             <p>
                <lb/>Här har vi nu haft en ungdomens bönevecka då vi har haft den <lb/>unga gossen
                   <del>här</del> som var här ett tag i höstas då vi fick bejda med <lb/>några <choice>
-                  <sic>ungdommar</sic>
-                  <corr>ungdomar</corr>
+                  <sic>ungdommar</sic><corr>ungdomar</corr>
                </choice> men denna vecka har vi <choice>
-                  <sic>fott</sic>
-                  <corr>fått</corr>
+                  <sic>fott</sic><corr>fått</corr>
                </choice> bedja med endast <lb/>en, men det är ju gott att det kommer någon som vill
                följa Jesus <lb/>5 nya medlemmar togs in i församlingen i dag må Herren <lb/>bevara
                dem i sin gemenskap. </p>
@@ -561,15 +556,13 @@
          <div type="vardagsliv">
             <p>
                <lb/> Nu <choice>
-                  <sic>årkar</sic>
-                  <corr>orkar</corr>
+                  <sic>årkar</sic><corr>orkar</corr>
                </choice> jag ej att laga skor mera varför jag tagit mig till <lb/> med att laga
                Klockor, Dalklockor, väckarur, å väggur det <lb/> blir så svårt att inte kunna
                uträtta något, men nu kan <lb/> jag hålla armarna på bordet då jag arbetar å det är
                ju en vila <lb/> för mig, men det blir ju ingen förtjänst förstås men det <lb/> är ju
                bra att ha något i händerna, å så är det <choice>
-                  <sic>hungnesamt</sic>
-                  <corr>hugnesamt</corr>
+                  <sic>hungnesamt</sic><corr>hugnesamt</corr>
                </choice>
                <lb/> att känna att man kan vara till någon nytta, ja Gud vare <lb/> tack att Han
                givet mig möjligheter till litet av varje </p>
@@ -584,25 +577,22 @@
          <div>
             <p>
                <lb/> Du funderar om det är någon bok jag ville ha? Ja det <lb/> skulle vara <choice>
-                  <sic>intressant</sic>
-                  <corr>intressant</corr>
+                  <sic>intressant</sic><corr>intressant</corr>
                </choice> att se vad <persName>Belfrage</persName> säger i sin bok <lb/>
                <title level="m"><emph rend="ul">Den falska fredsrörelsen</emph></title> har du den
                så kan du skicka den <lb/> till mig. </p>
          </div>
          <closer><persName ref="#HAG">Hagby</persName> ber om sin hälsning <lb/>
             <choice>
-               <sic>even</sic>
-               <corr>även</corr>
-            </choice> tant <persName ref="#SAR">Sara</persName> å <persName ref="#HUL"
-               >Hulda.</persName>
+               <sic>even</sic><corr>även</corr>
+            </choice> tant <persName ref="#SAR">Sara</persName> å <persName ref="#HUL">Hulda.</persName>
             <salute>Samt många kära hälsningar <lb/>från <addName ref="#EEL">Mamma</addName>
                <persName ref="#ELS">Elsa</persName> å mig Eder <addName ref="#CL">Pappa,</addName>
                må Gud <lb/>i sin stora nåd <choice>
-                  <sic>välsingna</sic>
-                  <corr>välsigna</corr>
+                  <sic>välsingna</sic><corr>välsigna</corr>
                </choice> Eder alla tre! </salute>
          </closer>
+         </div>
       </body>
    </text>
 </TEI>
