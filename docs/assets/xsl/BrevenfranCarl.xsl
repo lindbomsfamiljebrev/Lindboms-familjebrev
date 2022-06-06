@@ -32,7 +32,7 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> | <a href="karleksbreven.html">Kärleksbreven</a> |
-                        <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | <a
+                    <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | <a class="active"
                         href="carlsbrev.html">Breven från Carl</a> | <a href="historia.html"
                         >Historisk kontext</a> | <a href="personer.html">Personerna bakom breven</a>
                     | </nav>
@@ -237,11 +237,11 @@
     </xsl:template>
 
     <xsl:template match="tei:damage[@agent = 'folding'][@type = 'hole']">
-        <span style="color: #c4906c">[hål i papperet]</span>
+        <span style="color: #c4906c"><xsl:apply-templates/>[hål i papperet]</span>
     </xsl:template>
 
     <xsl:template match="tei:damage[@agent = 'folding'][@type = 'tear']">
-        <span style="color: #c4906c">[reva i papperet]</span>
+        <span style="color: #c4906c">[reva i papperet]<xsl:apply-templates/></span>
     </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'leftMargin'][@subtype = 'sideways']">
