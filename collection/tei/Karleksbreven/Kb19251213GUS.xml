@@ -363,7 +363,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 13/12-1925, sida 1.
             </figDesc>
-            <graphic xml:id="Kb19251213GUS_1g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_1.jpeg"/> 
+            <graphic xml:id="Kb19251213GUS_1g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_1.jpg"/> 
          </figure>
       </surface>
       
@@ -373,7 +373,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 13/12-1925, sida 2.
             </figDesc>
-            <graphic xml:id="Kb19251213GUS_2g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_2.jpeg"/> 
+            <graphic xml:id="Kb19251213GUS_2g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_2.jpg"/> 
          </figure>
       </surface>
       
@@ -383,7 +383,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 13/12-1925, sida 3.
             </figDesc>
-            <graphic xml:id="Kb19251213GUS_3g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_3.jpeg"/> 
+            <graphic xml:id="Kb19251213GUS_3g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_3.jpg"/> 
          </figure>
       </surface>
       
@@ -393,7 +393,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 13/12-1925, sida 4.
             </figDesc>
-            <graphic xml:id="Kb19251213GUS_4g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_4.jpeg"/> 
+            <graphic xml:id="Kb19251213GUS_4g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_4.jpg"/> 
          </figure>
       </surface>
       
@@ -403,7 +403,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 13/12-1925, sida 5.
             </figDesc>
-            <graphic xml:id="Kb19251213GUS_5g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_5.jpeg"/> 
+            <graphic xml:id="Kb19251213GUS_5g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_5.jpg"/> 
          </figure>
       </surface>
       
@@ -413,15 +413,17 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 13/12-1925, sida 6.
             </figDesc>
-            <graphic xml:id="Kb19251213GUS_6g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_6.jpeg"/> 
+            <graphic xml:id="Kb19251213GUS_6g" url="assets/img/documents/Karleksbreven/Kb19251213GUS_6.jpg"/> 
          </figure>
       </surface>
    </facsimile>
         
   <text type="letter">
      <body>
+        <div n="sida1">
         <pb n="01" facs="#Kb19251213GUS_1s"/>
-        <opener>
+           <lb />       
+           <opener>
             <dateline rend="right">
                <placeName ref="#Kva">Kolsva</placeName> 
                <date when="1925-12-13">d: 13/12 25</date>
@@ -458,8 +460,7 @@
               <lb />även du har varit med på mötena idag. Du har
               <lb />vandrat vid min sida när vi 
                 <choice>
-                   <sic>gott</sic>
-                   <corr>gått</corr>
+                   <sic>gott</sic><corr>gått</corr>
                 </choice> till mötena
               <lb />du har varit med mig när jag predikat om Jesus.
               <lb />är det inte så <persName ref="#GRE">Greta.</persName> I <placeName ref="#Etuna">Eskilstuna</placeName> var mycket
@@ -468,46 +469,48 @@
             </p>
          </div>
          <div>
-            <p>förövrigt vilade jag
+            <p>
+               förövrigt vilade jag
               <lb />hela veckan. Jag var å hälsa på hos <persName ref="#KAL">Kalle</persName> o <persName ref="#GAR">Gärda</persName>
-               
-        <pb n="02" facs="#Kb19251213GUS_2s" />
-              <lb /><unclear>dom</unclear> mådde utmärkt bra. Som du förstår kunde
-              <lb />jag ej tiga Jag måste hälsa från dig å då kunde jag
-              <lb />ej heller dölja den stora nåd som 
-                <choice>
-                   <sic>väderfarits</sic>
-                   <corr>vederfarits</corr>
-                </choice> mig. alltså
-              <lb />talade jag om att Du å jag håller av varann. Kära <persName ref="#GRE">Greta</persName>
-              <lb />är det sanning att Du <ellipsis><metamark rend="line" /></ellipsis> mig du får förlåta mig
-              <lb />men jag måste fråga, jag är liksom litet ängslig. Jag vet
-              <lb />ej varför om möjligen missuppfattat dina brev. O att
-              <lb />Gud finge leda oss på sitt eget sätt och att vi fingo bliva
-              <lb />till 
-                 <choice>
-                    <sic>föredömmen</sic>
-                    <corr>föredömen</corr>
-                 </choice> i fråga om <emph rend="ul">Kärlek tro</emph> å <emph rend="ul">renhet</emph> bland
-              <lb />människorna. Jag talade även om för <persName ref="#EJ">Einar</persName> å <persName ref="#SIG">Sigrid</persName>
-              <lb />vårt förhållande till varandra du förstår vad jag menar
-              <lb />Jag lät dem förstå vad du blivit för mig de voro så
-              <lb />glada däråt även Moster 
-                 <damage agent="folding" type="hole">
-                    <unclear>allt</unclear>
-                 </damage> visst något även <unclear>hon</unclear> var
-              <lb />glad. 
             </p>
          </div>
-         <div type="tro">
-            <p>Jag kan ej fatta gång på gång så hörs en röst.
+        </div>
+        <div n="sida2">
+        <pb n="02" facs="#Kb19251213GUS_2s" />
+           <div>
+              <p>
+               <lb /><unclear>dom</unclear> mådde utmärkt bra. Som du förstår kunde
+               <lb />jag ej tiga Jag måste hälsa från dig å då kunde jag
+               <lb />ej heller dölja den stora nåd som 
+                 <choice>
+                    <sic>väderfarits</sic><corr>vederfarits</corr>
+                 </choice> mig. alltså
+               <lb />talade jag om att Du å jag håller av varann. Kära <persName ref="#GRE">Greta</persName>
+               <lb />är det sanning att Du <ellipsis><metamark rend="line" /></ellipsis> mig du får förlåta mig
+               <lb />men jag måste fråga, jag är liksom litet ängslig. Jag vet
+               <lb />ej varför om möjligen missuppfattat dina brev. O att
+               <lb />Gud finge leda oss på sitt eget sätt och att vi fingo bliva
+               <lb />till 
+                  <choice>
+                     <sic>föredömmen</sic><corr>föredömen</corr>
+                  </choice> i fråga om <emph rend="ul">Kärlek tro</emph> å <emph rend="ul">renhet</emph> bland
+               <lb />människorna. Jag talade även om för <persName ref="#EJ">Einar</persName> å <persName ref="#SIG">Sigrid</persName>
+               <lb />vårt förhållande till varandra du förstår vad jag menar
+               <lb />Jag lät dem förstå vad du blivit för mig de voro så
+               <lb />glada däråt även Moster 
+                  <damage agent="folding" type="hole"><unclear>allt</unclear></damage> visst något även <unclear>hon</unclear> var
+               <lb />glad. 
+             </p>
+          </div>
+          <div type="tro">
+            <p>
+               Jag kan ej fatta gång på gång så hörs en röst.
               <lb />månne jag tagit miste på dig å dina brev eller också
               <lb />är det Satan som är förargad må Gud hjälpa mig.
               <lb />Får tacka dig att du kunde se allt så Gudomligt då det gäller
               <lb />mina forna bekantskaper. Det 
                  <choice>
-                    <sic>fodras</sic>
-                    <corr>fordras</corr>
+                    <sic>fodras</sic><corr>fordras</corr>
                  </choice> i sanning Kärlek till det
               <lb />själv skriver att du ej varit verkligt Kär vet du det har
               <lb />nog aldrig jag heller varit förrän nu och detta har kommit
@@ -516,170 +519,189 @@
               <lb />vara som Broder å syster, ingenting annat”?</q> Ja <emph rend="ul">Kära</emph> <persName ref="#GRE">Greta</persName>
                <lb />detta 
                   <choice>
-                     <sic>fodras</sic>
-                     <corr>fordras</corr>
+                     <sic>fodras</sic><corr>fordras</corr>
                   </choice> en ganska lång förklaring. men jag vill giva dig
               <lb />del av några av de skäl varför jag ville det för det
               <lb />första så bottnar hela frågan i det att jag var <emph rend="ul">ovislig</emph>
-                  
+            </p>
+          </div>
+        </div>
+        
+         <div n="sida3">         
          <pb n="03" facs="#Kb19251213GUS_3s" />
-              <lb />i mitt nit när det gällde den här saken Redan vid
-              <lb />
-                <unclear>
-                   <choice>
-                      <sic>Konförens</sic>
-                      <corr>Konferens</corr>
-                   </choice>
-                </unclear> Kände jag en djup känsla för dig. Jag trodde ej att
-              <lb />den var från Gud utan att den kom som följd av våra sam-
-              <lb />tal. Kära <persName ref="#GRE">Greta</persName> jag var så rädd att du skulle se något hos
-              <lb />mig och när jag bad att få skriva till dig nästan ångrade
-              <lb />jag mig ty jag kände tänk om jag nu gjort en synd. Jag
-              <lb />bad Gud om förlåtelse jag bad att glömma dig jag trodde
-              <lb />ej att du var den som jag skulle ha. Jag visste ej heller
-              <lb />om du hyste några djupare känslor för mig så tänkte
-              <lb />jag att du var äldre än jag och vi därför ej kunde passa
-              <lb />för varann men ändock Kunde jag ej frigöra mig så fick jag
-              <lb />ditt första brev och när <damage agent="folding" type="hole">jag</damage> läste det börja mitt hjärta slå
-              <lb />jag blev så glad men på samma gång så orolig jag satt
-              <lb />mig i en skogsdunge å bad å läste ditt <add place="above">brev</add> gång på gång.
-              <lb />Så tänkte jag fortsätter jag å skriver då blir jag <emph rend="ul">kär</emph>
-              <lb />å det vågar jag inte. Jag hade nämligen tänkt att ej fästa
-              <lb />mig för någon förrän jag kommit till ungefär 30 år men
-              <lb />under allt så kunde jag ej glömma dig. Jag var ej heller <emph rend="ul"><unclear>viss</unclear>
-              <lb />på dig</emph> Jag ville ej påverka dig heller. Jag visste ej om
-              <lb />du ville tänka på mig som du vet så fick jag brev från
-              <lb />dig å då fick du svar att jag ville att vi skulle vara broder
-              <lb />o syster. Så böjde jag mina knän å bad Gud att fri
-              <lb />göra mig från tanken på dig bad om förlåtelse att
-              <lb />jag börjat 
-                 <choice>
-                    <sic>brevvexla</sic>
-                    <corr>brevväxla</corr>
-                 </choice> med dig. Du förstår jag ville ej draga
-              <lb />in dig i några Kärleksaffärer förrän jag blev <emph rend="ul">fullt viss</emph>
-              <lb />att jag Älskade dig av hjärtat. <emph rend="ul">Min Kära Älskade Greta</emph>
-                     
+            <div type="tro">
+               <p>
+                  <lb />i mitt nit när det gällde den här saken Redan vid
+                  <lb />
+                    <unclear>
+                       <choice>
+                          <sic>Konförens</sic><corr>Konferens</corr>
+                       </choice>
+                    </unclear> Kände jag en djup känsla för dig. Jag trodde ej att
+                  <lb />den var från Gud utan att den kom som följd av våra sam-
+                  <lb />tal. Kära <persName ref="#GRE">Greta</persName> jag var så rädd att du skulle se något hos
+                  <lb />mig och när jag bad att få skriva till dig nästan ångrade
+                  <lb />jag mig ty jag kände tänk om jag nu gjort en synd. Jag
+                  <lb />bad Gud om förlåtelse jag bad att glömma dig jag trodde
+                  <lb />ej att du var den som jag skulle ha. Jag visste ej heller
+                  <lb />om du hyste några djupare känslor för mig så tänkte
+                  <lb />jag att du var äldre än jag och vi därför ej kunde passa
+                  <lb />för varann men ändock Kunde jag ej frigöra mig så fick jag
+                  <lb />ditt första brev och när <damage agent="folding" type="hole">jag</damage> läste det börja mitt hjärta slå
+                  <lb />jag blev så glad men på samma gång så orolig jag satt
+                  <lb />mig i en skogsdunge å bad å läste ditt <add place="above">brev</add> gång på gång.
+                  <lb />Så tänkte jag fortsätter jag å skriver då blir jag <emph rend="ul">kär</emph>
+                  <lb />å det vågar jag inte. Jag hade nämligen tänkt att ej fästa
+                  <lb />mig för någon förrän jag kommit till ungefär 30 år men
+                  <lb />under allt så kunde jag ej glömma dig. Jag var ej heller <emph rend="ul"><unclear>viss</unclear>
+                  <lb />på dig</emph> Jag ville ej påverka dig heller. Jag visste ej om
+                  <lb />du ville tänka på mig som du vet så fick jag brev från
+                  <lb />dig å då fick du svar att jag ville att vi skulle vara broder
+                  <lb />o syster. Så böjde jag mina knän å bad Gud att fri
+                  <lb />göra mig från tanken på dig bad om förlåtelse att
+                  <lb />jag börjat 
+                     <choice>
+                        <sic>brevvexla</sic><corr>brevväxla</corr>
+                     </choice> med dig. Du förstår jag ville ej draga
+                  <lb />in dig i några Kärleksaffärer förrän jag blev <emph rend="ul">fullt viss</emph>
+                  <lb />att jag Älskade dig av hjärtat. <emph rend="ul">Min Kära Älskade Greta</emph>
+               </p>
+            </div>
+         </div>
+        
+         <div n="sida4">
          <pb n="04" facs="#Kb19251213GUS_4s" />
-              <lb />som du förstår av det skrivna Så var det min mening
-              <lb />att Gud skulle få tid att fostra fram det Han ville, jag
-              <lb />var så orolig att Gå Gud i förväg. Så kom Kursen. Kom då
-              <lb />att tala med en broder. Han förebrådde mig då för att jag handlade
-              <lb />orätt mot både Gud å dig. Men Kära <persName ref="#GRE">Greta</persName> du måste för-
-              <lb />låta mig. Jag gjorde det i nitälskan till Herren. Ja Jesus
-              <lb />Kristus vet att jag ej ljuger låt detta än så länge 
-                 <choice>
-                    <sic>käna</sic>
-                    <corr>känna</corr>
-                 </choice>
-              <lb />som förklaring på din fråga. Men på detta sätt har säkerligen
-              <lb />Kärleken blivit prövad så gick jag hem böjde mina knän
-              <lb />i ensamhet på mitt rum å bad till Gud å skrev då till dig
-              <lb />när jag så kom till <placeName ref="#Fvi">Frövi</placeName> å fick ditt <add place="above">brev</add> så var det som om
-              <lb />alla hinder fallit undan. Jag låg på mina knän o tackade
-              <lb />å bad till Herren att rätt tyda 
-                 <damage agent="folding" type="hole">
-                    ditt <add place="above">brev</add>
-                 </damage> jag tackade Honom för
-              <lb />att jag fått en så underbar bönhörelse. Ja <persName ref="#GRE">Greta,</persName> Gud vet.
-              <lb />vad jag bedit när det gällt denna sak. Jag tror att
-              <lb />Gud har sparat dig åt mig. 
-                 <add place="above">
-                    det sa <persName ref="#KAL">Kalle</persName> till mig också
-                 </add> Jag är ej värd att äga dig du
-              <lb />som är ren. Jag känner mig tillintetgjort när jag tänker på
-              <lb />Guds stora nåd samt på dig att du verkligen vill ha
-              <lb />mig som är den minste av alla Herren Jesu vittnen Jag
-              <lb />hoppas att du även tagit med detta i beräkningen att jag är
-              <lb />en på jordiska rikedomar fattig å olärd man men vad jag
-              <lb />av hela mitt hjärta beder Gud om är att Kunna giva dig
-              <lb />mycken Kärlek och vara <emph rend="ul"><q>”din egen”</q></emph> och ingen annans utom
-              <lb />Jesus Kristus. Jag beder att vi måtte få mycken nåd
-              <lb />av Gud att vi aldrig skall behöva förebrå varann eller säga
-              <lb />något hårt å kärlekslöst ord uppfyllda av Kristi Kärlek och
-                         
+            <div type="tro">
+               <p>
+                <lb />som du förstår av det skrivna Så var det min mening
+                <lb />att Gud skulle få tid att fostra fram det Han ville, jag
+                <lb />var så orolig att Gå Gud i förväg. Så kom Kursen. Kom då
+                <lb />att tala med en broder. Han förebrådde mig då för att jag handlade
+                <lb />orätt mot både Gud å dig. Men Kära <persName ref="#GRE">Greta</persName> du måste för-
+                <lb />låta mig. Jag gjorde det i nitälskan till Herren. Ja Jesus
+                <lb />Kristus vet att jag ej ljuger låt detta än så länge 
+                   <choice>
+                      <sic>käna</sic><corr>känna</corr>
+                   </choice>
+                <lb />som förklaring på din fråga. Men på detta sätt har säkerligen
+                <lb />Kärleken blivit prövad så gick jag hem böjde mina knän
+                <lb />i ensamhet på mitt rum å bad till Gud å skrev då till dig
+                <lb />när jag så kom till <placeName ref="#Fvi">Frövi</placeName> å fick ditt <add place="above">brev</add> så var det som om
+                <lb />alla hinder fallit undan. Jag låg på mina knän o tackade
+                <lb />å bad till Herren att rätt tyda 
+                   <damage agent="folding" type="hole">
+                      ditt <add place="above">brev</add>
+                   </damage> jag tackade Honom för
+                <lb />att jag fått en så underbar bönhörelse. Ja <persName ref="#GRE">Greta,</persName> Gud vet.
+                <lb />vad jag bedit när det gällt denna sak. Jag tror att
+                <lb />Gud har sparat dig åt mig. 
+                   <add place="above">
+                      det sa <persName ref="#KAL">Kalle</persName> till mig också
+                   </add> Jag är ej värd att äga dig du
+                <lb />som är ren. Jag känner mig tillintetgjort när jag tänker på
+                <lb />Guds stora nåd samt på dig att du verkligen vill ha
+                <lb />mig som är den minste av alla Herren Jesu vittnen Jag
+                <lb />hoppas att du även tagit med detta i beräkningen att jag är
+                <lb />en på jordiska rikedomar fattig å olärd man men vad jag
+                <lb />av hela mitt hjärta beder Gud om är att Kunna giva dig
+                <lb />mycken Kärlek och vara <emph rend="ul"><q>”din egen”</q></emph> och ingen annans utom
+                <lb />Jesus Kristus. Jag beder att vi måtte få mycken nåd
+                <lb />av Gud att vi aldrig skall behöva förebrå varann eller säga
+                <lb />något hårt å kärlekslöst ord uppfyllda av Kristi Kärlek och
+              </p>
+            </div>
+        </div>
+        
+        <div n="sida5">
         <pb n="05" facs="#Kb19251213GUS_5s" />
-              <lb/>Hans förhärligande som mål skall det säkert lyckas
-            </p>
-         </div>
-         <div>
-            <p>
-              <lb/>Nu vill jag till slut göra dig en fråga vad menar du när
-              <lb/>du skriver. Det är som en mörk skugga etc vidare Gud kan-
-              <lb/>ske låter mig endast se det på <del>avstånd</del> långt håll för att sedan
-              <lb/><emph rend="ul">taga</emph> det ifrån mig. <emph rend="ul">Vad är det Han skall taga ifrån dig?
-              <lb />menar du mig?</emph> Snälla <persName ref="#GRE">Greta</persName> du gör mig orolig.
-              <lb/>Kära <persName ref="#GRE">Greta</persName> jag överskattar dig icke. Jag blott vill värdera
-              <lb/>Dig å detta är du värd. Gud skall ha äran. Jag har endast hört
-              <lb/>det allra bästa om dig i <placeName ref="#Etuna">E-tuna.</placeName> Jag är så glad därför alla
-              <lb/>talar väl om dig. Sådana går ej många på hundra, sa <persName ref="#KAL">Calle</persName>
-              <lb/>bli ej <ellipsis><metamark rend="line" /></ellipsis> Ja du har ju lovat att ej bliva det. Jag skulle med
-              <lb/>det rätta ej smickra dig men jag gör det ej i vanlig mening
-              <lb/>utan därför att du är värd all uppmuntran. Gud ska ha
-              <lb/>äran. Du skriver <add place="above">i ditt brev</add> du orkar ej mer! det blev för mycket på
-              <lb/>en gång menar du två ark är för mycket. Vad skall du då ej
-              <lb/>tänka om nu då du får <add place="above">skriva</add> tre. Du skriver att du längtar efter mig
-              <lb/>tänka om vi finge träffas å 
-                 <choice>
-                    <sic>ricktigt</sic>
-                    <corr>riktigt</corr>
-                 </choice> förtroligt fick tala med
-              <lb/>varann det skulle nog bliva en Helig stund få se om jag
-              <lb/>Kommer till <placeName ref="#Arb">Arboga</placeName> i Januari det är ej långt ifrån <placeName ref="#Etuna">E-tuna</placeName>
-              <lb/>men möjligt är det att det ej blir förn i Februari. Vi få
-              <lb/>väl bida. Vi äga ju varann i alla fall. Gör vi inte de?
-              <lb/>Jag tycker att allt är <add place="above">som</add> en dröm att du å jag <ellipsis><metamark rend="line" /></ellipsis>
-              <lb/><ellipsis><metamark rend="line" /></ellipsis> varann. Jag är ännu ej säker på om du 
-                   <ellipsis><metamark rend="line" /></ellipsis> mig
-              <lb/>förstår du vad jag menar nu måste jag sluta
-              <lb/>mitt brev kl är mycket hoppas att du sovit minst
-              <lb/>i tre timmar. Kom ihåg att du ej får vara uppe långt
-                                         
-              <pb n="06" facs="#Kb19251213GUS_6s" />   
-              <lb/>inpå på nätterna <persName ref="#GRE">Greta.</persName> du behöver vila om du skall arbeta 
-              <lb/>på dagarna glöm ej det!!!! Nu förstår du vad jag längtar
-              <lb/>efter att få ifrån dig dröj ej allt för länge. 
-            </p>
-         </div>
-         <closer>Skulle hälsa
-              <lb/>från <persName ref="#SIG">Sigrid</persName> <persName ref="#KAL">Calle</persName> o 
-                   <persName ref="#GAR">Gärda</persName> så gott. Var så på det
-              <lb/>allra varmaste hälsad från din egen <persName ref="#GUS">Gustav</persName> sov
-              <lb/>gott min Älskade lilla <persName ref="#GRE">Greta!</persName> även jag skall nu
-              <lb/>gå till vila men ännu 
-                 <choice>
-                    <sic>än</sic>
-                    <corr>en</corr>
-                 </choice> gång vill <add place="above">jag</add> under nattens
-              <lb/>timmar bedja för oss båda att Gud må leda oss
-              <lb/>från nu å till evigtid.
-            <salute><lb/>Detta brev är skrivet inför Gud till dig min älskade <persName ref="#GRE">Greta</persName>
-              <lb/>Din Egen 
-            </salute> 
-            <signed>
-               <persName ref="#GUS">Gustaf</persName>
-            </signed>
-         </closer>
-              <lb/> 
-        <postscript>
-           <p>
-              <lb/>P.s. förlåt att jag slutat mitt brev ett par gånger
-              <lb/>Å så fortsatt å skrivit några ord du förstår mig nog <persName ref="#GRE">Greta.</persName>
-              <lb/><w rend="right"><unclear>XX.</unclear></w>
-              <lb />
-              <lb/>Den <date when="1925-12-14">14/12.</date> Kommer ihåg att jag glömt tala om för dig att jag fick en
-              <lb/>snygg Kragskyddare av Morbror <unclear>sam</unclear> ett 1/2 duss näsdukar av <persName ref="#SIG">Sigrid</persName>
-              <lb/>i lördags. Själv köpte jag en omgång underkläder <unclear>mano</unclear> samt en
-              <lb/>slips samt beställde några skjortor till nyår. Jag fick även
-              <lb/>så mycket gott när jag for gott å päron., av <persName>Ester Hansson</persName> en påse
-              <lb/>Druvor. Jag tänkte på dig vad det skulle vara roligt att få dela med
-              <lb/>dig av det goda. Ja du kanske ej intressera dig för vad jag nu skrivit.
-              <lb/>Du kanske tycker jag är för barnslig. 
-              <lb/>I dag skall jag ut å annonsera mötena under. Tisdag Torsdag
-              <lb/>Lördag <unclear>8.</unclear> ha vi möten Det för mig samt till Posten brevet till min
-              <lb/><emph rend="ul"><persName ref="#GRE">Greta.</persName></emph>
-           </p>
-        </postscript>                                                                
+           <div type="tro">
+              <p>
+               <lb/>Hans förhärligande som mål skall det säkert lyckas
+             </p>
+            </div>
+            <div>
+               <p>
+                <lb/>Nu vill jag till slut göra dig en fråga vad menar du när
+                <lb/>du skriver. Det är som en mörk skugga etc vidare Gud kan-
+                <lb/>ske låter mig endast se det på <del>avstånd</del> långt håll för att sedan
+                <lb/><emph rend="ul">taga</emph> det ifrån mig. <emph rend="ul">Vad är det Han skall taga ifrån dig?
+                <lb />menar du mig?</emph> Snälla <persName ref="#GRE">Greta</persName> du gör mig orolig.
+                <lb/>Kära <persName ref="#GRE">Greta</persName> jag överskattar dig icke. Jag blott vill värdera
+                <lb/>Dig å detta är du värd. Gud skall ha äran. Jag har endast hört
+                <lb/>det allra bästa om dig i <placeName ref="#Etuna">E-tuna.</placeName> Jag är så glad därför alla
+                <lb/>talar väl om dig. Sådana går ej många på hundra, sa <persName ref="#KAL">Calle</persName>
+                <lb/>bli ej <ellipsis><metamark rend="line" /></ellipsis> Ja du har ju lovat att ej bliva det. Jag skulle med
+                <lb/>det rätta ej smickra dig men jag gör det ej i vanlig mening
+                <lb/>utan därför att du är värd all uppmuntran. Gud ska ha
+                <lb/>äran. Du skriver <add place="above">i ditt brev</add> du orkar ej mer! det blev för mycket på
+                <lb/>en gång menar du två ark är för mycket. Vad skall du då ej
+                <lb/>tänka om nu då du får <add place="above">skriva</add> tre. Du skriver att du längtar efter mig
+                <lb/>tänka om vi finge träffas å 
+                   <choice>
+                      <sic>ricktigt</sic><corr>riktigt</corr>
+                   </choice> förtroligt fick tala med
+                <lb/>varann det skulle nog bliva en Helig stund få se om jag
+                <lb/>Kommer till <placeName ref="#Arb">Arboga</placeName> i Januari det är ej långt ifrån <placeName ref="#Etuna">E-tuna</placeName>
+                <lb/>men möjligt är det att det ej blir förn i Februari. Vi få
+                <lb/>väl bida. Vi äga ju varann i alla fall. Gör vi inte de?
+                <lb/>Jag tycker att allt är <add place="above">som</add> en dröm att du å jag <ellipsis><metamark rend="line" /></ellipsis>
+                <lb/><ellipsis><metamark rend="line" /></ellipsis> varann. Jag är ännu ej säker på om du 
+                     <ellipsis><metamark rend="line" /></ellipsis> mig
+                <lb/>förstår du vad jag menar nu måste jag sluta
+                <lb/>mitt brev kl är mycket hoppas att du sovit minst
+                <lb/>i tre timmar. Kom ihåg att du ej får vara uppe långt
+               </p>
+            </div>
+           </div>
+        
+           <div n="sida6">
+           <pb n="06" facs="#Kb19251213GUS_6s" />
+              <div>
+                 <p>
+                   <lb/>inpå på nätterna <persName ref="#GRE">Greta.</persName> du behöver vila om du skall arbeta 
+                   <lb/>på dagarna glöm ej det!!!! Nu förstår du vad jag längtar
+                   <lb/>efter att få ifrån dig dröj ej allt för länge. 
+                 </p>
+               </div>
+               <closer>Skulle hälsa
+                  <lb/>från <persName ref="#SIG">Sigrid</persName> <persName ref="#KAL">Calle</persName> o 
+                       <persName ref="#GAR">Gärda</persName> så gott. Var så på det
+                  <lb/>allra varmaste hälsad från din egen <persName ref="#GUS">Gustav</persName> sov
+                  <lb/>gott min Älskade lilla <persName ref="#GRE">Greta!</persName> även jag skall nu
+                  <lb/>gå till vila men ännu 
+                     <choice>
+                        <sic>än</sic><corr>en</corr>
+                     </choice> gång vill <add place="above">jag</add> under nattens
+                  <lb/>timmar bedja för oss båda att Gud må leda oss
+                  <lb/>från nu å till evigtid.
+                  <salute><lb/>Detta brev är skrivet inför Gud till dig min älskade <persName ref="#GRE">Greta</persName>
+                    <lb/>Din Egen 
+                  </salute> 
+                  <signed>
+                     <persName ref="#GUS">Gustaf</persName>
+                  </signed>
+               </closer>
+                  <lb/> 
+               <postscript>
+                  <p>
+                     <lb/>P.s. förlåt att jag slutat mitt brev ett par gånger
+                     <lb/>Å så fortsatt å skrivit några ord du förstår mig nog <persName ref="#GRE">Greta.</persName>
+                     <lb/><w rend="right"><unclear>XX.</unclear></w>
+                     <lb />
+                     <lb/>Den <date when="1925-12-14">14/12.</date> Kommer ihåg att jag glömt tala om för dig att jag fick en
+                     <lb/>snygg Kragskyddare av Morbror <unclear>sam</unclear> ett 1/2 duss näsdukar av <persName ref="#SIG">Sigrid</persName>
+                     <lb/>i lördags. Själv köpte jag en omgång underkläder <unclear>mano</unclear> samt en
+                     <lb/>slips samt beställde några skjortor till nyår. Jag fick även
+                     <lb/>så mycket gott när jag for gott å päron., av <persName>Ester Hansson</persName> en påse
+                     <lb/>Druvor. Jag tänkte på dig vad det skulle vara roligt att få dela med
+                     <lb/>dig av det goda. Ja du kanske ej intressera dig för vad jag nu skrivit.
+                     <lb/>Du kanske tycker jag är för barnslig. 
+                     <lb/>I dag skall jag ut å annonsera mötena under. Tisdag Torsdag
+                     <lb/>Lördag <unclear>8.</unclear> ha vi möten Det för mig samt till Posten brevet till min
+                     <lb/><emph rend="ul"><persName ref="#GRE">Greta.</persName></emph>
+                  </p>
+               </postscript>
+              </div>
      </body>
   </text>
 </TEI>
