@@ -24,7 +24,7 @@
                <resp>TEI-kodad av</resp>
                <name>Hanna Lindbom</name>
             </respStmt>
-            
+
             <respStmt>
                <resp>TEI-kod redigerad av</resp>
                <name>Malin Sandstedt</name>
@@ -444,8 +444,21 @@
                </list>
             </keywords>
          </textClass>
-
       </profileDesc>
+      <revisionDesc>
+         <change> Ändradade alla brevs <gi>title</gi> i <gi>teiHeader</gi>ns <gi>bibl</gi> till den
+            brevrubrik som skulle synas ovanför brevet så att en XPath kan dras i XSL istället för
+            att behöva skapa ny XSL för varje brev. </change>
+         <change> Lade till <gi>div</gi> tillsammans med ett <att>n</att> attribut med
+            attribytvärden 'sida1', 'sida2' osv. runt enskilda sidor i breven för skunna använda
+            XPath till att bara publicera specifika sidor. </change>
+         <change> Lade in en radbyte i början av första brevsidan så att alla sidor börjar på samma
+            nivå som facsimilen då första sidan alltid började med <gi>opener</gi> medan resterade
+            började med <gi>lb</gi>. </change>
+         <change> Lade till rätt <att>URL</att> för alla facsimiler. </change>
+         <change> Ändrade dubbelunderstrykningar till att markeras med attibutet <att>ulx2</att>.
+         </change>
+      </revisionDesc>
    </teiHeader>
 
    <facsimile>
@@ -499,7 +512,8 @@
                   du <lb/> skall vara på sådana platser där de ha predikant förut <lb/> vore det ej
                   på sin plats att sådana församlingar fick <lb/> reda sig själva och du fick tjäna
                   de församlingar som <lb/> är utan predikant, nu skulle du <choice>
-                     <sic>iveg</sic><corr>iväg</corr>
+                     <sic>iveg</sic>
+                     <corr>iväg</corr>
                   </choice> till <placeName ref="#Pda">Pålsboda, </placeName>
                   <choice>
                      <sic>even</sic><corr>även</corr>
@@ -508,8 +522,8 @@
             </div>
             <div>
                <p>
-                  <seg type="upperMargin" subtype="upsideDown"/> Kära lilla <persName ref="#GRE">Greta,</persName> jag har ej skri- 
-                  <lb/> vit en enda rad till dig i det här
+                  <seg type="upperMargin" subtype="upsideDown"/> Kära lilla <persName ref="#GRE"
+                     >Greta,</persName> jag har ej skri- <lb/> vit en enda rad till dig i det här
                   <lb/> brevet, därför skriver jag ett extra <lb/> brev åt dig här. Som jag ser har
                   <lb/> du varit ute och rest och hälsat på <lb/>
                   <persName ref="#GUS">Gustaf</persName> det var ju roligt för dig att <lb/> så få
@@ -582,8 +596,7 @@
             <closer>
                <salute>Många kära hälsningar från oss må Gud välsigna Eder gemensamt <lb/> med all
                   andlig <choice>
-                     <sic>välsingnelse</sic>
-                     <corr>välsignelse</corr>
+                     <sic>välsingnelse</sic><corr>välsignelse</corr>
                   </choice> i det himmelska i Kristus Jesus <lb/> vår frälsare. Eder <addName
                      ref="#CL">Pappa</addName>. </salute>
             </closer>

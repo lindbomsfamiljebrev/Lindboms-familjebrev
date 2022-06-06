@@ -31,11 +31,13 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> | <a href="karleksbreven.html">Kärleksbreven</a> |
-                    <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | <a class="active"
-                        href="carlsbrev.html">Breven från Carl</a> | <a href="historia.html"
-                        >Historisk kontext</a> | <a href="personer.html">Personerna bakom breven</a>
-                    | </nav>
+                    <a href="index.html">Hem</a> | 
+                    <a href="Karleksbreven.html">Kärleksbreven</a> |
+                    <a href="Aktenskapsbreven.html">Äktenskapsbreven</a> | 
+                    <a class="active" href="BrevenfranCarl.html">Breven från Carl</a> | 
+                    <a href="Historia.html">Historisk kontext</a> | 
+                    <a href="Personer.html">Personerna bakom breven</a> | 
+                </nav>
                 <nav id="brevnav">
                     <li class="year">År 1930</li>
                     <li>
@@ -237,42 +239,42 @@
     </xsl:template>
 
     <xsl:template match="tei:damage[@agent = 'folding'][@type = 'hole']">
-        <xsl:apply-templates/><sup><span style="color: #c4906c">[hål i papperet]</span></sup>
+        <xsl:apply-templates/>
+        <sup>
+            <span style="color: #c4906c">[hål i papperet]</span>
+        </sup>
     </xsl:template>
 
     <xsl:template match="tei:damage[@agent = 'folding'][@type = 'tear']">
-        <xsl:apply-templates/><sup><span style="color: #c4906c">[reva i papperet]</span></sup>
+        <xsl:apply-templates/>
+        <sup>
+            <span style="color: #c4906c">[reva i papperet]</span>
+        </sup>
     </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'leftMargin'][@subtype = 'sideways']">
         <br/>
-        <br/> [VÄNSTERMARGINALEN] 
-    </xsl:template>
-    
+        <br/> [VÄNSTERMARGINALEN] </xsl:template>
+
     <xsl:template match="tei:seg[@type = 'upperMargin'][@subtype = 'upsideDown']">
         <br/>
-        <br/> [ÖVRE MARGINALEN] 
-    </xsl:template>
+        <br/> [ÖVRE MARGINALEN] </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'bottomMargin'][@subtype = 'normal']">
         <br/>
-        <br/> [NEDRE MARGINALEN] 
-    </xsl:template>
+        <br/> [NEDRE MARGINALEN] </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'topLeftMargin'][@subtype = 'mixed']">
         <br/>
-        <br/> [VÄNSTRA OCH ÖVRE MARGINALEN] 
-    </xsl:template>
+        <br/> [VÄNSTRA OCH ÖVRE MARGINALEN] </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'leftBottomMargin'][@subtype = 'mixed']">
         <br/>
-        <br/> [VÄNSTRA OCH NEDRE MARGINALEN] 
-    </xsl:template>
+        <br/> [VÄNSTRA OCH NEDRE MARGINALEN] </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'bottomRightMargin'][@subtype = 'mixed']">
         <br/>
-        <br/> [NEDRE OCH HÖGRA MARGINALEN] 
-    </xsl:template>
+        <br/> [NEDRE OCH HÖGRA MARGINALEN] </xsl:template>
 
     <xsl:template match="tei:emph[@rend = 'circle']">
         <span style="border:1px solid black;border-radius:60%">
@@ -376,6 +378,6 @@
         <xsl:apply-templates/>
         <span style="color: #888ad1">[?]</span>
     </xsl:template>
-    
+
 
 </xsl:stylesheet>

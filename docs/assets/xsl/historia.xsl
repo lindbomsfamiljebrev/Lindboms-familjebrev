@@ -31,10 +31,11 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> | <a href="karleksbreven.html">Kärleksbreven</a> |
-                        <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | <a
-                        href="carlsbrev.html">Breven från Carl</a> | <a href="historia.html"
-                        >Historisk kontext</a> | <a href="personer.html">Personerna bakom breven</a>
+                    <a href="index.html">Hem</a> | <a href="Karleksbreven.html">Kärleksbreven</a> |
+                    <a href="Aktenskapsbreven.html">Äktenskapsbreven</a> | 
+                    <a href="BrevenfranCarl.html">Breven från Carl</a> | 
+                    <a class="active" href="Historia.html">Historisk kontext</a> | 
+                    <a href="Personer.html">Personerna bakom breven</a>
                     | </nav>
 
                 <main id="manuscript">

@@ -443,9 +443,29 @@
                   <item xml:lang="swe">Korrespondens</item>                
                </list>
             </keywords>
-         </textClass>
-         
+         </textClass>       
       </profileDesc>
+      <revisionDesc>
+         <change>
+            Ändradade alla brevs <gi>title</gi> i <gi>teiHeader</gi>ns <gi>bibl</gi> till den brevrubrik
+            som skulle synas ovanför brevet så att en XPath kan dras i XSL istället för att behöva skapa
+            ny XSL för varje brev.
+         </change>
+         <change>
+            Lade till <gi>div</gi> tillsammans med ett <att>n</att> attribut med attribytvärden 'sida1', 'sida2' osv. 
+            runt enskilda sidor i breven för skunna använda XPath till att bara publicera specifika sidor.
+         </change>
+         <change>
+            Lade in en radbyte i början av första brevsidan så att alla sidor börjar på samma nivå som facsimilen då
+            första sidan alltid började med <gi>opener</gi> medan resterade började med <gi>lb</gi>.
+         </change>
+         <change>
+            Lade till rätt <att>URL</att> för alla facsimiler. 
+         </change>
+         <change>
+            Ändrade dubbelunderstrykningar till att markeras med attibutet <att>ulx2</att>.
+         </change> 
+      </revisionDesc> 
    </teiHeader>
    
    <facsimile>
@@ -471,10 +491,9 @@
    
    <text type="letter">
       <body>
-
-         <div type="sida1">
-         <pb n="01" facs="#Carl19301103_1s" />
-         
+         <div n="sida1">
+         <pb n="01" facs="#Carl19301103_1s" />      
+         <lb />
           <opener> 
              <dateline rend="right"><placeName ref="#Gberg">Gustafsberg</placeName> 
                 <date when="1930-11-03">den 3 Nov- 1930.</date>
@@ -491,62 +510,51 @@
                <lb /> ni förstå att ett meddelande från Eder är kärkommet,
                <lb /> så nyttigt och nöjsamt det är att vi 
                    <choice>
-                      <sic>fott</sic>
-                      <corr>fått</corr>
+                      <sic>fott</sic><corr>fått</corr>
                    </choice> lära oss att med-
                <lb /> dela oss på detta 
                    <choice>
-                      <sic>sett,</sic>
-                      <corr>sätt,</corr>
+                      <sic>sett,</sic><corr>sätt,</corr>
                    </choice> i andra land är det många som
                <lb /> varken kan skriva eller läsa skrivet eller tryckt, är di så
                <lb /> sjuka eller gamla och <add place="above">därigenom</add> 
                    <choice>
-                      <sic>avstengda</sic>
-                      <corr>avstängda</corr>
+                      <sic>avstengda</sic><corr>avstängda</corr>
                    </choice> från 
                    <choice>
-                      <sic>umgenget</sic>
-                      <corr>umgänget</corr>
+                      <sic>umgenget</sic><corr>umgänget</corr>
                    </choice> med sin
                <lb /> omgivning och sina närmaste så blir tiden dem
                <lb /> allt ganska dyster och lång, men för den som kan läsa,
                <lb /> vad en god bok och en god tidning eller tidskrift
                <lb /> är för ett gott 
                    <choice>
-                      <sic>sellskap</sic>
-                      <corr>sällskap</corr>
+                      <sic>sellskap</sic><corr>sällskap</corr>
                    </choice> i ensamheten, di bara 
                    <choice>
-                      <sic>berettar</sic>
-                      <corr>berättar</corr>
+                      <sic>berettar</sic><corr>berättar</corr>
                    </choice>
                <lb /> och tiger stilla medan man tänker. Slår man så upp
                <lb /> sin Bibel och läser något ur de himmelska breven så
                <lb /> ser man att all god gåva och all fullkomlig skänk
                <lb /> kommer ner 
                    <choice>
-                      <sic>ovanäfter</sic>
-                      <corr>ovanefter</corr>
+                      <sic>ovanäfter</sic><corr>ovanefter</corr>
                    </choice> från vår himmelske fader, då
                <lb /> blir det tacksägelse och 
                    <choice>
-                      <sic>låv</sic>
-                      <corr>lov</corr>
+                      <sic>låv</sic><corr>lov</corr>
                    </choice> och pris utav, ja
                <lb /> i sanning vårt land och folk är särskilt välsignat
                <lb /> av Gud i alla avseenden, – men hur många 
                    <choice>
-                      <sic>ärkänner</sic>
-                      <corr>erkänner</corr>
+                      <sic>ärkänner</sic><corr>erkänner</corr>
                    </choice> det. 
             </p>
             </div>
             </div>
-       
          
-         
-        
+            <div n="sida2">
             <pb n="02" facs="#Carl19301103_2s" /> 
          <div>
             <p>
@@ -554,31 +562,26 @@
                    och skrev omedelbart svar i förra veckan,
                <lb />som vi ser så är hon på bättrringen, hoppas att det 
                    <choice>
-                      <sic>fortsetter</sic>
-                      <corr>fortsätter</corr>
+                      <sic>fortsetter</sic><corr>fortsätter</corr>
                    </choice> så att
                <lb />hon blir riktigt bra, sådana där snedsprång äro alltid svårare att
                <lb />bli 
                    <choice>
-                      <sic>återstäld</sic>
-                      <corr>återställd</corr>
+                      <sic>återstäld</sic><corr>återställd</corr>
                    </choice> efter, men det är att lämna allt i Herrens hand och
                <lb />vänta bättring. Jag är fortfarande ganska klen och 
                    <choice>
-                      <sic>årkar</sic>
-                      <corr>orkar</corr>
+                      <sic>årkar</sic><corr>orkar</corr>
                    </choice>
                <lb />ej att göra någonting, annars är allting 
                    <choice>
-                      <sic>gått,</sic>
-                      <corr>gott,</corr>
+                      <sic>gått,</sic><corr>gott,</corr>
                    </choice> <addName ref="#EEL">Mamma</addName> är kry
                <lb /><persName ref="#ELS">Elsa </persName>likaså, hon var till Stan i går och hälsa på sina bekanta
                <lb />i <unclear>Ansgarii-Kyrkan.</unclear> <persName ref="#ERI">Erik</persName> ringde <persName ref="#ELS">Elsa</persName>
                        i förra veckan han mår
                <lb /> <choice>
-                  <sic>gått,</sic>
-                  <corr>gott,</corr>
+                  <sic>gått,</sic><corr>gott,</corr>
                </choice> <persName ref="#ELS">Elsa</persName> hade brev från <persName>Märta</persName> i förra veckan hon talar om
                <lb />att faster reser in till Stan 2 gånger i veckan och får behandling
                <lb /> för utslag, vid <placeName ref="#Vre">Wreten</placeName> är faster å farbror dåliga, samt att
@@ -589,59 +592,49 @@
                <lb /><persName ref="#HUL">Tant Hulda</persName> som har gått hemma sen Nov i fjol har nu
                <lb />  börjat arbeta, fåse om hon hon 
                   <choice>
-                     <sic>årkar</sic>
-                     <corr>orkar</corr>
+                     <sic>årkar</sic><corr>orkar</corr>
                   </choice>  orka det hon är ganska
                <lb />klen, <persName ref="#SAR">Tant Sara</persName> är nu så pass 
-                  <choice><sic>återstäld</sic>
-                     <corr>återställd</corr>
+                  <choice><sic>återstäld</sic><corr>återställd</corr>
                   </choice>  i sitt ben att hon
                <lb />kan gå hit till oss, men 
                   <choice>
-                     <sic>ennu</sic>
-                     <corr>ännu</corr>
+                     <sic>ennu</sic><corr>ännu</corr>
                   </choice> får hon föra benet rakt.
                <lb />Tänk så 
                   <choice>
-                     <sic>gått,</sic>
-                     <corr>gott,</corr>
+                     <sic>gått,</sic><corr>gott,</corr>
                   </choice>  i edert betryck att <persName ref="#GRE">Greta</persName> får ligga fritt
                <lb />på Sjukhuset och så snälla vänner som samlat så mycket
                <lb />pengar åt henne, må Gud välsigna dem alla. Herrens
                <lb />hand är med i allt pris ske hans namn.
-               <lb />Du fick väl din mönstringsbok?
-              
-            </p>
-            
+               <lb />Du fick väl din mönstringsbok?             
+            </p>           
          </div>
             
          <closer><salute>Många hälsningar från oss Gud 
                   <choice>
-                     <sic>välsingne</sic>
-                     <corr>välsigne</corr>
+                     <sic>välsingne</sic><corr>välsigne</corr>
                   </choice>
                <lb />Eder i edert arbete i Herren.
                <lb /> <s rend="right">Eder <addName ref="#CL">Pappa</addName>.</s>
                <lb /></salute>
          </closer>
-        
+     
          <postscript>
            <ab>    
               <seg type="leftMargin" subtype="sideways"/> 
               <seg>
                 <lb /> Tänk vilken 
                   <choice>
-                    <sic>förvend</sic>
-                    <corr>förvänd</corr>
+                    <sic>förvend</sic><corr>förvänd</corr>
                   </choice> uppfattning man i 
                   <choice>
-                    <sic>allmenhet</sic>
-                    <corr>allmänhet</corr>
+                    <sic>allmenhet</sic><corr>allmänhet</corr>
                   </choice> har om Gudstjänst, jag hörde i dag en person
                 <lb />som sade att den hade varit på Gudstjänst då den hade varit å lyssnat på 
                   <choice>
-                    <sic>mårgonandakten</sic>
-                    <corr>morgonandakten</corr>
+                    <sic>mårgonandakten</sic><corr>morgonandakten</corr>
                   </choice> i radio
                <lb />då är det ju Gud som tjänar oss med sitt Evangelium till tröst och uppbyggelse, och icke vi Honom,
                <lb />Nej en rätt Gudstjänst beskrives i Jakobs 1–27. samt i Matt 25.35-36. en hur många går 
@@ -649,7 +642,7 @@
               </seg>
            </ab>  
          </postscript> 
-      
+         </div>
       </body>
   </text>
 </TEI>
