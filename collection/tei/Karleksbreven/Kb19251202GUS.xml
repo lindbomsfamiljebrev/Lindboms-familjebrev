@@ -290,6 +290,27 @@
      </textClass>
      
      </profileDesc>
+     <revisionDesc>
+        <change>
+           Ändradade alla brevs <gi>title</gi> i <gi>teiHeader</gi>ns <gi>bibl</gi> till den brevrubrik
+           som skulle synas ovanför brevet så att en XPath kan dras i XSL istället för att behöva skapa
+           ny XSL för varje brev.
+        </change>
+        <change>
+           Lade till <gi>div</gi> tillsammans med ett <att>n</att> attribut med attribytvärden 'sida1', 'sida2' osv. 
+           runt enskilda sidor i breven för skunna använda XPath till att bara publicera specifika sidor.
+        </change>
+        <change>
+           Lade in en radbyte i början av första brevsidan så att alla sidor börjar på samma nivå som facsimilen då
+           första sidan alltid började med <gi>opener</gi> medan resterade började med <gi>lb</gi>.
+        </change>
+        <change>
+           Lade till rätt <att>URL</att> för alla facsimiler. 
+        </change>
+        <change>
+           Ändrade dubbelunderstrykningar till att markeras med attibutet <att>ulx2</att>.
+        </change> 
+     </revisionDesc> 
   </teiHeader>
    
    <facsimile>
@@ -299,7 +320,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 2/12-1925, sida 1.
             </figDesc>
-            <graphic xml:id="Kb19251202GUS_1g" url="xxx"/> 
+            <graphic xml:id="Kb19251202GUS_1g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_1.jpeg"/> 
          </figure>
       </surface>
       
@@ -309,7 +330,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 2/12-1925, sida 2.
             </figDesc>
-            <graphic xml:id="Kb19251202GUS_2g" url="xxx"/> 
+            <graphic xml:id="Kb19251202GUS_2g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_2.jpeg"/> 
          </figure>
       </surface>
       
@@ -319,7 +340,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 2/12-1925, sida 3.
             </figDesc>
-            <graphic xml:id="Kb19251202GUS_3g" url="xxx"/> 
+            <graphic xml:id="Kb19251202GUS_3g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_3.jpeg"/> 
          </figure>
       </surface>
       
@@ -329,7 +350,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 2/12-1925, sida 4.
             </figDesc>
-            <graphic xml:id="Kb19251202GUS_4g" url="xxx"/> 
+            <graphic xml:id="Kb19251202GUS_4g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_4.jpeg"/> 
          </figure>
       </surface>
    </facsimile>

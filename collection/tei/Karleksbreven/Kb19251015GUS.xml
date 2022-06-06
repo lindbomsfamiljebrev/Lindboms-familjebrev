@@ -308,6 +308,28 @@
         </textClass>
         
      </profileDesc>
+     
+     <revisionDesc>
+        <change>
+           Ändradade alla brevs <gi>title</gi> i <gi>teiHeader</gi>ns <gi>bibl</gi> till den brevrubrik
+           som skulle synas ovanför brevet så att en XPath kan dras i XSL istället för att behöva skapa
+           ny XSL för varje brev.
+        </change>
+        <change>
+           Lade till <gi>div</gi> tillsammans med ett <att>n</att> attribut med attribytvärden 'sida1', 'sida2' osv. 
+           runt enskilda sidor i breven för skunna använda XPath till att bara publicera specifika sidor.
+        </change>
+        <change>
+           Lade in en radbyte i början av första brevsidan så att alla sidor börjar på samma nivå som facsimilen då
+           första sidan alltid började med <gi>opener</gi> medan resterade började med <gi>lb</gi>.
+        </change>
+        <change>
+           Lade till rätt <att>URL</att> för alla facsimiler. 
+        </change>
+        <change>
+           Ändrade dubbelunderstrykningar till att markeras med attibutet <att>ulx2</att>.
+        </change> 
+     </revisionDesc> 
   </teiHeader>
    
    <facsimile>
@@ -317,7 +339,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 15/10-1925, sida 1.
             </figDesc>
-            <graphic xml:id="Kb19251015GUS_1g" url="xxx"/> 
+            <graphic xml:id="Kb19251015GUS_1g" url="assets/img/documents/Karleksbreven/Kb19251015GUS_1.jpeg"/> 
          </figure>
       </surface>
       
@@ -327,7 +349,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 15/10-1925, sida 2.
             </figDesc>
-            <graphic xml:id="Kb19251015GUS_2g" url="xxx"/> 
+            <graphic xml:id="Kb19251015GUS_2g" url="assets/img/documents/Karleksbreven/Kb19251015GUS_2.jpeg"/> 
          </figure>
       </surface>
       
@@ -337,7 +359,7 @@
                <figDesc>
                   Kärleksbrev från Gustaf till Greta 15/10-1925, sida 3.
                </figDesc>
-               <graphic xml:id="Kb19251015GUS_3g" url="xxx"/> 
+               <graphic xml:id="Kb19251015GUS_3g" url="assets/img/documents/Karleksbreven/Kb19251015GUS_3.jpeg"/> 
             </figure>
          </surface>
       
@@ -347,7 +369,7 @@
                <figDesc>
                   Kärleksbrev från Gustaf till Greta 15/10-1925, sida 4.
                </figDesc>
-               <graphic xml:id="Kb19251015GUS_4g" url="xxx"/> 
+               <graphic xml:id="Kb19251015GUS_4g" url="assets/img/documents/Karleksbreven/Kb19251015GUS_4.jpeg"/> 
             </figure>
          </surface>
       
@@ -357,7 +379,7 @@
                <figDesc>
                   Kärleksbrev från Gustaf till Greta 15/10-1925, sida 5.
                </figDesc>
-               <graphic xml:id="Kb19251015GUS_5g" url="xxx"/> 
+               <graphic xml:id="Kb19251015GUS_5g" url="assets/img/documents/Karleksbreven/Kb19251015GUS_5.jpeg"/> 
             </figure>
          </surface>
       
@@ -367,15 +389,17 @@
                <figDesc>
                   Kärleksbrev från Gustaf till Greta 15/10-1925, sida 6.
                </figDesc>
-               <graphic xml:id="Kb19251015GUS_6g" url="xxx"/> 
+               <graphic xml:id="Kb19251015GUS_6g" url="assets/img/documents/Karleksbreven/Kb19251015GUS_6.jpeg"/> 
             </figure>
          </surface> 
    </facsimile>
    
   <text type="letter">
     <body>
+       <div n="sida1">
        <pb n="01" facs="#Kb19251015GUS_1s"/>
-       <opener>
+          <lb/>       
+          <opener>
            <dateline rend="right">
              <placeName ref="#Kva">Kolsva</placeName> <date when="1925-10-15">den 15/10 25</date>
            </dateline>
@@ -397,8 +421,7 @@
           <p>
           <lb />Både dessa ord äro 
               <choice>
-                 <sic>utalade</sic>
-                 <corr>uttalade</corr>
+                 <sic>utalade</sic><corr>uttalade</corr>
               </choice> 
               genom Herrens
           <lb />Profeter vilka voro erfarna män dessa visste att
@@ -406,14 +429,11 @@
           <lb />nåden. Vi se av de föregående
               <ref target="https://old.bibeln.se/las/2k/jer#q=Jer+3">3 kap</ref> att Jeremia
           <lb />var en prövad man 
-              <damage agent="folding" type="hole">
-                 <unclear>och tycktes</unclear>
-              </damage> 
+              <damage agent="folding" type="hole"><unclear>och tycktes</unclear></damage> 
                 det honom att
           <lb />det var nästan litet 
               <choice>
-                 <sic>förmycket</sic>
-                 <corr>för mycket</corr>
+                 <sic>förmycket</sic><corr>för mycket</corr>
               </choice> 
              till en början men
           <lb />i den 26–27 f. verserna inser han att detta är nödvändigt
@@ -428,277 +448,285 @@
           <lb />Å älska när allt är dött ingen kommer till <gap reason="illegible" quantity="01" unit="word" />           
           <lb />Därtill behövs det <unclear>skl ökentider</unclear> då Gud få lära
           <lb />oss stillhet. Det gäller då att fastän vi ej känna
-             
+         </p>
+         </div>
+       </div> 
+       
+       <div n="sida2">      
        <pb n="02" facs="#Kb19251015GUS_2s" />
-          <lb />eller förnimma något att <emph rend="ul">Ändå</emph> bliva stilla inför Gud och
-          <lb />tacka å offra lovets offer till vilket Gud har behag och
-          <lb />är Guds vilja i Kristus Jesus 
-             <ref target="https://old.bibeln.se/las/2k/1_thess#q=1+Thess+5">1 Tess 5:18</ref> 
-             stillhet består ej däri
-          <lb />att ständigt ligga på knä inför Gud utan däri att vårt
-          <lb />hjärta alltid är böjd under Guds vilja att utan knot
-          <lb />inordna sig under Guds planer med <add place="above">oss</add> samt alltid
-          <lb />rådfråga Gud om allting och endast handla i enlig-
-          <lb />het med hans i ordet uppenbarade vilja eller genom
-          <lb />Andens maning å ledning. Stillhet är förtröstan till
-          <lb />Gud att man litar på att Han vill oss det allra bästa
-          <lb />att ej gå Gud i förväg utan bestämt invänta å tro att
-          <lb />han vill leda oss i livets alla förhållande. Stillhet
-          <lb />är att ej låta sig störas av vare sig med eller mot-
-          <lb />gång ära eller 
-            <damage agent="folding" type="hole"> smälek gott eller ont 
-                <unclear> 
-                   <choice>
-                     <sic>ryckte</sic>
-                     <corr>rykte</corr>
-                   </choice> att under
-                </unclear>
-            </damage>
-          <lb />att lita på Gud även när det ser ut som Gud övergivit
-          <lb />oss under sådan stillhet är det som Gud plöjer på djupet
-          <lb />i våra hjärtan Han har oss själv i sin egen hand för
-          <lb />att fostra fram den rena klenoden för att vi i någon <add place="above">mån</add> skall
-          <lb />återspegla Hans egen rena å sköna bild bliv därför stilla
-          <lb />men själv Han ej vill dig ej illa Nej, han vill ditt sanna väl
-          <lb />Stilla hos Jesus i prövningens tider! Han ju ditt <unclear>sargade</unclear> hjärta
-          <lb />förstår; stilla hos Jesus när orätt du lider! Han lägger balsam
-          <lb />på svidande sår.
-          </p>
-          <p>
-          <lb />Stilla hos Jesus när själen vill digna, Nedtyngd av sorger
-          <lb />och svaghet å nöd! Han (vill) skall ditt fattiga hjärta
-          <lb />välsigna: glöm ej, att Han är ditt säkraste stöd
-             
-       <pb n="03" facs="#Kb19251015GUS_3s" />
-          <lb />Stilla hos Jesus tjockaste dimma! Molnen han delar
-          <lb />och sänder sitt ljus. Stilla i stormen, och <emph rend="ul">du</emph> skall
-          <lb />förnimma: Ingen som han stillar vågornas brus!
-          <lb />tilla hos Jesus i solsken och lycka, stilla, när
-          <lb />motgången skuggar din stig! <emph rend="ul">Då skall han Helga
-          <lb />din glädje</emph> <add place="above">och trycka</add> Älskande barnet så ömt intill sig
-          <lb />Stilla hos Jesus, när tårarna flöda, Hör, hur han viskar
-          <lb /> <emph rend="ul">till dig:</emph> du är min! <emph rend="ul">Stilla, 
-              när känslorna ligga där döda</emph>
-          <lb />Han trycker tårdränkta kinden till sin.
-          <lb />Stilla hos Jesus med <emph rend="ul">allt</emph> ditt bekymmer! Han
-          <lb />för dig ömmar med Kärlek så varm. <emph rend="ul">Allt</emph> vad i
-          <lb />ängsliga hjärtat du rymmer, lägg det i stillhet vid
-          <lb />Mästarens barn.
-          <lb />Stilla hos Jesus 
-            <damage agent="folding" type="hole">
-               <unclear>alltjämt</unclear>
-            </damage>
-                 under färden, stilla hos
-          <lb />Jesus till dess du får bud, stilla, när flyttningen sker
-          <lb />ifrån världen Hem till det land Han 
-             <choice>
-                <sic>berätt</sic>
-                <corr>berett</corr>
-             </choice> 
-               åt sin brud
-          </p>
+          <div type="tro">
+             <p>
+               <lb />eller förnimma något att <emph rend="ul">Ändå</emph> bliva stilla inför Gud och
+               <lb />tacka å offra lovets offer till vilket Gud har behag och
+               <lb />är Guds vilja i Kristus Jesus 
+                  <ref target="https://old.bibeln.se/las/2k/1_thess#q=1+Thess+5">1 Tess 5:18</ref> 
+                  stillhet består ej däri
+               <lb />att ständigt ligga på knä inför Gud utan däri att vårt
+               <lb />hjärta alltid är böjd under Guds vilja att utan knot
+               <lb />inordna sig under Guds planer med <add place="above">oss</add> samt alltid
+               <lb />rådfråga Gud om allting och endast handla i enlig-
+               <lb />het med hans i ordet uppenbarade vilja eller genom
+               <lb />Andens maning å ledning. Stillhet är förtröstan till
+               <lb />Gud att man litar på att Han vill oss det allra bästa
+               <lb />att ej gå Gud i förväg utan bestämt invänta å tro att
+               <lb />han vill leda oss i livets alla förhållande. Stillhet
+               <lb />är att ej låta sig störas av vare sig med eller mot-
+               <lb />gång ära eller 
+                 <damage agent="folding" type="hole"> smälek gott eller ont <unclear><choice><sic>ryckte</sic><corr>rykte</corr>
+                 </choice> 
+                    att under</unclear></damage>
+               <lb />att lita på Gud även när det ser ut som Gud övergivit
+               <lb />oss under sådan stillhet är det som Gud plöjer på djupet
+               <lb />i våra hjärtan Han har oss själv i sin egen hand för
+               <lb />att fostra fram den rena klenoden för att vi i någon <add place="above">mån</add> skall
+               <lb />återspegla Hans egen rena å sköna bild bliv därför stilla
+               <lb />men själv Han ej vill dig ej illa Nej, han vill ditt sanna väl
+               <lb />Stilla hos Jesus i prövningens tider! Han ju ditt <unclear>sargade</unclear> hjärta
+               <lb />förstår; stilla hos Jesus när orätt du lider! Han lägger balsam
+               <lb />på svidande sår.
+               </p>
+               <p>
+               <lb />Stilla hos Jesus när själen vill digna, Nedtyngd av sorger
+               <lb />och svaghet å nöd! Han (vill) skall ditt fattiga hjärta
+               <lb />välsigna: glöm ej, att Han är ditt säkraste stöd
+            </p>
+         </div>
        </div>
+       
+       <div n="sida3">
+       <pb n="03" facs="#Kb19251015GUS_3s" />
+         <div type="tro">
+            <p>
+               <lb />Stilla hos Jesus tjockaste dimma! Molnen han delar
+               <lb />och sänder sitt ljus. Stilla i stormen, och <emph rend="ul">du</emph> skall
+               <lb />förnimma: Ingen som han stillar vågornas brus!
+               <lb />tilla hos Jesus i solsken och lycka, stilla, när
+               <lb />motgången skuggar din stig! <emph rend="ul">Då skall han Helga
+               <lb />din glädje</emph> <add place="above">och trycka</add> Älskande barnet så ömt intill sig
+               <lb />Stilla hos Jesus, när tårarna flöda, Hör, hur han viskar
+               <lb /> <emph rend="ul">till dig:</emph> du är min! <emph rend="ul">Stilla, 
+                   när känslorna ligga där döda</emph>
+               <lb />Han trycker tårdränkta kinden till sin.
+               <lb />Stilla hos Jesus med <emph rend="ul">allt</emph> ditt bekymmer! Han
+               <lb />för dig ömmar med Kärlek så varm. <emph rend="ul">Allt</emph> vad i
+               <lb />ängsliga hjärtat du rymmer, lägg det i stillhet vid
+               <lb />Mästarens barn.
+               <lb />Stilla hos Jesus 
+                 <damage agent="folding" type="hole"><unclear>alltjämt</unclear></damage>
+                      under färden, stilla hos
+               <lb />Jesus till dess du får bud, stilla, när flyttningen sker
+               <lb />ifrån världen Hem till det land Han 
+                  <choice>
+                     <sic>berätt</sic><corr>berett</corr>
+                  </choice> 
+                    åt sin brud
+              </p>
+         </div>
        <div>
           <p>
-          <lb />Jag vill med dessa enkla rader tacka dig av
-          <lb />allt hjärta för breven jag fått, det gläder mitt hjärta
-          <lb />att du vill leva 
-             <choice>
-                <sic>hellt</sic>
-                <corr>helt</corr>
-             </choice>
-            för Gud och att du har hälsan
-          <lb />Du undrar <q>”varför”</q> jag ej skrivit förr det kan ju 
-          <lb />se ut som jag ej ville skriva eller så men uppriktigt
-          <lb />sagt är det ej därför, mina tankar gå ofta till dig
-          <lb />å jag har tänkt att skriva flera gånger men jag har
-          <lb />då alltid talat med Gud först om vad jag skulle
-          <lb />skriva å hur jag skulle skriva och då har jag 
-               <choice>
-                  <sic>kännt</sic>
-                  <corr>känt</corr>
-               </choice>
-          <lb />inte nu. Kanske det varit min inbillning det vet jag
-          <lb />ej. Men i ditt brev var ej något som stötte mig utan 
-             
+             <lb />Jag vill med dessa enkla rader tacka dig av
+             <lb />allt hjärta för breven jag fått, det gläder mitt hjärta
+             <lb />att du vill leva 
+                <choice>
+                   <sic>hellt</sic><corr>helt</corr>
+                </choice>
+               för Gud och att du har hälsan
+             <lb />Du undrar <q>”varför”</q> jag ej skrivit förr det kan ju 
+             <lb />se ut som jag ej ville skriva eller så men uppriktigt
+             <lb />sagt är det ej därför, mina tankar gå ofta till dig
+             <lb />å jag har tänkt att skriva flera gånger men jag har
+             <lb />då alltid talat med Gud först om vad jag skulle
+             <lb />skriva å hur jag skulle skriva och då har jag 
+                  <choice>
+                     <sic>kännt</sic><corr>känt</corr>
+                  </choice>
+             <lb />inte nu. Kanske det varit min inbillning det vet jag
+             <lb />ej. Men i ditt brev var ej något som stötte mig utan 
+            </p>
+         </div>
+       </div>
+       
+       <div n="sida4">
        <pb n="04" facs="#Kb19251015GUS_4s" />         
-          <lb />tvärt om, du får ej bli högfärdig om jag talar om för 
-          <lb />dig att jag läste ditt brev en 7 o 8 första dagen
-          <lb />när jag fick det därav förstår du att det var kärkommit.
-          <lb />Det är ju alltid roligt att få höra hur trosyskon mår
-          <lb />Jag vill nu svara på dina frågor!
-            <list rend="numbered">
-          <lb /> <item>1) jag är ej sjuk utan tvärtom mycket frisk!</item>
-          <lb /> <item>2) jag blev ej ledsen för att du skrev tvärtom mycket glad!</item>
-          <lb /> <item>3) jag missförstod dig inte alls icke på något sätt!</item>
-          <lb /> <item>4) att din andliga livslåga är flämtande kanske du
-          <lb />ej själv kan 
-               <choice>
-                  <sic>bedömma</sic>
-                  <corr>bedöma</corr>
-               </choice> 
-              men det är alltid gott att
-          <lb />tänka hovsamt om sig själv ty det har löfte med sig</item>
-            </list>
+       <div>
+          <p>
+            <lb />tvärt om, du får ej bli högfärdig om jag talar om för 
+            <lb />dig att jag läste ditt brev en 7 o 8 första dagen
+            <lb />när jag fick det därav förstår du att det var kärkommit.
+            <lb />Det är ju alltid roligt att få höra hur trosyskon mår
+            <lb />Jag vill nu svara på dina frågor!
+              <list rend="numbered">
+            <lb /> <item>1) jag är ej sjuk utan tvärtom mycket frisk!</item>
+            <lb /> <item>2) jag blev ej ledsen för att du skrev tvärtom mycket glad!</item>
+            <lb /> <item>3) jag missförstod dig inte alls icke på något sätt!</item>
+            <lb /> <item>4) att din andliga livslåga är flämtande kanske du
+            <lb />ej själv kan 
+                 <choice>
+                    <sic>bedömma</sic><corr>bedöma</corr>
+                 </choice> 
+                men det är alltid gott att
+            <lb />tänka hovsamt om sig själv ty det har löfte med sig</item>
+              </list>
           </p>
        </div>
        <div type="tro">
           <p>
-          <lb />Den som ödmjukar etc. Saliga äro de! Anden fattiga ett brutet
-          <lb />rör skall han icke krossa en rykande veke skall han ej
-          <lb />utsläcka. Den längtan du har i 
-             <damage agent="folding" type="hole">
-                <unclear>ditt</unclear>
-             </damage>
-                hjärta den är en gåva till dig
-          <lb />från Gud. den skall du vara rädd om. Du säger att du ej <emph rend="ul">känner</emph>
-          <lb />dig lycklig! det är ej heller det viktigaste vad du känner
-          <lb />Du är lycklig! en människa som har Gud till Far å
-          <lb />Jesus till Bror å Änglar till betjäning är inte den lycklig
-          <lb />också har du hans eget ord att läsa 
-            <choice>
-               <sic>vist</sic>
-               <corr>visst</corr>
-            </choice> 
-                är du lycklig
-          <lb />har du ej vetat detta förut så må du nu veta detta
-          <lb />att du är lycklig inte därför att du alltid känner det
-          <lb />så utan därför att Gud är trofast som har givit oss sina
-          <lb />härliga löften å Han har sagt att den rättfärdige skall leva
-          <lb />av tro, tacka att vi slipper leva på känslor ty det
-          <lb />voro nog ett förfärligt flängande än <add place="above">åt</add> det ena hållet än
-          <lb />åt det andra. Men visst är det skönt att få känna att
-          <lb />man vilar vid Jesus hjärta men inte Johannes en gång
-             
-      <seg type="upperMargin" subtype="upsideDown>" />
-          <seg>
+            <lb />Den som ödmjukar etc. Saliga äro de! Anden fattiga ett brutet
+            <lb />rör skall han icke krossa en rykande veke skall han ej
+            <lb />utsläcka. Den längtan du har i 
+               <damage agent="folding" type="hole"><unclear>ditt</unclear></damage>
+                  hjärta den är en gåva till dig
+            <lb />från Gud. den skall du vara rädd om. Du säger att du ej <emph rend="ul">känner</emph>
+            <lb />dig lycklig! det är ej heller det viktigaste vad du känner
+            <lb />Du är lycklig! en människa som har Gud till Far å
+            <lb />Jesus till Bror å Änglar till betjäning är inte den lycklig
+            <lb />också har du hans eget ord att läsa 
+              <choice>
+                 <sic>vist</sic>
+                 <corr>visst</corr>
+              </choice> 
+                  är du lycklig
+            <lb />har du ej vetat detta förut så må du nu veta detta
+            <lb />att du är lycklig inte därför att du alltid känner det
+            <lb />så utan därför att Gud är trofast som har givit oss sina
+            <lb />härliga löften å Han har sagt att den rättfärdige skall leva
+            <lb />av tro, tacka att vi slipper leva på känslor ty det
+            <lb />voro nog ett förfärligt flängande än <add place="above">åt</add> det ena hållet än
+            <lb />åt det andra. Men visst är det skönt att få känna att
+            <lb />man vilar vid Jesus hjärta men inte Johannes en gång
+         </p>
+         <p>
+         <seg type="upperMargin" subtype="upsideDown>" />
+           
              <lb />Har med dessa enkla rader velat i Herrens namn sänt dig en
              <lb />Uppmuntran på vägen 
                <choice>
-                  <sic>hemmåt.</sic>
-                  <corr>hemåt.</corr>
+                  <sic>hemmåt.</sic><corr>hemåt.</corr>
                </choice>
-          </seg>
-             
+            </p>
+         </div>
+       </div>
+       
+       <div n="sida5">
        <pb n="05" facs="#Kb19251015GUS_5s" />
-          <lb />fick alltid hava den platsen utan fick sitta ensam
-          <lb />övergiven landsförvist på ön <placeName ref="#Pmos">Patmos</placeName>. Men 
-               när <emph rend="ul"> stunden
-          <lb />var inne</emph> kom Jesus åter till Honom på ett särskilt sätt
-          <lb />och det skall han också göra med dig. Medan du nu väntar
-          <lb />på att få <emph rend="ul"><q>”känna”</q></emph> dig lycklig så bliv ensam inne på ditt
-          <lb />rum försök så att bliva stilla riktigt å säg åt dig
-          <lb />själv gärna högt. Jag är <q>”Benådad”</q> syndare säg Benådad
-          <lb />många gånger låt det sjunka ned i ditt hjärta hjälper <add place="above">det</add> ej
-          <lb />så upprepa på samma sätt <q>”Återlöst”</q> för blodets skull
-          <lb />genom Jesu eget hjärteblod Säg åt Satan att Jesus har
-          <lb />skrivit Benådad å Återlöst på din panna med sitt
-          <lb />eget dyrbara blod säg också åt Honom att det står
-          <lb />skrivet på flera ställen i Bibeln att det som hade tecknet
-          <lb />fick ingen vidröra 
-               <ref target="https://old.bibeln.se/las/2k/hes#q=Hes+9%3A6">Hes 9:6.</ref> 
-              <damage agent="folding" type="hole">
-                 <unclear>Jag har</unclear>
-              </damage> 
-                många gånger blivit glad
-          <lb />då jag begrundat vad det innebär att vara <q>”Återlöst”</q> o Benådad
-          </p>
-      </div>
-      <div>
+          <div type="tro">
+             <p>
+              <lb />fick alltid hava den platsen utan fick sitta ensam
+              <lb />övergiven landsförvist på ön <placeName ref="#Pmos">Patmos</placeName>. Men 
+                   när <emph rend="ul"> stunden
+              <lb />var inne</emph> kom Jesus åter till Honom på ett särskilt sätt
+              <lb />och det skall han också göra med dig. Medan du nu väntar
+              <lb />på att få <emph rend="ul"><q>”känna”</q></emph> dig lycklig så bliv ensam inne på ditt
+              <lb />rum försök så att bliva stilla riktigt å säg åt dig
+              <lb />själv gärna högt. Jag är <q>”Benådad”</q> syndare säg Benådad
+              <lb />många gånger låt det sjunka ned i ditt hjärta hjälper <add place="above">det</add> ej
+              <lb />så upprepa på samma sätt <q>”Återlöst”</q> för blodets skull
+              <lb />genom Jesu eget hjärteblod Säg åt Satan att Jesus har
+              <lb />skrivit Benådad å Återlöst på din panna med sitt
+              <lb />eget dyrbara blod säg också åt Honom att det står
+              <lb />skrivet på flera ställen i Bibeln att det som hade tecknet
+              <lb />fick ingen vidröra 
+                   <ref target="https://old.bibeln.se/las/2k/hes#q=Hes+9%3A6">Hes 9:6.</ref> 
+                  <damage agent="folding" type="hole"><unclear>Jag har</unclear></damage> 
+                    många gånger blivit glad
+              <lb />då jag begrundat vad det innebär att vara <q>”Återlöst”</q> o Benådad
+         </p>
          <p>
-          <lb />Du säger vidare att du är kraftlös å utsliten hoppas du  
-          <lb />ej sliter ut dig allt för mycket så du bliver sjuk. Jag har
-          <lb />även ett <unclear>löfte</unclear> för just detta jag har själv privat detta du be-
-          <lb />höver ej bedja utan du <add place="above">får</add> tacka för att Gud gör så läs själv
-          <lb /> <ref target="https://old.bibeln.se/las/2k/jes#q=Jes+40%3A29">Jesaja 40: kap 29 vers.</ref> 
-                Sorgligt är att du ej har tid att vara med
-          <lb />på mötena det livar ju alltid upp att få umgås med Gudsbarnen
-          <lb />Det är gott att höra att du tagit ditt kall från Gud detta
-          <lb />bliver en väldig styrka i arbetet. Jag tror också att du är
-          <lb />på rätt plats må Gud alltid få leda dig.
+            <lb />Du säger vidare att du är kraftlös å utsliten hoppas du  
+            <lb />ej sliter ut dig allt för mycket så du bliver sjuk. Jag har
+            <lb />även ett <unclear>löfte</unclear> för just detta jag har själv privat detta du be-
+            <lb />höver ej bedja utan du <add place="above">får</add> tacka för att Gud gör så läs själv
+            <lb /> <ref target="https://old.bibeln.se/las/2k/jes#q=Jes+40%3A29">Jesaja 40: kap 29 vers.</ref> 
+                  Sorgligt är att du ej har tid att vara med
+            <lb />på mötena det livar ju alltid upp att få umgås med Gudsbarnen
+            <lb />Det är gott att höra att du tagit ditt kall från Gud detta
+            <lb />bliver en väldig styrka i arbetet. Jag tror också att du är
+            <lb />på rätt plats må Gud alltid få leda dig.
          </p>
        </div> 
        <div type="pastorsyrket"> 
-         <p>Som du ser
-          <lb />så är jag ej i <placeName ref="#Fvi">Frövi</placeName> längre utan i 
-             <emph rend="ul"><placeName ref="#Kva">Kolsva</placeName></emph> ett bruk i
-          <lb /><placeName ref="#Vstml">Wästmanland</placeName> med omkring 1000 per i 
-            <choice>
-                <sic>innevånarantal</sic>
-                <corr>invånarantal</corr>
-            </choice>
-          <lb />läget är mycket vackert. Jag kom hit i Onsdags förra veckan 
-          <lb />så vi ha bara haft några möten för troende samt några offentliga
-          <lb />vi ha fått bejda med en man. Vi hoppas på en väckelse från Himmelen.
-            
-      <seg type="upperMargin" subtype="upsideDown" /> 
-         <seg>Min adr en tid frammåt, 
+         <p>
+            Som du ser
+            <lb />så är jag ej i <placeName ref="#Fvi">Frövi</placeName> längre utan i 
+               <emph rend="ul"><placeName ref="#Kva">Kolsva</placeName></emph> ett bruk i
+            <lb /><placeName ref="#Vstml">Wästmanland</placeName> med omkring 1000 per i 
+              <choice>
+                  <sic>innevånarantal</sic><corr>invånarantal</corr>
+              </choice>
+            <lb />läget är mycket vackert. Jag kom hit i Onsdags förra veckan 
+            <lb />så vi ha bara haft några möten för troende samt några offentliga
+            <lb />vi ha fått bejda med en man. Vi hoppas på en väckelse från Himmelen.
+         </p>
+         <p>
+      <seg type="upperMargin" subtype="upsideDown" />              
+            <lb/>Min adr en tid frammåt, 
             <address>
                 <addrLine>G. Lindbohm adr. G. Norstedt Post I 
                    <emph rend="ul"><emph rend="ul"><placeName ref="#Kva">Kolsva</placeName></emph></emph>
                 </addrLine>
-            </address>
-        </seg>
-            
+            </address>        
+            </p>   
+         </div>
+       </div>
+       
+       <div n="sida6">
        <pb n="06" facs="#Kb19251015GUS_6s" />
-          <lb />i <placeName ref="#Fvi">Frövi</placeName> var det mycket gott vi hade några goda möten 
-                när <persName ref="#AW">A W</persName>
-          <lb />var där men just inga synliga resultat. kan i <unclear cert="low">allfall</unclear> hälsa från 
-                <persName ref="#AW">Wimar</persName>
-          <lb />till dig. Jag känner verklig saknad efter vännerna där. Vi hade det så
-             <lb />gott där både i Församling Ungdomsf. o Juniorf jag trivdes bra där   
-          <lb />De <unclear>bådo</unclear> mig stanna men jag kunde ej hade lovat mig åt 
-          <lb />Distriktsförordanden <persName ref="#SL">Sam Larsson</persName> att resa här i lånet i vinter.
-          <lb />få väl se hur det går för mig som Predikant om jag verkligen
-          <lb />är kallad av Gud skulle så icke vara hoppas jag Gud
-          <lb />vissar mig detta och leder mig åter till <unclear>modernärningarna</unclear>
-          <lb />Min 
-             <choice>
-                <sic>alvarliga</sic>
-                <corr>allvarliga</corr>
-             </choice> 
-            bön är den att ej få bliva Predikant om ej Gud
-          <lb />Kallat mig.
-         </p>
-        </div>
-        <div>
-           <p>Ja det kunde kanske vara mycket än att få
-          <lb />språkas vid men jag skall nu sluta mitt brev för denna
-          <lb />gång med att önska dig allt gott för både tiden o evigheten
-          <lb />Jag brukar bedja för dig o nämna dig i namn inför Herren
-          <lb />i går kväll bad jag särskilt för dig hoppas också att du
-          <lb />beder för mig någon gång då jag kommer för dig i dina
-          <lb />tankar ty du är väl i 
-              <damage agent="folding" type="hole">
-                 <unclear><placeName ref="#Etuna">Eskilstuna</placeName></unclear>
-          </damage>
-                ibland förstår jag å då äro
-          <lb />ju våra namn så nära förbundna med den tiden som
-          <lb />var och förbliva den 
-             <choice>
-                <sic>vicktigaste</sic>
-                <corr>viktigaste</corr>
-             </choice> 
-                 i våra liv då vi blevo
-          <lb />födda på nytt. Må Gud få avskilja oss mer å mer
-          <lb />för sin egen <unclear>räkning</unclear> och bevara oss varma så att vi allt
-          <lb />pryda Jesu Kristi namn vare sig vi äro hemma eller borta.
-          <lb />Du är väl lite trött när du kommit så här långt i brevet.
-          <lb />men jag lovar dig inte att alltid skriva så här långa
-          <lb />brev men ett lovar jag dig att alltid förbliva en
-          <lb />Broder i Kristus. Jesus. Jag tycker att blodet förenar
-          <lb />oss underbart i sanning bliva vi syskon å äro alla
-          <lb />Guds barn syskon så äro Du å Jag det i dubbel bemärkelse
-          <lb />ty vi komma till tro ungefär samtidigt därför Syster
-          <lb />vare Guds rika nåd o frid väldig över dig.
+       <div type="pastorsyrket">
+          <p>
+            <lb />i <placeName ref="#Fvi">Frövi</placeName> var det mycket gott vi hade några goda möten 
+                  när <persName ref="#AW">A W</persName>
+            <lb />var där men just inga synliga resultat. kan i <unclear cert="low">allfall</unclear> hälsa från 
+                  <persName ref="#AW">Wimar</persName>
+            <lb />till dig. Jag känner verklig saknad efter vännerna där. Vi hade det så
+               <lb />gott där både i Församling Ungdomsf. o Juniorf jag trivdes bra där   
+            <lb />De <unclear>bådo</unclear> mig stanna men jag kunde ej hade lovat mig åt 
+            <lb />Distriktsförordanden <persName ref="#SL">Sam Larsson</persName> att resa här i lånet i vinter.
+            <lb />få väl se hur det går för mig som Predikant om jag verkligen
+            <lb />är kallad av Gud skulle så icke vara hoppas jag Gud
+            <lb />vissar mig detta och leder mig åter till <unclear>modernärningarna</unclear>
+            <lb />Min 
+               <choice>
+                  <sic>alvarliga</sic><corr>allvarliga</corr>
+               </choice> 
+              bön är den att ej få bliva Predikant om ej Gud
+            <lb />Kallat mig.
            </p>
         </div>
+        <div>
+           <p>
+              Ja det kunde kanske vara mycket än att få
+            <lb />språkas vid men jag skall nu sluta mitt brev för denna
+            <lb />gång med att önska dig allt gott för både tiden o evigheten
+            <lb />Jag brukar bedja för dig o nämna dig i namn inför Herren
+            <lb />i går kväll bad jag särskilt för dig hoppas också att du
+            <lb />beder för mig någon gång då jag kommer för dig i dina
+            <lb />tankar ty du är väl i 
+                <damage agent="folding" type="hole"><unclear><placeName ref="#Etuna">Eskilstuna</placeName></unclear></damage>
+                  ibland förstår jag å då äro
+            <lb />ju våra namn så nära förbundna med den tiden som
+            <lb />var och förbliva den 
+               <choice>
+                  <sic>vicktigaste</sic><corr>viktigaste</corr>
+               </choice> 
+                   i våra liv då vi blevo
+            <lb />födda på nytt. Må Gud få avskilja oss mer å mer
+            <lb />för sin egen <unclear>räkning</unclear> och bevara oss varma så att vi allt
+            <lb />pryda Jesu Kristi namn vare sig vi äro hemma eller borta.
+            <lb />Du är väl lite trött när du kommit så här långt i brevet.
+            <lb />men jag lovar dig inte att alltid skriva så här långa
+            <lb />brev men ett lovar jag dig att alltid förbliva en
+            <lb />Broder i Kristus. Jesus. Jag tycker att blodet förenar
+            <lb />oss underbart i sanning bliva vi syskon å äro alla
+            <lb />Guds barn syskon så äro Du å Jag det i dubbel bemärkelse
+            <lb />ty vi komma till tro ungefär samtidigt därför Syster
+            <lb />vare Guds rika nåd o frid väldig över dig.
+           </p>
+         </div>
       
             <closer>De varmaste
-          <lb />fridshälsningar från din Broder i tron. <persName ref="#GUS">Gustaf A. Lindbohm.</persName>
-            </closer>
-       
-       
+               <lb />fridshälsningar från din Broder i tron. <persName ref="#GUS">Gustaf A. Lindbohm.</persName>
+            </closer>    
+         </div> 
       </body>
   </text>
 </TEI>
