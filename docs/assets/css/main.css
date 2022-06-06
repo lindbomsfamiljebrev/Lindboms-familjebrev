@@ -65,12 +65,12 @@ a {
     color: #435091;
 }
 
-a.active {
+#sitenav a.active {
     color: #8894d1;
 }
 
 
-a:hover:not(.active) {
+#sitenav a:hover:not(.active) {
     color: #8894d1;
 
 }
