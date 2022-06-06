@@ -237,7 +237,7 @@
     </xsl:template>
 
     <xsl:template match="tei:damage[@agent = 'folding'][@type = 'hole']">
-        <xsl:apply-templates/><span style="color: #c4906c">[hål i papperet]</span>
+        <xsl:apply-templates/><sup><span style="color: #c4906c">[hål i papperet]</span></sup>
     </xsl:template>
 
     <xsl:template match="tei:damage[@agent = 'folding'][@type = 'tear']">
