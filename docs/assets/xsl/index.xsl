@@ -127,7 +127,9 @@
                                     <p>
                                         <strong>Transcription by:</strong>
                                         <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:principal"/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:principal[1]"/>
+                                        &amp;
+                                        <xsl:apply-templates select="//tei:TEI//tei:principal[2]"/>
                                     </p>
                                     <p>
                                         <strong>Based on the work of:</strong>
