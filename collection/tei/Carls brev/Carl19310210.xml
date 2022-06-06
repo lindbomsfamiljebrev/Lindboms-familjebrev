@@ -477,9 +477,7 @@
             </opener>
             <div>
                <p>
-                  <lb/> Mycket <damage agent="folding" type="hole">
-                     <unclear>test</unclear>
-                  </damage> tack förbrev och penningar, jag skulle ha <lb/> skrivit förr, <damage agent="folding" type="tear"><unclear>test</unclear></damage> men det
+                  <lb/> Mycket <damage agent="folding" type="hole"><unclear>test</unclear></damage> tack förbrev och penningar, jag skulle ha <lb/> skrivit förr, <damage agent="folding" type="tear"><unclear>test</unclear></damage> men det
                   är så svårt att komma sig till med <lb/> det, för alltid är det något som kommer i <choice>
                      <sic>vegen</sic>
                      <corr>vägen</corr>
@@ -510,8 +508,7 @@
             </div>
             <div>
                <p>
-                  <seg type="upperMargin" subtype="upsideDown"/> Kära lilla <persName ref="#GRE"
-                     >Greta,</persName> jag har ej skri- <lb/> vit en enda rad till dig i det här
+                  <seg type="upperMargin" subtype="upsideDown"/> Kära lilla <persName ref="#GRE">Greta,</persName> jag har ej skri- <lb/> vit en enda rad till dig i det här
                   <lb/> brevet, därför skriver jag ett extra <lb/> brev åt dig här. Som jag ser har
                   <lb/> du varit ute och rest och hälsat på <lb/>
                   <persName ref="#GUS">Gustaf</persName> det var ju roligt för dig att <lb/> så få
