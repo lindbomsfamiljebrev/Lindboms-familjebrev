@@ -248,7 +248,7 @@
         <br/>
         <br/> [VÄNSTERMARGINALEN] 
     </xsl:template>
-
+    
     <xsl:template match="tei:seg[@type = 'upperMargin'][@subtype = 'upsideDown']">
         <br/>
         <br/> [ÖVRE MARGINALEN] 

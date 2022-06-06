@@ -20,10 +20,17 @@
             <respStmt>
                <resp>TEI-kodad av</resp>
                <name>Hanna Lindbom</name>
+            </respStmt>
+            
+            <respStmt>
+               <resp>TEI-kod redigerad av</resp>
                <name>Malin Sandstedt</name>
             </respStmt>
          </titleStmt>
-
+         <respStmt>
+            <resp>TEI-kod redigerad av</resp>
+            <name>Malin Sandstedt</name>
+         </respStmt>
          <editionStmt>
             <edition n="01"> Första digital utgåvan. </edition>
          </editionStmt>

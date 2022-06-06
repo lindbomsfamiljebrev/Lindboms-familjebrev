@@ -470,7 +470,6 @@
    <text type="letter">
       <body>
          <div n="sida1">
-
             <pb n="01" facs="#Carl19310210_1s"/>
             <opener>
                <dateline rend="center"><placeName ref="#Gberg">Gustafsberg</placeName>
@@ -482,7 +481,7 @@
             </opener>
             <div>
                <p>
-                  <lb/> Mycket <damage agent="folding" type="hole"><unclear>test</unclear></damage> tack förbrev och penningar, jag skulle ha <lb/> skrivit förr, <damage agent="folding" type="tear">test</damage> men det
+                  <lb/> Mycket tack förbrev och penningar, jag skulle ha <lb/> skrivit förr, men det
                   är så svårt att komma sig till med <lb/> det, för alltid är det något som kommer i <choice>
                      <sic>vegen</sic><corr>vägen</corr>
                   </choice> när man skall <lb/> till att skriva. Hela felet är bestämt att jag har
@@ -490,8 +489,7 @@
                   ifrån mig, ty tiden väntar ej, den går sin jämna gång <lb/> och tar vi ej reda på
                   den så går den ifrån oss, det är därför <lb/>Apostelen uppmanar oss att köpa
                   tiden, ty dagarna äro onda. <lb/> Ack ja vi komma till korta på alla <choice>
-                     <sic>sett, even</sic>
-                     <corr>sätt, även</corr>
+                     <sic>sett, even</sic><corr>sätt, även</corr>
                   </choice> när det är <lb/> att utnyttja tiden rätt. </p>
             </div>
             <div type="pastorsyrket">
@@ -501,18 +499,17 @@
                   du <lb/> skall vara på sådana platser där de ha predikant förut <lb/> vore det ej
                   på sin plats att sådana församlingar fick <lb/> reda sig själva och du fick tjäna
                   de församlingar som <lb/> är utan predikant, nu skulle du <choice>
-                     <sic>iveg</sic>
-                     <corr>iväg</corr>
+                     <sic>iveg</sic><corr>iväg</corr>
                   </choice> till <placeName ref="#Pda">Pålsboda, </placeName>
                   <choice>
-                     <sic>even</sic>
-                     <corr>även</corr>
+                     <sic>even</sic><corr>även</corr>
                   </choice>
                   <lb/> där har di ju Pred. förut. Är di små förs- så fattiga att </p>
             </div>
             <div>
                <p>
-                  <seg type="upperMargin" subtype="upsideDown"/> Kära lilla <persName ref="#GRE">Greta,</persName> jag har ej skri- <lb/> vit en enda rad till dig i det här
+                  <seg type="upperMargin" subtype="upsideDown"/> Kära lilla <persName ref="#GRE">Greta,</persName> jag har ej skri- 
+                  <lb/> vit en enda rad till dig i det här
                   <lb/> brevet, därför skriver jag ett extra <lb/> brev åt dig här. Som jag ser har
                   <lb/> du varit ute och rest och hälsat på <lb/>
                   <persName ref="#GUS">Gustaf</persName> det var ju roligt för dig att <lb/> så få
@@ -520,12 +517,10 @@
                   ha honom hemma mera men det <lb/> är så här i livet att det är så mycket vi <lb/>
                   får försaka, men göra vi det med <lb/> tålamod och för Herren så skall vi <lb/> ej
                   bli utan lön. Gud <choice>
-                     <sic>välsingne</sic>
-                     <corr>välsigne</corr>
+                     <sic>välsingne</sic><corr>välsigne</corr>
                   </choice> dig <lb/> och give Han dig nåd att taga allt <lb/> från Honom. <lb/> Må
                   eder gemensamma lycka bliva <lb/> bofast hos Eder intill <choice>
-                     <sic>enden.</sic>
-                     <corr>änden.</corr>
+                     <sic>enden.</sic><corr>änden.</corr>
                   </choice>
                   <lb/><w rend="right"><unclear>L.A.</unclear></w>
                </p>
@@ -539,28 +534,22 @@
             <div type="pastorsyrket">
                <p>
                   <lb/>de ej kan taga emot och <choice>
-                     <sic>herberggera</sic>
-                     <corr>härbärgera</corr>
+                     <sic>herberggera</sic><corr>härbärgera</corr>
                   </choice> dig? Eller vad är det <lb/> för orsak?, jag förstår att <del>att</del>
                   det är <persName ref="#SL">Sam-Lars-.</persName> som <choice>
-                     <sic>årdnar</sic>
-                     <corr>ordnar</corr>
+                     <sic>årdnar</sic><corr>ordnar</corr>
                   </choice>
                   <lb/> dina resor, eller är det församlingarna som kommer till honom <lb/> med
                   begäran att få dig? Eller har du någon <choice>
-                     <sic>rett</sic>
-                     <corr>rätt</corr>
+                     <sic>rett</sic><corr>rätt</corr>
                   </choice> att <choice>
-                     <sic>själf</sic>
-                     <corr>själv</corr>
+                     <sic>själf</sic><corr>själv</corr>
                   </choice>
                   <lb/> avgöra var du skall arbeta? Det skulle <choice>
-                     <sic>intresera</sic>
-                     <corr>intressera</corr>
+                     <sic>intresera</sic><corr>intressera</corr>
                   </choice> mig att få <lb/> reda på hur det förhåller sig i det här fallet, ty det
                   har alltid <lb/> varit så att de små förs- <choice>
-                     <sic>fott</sic>
-                     <corr>fått</corr>
+                     <sic>fott</sic><corr>fått</corr>
                   </choice> klara sig bäst de kunnat och <lb/> de stora förs- de ha haft överflöd på
                   predikningar. </p>
             </div>
@@ -568,8 +557,7 @@
                <p>
                   <lb/> Ja det är så här i livet, den ena skall leva i överflöd och <lb/> den andra
                   i armod, men så är <choice>
-                     <sic>dåck</sic>
-                     <corr>dock</corr>
+                     <sic>dåck</sic><corr>dock</corr>
                   </choice> inte Guds mening! <lb/> Gud vill att vi skall dela med oss av både vårt
                   andeliga och vårt <lb/> timliga goda till dem som behöva vårt bistånd. <lb/> I
                   Söndags kom <persName>Hultman</persName> upp till mig med boken, <title level="m"
@@ -578,11 +566,9 @@
                   <persName>P.A. Westlinds</persName> bok, <title level="m">Etisk religion och
                      Moralfilosofi.</title>
                   <choice>
-                     <sic>Nesta</sic>
-                     <corr>Nästa</corr>
+                     <sic>Nesta</sic><corr>Nästa</corr>
                   </choice> gång jag <lb/> skriver skall jag tala om min mening om dem. <lb/> Hvad <choice>
-                     <sic>seger</sic>
-                     <corr>säger</corr>
+                     <sic>seger</sic><corr>säger</corr>
                   </choice> Predikanterna om <persName>Ax. Anderssons</persName> bok? <lb/> Jag
                   känner mig ganska kry nu, det bästa jag känt mig i vinter <lb/> men någon
                   skolagning går ej för mig, men jag får vara glad och <lb/> tacksam till Gud för
@@ -608,8 +594,7 @@
                   <persName ref="#HAG">Hagby </persName>är i <placeName ref="#Mot"
                      >Motala</placeName> sen i Fredags. <lb/>Och <unclear>Jädda</unclear> var här i
                   Söndags, han hade sin <choice>
-                     <sic>festmö</sic>
-                     <corr>fästmö</corr>
+                     <sic>festmö</sic><corr>fästmö</corr>
                   </choice>
                   <s rend="right">med sig.</s>
                </ab>
