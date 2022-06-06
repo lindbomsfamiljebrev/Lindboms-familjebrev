@@ -31,13 +31,11 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> | 
-                    <a href="karleksbreven.html">Kärleksbreven</a> |
-                    <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | 
-                    <a href="carlsbrev.html">Breven från Carl</a> | 
-                    <a href="historia.html">Historisk kontext</a> |
-                    <a href="personer.html">Personerna bakom breven</a> |
-                </nav>
+                    <a href="index.html">Hem</a> | <a href="karleksbreven.html">Kärleksbreven</a> |
+                        <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | <a
+                        href="carlsbrev.html">Breven från Carl</a> | <a href="historia.html"
+                        >Historisk kontext</a> | <a href="personer.html">Personerna bakom breven</a>
+                    | </nav>
                 <nav id="brevnav">
                     <li class="year">År 1930</li>
                     <li>
@@ -67,7 +65,7 @@
                     <h3>
                         <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:title"/>
                     </h3>
-                    
+
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
@@ -92,7 +90,7 @@
                                     </xsl:for-each>
                                 </article>
                             </div>
-                            
+
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
@@ -102,15 +100,15 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
 
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
-                            
+
                             <div class="col-sm">
-                                
+
                                 <article id="scan">
                                     <xsl:for-each select="//tei:surface[2]">
                                         <img width="400">
@@ -127,10 +125,10 @@
                                     </xsl:for-each>
                                 </article>
                             </div>
-                            
+
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
-                                
+
                                 <article id="transcription">
                                     <xsl:apply-templates select="//tei:TEI//tei:div[@n = 'sida2']"/>
                                 </article>
@@ -229,7 +227,7 @@
             </span>
         </u>
     </xsl:template>
-    
+
     <xsl:template match="tei:gap[@reason = 'illegible'][@quantity = '1'][@unit = 'word']">
         <span style="color: #888ad1">[oläsligt]</span>
     </xsl:template>
@@ -248,8 +246,7 @@
 
     <xsl:template match="tei:seg[@type = 'leftMargin'][@subtype = 'sideways']">
         <br/>
-        <br/> [VÄNSTERMARGINALEN]
-    </xsl:template>
+        <br/> [VÄNSTERMARGINALEN] </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'upperMargin'][@subtype = 'upsideDown']">
         <br/>

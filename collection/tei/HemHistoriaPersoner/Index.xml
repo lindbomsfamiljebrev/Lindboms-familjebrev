@@ -10,11 +10,11 @@
             <author ref="#CL">Carl Lindbom</author>
             <principal>Hanna Lindbom</principal>
             <principal>Malin Sandstedt</principal>
-            
+
             <respStmt>
                <resp>Originalbrev delvis transkriberat av</resp>
                <name>Marcus Lindbom</name>
-            </respStmt> 
+            </respStmt>
             <respStmt>
                <resp>Transkribering redigerad och kompletterad av</resp>
                <name>Hanna Lindbom</name>
@@ -24,44 +24,37 @@
                <name>Hanna Lindbom</name>
             </respStmt>
          </titleStmt>
-         
+
          <editionStmt>
-            <edition n="01">
-               Första digitala utgåvan.
-            </edition>
+            <edition n="01"> Första digitala utgåvan. </edition>
          </editionStmt>
-         
+
          <publicationStmt>
             <distributor>Högskolan i Borås</distributor>
             <authority>Hanna Lindbom</authority>
             <authority>Malin Sandstedt</authority>
             <date>Juni 2022</date>
             <idno>Carl19310210</idno>
-            
+
             <availability>
-               <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/">
-                  Licenserad med en <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-                     Creative Commons Erkännande</ref> licens.
-               </licence>
+               <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"> Licenserad med
+                  en <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/"> Creative
+                     Commons Erkännande</ref> licens. </licence>
             </availability>
          </publicationStmt>
-         
+
          <seriesStmt>
-            <title type="main">
-               Lindboms familjebrev: en digital samling
-            </title>
-            <title type="sub">
-               Hem
-            </title>
+            <title type="main"> Lindboms familjebrev: en digital samling </title>
+            <title type="sub"> Hem </title>
          </seriesStmt>
          <sourceDesc>
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <p>Some text here.</p>
       </body>
-  </text>
+   </text>
 </TEI>

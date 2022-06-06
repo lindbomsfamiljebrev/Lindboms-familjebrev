@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-    
+
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
@@ -31,34 +31,38 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> | 
-                    <a href="karleksbreven.html">Kärleksbreven</a> |
-                    <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | 
-                    <a href="carlsbrev.html">Breven från Carl</a> | 
-                    <a href="historia.html">Historisk kontext</a> |
-                    <a href="personer.html">Personerna bakom breven</a> |
-                </nav>
+                    <a href="index.html">Hem</a> | <a href="karleksbreven.html">Kärleksbreven</a> |
+                        <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | <a
+                        href="carlsbrev.html">Breven från Carl</a> | <a href="historia.html"
+                        >Historisk kontext</a> | <a href="personer.html">Personerna bakom breven</a>
+                    | </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
-                    
+
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
-                        
+
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
-                            
+
                             <div class="col-sm">
-                                
+
                                 <article id="thumbnail">
                                     <img>
                                         <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id = 'x']/@url"/>
+                                            <xsl:value-of
+                                                select="//tei:facsimile/tei:surface//tei:graphic[@xml:id = 'x']/@url"
+                                            />
                                         </xsl:attribute>
                                         <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id = 'x']//tei:label"/>
+                                            <xsl:value-of
+                                                select="//tei:facsimile/tei:surface[@xml:id = 'x']//tei:label"
+                                            />
                                         </xsl:attribute>
                                         <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id = 'x']//tei:figDesc"/>
+                                            <xsl:value-of
+                                                select="//tei:facsimile/tei:surface[@xml:id = 'x']//tei:figDesc"
+                                            />
                                         </xsl:attribute>
                                     </img>
                                 </article>
