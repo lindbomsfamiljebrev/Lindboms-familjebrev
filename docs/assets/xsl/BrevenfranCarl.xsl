@@ -35,7 +35,7 @@
                     <a href="Karleksbreven.html">Kärleksbreven</a> |
                     <a href="Aktenskapsbreven.html">Äktenskapsbreven</a> | 
                     <a class="active" href="BrevenfranCarl.html">Breven från Carl</a> | 
-                    <a href="Historia.html">Historisk kontext</a> | 
+                    <a href="Historia.html">Historisk sammanhang</a> | 
                     <a href="Personer.html">Personerna bakom breven</a> | 
                 </nav>
                 <nav id="brevnav">
@@ -253,6 +253,10 @@
     </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'leftMargin'][@subtype = 'sideways']">
+        <br/>
+        <br/> [VÄNSTERMARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:seg[@hand = '#HBY'] [@type = 'leftMargin'][@subtype = 'sideways']">
         <br/>
         <br/> [VÄNSTERMARGINALEN] </xsl:template>
 

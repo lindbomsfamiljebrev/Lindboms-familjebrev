@@ -475,21 +475,23 @@
          <figure>
             <label>Carl 1932-04-10 01</label>
             <figDesc> Brev från Carl till Gustaf och Greta 10/4-1932, sida 1. </figDesc>
-            <graphic xml:id="Carl19320410_1g" url="assets/img/documents/Carlsbrev/Carl19320410_1"/>
+            <graphic xml:id="Carl19320410_1g" url="assets/img/documents/Carlsbrev/Carl19320410_1.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="Carl19320410_2s">
          <figure>
             <label>Carl 1932-04-10 02</label>
             <figDesc> Brev från Carl till Gustaf och Greta 10/4-1932, sida 2. </figDesc>
-            <graphic xml:id="Carl19320410_2g" url="assets/img/documents/Carlsbrev/Carl19320410_2"/>
+            <graphic xml:id="Carl19320410_2g" url="assets/img/documents/Carlsbrev/Carl19320410_2.jpeg"/>
          </figure>
       </surface>
    </facsimile>
 
    <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Carl19320410_1s"/>
+         <lb />
          <opener rend="right">
             <dateline><placeName ref="#Gberg">Gustafsberg</placeName>
                <date when="1932-04-10">den 10 Apr- 1932</date>
@@ -509,13 +511,11 @@
                hoppas <lb/> att allt är gott å väl med er i allafall. <lb/> Du skrev å fundera om ni
                fick komma någon <lb/> gång i Maj, ja Ni får komma när ni vill å kan <lb/> ni är så
                välkomna när som <choice>
-                  <sic>hälst,</sic>
-                  <corr>helst,</corr>
+                  <sic>hälst,</sic><corr>helst,</corr>
                </choice> det kan ni väl <lb/> förstå, å vi får försöka att samsas så gott vi kan <lb/>
                <persName ref="#TL">Tomas</persName> är väl inte så storrummad heller, fast nog för-
                <lb/> står jag att Han tar ett betydande rum i våra <choice>
-                  <sic>hjertan</sic>
-                  <corr>hjärtan</corr>
+                  <sic>hjertan</sic><corr>hjärtan</corr>
                </choice>
                <lb/>
             </p>
@@ -523,21 +523,25 @@
          <div type="Samhallshistoria">
             <p>
                <lb/> Här hemma är allt sig likt allt går som vanligt <lb/> men utanför ser det
-               tröstlöst ut arbetet ligger allt <pb n="02" facs="#Carl19320410_2s"/>
+               tröstlöst ut arbetet ligger allt
+           </p>
+         </div>
+         </div>
+         
+         <div n="sida2">
+         <pb n="02" facs="#Carl19320410_2s"/>
+           <div type="Samhallshistoria">
+            <p>
                <lb/> jämt nere å ingen ljusning synes <choice>
-                  <sic>en,</sic>
-                  <corr>än, </corr>
+                  <sic>en,</sic><corr>än, </corr>
                </choice> fåse nu i dag <lb/> om det kan bli någon ändring, di underhandlar i dag
                <lb/> igen men di har ställt så orimliga <choice>
-                  <sic>villkår,</sic>
-                  <corr>villkor, </corr>
+                  <sic>villkår,</sic><corr>villkor, </corr>
                </choice> di vill sänka <lb/> timlöner och <choice>
-                  <sic>ackård</sic>
-                  <corr>ackord</corr>
+                  <sic>ackård</sic><corr>ackord</corr>
                </choice> med 9 <unclear>pr</unclear>å öka hyrorna till 250. <lb/> för 2 rums å 450
                för 3 rums <choice>
-                  <sic>legenheter.</sic>
-                  <corr>lägenheter.</corr>
+                  <sic>legenheter.</sic><corr>lägenheter.</corr>
                </choice>
             </p>
          </div>
@@ -548,25 +552,21 @@
                <lb/>skolan här i dag, <persName>Lundin</persName> du känner honom väl, <lb/>han
                skall bli svåger med <persName>Axelsson.</persName> Ja må Gud leda <lb/>å hjälpa
                församlingen till det bästa. <lb/> Det ser så <choice>
-                  <sic>kånstigt</sic>
-                  <corr>konstigt</corr>
+                  <sic>kånstigt</sic><corr>konstigt</corr>
                </choice> ut i hela världen så man kan <lb/> ha fog att fråga var det skall sluta, om
                det skall <lb/> bli ett kaos av allt samman eller om något nytt <lb/> håller på att
                födas fram, Gud vet det, och <lb/> det är <choice>
-                  <sic>gått</sic>
-                  <corr>gott</corr>
+                  <sic>gått</sic><corr>gott</corr>
                </choice> att få avlägga allt hos Honom, <lb/> lede Han oss med sin Faders hand och
                må <lb/> vi bli stilla hos Honom. <lb/> I går hade vi besök av <addName ref="#EEL"
                   >mammas </addName>
                <choice>
-                  <sic>brorsån</sic>
-                  <corr>brorson</corr>
+                  <sic>brorsån</sic><corr>brorson</corr>
                </choice>
                <persName>Oscar</persName>
                <lb/> han var här ett par timmar <addName ref="#EEL">mamma</addName> fick 50 kr av
                honom <lb/> det var väl <choice>
-                  <sic>snellt?</sic>
-                  <corr>snällt?</corr>
+                  <sic>snellt?</sic><corr>snällt?</corr>
                </choice>
             </p>
          </div>
@@ -576,24 +576,24 @@
                arbetet <lb/> igång snart så får hon nog försöka med något annat <lb/> snart nog.
             </p>
          </div>
-         <closer><lb/> Ja vi får talas vidar vid när ni kommer <lb/>hem Må Herren Gud hjälpa oss
+         <closer>
+            <lb/> Ja vi får talas vidar vid när ni kommer <lb/>hem Må Herren Gud hjälpa oss
             allt fort <lb/> Han är vår tillflykt från släkte till släkte. <lb/>
-            <lb/><salute>Många hälsningar från oss tre. Eder <addName ref="#CL"
-               >Pappa.</addName></salute>
+            <lb/><salute>Många hälsningar från oss tre. Eder <addName ref="#CL">Pappa.</addName></salute>
          </closer>
          <postscript>
             <ab>
-               <seg type="upperMargin" subtype="upsideDown">
+               <seg type="upperMargin" subtype="upsideDown"/>
                   <lb/>i dag har jag hört <unclear>Brilljot</unclear> predika från <placeName
-                     ref="#Lnd">Lunds</placeName> domkyrka </seg>
-               <seg type="upperLeftMargin" subtype="mixed">
+                     ref="#Lnd">Lunds</placeName> domkyrka
+               
+               <seg type="topLeftMargin" subtype="mixed"/>
                   <lb/> Efter middagen kom <unclear>Past-Hagby</unclear> med fru i <choice>
-                     <sic>sellskap</sic>
-                     <corr>sällskap</corr>
+                     <sic>sellskap</sic><corr>sällskap</corr>
                   </choice>med <persName>Lundin</persName> di bad om sina hälsningar till Eder
-               </seg>
             </ab>
          </postscript>
+        </div>
       </body>
    </text>
 </TEI>

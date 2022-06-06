@@ -477,21 +477,23 @@
          <figure>
             <label>Carl 1932-02-22 01</label>
             <figDesc> Brev från Carl till Gustaf och Greta 22/2-1932, sida 1. </figDesc>
-            <graphic xml:id="Carl19320222_1g" url="assets/img/documents/Carlsbrev/Carl19320222_1"/>
+            <graphic xml:id="Carl19320222_1g" url="assets/img/documents/Carlsbrev/Carl19320222_1.jpeg"/>
          </figure>
       </surface>
       <surface xml:id="Carl19320222_2s">
          <figure>
             <label>Carl 1932-02-22 02</label>
             <figDesc> Brev från Carl till Gustaf och Greta 22/2-1932, sida 2. </figDesc>
-            <graphic xml:id="Carl19320222_2g" url="assets/img/documents/Carlsbrev/Carl19320222_2"/>
+            <graphic xml:id="Carl19320222_2g" url="assets/img/documents/Carlsbrev/Carl19320222_2.jpeg"/>
          </figure>
       </surface>
    </facsimile>
 
    <text>
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Carl19320222_1s"/>
+         <lb />
          <opener>
             <dateline rend="right"><placeName ref="#Gberg">Gustafsberg</placeName>
                <date when="1932-02-22">den 22-2. 1932.</date>
@@ -511,70 +513,60 @@
                <lb/>Det var mycket roligt att höra att Ni är friska <lb/>å krya, och att det visar
                sig någon frukt i arbetet <lb/>
                <choice>
-                  <sic>låvad</sic>
-                  <corr>lovad</corr>
+                  <sic>låvad</sic><corr>lovad</corr>
                </choice> vare Gud för varje själ som vill lämna syn- <lb/>dens väg och börja
                vandringen med Herren i <lb/>helgelse å rättfärdighet. Och att di tillväxer i nåden
                <lb/>och ansluter sig till församlingen det bådar gott för <lb/>framtiden. Må Gud <choice>
-                  <sic>välsingna</sic>
-                  <corr>välsigna</corr>
+                  <sic>välsingna</sic><corr>välsigna</corr>
                </choice> arbetet allt fort- <lb/>farande. </p>
          </div>
          <div type="samhallshistoria">
             <p>
                <lb/>Här hemma är det som vanligt, <choice>
-                  <sic>ennu</sic>
-                  <corr>ännu</corr>
+                  <sic>ennu</sic><corr>ännu</corr>
                </choice> står fabriken stilla, fåse huru länge det dröjer innan di får börja <lb/>
                igen. Och verksamheten i församlingen tycks <lb/> stå stilla <choice>
-                  <sic>even</sic>
-                  <corr>även</corr>
+                  <sic>even</sic><corr>även</corr>
                </choice>den, det är så lojt på alla områden <lb/> Vi har ju våra <choice>
-                  <sic>ordenarie</sic>
-                  <corr>ordinarie</corr>
+                  <sic>ordenarie</sic><corr>ordinarie</corr>
                </choice> möten förstås men det <del>tyc</del>
             </p>
          </div>
          <div>
             <p>
-               <seg type="upperMargin" subtype="upsideDown">
+               <seg type="upperMargin" subtype="upsideDown"/>
                   <lb/>
                   <date when="1932-02-23">den 23je</date>
                   <lb/>Just som jag <choice>
-                     <sic>fott</sic>
-                     <corr>fått</corr>
+                     <sic>fott</sic><corr>fått</corr>
                   </choice> ditt brev färdigt så fick vi Postanvisningen å i går kväll <lb/>var
                      <persName ref="#ELS">Elsa</persName> ner å tog ut det, Tack snälla du för både
                   ost å <choice>
-                     <sic>hånung</sic>
-                     <corr>honung</corr>
+                     <sic>hånung</sic><corr>honung</corr>
                   </choice> vi smaka <lb/>på det redan med det samma båda delarna äro mycket goda
                   varför <lb/>vi skall njuta dem med tacksamhet å glädje. <lb/>Som vi ser så reser
                   ni till <placeName ref="#Etuna">E-tuna</placeName> i dag, och du reser till
                      <placeName ref="#Vtorp">Wretstorp</placeName> i <lb/>morgon så adresserar vi
                   brevet till <placeName ref="#Vtorp">Wretstorp.</placeName>
                   <lb/>Må Gud <choice>
-                     <sic>välsingna</sic>
-                     <corr>välsigna</corr>
+                     <sic>välsingna</sic><corr>välsigna</corr>
                   </choice> ditt arbete där! <lb/>Den <choice>
-                     <sic>rettfärdige</sic>
-                     <corr>rättfärdige</corr>
+                     <sic>rettfärdige</sic><corr>rättfärdige</corr>
                   </choice> skall leva av tro, därför förbliver jag likväl hos Gud <lb/>hur det <choice>
-                     <sic>en</sic>
-                     <corr>än</corr>
+                     <sic>en</sic><corr>än</corr>
                   </choice> må synas i livet, Han är den <add place="above">enda</add> fasta klippan
                   att stå på! <lb/>
                   <s rend="right">allt annat vacklar.</s>
-               </seg>
             </p>
          </div>
+         </div>
+         <div n="sida2">
          <pb n="02" facs="#Carl19320222_2s"/>
          <div type="samhallshistoria">
             <p>
                <lb/> tycks att när folket går hemma så kunde det väl <lb/>
                <choice>
-                  <sic>anårdnas</sic>
-                  <corr>anordnas</corr>
+                  <sic>anårdnas</sic><corr>anordnas</corr>
                </choice> några extra möten för att samla folket till <lb/> att höra sång och musik å
                några goda föredrag, men <lb/> det tycks inte finnas något intresse för någonting.
             </p>
@@ -582,22 +574,18 @@
          <div>
             <p>
                <lb/> Men <choice>
-                  <sic>kanse</sic>
-                  <corr>kanske</corr>
+                  <sic>kanse</sic><corr>kanske</corr>
                </choice> att jag har <choice>
-                  <sic>setat</sic>
-                  <corr>suttit</corr>
+                  <sic>setat</sic><corr>suttit</corr>
                </choice> inne och tänkt för mig <choice>
-                  <sic>själf</sic>
-                  <corr>själv</corr>
+                  <sic>själf</sic><corr>själv</corr>
                </choice>
                <lb/> allt för länge så jag ej förstår något av den här tiden <lb/> ty den är inte
                lik den tid då jag kunde vara med, <lb/> så jag bör ej säga någonting. <lb/> Hela
                världsskicket tycks vara snedvridet, må Gud <lb/> hjälpa oss att ej tappa modet, ty
                trådarna ligga <lb/>
                <choice>
-                  <sic>dåck</sic>
-                  <corr>dock</corr>
+                  <sic>dåck</sic><corr>dock</corr>
                </choice> i Hans händer, och vi veta att Han skall föra <lb/> det till en god utgång. </p>
             <p>
                <lb/>Medan jag sitter å skriver så tvättar <addName ref="#EEL">mamma,</addName> hon
@@ -610,8 +598,7 @@
                bad om sin hälsning <lb/>till Er sist han var här. </p>
          </div>
          <closer><lb/>Må Gud <choice>
-               <sic>välsingna</sic>
-               <corr>välsigna</corr>
+               <sic>välsingna</sic><corr>välsigna</corr>
             </choice> Eder till både kropp och själar. <lb/>
             <salute> Många kära hälsningar från oss, <addName ref="#EEL">Mamma</addName>
                <persName ref="#ELS">Elsa</persName> å mig Eder <add place="below"><addName ref="#CL"
@@ -619,12 +606,11 @@
                <lb/>Hälsa lilla <persName ref="#TL">Tomas</persName> med en kram från <addName
                   ref="#CL">farfar!</addName></salute>
             <lb/>Har ni överflöd på <choice>
-               <sic>hånung</sic>
-               <corr>honung</corr>
+               <sic>hånung</sic><corr>honung</corr>
             </choice> så kan du ta lite <lb/> med dig när Ni kommer hem. </closer>
          <postscript>
             <ab>
-               <seg hand="#HBY" type="leftMargin" subtype="sideways">
+               <seg hand="#HBY" type="leftMargin" subtype="sideways"/>
                   <lb/>Käre Broder! Då jag får tillfälle att här sända en hälsning, gör jag det
                   gärna. Arbetet <lb/>här är sig likt. Skall ut på några möten söder-om
                      <unclear>värksöver.</unclear> Roligt att få komma ut ibland. Ha du
@@ -633,9 +619,9 @@
                   vad han svarar. Tror inte att allt är rent <unclear>spel.</unclear>
                   <lb/>Skriv några rader och ge mej din adress skall jag sända dej fortsättning på
                   det här. Hälsn. Vännen <persName ref="#HAG">Hagby</persName>
-               </seg>
             </ab>
          </postscript>
+        </div>
       </body>
    </text>
 </TEI>
