@@ -320,7 +320,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 2/12-1925, sida 1.
             </figDesc>
-            <graphic xml:id="Kb19251202GUS_1g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_1.jpeg"/> 
+            <graphic xml:id="Kb19251202GUS_1g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_1.jpg"/> 
          </figure>
       </surface>
       
@@ -330,7 +330,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 2/12-1925, sida 2.
             </figDesc>
-            <graphic xml:id="Kb19251202GUS_2g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_2.jpeg"/> 
+            <graphic xml:id="Kb19251202GUS_2g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_2.jpg"/> 
          </figure>
       </surface>
       
@@ -340,7 +340,7 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 2/12-1925, sida 3.
             </figDesc>
-            <graphic xml:id="Kb19251202GUS_3g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_3.jpeg"/> 
+            <graphic xml:id="Kb19251202GUS_3g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_3.jpg"/> 
          </figure>
       </surface>
       
@@ -350,27 +350,29 @@
             <figDesc>
                Kärleksbrev från Gustaf till Greta 2/12-1925, sida 4.
             </figDesc>
-            <graphic xml:id="Kb19251202GUS_4g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_4.jpeg"/> 
+            <graphic xml:id="Kb19251202GUS_4g" url="assets/img/documents/Karleksbreven/Kb19251202GUS_4.jpg"/> 
          </figure>
       </surface>
    </facsimile>
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Kb19251202GUS_1s"/>
-         <opener>
-            <dateline rend="right">
-               <placeName ref="#Obro">Örebro</placeName> 
-               <date when="1925-12-02">d: 2/12</date>
-            </dateline>
-            <lb />
-            <lb />
-          <salute><lb /><s rend="center"><emph rend="ul">Syster i Herren!</emph></s>
-            <lb />
-            <lb />
-            <lb /><s rend="right"><emph rend="ul">Guds frid!</emph></s>
-          </salute>  
-       </opener>
+            <lb/>
+            <opener>
+               <dateline rend="right">
+                  <placeName ref="#Obro">Örebro</placeName> 
+                  <date when="1925-12-02">d: 2/12</date>
+               </dateline>
+               <lb />
+               <lb />
+              <salute><lb /><s rend="center"><emph rend="ul">Syster i Herren!</emph></s>
+                <lb />
+                <lb />
+                <lb /><s rend="right"><emph rend="ul">Guds frid!</emph></s>
+              </salute>  
+            </opener>
             <lb />
        <div type="tro">
           <p>
@@ -379,21 +381,14 @@
             <lb />och låta mitt öga vaka över dig. Ps. 32:8.
             <lb />dessa <unclear>ord</unclear> äro underbart värdefulla för oss som
              <lb />äro unga. Vi veta 
-               <damage agent="folding" type="hole">
-                  <unclear>
-                     <choice>
-                        <sic>offtast</sic>
-                        <corr>oftast</corr>
-                     </choice>
-                  </unclear>
-               </damage> icke vad <add place="above">eller</add> huru vi borde
+               <damage agent="folding" type="hole"><unclear><choice><sic>offtast</sic><corr>oftast</corr></choice></unclear></damage> 
+             icke vad <add place="above">eller</add> huru vi borde
             <lb />handla i många av denna världens ting å spörs
             <lb />mål vi stå där frågande å spörjande. Då är
             <lb />det gott att få gå till Herren Jesus och inför
             <lb />Honom utgjuta vårt hjärta i 
                <choice>
-                  <sic>alvarlig</sic>
-                  <corr>allvarlig</corr>
+                  <sic>alvarlig</sic><corr>allvarlig</corr>
                </choice> bön. då
             <lb />Har Han lovat att bistå oss med både
             <lb />lärdom undervisning samt råd. och därtill
@@ -409,137 +404,141 @@
             <lb /><w rend="right"> mig.</w>
           </p>
         </div>
-        <div type="pastorsyrket">
-          <p>
+        
+
+        <div n="sida2">     
         <pb n="02" facs="#Kb19251202GUS_2s" />
-            <lb />Som du kanske förstår så är jag förnärvarande på
-            <lb />Evangelistkursen i <placeName ref="#Obro">Örebro,</placeName> det är nu <unclear>ett</unclear> år sedan jag var
-            <lb />här sist. Det har varit ett i allo gott år det som ligga
-            <lb />bakom. Gud vare evigt tack därför. Kursen börjar nu
-            <lb />närma sig sitt slut vi resa nämligen härifrån på sön-
-            <lb />dag för att åter gå ut till våra 
-               <choice>
-                  <sic>uppgiffter</sic>
-                  <corr>uppgifter</corr>
-               </choice>. Det har
-            <lb />varit rätt så intressant att vara med vi har 
-               <unclear cert="low">
+           <div type="pastorsyrket">
+              <p>
+               <lb />Som du kanske förstår så är jag förnärvarande på
+               <lb />Evangelistkursen i <placeName ref="#Obro">Örebro,</placeName> det är nu <unclear>ett</unclear> år sedan jag var
+               <lb />här sist. Det har varit ett i allo gott år det som ligga
+               <lb />bakom. Gud vare evigt tack därför. Kursen börjar nu
+               <lb />närma sig sitt slut vi resa nämligen härifrån på sön-
+               <lb />dag för att åter gå ut till våra 
                   <choice>
-                     <sic>hafft</sic>
-                     <corr>haft</corr>
-                  </choice>
-               </unclear>
-            <lb />
-               <choice>
-                  <sic>diskutioner</sic>
-                  <corr>diskussioner</corr>
-               </choice> av alla slag. samt predikningar. Jag
-            <lb />har haft den stora förmånen att fått leda ett par
-            <lb />möten i Wasa Kyrkan i kväll skall jag tala i
-            <lb />Betlehemskyrkan i går kväll var jag i <placeName ref="#Fvi">Frövi</placeName> har
-            <lb />varit där ett par gånger under Kursen och talat
-            <lb />det är mycket gott i 
-               <damage agent="folding" type="hole">
-                  <placeName ref="#Fvi">Frövi</placeName>
-               </damage> det går väldigt med folk
-            <lb />där skall även dit på söndag kväll. kanhända jag därifrån
-            <lb />reser till <placeName ref="#Etuna">E-tuna</placeName> ett tag i förbigående för att sedan vara
-            <lb />i <placeName ref="#Kva">Kolsva</placeName> över jul skall sedan resa och hålla väckelse-
-            <lb />möten Gud hjälpe mig jag hoppas du beder för
-            <lb />mig att Gud genom mig skall bliva förhärligad där
-            <lb />jag får verka. Vi hade en intressant 
-               <choice>
-                  <sic>diskution</sic>
-                  <corr>diskussion</corr>
-               </choice> häromdagen
-            <lb />om lämpligheten för Evangelister att ha <emph rend="ul">en</emph> flicka och det
-            <lb />tycktes alla bröderna vara med om att detta är det bästa
-            <lb />ty de känna <emph rend="ul">sade de</emph> att de har en vän som delar ljuvt
-            <lb />och 
-               <choice>
-                  <sic>lett</sic>
-                  <corr>lätt</corr>
-               </choice> med dem samt beder för dem. 
-          </p>
-        </div>
-        <div>
-          <p>Jag tror de flesta
-            <lb />hade det så och då tänkte jag helt stilla i mitt hjärta
-            <lb />kanske även Jag har någon som beder för mig som delar
-            <lb />ljuvt å 
-               <choice>
-                  <sic>lett</sic>
-                  <corr>lätt</corr>
-               </choice> som jag inte vet om. Jag menar inte 
-                         
+                     <sic>uppgiffter</sic><corr>uppgifter</corr></choice>. Det har
+               <lb />varit rätt så intressant att vara med vi har 
+                  <unclear cert="low">
+                     <choice>
+                        <sic>hafft</sic><corr>haft</corr>
+                     </choice>
+                  </unclear>
+               <lb />
+                  <choice>
+                     <sic>diskutioner</sic><corr>diskussioner</corr>
+                  </choice> av alla slag. samt predikningar. Jag
+               <lb />har haft den stora förmånen att fått leda ett par
+               <lb />möten i Wasa Kyrkan i kväll skall jag tala i
+               <lb />Betlehemskyrkan i går kväll var jag i <placeName ref="#Fvi">Frövi</placeName> har
+               <lb />varit där ett par gånger under Kursen och talat
+               <lb />det är mycket gott i 
+                  <damage agent="folding" type="hole"><placeName ref="#Fvi">Frövi</placeName></damage> det går väldigt med folk
+               <lb />där skall även dit på söndag kväll. kanhända jag därifrån
+               <lb />reser till <placeName ref="#Etuna">E-tuna</placeName> ett tag i förbigående för att sedan vara
+               <lb />i <placeName ref="#Kva">Kolsva</placeName> över jul skall sedan resa och hålla väckelse-
+               <lb />möten Gud hjälpe mig jag hoppas du beder för
+               <lb />mig att Gud genom mig skall bliva förhärligad där
+               <lb />jag får verka. Vi hade en intressant 
+                  <choice>
+                     <sic>diskution</sic><corr>diskussion</corr>
+                  </choice> häromdagen
+               <lb />om lämpligheten för Evangelister att ha <emph rend="ul">en</emph> flicka och det
+               <lb />tycktes alla bröderna vara med om att detta är det bästa
+               <lb />ty de känna <emph rend="ul">sade de</emph> att de har en vän som delar ljuvt
+               <lb />och 
+                  <choice>
+                     <sic>lett</sic><corr>lätt</corr>
+                  </choice> med dem samt beder för dem. 
+            </p>
+         </div>      
+         <div>
+            <p>
+                Jag tror de flesta
+               <lb />hade det så och då tänkte jag helt stilla i mitt hjärta
+               <lb />kanske även Jag har någon som beder för mig som delar
+               <lb />ljuvt å 
+                  <choice>
+                     <sic>lett</sic><corr>lätt</corr>
+                  </choice> som jag inte vet om. Jag menar inte
+            </p>
+         </div>
+        </div> 
+            
+        <div n="sida3">                 
         <pb n="03" facs="#Kb19251202GUS_3s" />
-             <lb />någon som <ellipsis><metamark rend="line" /></ellipsis> Bliv ej förfärad Greta
-             <lb />jag menar ej något som du behöver bliva ängslig
-             <lb />för utan tvärtom någon som fylld med Kärlek till
-             <lb />Jesus samt <unclear>själarna</unclear> beder för mig att jag måtte
-             <lb />bliva ett intet för att Gud skall bliva stor. 
-             <lb />Skall nu strax sluta mitt brev ty jag skall gå <unclear>o spisa</unclear>
-             <lb />kväll och jag tänkte sända brevet i kväll för att
-             <lb />du skall få det i morgon och hinna svara mig
-             <lb />till söndag jag är då nämligen i <placeName ref="#Fvi">Frövi</placeName> men kanske
-             <lb />det är för ansträngande för dig. Jag tänkte ej på <unclear cert="low">fredagen</unclear>
-             <lb />i <unclear cert="low">lärdom</unclear> de största <unclear>stökdagarna</unclear>, nåväl. Jag är mycket
-             <lb />tacksam om jag får en rad av dig <unclear>framledes</unclear> jag må
-             <lb />säga det är ej <unclear>fritt</unclear> utan att jag längtar få höra <unclear>något</unclear>
-             <lb />från dig får samtidigt tacka för ditt förra brev
-             <lb />fastän jag väntade något mer <ellipsis><metamark rend="line"/></ellipsis> men det var ju
-             <lb />roligt att de där verserna som jag <emph rend="ul">skrev av</emph> en för-
-             <lb />bundstoner voro kärkomna de kanske var de ända
-             <lb />förlåt mig. Jag menar ej så illa men <emph rend="ul">ännu 
-                <choice>
-                   <sic>än</sic>
-                   <corr>en</corr>
-                </choice> sak</emph>
-             <lb />du skall skriva arken fulla det var nästan ett
-             <lb />helt ark 
-                <choice>
-                   <sic>oskrivit</sic>
-                   <corr>oskrivet</corr>
-                </choice> hoppas att du nu bättra dig.
-             <lb />Ja <persName ref="#GRE">Greta</persName> nu undrar du allt att jag är så fri-
-             <lb />språkig hoppas att du förstår att allt är <emph rend="ul">rent.</emph>
-             <lb />Ty jag har skrivit inför Gud. Bed Gud att du ej
-             <lb /><emph rend="ul">missförstår</emph> mig ty det skulle bliva min största
-             <lb />sorg det är i alla fall gott att en <ellipsis><metamark rend="line" /></ellipsis> som man
-             <lb />kan få 
-                <choice>
-                   <sic>medela</sic>
-                   <corr>meddela</corr>
-                </choice> sig med 
-           </p>
-        </div>
-        <closer><salute>till slut de varmaste                
-                            
-        <pb n="04" facs="#Kb19251202GUS_4s" />                                            
-             <lb />hälsningar samt Guds rika nåd vare med och
-             <lb />över oss båda.
-             <lb />
-             <lb />
-             <lb /><w rend="center">Broderligen</w></salute>
-             <lb />
-             <lb />
-             <lb />
-             <lb />
-             <lb /><signed rend="right"><persName ref="#GUS">Gustaf A. Lindbohm</persName></signed>
-        </closer>
-             <lb />
-             <lb />
-        <postscript>
-           <p>
-             <lb />P.s. förlåt mitt slarv i <unclear>både</unclear> stavning å stil har
-             <lb />så 
-                <choice>
-                   <sic>brottom</sic>
-                   <corr>bråttom</corr>
-                </choice> har mycket mer att skriva men spar
-             <lb />till en annan gång.
-           </p>
-        </postscript>                                                                           
+           <div>
+              <p>
+                <lb />någon som <ellipsis><metamark rend="line" /></ellipsis> Bliv ej förfärad Greta
+                <lb />jag menar ej något som du behöver bliva ängslig
+                <lb />för utan tvärtom någon som fylld med Kärlek till
+                <lb />Jesus samt <unclear>själarna</unclear> beder för mig att jag måtte
+                <lb />bliva ett intet för att Gud skall bliva stor. 
+                <lb />Skall nu strax sluta mitt brev ty jag skall gå <unclear>o spisa</unclear>
+                <lb />kväll och jag tänkte sända brevet i kväll för att
+                <lb />du skall få det i morgon och hinna svara mig
+                <lb />till söndag jag är då nämligen i <placeName ref="#Fvi">Frövi</placeName> men kanske
+                <lb />det är för ansträngande för dig. Jag tänkte ej på <unclear cert="low">fredagen</unclear>
+                <lb />i <unclear cert="low">lärdom</unclear> de största <unclear>stökdagarna</unclear>, nåväl. Jag är mycket
+                <lb />tacksam om jag får en rad av dig <unclear>framledes</unclear> jag må
+                <lb />säga det är ej <unclear>fritt</unclear> utan att jag längtar få höra <unclear>något</unclear>
+                <lb />från dig får samtidigt tacka för ditt förra brev
+                <lb />fastän jag väntade något mer <ellipsis><metamark rend="line"/></ellipsis> men det var ju
+                <lb />roligt att de där verserna som jag <emph rend="ul">skrev av</emph> en för-
+                <lb />bundstoner voro kärkomna de kanske var de ända
+                <lb />förlåt mig. Jag menar ej så illa men <emph rend="ul">ännu 
+                   <choice>
+                      <sic>än</sic><corr>en</corr>
+                   </choice> sak</emph>
+                <lb />du skall skriva arken fulla det var nästan ett
+                <lb />helt ark 
+                   <choice>
+                      <sic>oskrivit</sic><corr>oskrivet</corr>
+                   </choice> hoppas att du nu bättra dig.
+                <lb />Ja <persName ref="#GRE">Greta</persName> nu undrar du allt att jag är så fri-
+                <lb />språkig hoppas att du förstår att allt är <emph rend="ul">rent.</emph>
+                <lb />Ty jag har skrivit inför Gud. Bed Gud att du ej
+                <lb /><emph rend="ul">missförstår</emph> mig ty det skulle bliva min största
+                <lb />sorg det är i alla fall gott att en <ellipsis><metamark rend="line" /></ellipsis> som man
+                <lb />kan få 
+                   <choice>
+                      <sic>medela</sic><corr>meddela</corr>
+                   </choice> sig med
+              </p>
+           </div>
+           <closer><salute>till slut de varmaste</salute></closer>     
+        </div>  
+        <div n="sida4">                    
+        <pb n="04" facs="#Kb19251202GUS_4s" />
+           <div></div>          
+                <closer>
+                   <salute>              
+                   <lb />hälsningar samt Guds rika nåd vare med och
+                  <lb />över oss båda.
+                  <lb />
+                  <lb />
+                  <lb /><w rend="center">Broderligen</w>
+                </salute>
+                 <lb />
+                 <lb />
+                 <lb />
+                 <lb />
+                 <lb /><signed rend="right"><persName ref="#GUS">Gustaf A. Lindbohm</persName></signed>
+               </closer>
+                 <lb />
+                 <lb />             
+           </div>
+           <postscript>
+              <p>
+                <lb />P.s. förlåt mitt slarv i <unclear>både</unclear> stavning å stil har
+                <lb />så 
+                   <choice>
+                      <sic>brottom</sic><corr>bråttom</corr>
+                   </choice> har mycket mer att skriva men spar
+                <lb />till en annan gång.
+              </p>
+           </postscript>                                                                           
+         </div>
       </body>
   </text>
 </TEI>
