@@ -35,7 +35,7 @@
                     <a class="active" href="karleksbreven.html">Kärleksbreven</a> |
                     <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | 
                     <a href="brevenfrancarl.html">Breven från Carl</a> | 
-                    <a href="historia.html">Historisk kontext</a> | 
+                    <a href="historia.html">Historiskt sammanhang</a> | 
                     <a href="personer.html">Personerna bakom breven</a>
                     | </nav>
                 <nav id="brevnav">
