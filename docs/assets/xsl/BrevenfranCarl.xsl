@@ -371,13 +371,11 @@
     <xsl:template match="tei:metamark[@rend = 'line']"> _______ </xsl:template>
 
     <xsl:template match="tei:unclear">
-        <xsl:apply-templates/>
-        <span style="color: #888ad1">[?]</span>
+        <xsl:apply-templates/><span style="color: #888ad1">[?]</span>
     </xsl:template>
     
     <xsl:template match="tei:unclear[@agent ='test']">
-        <xsl:apply-templates/>
-        <sup><span style="color: #888ad1">[?]</span></sup>
+        <xsl:apply-templates/><sup><span style="color: #888ad1">[?]</span></sup>
     </xsl:template>
 
 </xsl:stylesheet>
