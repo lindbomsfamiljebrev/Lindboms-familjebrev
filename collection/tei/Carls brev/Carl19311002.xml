@@ -82,7 +82,7 @@
             </msDesc>
 
             <bibl>
-               <title>2/10-1931 Brev från Carl</title>
+               <title>2/10-1931: Brev från Carl</title>
                <author ref="#CL">Carl Lindbom</author>
                <biblScope unit="page" n="02"/>
                <series>Lindboms familjebrevsamling</series>
@@ -445,19 +445,28 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change> Ändradade alla brevs <gi>title</gi> i <gi>teiHeader</gi>ns <gi>bibl</gi> till den
+         <change> 
+            Ändradade alla brevs <gi>title</gi> i <gi>teiHeader</gi>ns <gi>bibl</gi> till den
             brevrubrik som skulle synas ovanför brevet så att en XPath kan dras i XSL istället för
-            att behöva skapa ny XSL för varje brev. </change>
-         <change> Lade till <gi>div</gi> tillsammans med ett <att>n</att> attribut med
+            att behöva skapa ny XSL för varje brev. 
+         </change>      
+         <change> 
+            Lade till <gi>div</gi> tillsammans med ett <att>n</att> attribut med
             attribytvärden 'sida1', 'sida2' osv. runt enskilda sidor i breven för skunna använda
-            XPath till att bara publicera specifika sidor. </change>
-         <change> Lade in en radbyte i början av första brevsidan så att alla sidor börjar på samma
+            XPath till att bara publicera specifika sidor. 
+         </change>       
+         <change> 
+            Lade in en radbyte i början av första brevsidan så att alla sidor börjar på samma
             nivå som facsimilen då första sidan alltid började med <gi>opener</gi> medan resterade
-            började med <gi>lb</gi>. </change>
-         <change> Lade till rätt <att>URL</att> för alla facsimiler. </change>
-         <change> Ändrade dubbelunderstrykningar till att markeras med attibutet <att>ulx2</att>.
+            började med <gi>lb</gi>. 
+         </change>      
+         <change> Lade till rätt <att>URL</att> för alla facsimiler. 
+         </change>        
+         <change> 
+            Ändrade dubbelunderstrykningar till att markeras med attibutet <att>ulx2</att>.
          </change>
       </revisionDesc>
+      
    </teiHeader>
 
    <facsimile>
@@ -479,7 +488,9 @@
 
    <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Carl19311002_1s"/>
+         <lb />
          <opener rend="right">
             <dateline><placeName ref="#Gberg">Gustafsberg</placeName>
                <date when="1931-10-02"> den 2 Okt- 1931</date>
@@ -493,69 +504,56 @@
                <lb/>
                <lb/>
                <lb/> Tack för breven vi <choice>
-                  <sic>fott,</sic>
-                  <corr>fått,</corr>
+                  <sic>fott,</sic><corr>fått,</corr>
                </choice> som vi så länge väntat <lb/> på vi funderade ju att det var något ovanligt
-                  <damage agent="folding" type="tear">
-                  <unclear>sen</unclear>
-               </damage>
+                  <damage agent="folding" type="tear"><unclear>sen</unclear></damage>
                <lb/> det dröjde så länge, men nu är ju allt gott och väl <lb/> igen med <persName
                   ref="#TL">Tomas</persName> å <choice>
-                  <sic>even</sic>
-                  <corr>även</corr>
+                  <sic>even</sic><corr>även</corr>
                </choice> med dig <persName ref="#GRE">Greta</persName> vi förstår <lb/> att du har
                varit särskilt orolig för din lilla påg. <lb/> Men nu Herren till pris är ju allt
                gott igen, som <lb/> vi ser av ert sista brev så ökar han mycket för <lb/> varje
                vecka å vi hoppas att det skall få fortfara att <lb/> bli så. <lb/> Och <choice>
-                  <sic>själfva</sic>
-                  <corr>själva</corr>
+                  <sic>själfva</sic><corr>själva</corr>
                </choice> är ni ju krya å duktiga nu, du tala <lb/> om att du skulle låta behandla
                dig <persName ref="#GUS">Gustaf,</persName> för <lb/> den där predikoskräcken som
                kommer över dig <lb/>
                <choice>
-                  <sic>iblan</sic>
-                  <corr>ibland</corr>
+                  <sic>iblan</sic><corr>ibland</corr>
                </choice> hur blir det med det, <choice>
-                  <sic>kanse</sic>
-                  <corr>kanske</corr>
+                  <sic>kanse</sic><corr>kanske</corr>
                </choice> att den är borta <lb/> nu? Och så sänder ni oss så mycket pengar, ni <lb/>
                kan ju behöva dem själva, jag tänker att den <lb/> här resan har kostat er ganska
-               mycket <seg type="upperMargin" subtype="upsideDown">
-                  <lb/>Hela vintern i fjol hade jag min fina tröja <lb/>som jag fick av er i fjol,
+               mycket 
+               <seg type="upperMargin" subtype="upsideDown"/>
+                  Hela vintern i fjol hade jag min fina tröja <lb/>som jag fick av er i fjol,
                   den är så varm å god <lb/>jag tog fram den redan nu när vi hade några kalla <lb/>å
                   stormiga dagar jag måt så gott i den så tack <lb/>ska ni ha! <lb/>Kära hälsningar
                   till eder så roligt att <persName ref="#GRE">Greta</persName> är kry nu så hon
                   <lb/>kan vara med på <choice>
-                     <sic>möterna</sic>
-                     <corr>mötena</corr>
+                     <sic>möterna</sic><corr>mötena</corr>
                   </choice> såg att hon var <choice>
-                     <sic>der</sic>
-                     <corr>där</corr>
+                     <sic>der</sic><corr>där</corr>
                   </choice> och att <lb/>du var barnjungfru det är ej så ofta du får vara hemma <lb/>
                   <choice>
-                     <sic>hoss</sic>
-                     <corr>hos</corr>
+                     <sic>hoss</sic><corr>hos</corr>
                   </choice> de dina Gud <choice>
-                     <sic>välsingne</sic>
-                     <corr>välsigne</corr>
+                     <sic>välsingne</sic><corr>välsigne</corr>
                   </choice> eder och eder lilla <persName ref="#TL">Tomas.</persName>
-               </seg>
             </p>
          </div>
-
+         </div>
+         <div n="sida2">
          <pb n="02" facs="#Carl19311002_2s"/>
          <div>
             <p>
                <lb/> Men <choice>
-                  <sic>hjertligt</sic>
-                  <corr>hjärtligt</corr>
+                  <sic>hjertligt</sic><corr>hjärtligt</corr>
                </choice> tack i allafall för de slantarna, <lb/> men inte behöver du betala av
                   <persName ref="#ELS">Elsas</persName> skuld <lb/> vi har ju inte <choice>
-                  <sic>fodrat</sic>
-                  <corr>fordrat</corr>
+                  <sic>fodrat</sic><corr>fordrat</corr>
                </choice> henne på något, och <lb/> vi har inte lidit någon brist <choice>
-                  <sic>ennu åtminståne.</sic>
-                  <corr>ännu åtminstone.</corr>
+                  <sic>ennu åtminståne.</sic><corr>ännu åtminstone.</corr>
                </choice>
             </p>
          </div>
@@ -564,31 +562,25 @@
                <lb/> Fåse hur det blir till nästa år nu är ju avtalet <lb/> uppsagt igen, denna gång
                av Fabriken och så hotar <lb/> di oss med högre hyror igen, det har di hållit på
                <lb/> med nu i 10 år, å det blir nog <choice>
-                  <sic>värklighet</sic>
-                  <corr>verklighet</corr>
+                  <sic>värklighet</sic><corr>verklighet</corr>
                </choice> till sist. </p>
          </div>
          <div type="tro">
             <p>
                <lb/> Men det är gott att vi får lämna <choice>
-                  <sic>even</sic>
-                  <corr>även</corr>
+                  <sic>even</sic><corr>även</corr>
                </choice> detta åt Herren <lb/> ty han har ju <choice>
-                  <sic>låvat</sic>
-                  <corr>lovat</corr>
+                  <sic>låvat</sic><corr>lovat</corr>
                </choice> att ha omsorg om oss, <lb/> Som jag nu sitter å skriver kommer
                   <persName>fru Jonasson</persName>
                <lb/> in med <title level="j">Hemmets vän</title> och visar mig en <choice>
-                  <sic>artickel</sic>
-                  <corr>artikel</corr>
+                  <sic>artickel</sic><corr>artikel</corr>
                </choice> som <lb/> du skrivit, jag läser den och finner den vara mycket <lb/> bra,
                men ack hur är det, i <choice>
-                  <sic>allmenhet</sic>
-                  <corr>allmänhet</corr>
+                  <sic>allmenhet</sic><corr>allmänhet</corr>
                </choice> sysslar man <lb/> mer med andra, huru dana di äro och huru de <lb/> ha det,
                man har föga lust att <choice>
-                  <sic>ransaka</sic>
-                  <corr>rannsaka</corr>
+                  <sic>ransaka</sic><corr>rannsaka</corr>
                </choice> sig själv <lb/> ty man blir då så liten och obetydlig, men det <lb/> är så
                sant vad du säger, det är så hälsosamt. <lb/> Herren är emot de högmodiga men de
                ödmjuka <lb/> giver han nåd. </p>
@@ -598,35 +590,32 @@
                <lb/> Jag har varit litet förkyld men är nu bättre igen <lb/>
                <addName ref="#EEL">Mamma</addName> är kry å rask jag är så glad å tacksam <lb/> till
                Gud att Han gav mig henne som är så snäll <lb/> å en så god <choice>
-                  <sic>jälp</sic>
-                  <corr>hjälp</corr>
+                  <sic>jälp</sic><corr>hjälp</corr>
                </choice> å så duktig på all sätt, ja en bra <lb/> hustru är en stor skatt. <lb/>
                <persName ref="#ELS">Elsa</persName> är också kry å har mycke arbete. </p>
          </div>
          <closer>
             <salute>Många hälsningar från oss alla tre <lb/> Må Gud <choice>
-                  <sic>välsingna</sic>
-                  <corr>välsigna</corr>
+                  <sic>välsingna</sic><corr>välsigna</corr>
                </choice> Eder alla 3. Er <addName ref="#CL">Pappa</addName>
             </salute>
          </closer>
          <postscript>
             <ab>
-               <seg type="leftMargin" subtype="sideways">
-                  <lb/>
+               <seg type="leftMargin" subtype="sideways"/>
                   <persName ref="#ERI">Erik</persName> har <choice>
-                     <sic>tillfelligt</sic>
-                     <corr>tillfälligt</corr>
-                  </choice> arbete vid <title level="j">Expressen</title> under flyttningen </seg>
-               <seg type="upperMargin" subtype="upsideDown">
-                  <lb/>nu <choice>
-                     <sic>formodar</sic>
-                     <corr>förmodar</corr>
+                     <sic>tillfelligt</sic><corr>tillfälligt</corr>
+                  </choice> arbete vid <title level="j">Expressen</title> under flyttningen
+               
+               <seg type="upperMargin" subtype="upsideDown"/>
+                  nu <choice>
+                     <sic>formodar</sic><corr>förmodar</corr>
                   </choice> jag att du är ute på dina Predikoresor <lb/>men du tittar väl hem så
                   ofta du kan för att se till <lb/>hur <persName ref="#GRE">Greta</persName> å
-                     <addName ref="#TL">pysen</addName> har det. </seg>
+                     <addName ref="#TL">pysen</addName> har det. 
             </ab>
          </postscript>
+         </div>
       </body>
    </text>
 </TEI>
