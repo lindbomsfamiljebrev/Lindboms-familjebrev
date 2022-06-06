@@ -61,7 +61,12 @@ a {
     color: #435091;
 }
 
-a:hover {
+li a.active {
+    color: #8894d1;
+}
+
+
+li a:hover:not(.active) {
     color: #8894d1;
 
 }
