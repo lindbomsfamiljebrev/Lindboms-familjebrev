@@ -347,6 +347,7 @@
            </keywords>
         </textClass>
      </profileDesc>         
+     
      <revisionDesc>
         <change>
            Ändradade alla brevs <gi>title</gi> i <gi>teiHeader</gi>ns <gi>bibl</gi> till den brevrubrik
@@ -377,7 +378,7 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 9/12-1925, sida 1.
             </figDesc>
-            <graphic xml:id="Kb19251209GRE_1g" url="xxx"/> 
+            <graphic xml:id="Kb19251209GRE_1g" url="assets/img/documents/Karleksbreven/Kb19251209GRE_1.jpg"/> 
          </figure>
       </surface>
       
@@ -387,7 +388,7 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 9/12-1925, sida 2.
             </figDesc>
-            <graphic xml:id="Kb19251209GRE_2g" url="xxx"/> 
+            <graphic xml:id="Kb19251209GRE_2g" url="assets/img/documents/Karleksbreven/Kb19251209GRE_2.jpg"/> 
          </figure>
       </surface>
       
@@ -397,7 +398,7 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 9/12-1925, sida 3.
             </figDesc>
-            <graphic xml:id="Kb19251209GRE_3g" url="xxx"/> 
+            <graphic xml:id="Kb19251209GRE_3g" url="assets/img/documents/Karleksbreven/Kb19251209GRE_3.jpg"/> 
          </figure>
       </surface>
       
@@ -407,7 +408,7 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 9/12-1925, sida 4.
             </figDesc>
-            <graphic xml:id="Kb19251209GRE_4g" url="xxx"/> 
+            <graphic xml:id="Kb19251209GRE_4g" url="assets/img/documents/Karleksbreven/Kb19251209GRE_4.jpg"/> 
          </figure>
       </surface>
       
@@ -417,7 +418,7 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 9/12-1925, sida 5.
             </figDesc>
-            <graphic xml:id="Kb19251209GRE_5g" url="xxx"/> 
+            <graphic xml:id="Kb19251209GRE_5g" url="assets/img/documents/Karleksbreven/Kb19251209GRE_5.jpg"/> 
          </figure>
       </surface>
       
@@ -427,7 +428,7 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 9/12-1925, sida 6.
             </figDesc>
-            <graphic xml:id="Kb19251209GRE_6g" url="xxx"/> 
+            <graphic xml:id="Kb19251209GRE_6g" url="assets/img/documents/Karleksbreven/Kb19251209GRE_6.jpg"/> 
          </figure>
       </surface>
       
@@ -437,7 +438,7 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 9/12-1925, sida 7.
             </figDesc>
-            <graphic xml:id="Kb19251209GRE_7g" url="xxx"/> 
+            <graphic xml:id="Kb19251209GRE_7g" url="assets/img/documents/Karleksbreven/Kb19251209GRE_7.jpg"/> 
          </figure>
       </surface>
       
@@ -447,16 +448,18 @@
             <figDesc>
                Kärleksbrev från Greta till Gustaf 9/12-1925, sida 8.
             </figDesc>
-            <graphic xml:id="Kb19251209GRE_8g" url="xxx"/> 
+            <graphic xml:id="Kb19251209GRE_8g" url="assets/img/documents/Karleksbreven/Kb19251209GRE_8.jpg"/> 
          </figure>
       </surface>   
    </facsimile>
    
    
    <text type="letter">
-      <body>        
+      <body>
+         <div n="sida1">
          <pb n="01" facs="#Kb19251209GRE_1s"/>       
          <opener>
+            <lb />
             <dateline rend="right">
                <placeName ref="#Sthlm">Stockholm</placeName> 
                <date when="1925-12-09">den 9/12 25</date>
@@ -467,7 +470,7 @@
                <emph rend="ul">Guds rika Frid o Välsignelse!</emph>
             </salute>
          </opener>
-         <div>
+            <div>
             <p>
                <lb/>Må Gud vara nära mig när 
                <lb/>jag skriver detta brev och må 
@@ -480,9 +483,13 @@
                <lb/>Gud är mig så nära, och du <persName ref="#GUS">Gustaf</persName> 
                <lb/>är mig så nära, det är en stilla 
                <lb/>Frid o ro som vilar över mig.
-            
+            </p>
+            </div>
+         </div>
+         <div n="sida2">
          <pb n="02" facs="#Kb19251209GRE_2s"/>
-               
+            <div>
+            <p>              
                <lb/>Detta är <emph rend="ul">Kärleken</emph>. Så känner jag 
                <lb/>den <unclear>må</unclear> även denna Frid o Ro 
                <lb/>komma dig till del när du 
@@ -498,10 +505,14 @@
                <lb/>står du detta, att du var så 
                <lb/>ärlig o uppriktig emot mig och 
                <lb/>jag vill vara lika ärlig igen. Du 
-               <lb/>kanske redan vet på ryktets 
-               
+               <lb/>kanske redan vet på ryktets
+            </p>
+            </div>
+         </div>
+         <div n="sida3">
          <pb n="03" facs="#Kb19251209GRE_3s"/>
-               
+            <div>
+             <p>
                <lb/>vingar att <persName ref="#PS">Petrus <unclear>Sporrong</unclear></persName> och jag 
                <lb/>haft sällskap <emph rend="ul">ingenting annat</emph> 
                <lb/>jag trodde detta var <emph rend="ul">kärlek</emph> men 
@@ -511,7 +522,7 @@
                <lb/>tackat Gud för många gånger 
                <lb/>sedan jag blev omvänd till Gud. 
             </p>
-         </div>
+            </div>
          <div type="tro">
             <p>
                <lb/>Du skriver vidare att <add rend="up">du</add> fört ett 
@@ -521,10 +532,15 @@
                <lb/>det enda sanna o rena när 
                <lb/>Han har förlåtit dig dina fel-
                <lb/>steg skulle då icke jag förlåta 
-               <lb/>dig som själv är och varit en 
-                  
+               <lb/>dig som själv är och varit en
+            </p>
+            </div>
+         </div>
+         
+         <div n="sida4">        
          <pb n="04" facs="#Kb19251209GRE_4s"/>
-               
+            <div type="tro">
+            <p>
                <lb/>en syndare fastän jag aldrig i 
                <lb/>sedligt hänseende har brutit 
                <lb/>emot Gud. Jag förlåter dig <emph rend="ul">allt</emph> 
@@ -544,10 +560,14 @@
                <lb/>ingenting annat, var du icke 
                <lb/>säker på dig <add place="above">själv</add> förrän jag fick 
                <lb/><add place="above">skriva</add> mitt brev, huru jag än vänder 
-               <lb/>på saken kommer jag icke 
-
+               <lb/>på saken kommer jag icke
+            </p>
+            </div>
+         </div>
+         <div n="sida5"> 
          <pb n="05" facs="#Kb19251209GRE_5s"/>
-               
+            <div>
+            <p>
                <lb/>till någon klarhet.
             </p>
          </div>
@@ -568,9 +588,14 @@
                <lb/>för att sedan taga det ifrån 
                <lb/>mig. Varför detta kommer just
                <lb/>nu för mig vet jag icke det <unclear>kan</unclear> 
-                  
+            </p>
+            </div>
+         </div>
+         
+         <div n="sida6"> 
          <pb n="06" facs="#Kb19251209GRE_6s"/>
-               
+            <div type="tro">
+            <p>
                <lb/>jag icke förklara. Vi lägga våra 
                <lb/>liv och allt i Guds Hand må 
                <lb/>Han leda oss efter sin vilja
@@ -591,9 +616,13 @@
                <lb/>känner jag min svaghet måtte 
                <lb/>jag bliva stark och mera ihär-
                <lb/>dig i bön både för mig själv 
-
+            </p>
+         </div>
+         </div>
+         <div n="sida7"> 
          <pb n="07" facs="Kb19251209GRE_7s"/>
-               
+            <div>
+            <p>
                <lb/>för dig och för mina nära o 
                <lb/>kära som ännu icke känna 
                <lb/>Jesus. Nu tror jag att jag 
@@ -609,10 +638,14 @@
                <lb/>vill det. Må vi icke gå Gud i 
                <lb/>förväg med något. Mitt hjärta 
                <lb/>slår och jag får så ont i bröstet 
-               <lb/>detta skriver jag för att du må 
-                  
+               <lb/>detta skriver jag för att du må
+            </p>
+            </div>
+         </div>
+         <div n="sida8">         
          <pb n="08" facs="#Kb19251209GRE_8s"/>
-               
+            <div>
+            <p>
                <lb/>veta vad <emph rend="ul">du</emph> är för mig. Har 
                <lb/>i kväll ringt hem till <addName ref="#HA">Mamma</addName>
                <lb/>för litet saker som vi skulle 
@@ -632,8 +665,7 @@
             <lb/>
             <salute><lb/>Gud 
                  <choice>
-                    <sic>välsingne</sic>
-                    <corr>välsigne</corr>
+                    <sic>välsingne</sic><corr>välsigne</corr>
                  </choice> dig rikligen <lb/>
                <lb/> och må Han se med väl-<lb/>
                <lb/>behag till detta brev och oss <lb/>
@@ -642,12 +674,11 @@
          </closer>
          <postscript>
            <ab>
-           <seg type="leftMargin" subtype="sideways" />
-            <seg>
-              <lb/>Nu förstår du vad jag längtar efter brev ifrån dig.
-            </seg>
+           <seg type="leftMargin" subtype="sideways" />            
+              <lb/>Nu förstår du vad jag längtar efter brev ifrån dig.          
            </ab>
          </postscript>
+         </div>
       </body>
   </text>
 </TEI>
