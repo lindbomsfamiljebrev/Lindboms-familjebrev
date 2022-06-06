@@ -246,27 +246,33 @@
 
     <xsl:template match="tei:seg[@type = 'leftMargin'][@subtype = 'sideways']">
         <br/>
-        <br/> [VÄNSTERMARGINALEN] </xsl:template>
+        <br/> [VÄNSTERMARGINALEN] 
+    </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'upperMargin'][@subtype = 'upsideDown']">
         <br/>
-        <br/> [ÖVRE MARGINALEN] </xsl:template>
+        <br/> [ÖVRE MARGINALEN] 
+    </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'bottomMargin'][@subtype = 'normal']">
         <br/>
-        <br/> [NEDRE MARGINALEN] </xsl:template>
+        <br/> [NEDRE MARGINALEN] 
+    </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'topLeftMargin'][@subtype = 'mixed']">
         <br/>
-        <br/> [VÄNSTRA OCH ÖVRE MARGINALEN] </xsl:template>
+        <br/> [VÄNSTRA OCH ÖVRE MARGINALEN] 
+    </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'leftBottomMargin'][@subtype = 'mixed']">
         <br/>
-        <br/> [VÄNSTRA OCH NEDRE MARGINALEN] </xsl:template>
+        <br/> [VÄNSTRA OCH NEDRE MARGINALEN] 
+    </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'bottomRightMargin'][@subtype = 'mixed']">
         <br/>
-        <br/> [NEDRE OCH HÖGRA MARGINALEN] </xsl:template>
+        <br/> [NEDRE OCH HÖGRA MARGINALEN] 
+    </xsl:template>
 
     <xsl:template match="tei:emph[@rend = 'circle']">
         <span style="border:1px solid black;border-radius:60%">
