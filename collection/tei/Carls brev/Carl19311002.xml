@@ -526,7 +526,7 @@
                kan ju behöva dem själva, jag tänker att den <lb/> här resan har kostat er ganska
                mycket 
                <seg type="upperMargin" subtype="upsideDown"/>
-                  Hela vintern i fjol hade jag min fina tröja <lb/>som jag fick av er i fjol,
+               <lb />Hela vintern i fjol hade jag min fina tröja <lb/>som jag fick av er i fjol,
                   den är så varm å god <lb/>jag tog fram den redan nu när vi hade några kalla <lb/>å
                   stormiga dagar jag måt så gott i den så tack <lb/>ska ni ha! <lb/>Kära hälsningar
                   till eder så roligt att <persName ref="#GRE">Greta</persName> är kry nu så hon
@@ -603,12 +603,12 @@
          <postscript>
             <ab>
                <seg type="leftMargin" subtype="sideways"/>
-                  <persName ref="#ERI">Erik</persName> har <choice>
+               <lb /><persName ref="#ERI">Erik</persName> har <choice>
                      <sic>tillfelligt</sic><corr>tillfälligt</corr>
                   </choice> arbete vid <title level="j">Expressen</title> under flyttningen
                
                <seg type="upperMargin" subtype="upsideDown"/>
-                  nu <choice>
+               <lb />nu <choice>
                      <sic>formodar</sic><corr>förmodar</corr>
                   </choice> jag att du är ute på dina Predikoresor <lb/>men du tittar väl hem så
                   ofta du kan för att se till <lb/>hur <persName ref="#GRE">Greta</persName> å

@@ -531,8 +531,8 @@
             </div>
             <div>
                <p>
-                  <seg type="upperMargin" subtype="upsideDown"/> Kära lilla <persName ref="#GRE"
-                     >Greta,</persName> jag har ej skri- <lb/> vit en enda rad till dig i det här
+                  <seg type="upperMargin" subtype="upsideDown"/> 
+                  <lb />Kära lilla <persName ref="#GRE">Greta,</persName> jag har ej skri- <lb/> vit en enda rad till dig i det här
                   <lb/> brevet, därför skriver jag ett extra <lb/> brev åt dig här. Som jag ser har
                   <lb/> du varit ute och rest och hälsat på <lb/>
                   <persName ref="#GUS">Gustaf</persName> det var ju roligt för dig att <lb/> så få
@@ -611,9 +611,12 @@
             </closer>
             <postscript>
                <ab>
-                  <seg type="leftMargin" subtype="sideways"/> detta brev har jag skrivit med en
-                  glaspenna. <seg type="upperMargin" subtype="upsideDown"/>
-                  <persName ref="#HAG">Hagby </persName>är i <placeName ref="#Mot"
+                  <seg type="leftMargin" subtype="sideways"/> 
+                  <lb />detta brev har jag skrivit med en
+                  glaspenna. 
+                  
+                  <seg type="upperMargin" subtype="upsideDown"/>
+                  <lb /><persName ref="#HAG">Hagby </persName>är i <placeName ref="#Mot"
                      >Motala</placeName> sen i Fredags. <lb/>Och <unclear>Jädda</unclear> var här i
                   Söndags, han hade sin <choice>
                      <sic>festmö</sic><corr>fästmö</corr>
