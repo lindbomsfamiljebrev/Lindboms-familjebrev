@@ -32,11 +32,11 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> | 
-                    <a href="Karleksbreven.html">Kärleksbreven</a> |
-                    <a href="Aktenskapsbreven.html">Äktenskapsbreven</a> | 
-                    <a href="BrevenfranCarl.html">Breven från Carl</a> | 
-                    <a href="Historia.html">Historisk kontext</a> | 
-                    <a class="active" href="Personer.html">Personerna bakom breven</a> | 
+                    <a href="karleksbreven.html">Kärleksbreven</a> |
+                    <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | 
+                    <a href="brevenfrancarl.html">Breven från Carl</a> | 
+                    <a href="historia.html">Historisk kontext</a> | 
+                    <a class="active" href="personer.html">Personerna bakom breven</a> | 
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->

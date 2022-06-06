@@ -32,11 +32,11 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> | 
-                    <a href="Karleksbreven.html">Kärleksbreven</a> |
-                    <a class="active" href="Aktenskapsbreven.html">Äktenskapsbreven</a> | 
-                    <a href="BrevenfranCarl.html">Breven från Carl</a> | 
-                    <a href="Historia.html">Historisk kontext</a> | 
-                    <a href="Personer.html">Personerna bakom breven</a> | 
+                    <a href="karleksbreven.html">Kärleksbreven</a> |
+                    <a class="active" href="aktenskapsbreven.html">Äktenskapsbreven</a> | 
+                    <a href="brevenfrancarl.html">Breven från Carl</a> | 
+                    <a href="historia.html">Historisk kontext</a> | 
+                    <a href="personer.html">Personerna bakom breven</a> | 
                 </nav>
                 <nav id="brevnav">
                     <li class="year">År 1930</li>
