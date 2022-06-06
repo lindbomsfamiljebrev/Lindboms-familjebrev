@@ -41,7 +41,8 @@
                     <a href="carlsbrev.html">Breven från Carl</a> | 
                     <a href="historia.html">Historisk kontext</a> |
                     <a href="personer.html">Personerna bakom breven</a> |
-                </nav>>
+                </nav>
+                <nav id="brevnav">
                     <li class="year">År 1930</li>
                     <li>
                         <a href="Ab19300806GRE.html">6/8 Äktenskapsbrev från Greta</a>
