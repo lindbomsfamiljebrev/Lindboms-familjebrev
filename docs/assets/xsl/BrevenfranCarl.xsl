@@ -237,11 +237,15 @@
     </xsl:template>
 
     <xsl:template match="tei:damage[@agent = 'folding'][@type = 'hole']">
-        <span style="color: #c4906c"><xsl:apply-templates/>[hål i papperet]</span>
+        <xsl:apply-templates/><span style="color: #c4906c">[hål i papperet]</span>
     </xsl:template>
 
     <xsl:template match="tei:damage[@agent = 'folding'][@type = 'tear']">
-        <span style="color: #c4906c">[reva i papperet]<xsl:apply-templates/></span>
+        <span style="color: #c4906c">[reva i papperet]</span><xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:damage[@agent = 'folding'][@type = 'tea']">
+        <xsl:apply-templates/><sup><span style="color: #c4906c">[reva i papperet]</span></sup>
     </xsl:template>
 
     <xsl:template match="tei:seg[@type = 'leftMargin'][@subtype = 'sideways']">
@@ -369,6 +373,11 @@
     <xsl:template match="tei:unclear">
         <xsl:apply-templates/>
         <span style="color: #888ad1">[?]</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:unclear[@agent ='test']">
+        <xsl:apply-templates/>
+        <sup><span style="color: #888ad1">[?]</span></sup>
     </xsl:template>
 
 </xsl:stylesheet>
