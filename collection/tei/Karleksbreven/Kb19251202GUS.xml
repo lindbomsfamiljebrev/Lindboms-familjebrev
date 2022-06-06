@@ -374,38 +374,39 @@
               </salute>  
             </opener>
             <lb />
-       <div type="tro">
-          <p>
-            <lb />Jag vill lära dig och undervisa dig om den
-            <lb /> väg du skall vandra. Jag vill giva dig <unclear>råd</unclear>
-            <lb />och låta mitt öga vaka över dig. Ps. 32:8.
-            <lb />dessa <unclear>ord</unclear> äro underbart värdefulla för oss som
-             <lb />äro unga. Vi veta 
-               <damage agent="folding" type="hole"><unclear><choice><sic>offtast</sic><corr>oftast</corr></choice></unclear></damage> 
-             icke vad <add place="above">eller</add> huru vi borde
-            <lb />handla i många av denna världens ting å spörs
-            <lb />mål vi stå där frågande å spörjande. Då är
-            <lb />det gott att få gå till Herren Jesus och inför
-            <lb />Honom utgjuta vårt hjärta i 
-               <choice>
-                  <sic>alvarlig</sic><corr>allvarlig</corr>
-               </choice> bön. då
-            <lb />Har Han lovat att bistå oss med både
-            <lb />lärdom undervisning samt råd. och därtill
-            <lb />låta sitt allseende öga vila över oss medan
-            <lb />vi <unclear>utförer</unclear> vår gärning. Detta är också min <unclear>innerliga</unclear>
-            <lb />bön att Han skall vaka över mig under det jag
-            <lb />skriver till dig på det att jag icke må skriva
-            <lb />något som ej Han min Älskade Frälsare
-            <lb />kan se med välbehag till. Utan i stället få 
-            <lb />vittnesbörd i mitt hjärta att Hans välbehag vilar på
-            <lb />mig med dessa rader vill jag nu sätta mig ned för att
-            <lb />helt stilla delgiva dig några tankar som just nu <unclear>upptaga</unclear>
-            <lb /><w rend="right"> mig.</w>
-          </p>
-        </div>
+            <div type="tro">
+               <p>
+                 <lb />Jag vill lära dig och undervisa dig om den
+                 <lb /> väg du skall vandra. Jag vill giva dig <unclear>råd</unclear>
+                 <lb />och låta mitt öga vaka över dig. Ps. 32:8.
+                 <lb />dessa <unclear>ord</unclear> äro underbart värdefulla för oss som
+                  <lb />äro unga. Vi veta 
+                    <damage agent="folding" type="hole"><unclear><choice><sic>offtast</sic><corr>oftast</corr></choice></unclear></damage> 
+                  icke vad <add place="above">eller</add> huru vi borde
+                 <lb />handla i många av denna världens ting å spörs
+                 <lb />mål vi stå där frågande å spörjande. Då är
+                 <lb />det gott att få gå till Herren Jesus och inför
+                 <lb />Honom utgjuta vårt hjärta i 
+                    <choice>
+                       <sic>alvarlig</sic><corr>allvarlig</corr>
+                    </choice> bön. då
+                 <lb />Har Han lovat att bistå oss med både
+                 <lb />lärdom undervisning samt råd. och därtill
+                 <lb />låta sitt allseende öga vila över oss medan
+                 <lb />vi <unclear>utförer</unclear> vår gärning. Detta är också min <unclear>innerliga</unclear>
+                 <lb />bön att Han skall vaka över mig under det jag
+                 <lb />skriver till dig på det att jag icke må skriva
+                 <lb />något som ej Han min Älskade Frälsare
+                 <lb />kan se med välbehag till. Utan i stället få 
+                 <lb />vittnesbörd i mitt hjärta att Hans välbehag vilar på
+                 <lb />mig med dessa rader vill jag nu sätta mig ned för att
+                 <lb />helt stilla delgiva dig några tankar som just nu <unclear>upptaga</unclear>
+                 <lb /><w rend="right"> mig.</w>
+               </p>
+             </div>
         
-
+        </div>
+         
         <div n="sida2">     
         <pb n="02" facs="#Kb19251202GUS_2s" />
            <div type="pastorsyrket">
@@ -507,7 +508,8 @@
               </p>
            </div>
            <closer><salute>till slut de varmaste</salute></closer>     
-        </div>  
+        </div> 
+         
         <div n="sida4">                    
         <pb n="04" facs="#Kb19251202GUS_4s" />
            <div></div>          
@@ -526,8 +528,7 @@
                  <lb /><signed rend="right"><persName ref="#GUS">Gustaf A. Lindbohm</persName></signed>
                </closer>
                  <lb />
-                 <lb />             
-           </div>
+                 <lb />                     
            <postscript>
               <p>
                 <lb />P.s. förlåt mitt slarv i <unclear>både</unclear> stavning å stil har
