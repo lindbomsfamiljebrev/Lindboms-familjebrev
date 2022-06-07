@@ -107,8 +107,8 @@
                             <div class="col-sm">
                                 <article id="transcription">
                                     <p>
-                                        <strong>Description:</strong>
-                                        <xsl:apply-templates select="//tei:TEI//tei:figDesc"/>
+                                        <strong>Projektbeskrivning:</strong>
+                                        <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                     </p>
                                 </article>
                             </div>
