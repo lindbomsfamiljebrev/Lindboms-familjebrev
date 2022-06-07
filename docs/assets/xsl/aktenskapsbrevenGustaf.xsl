@@ -32,8 +32,8 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> | 
-                    <a class="active" href="karleksbreven.html">Kärleksbreven</a> |
-                    <a href="aktenskapsbreven.html">Äktenskapsbreven</a> | 
+                    <a href="karleksbreven.html">Kärleksbreven</a> |
+                    <a class="active" href="aktenskapsbreven.html">Äktenskapsbreven</a> | 
                     <a href="brevenfrancarl.html">Breven från Carl</a> | 
                     <a href="historia.html">Historiskt sammanhang</a> | 
                     <a href="personer.html">Personerna bakom breven</a> | </nav>
@@ -454,6 +454,7 @@
         </s>
     </xsl:template>
 
+
     <!-- transform tei add into html sup -->
     <xsl:template match="tei:add[@place = 'above']">
         <sup>
@@ -524,7 +525,11 @@
         <br/>
         <br/> [ÖVRE MARGINALEN] </xsl:template>
     
-    <xsl:template match="tei:seg[@type = 'bottomKb19251209GREMargin'][@subtype = 'normal']">
+    <xsl:template match="tei:seg[@type = 'upperMargin'][@subtype = 'normal']">
+        <br/>
+        <br/> [ÖVRE MARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:seg[@type = 'bottomMargin'][@subtype = 'normal']">
         <br/>
         <br/> [NEDRE MARGINALEN] </xsl:template>
     

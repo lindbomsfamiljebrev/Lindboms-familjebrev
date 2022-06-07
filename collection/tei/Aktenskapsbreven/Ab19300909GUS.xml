@@ -20,6 +20,11 @@
                <resp>TEI-kodad av</resp>
                <name>Hanna Lindbom</name> 
             </respStmt>
+            
+            <respStmt>
+               <resp>TEI-kod redigerad av</resp>
+               <name>Malin Sandstedt</name>
+            </respStmt>
          </titleStmt>
          
          <editionStmt>
@@ -80,7 +85,7 @@
             </msDesc>
             
             <bibl>
-               <title>Äktenskapsbrev från Gustaf till Greta 9/9-1930</title>
+               <title>9/9-1930: Äktenskapsbrev från Gustaf</title>
                <author ref="#GUS">Gustaf Lindbom</author>
                <biblScope unit="page" n="02"></biblScope>
                <series>Lindboms familjebrevsamling</series> 
@@ -272,7 +277,29 @@
         </keywords>
      </textClass>
    </profileDesc>
-</teiHeader>   
+
+     <revisionDesc>
+        <change>
+           Ändradade alla brevs <gi>title</gi> i <gi>teiHeader</gi>ns <gi>bibl</gi> till den brevrubrik
+           som skulle synas ovanför brevet så att en XPath kan dras i XSL istället för att behöva skapa
+           ny XSL för varje brev.
+        </change>
+        <change>
+           Lade till <gi>div</gi> tillsammans med ett <att>n</att> attribut med attribytvärden 'sida1', 'sida2' osv. 
+           runt enskilda sidor i breven för skunna använda XPath till att bara publicera specifika sidor.
+        </change>
+        <change>
+           Lade in en radbyte i början av första brevsidan så att alla sidor börjar på samma nivå som facsimilen då
+           första sidan alltid började med <gi>opener</gi> medan resterade började med <gi>lb</gi>.
+        </change>
+        <change>
+           Lade till rätt <att>URL</att> för alla facsimiler. 
+        </change>
+        <change>
+           Ändrade dubbelunderstrykningar till att markeras med attibutet <att>ulx2</att>.
+        </change> 
+     </revisionDesc> 
+  </teiHeader>   
      
      <facsimile>
         <surface xml:id="Ab19300909GUS_1s">
@@ -281,7 +308,7 @@
               <figDesc>
                  Äktenskapsbrev från Gustaf till Greta 9/9-1930, sida 1.
               </figDesc>
-              <graphic xml:id="Ab19300909GUS_1g" url="xxx"/> 
+              <graphic xml:id="Ab19300909GUS_1g" url="assets/img/documents/Aktenskapsbreven/Ab19300909GUS_1.jpg"/> 
            </figure>
         </surface> 
         
@@ -291,14 +318,16 @@
               <figDesc>
                  Äktenskapsbrev från Gustaf till Greta 9/9-1930, sida 2.
               </figDesc>
-              <graphic xml:id="Ab19300909GUS_2g" url="xxx"/> 
+              <graphic xml:id="Ab19300909GUS_2g" url="assets/img/documents/Aktenskapsbreven/Ab19300909GUS_2.jpg"/> 
            </figure>
         </surface>   
      </facsimile>
      
   <text type="letter">
       <body>
+       <div n="sida1">
          <pb n="01" facs="#Ab19300909GUS_1s" />
+          <lb />
             <opener rend="right">
                <dateline><placeName ref="#Vkh">Vekhyttan</placeName> på resa 
                   <date when="1930-09-09">d: 9/9-30.</date>
@@ -342,7 +371,7 @@
                  <lb />man kunde lita mera helt på Gud.
                      
            <seg type="upperMargin" subtype="upsideDown" />
-              <seg>
+             
                  <lb />Min lilla hustru!
                  <lb />sedan jag skrev har
                  <lb />jag blivit på bil transpor-
@@ -352,15 +381,19 @@
                  <lb />hit. <unclear cert="low">K-hyttan</unclear> är vackert
                  <lb />och rätt stort samhälle.
                  <lb />Tusen kyssar <emph rend="ul">Din Gustaf</emph>
-              </seg>
+              
                      
            <seg type="upperMargin" subtype="normal" />
-              <seg>
+            
                  <lb />Läs ps. 86. Läs sakta,
                  <lb />och förtröstansfullt.
-              </seg>
-                     
+              </p>
+             </div>
+            </div> 
+            <div n="sida2">         
            <pb n="02" facs="#Ab19300909GUS_2s" />
+            <div type="pastorsyrket">
+               <p>
                  <lb />Känner mig mycket svag i predikstolen, men
                  <lb />har kommit överens med Herren att ej knota
                  <lb />min <unclear>nöd</unclear> inför andra, ej heller tvista med Gud.
@@ -402,7 +435,7 @@
                  <lb />jag kommer i okt. och provar.
                  <lb /><w rend="right">X.X.</w></p>
              </postscript>
-                              
+         </div>                     
       </body>
   </text>
 </TEI>
