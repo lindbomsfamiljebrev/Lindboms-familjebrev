@@ -41,6 +41,26 @@
             </msDesc>                
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Digitaliseringen, transkriberingen och TEI-kodningen av det här brevet (och de övriga breven
+               i samlingen) utfördes som ett digitaliseringsprojekt som var en del av kursen
+               'Digitising Cultural Heritage Materials' vid Högskolan i Borås. Kursen är en del av
+               Högskolan i Borås masterprogram i Biblioteks- och Informationsvetenskap.</p>
+            
+            <p>Detta brev (och de övriga breven i samlingen) digitaliserades med tillstånd av 
+               mottagarnas närmaste levande anhöriga, <persName ref="#GUS">Gustaf Lindboms</persName> och 
+               <persName ref="#GRE">Greta Lindboms</persName> söner Johannes Lindbom och Marcus Lindbom. 
+               Marcus Lindbom är också den privata ägaren av Lindboms familjebrevsamling.</p>
+            
+            <p>Syftet med att digitalisera delar av Lindboms familjebrevsamling är att bevara breven och
+               tillgängliggöra dem så att andra kan läsa dem. Tanken är att brevens innehåll skulle kunna
+               vara av intresse för de som är intresserade av svensk historia eller svensk religionshistoria.
+               Breven ger en detaljerad insikt i människors vardagsliv i Sverige under 1920- och 1930-talen.
+               För att öka användarvänligheten för den historieintresserade har delar av breven blivit
+               markerade med olika historietematiska kategoriseringar, så som kvinnohistoria och pastorsyrket.</p>
+         </projectDesc>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
