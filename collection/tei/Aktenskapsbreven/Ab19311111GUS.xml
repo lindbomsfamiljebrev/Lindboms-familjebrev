@@ -334,7 +334,9 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19311111GUS_1s" />
+            <lb />
             <opener>
                <dateline rend="right"><placeName ref="#Brs">Bredsjö</placeName>
                   <date when="1931-11-11">den 11/11-31</date>
@@ -374,9 +376,14 @@
                  <lb />som jag inte får glömma: lägg fram inför
                  <lb />Gud huru Han vill jag skall ordna mitt
                  <lb />arbete i fortsättn. och under julhelgen. Adjö nu
-                 <lb />på några timmar, din egen <persName ref="#GUS">Gustaf.</persName> - - . . . 
-                    
+                 <lb />på några timmar, din egen <persName ref="#GUS">Gustaf.</persName> - - . . .
+               </p>
+            </div>
+            </div>
+            <div n="sida2">
             <pb n="02" facs="#Ab19311111GUS_2s" />
+            <div>
+               <p>
                  <lb />Min kära lilla hustru nu är klockan ½ 11 så du
                  <lb />sussar väl nu såvitt inte <persName ref="#TL">Tomas</persName> äter i ditt knä.
                  <lb />Snusa på å sov Ni bägge, det gör Er bara gott.
@@ -419,6 +426,7 @@
                  <lb />och din lilla <emph rend="ul">(snälla)</emph> <addName ref="#GUS">pappa.</addName> <emph rend="ul">Gud signe Er!</emph>
                </salute>
             </closer>
+         </div>
        </body>
   </text>
 </TEI>

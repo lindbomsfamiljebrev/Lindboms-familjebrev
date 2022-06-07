@@ -386,7 +386,9 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19320124GUS_1s" />
+            <lb />
             <opener>
                <dateline rend="right"><placeName ref="#Bvb">Brevens Bruk</placeName>
                   <date when="1932-01-24">den 24/1-32.</date>
@@ -427,11 +429,15 @@
                  <lb />var mycket folk. I morgon ha vi
                  <lb />
                    <choice>
-                      <sic>diskutionsmöte</sic>
-                      <corr>diskussionsmöte</corr>
+                      <sic>diskutionsmöte</sic><corr>diskussionsmöte</corr>
                    </choice> i lilla salen. Vi ha
-                  
+               </p>
+            </div>
+            </div>
+            <div n="sida2">
             <pb n="02" facs="#Ab19320124GUS_2s" />
+            <div type="pastorsyrket">
+               <p>
                  <lb />inbjudit I.O.G.T. - G.U.S. – I.D.U.K. och A.B.K. bara
                  <lb />män. På tisdag börjar jag i <placeName ref="#Kmo">Kilsmo</placeName> med om-
                  <lb />nejd igen. I dag kl 11. Predikade <persName>Sandahl.</persName> Han för-
@@ -463,8 +469,13 @@
                  <lb />nämner detta <unclear>sinne</unclear> och uppmanar mina
                  <lb />åhörare att <emph rend="ul">leva helt</emph> för Jesus är det som
                  <lb />om motsvarigheten i mitt eget liv fattas
-                    
+               </p>
+            </div>
+            </div>
+            <div n="sida3">
             <pb n="03" facs="#Ab19320124GUS_3s" />
+            <div type="tro">
+               <p>
                  <lb />Jag har en förnimmelse av att mitt eget
                  <lb />hjärta inte är med. Mitt samvete säger att
                  <lb />jag är en skrymtare, en som predikar för an-
@@ -500,16 +511,18 @@
             <div>
                <p>                  
              <seg type="upperMargin" subtype="upsideDown" />
-               <seg>
+              
                  <lb />Har fått <persName ref="#ERI">Eriks</persName> brev och svarat på det också. Han ville
                  <lb />låna pengar, men jag kan ej låna honom pengar
                  <lb />för hans egen välfärds skull. Så känner jag det!
-               </seg>
+               
                </p>
             </div>
-            <div type="tro">
-               <p>                       
+         </div>
+         <div n="sida4">
          <pb n="04" facs="#Ab19320124GUS_4s" />
+            <div type="tro">
+               <p>  
                  <lb />För <emph rend="ul"><emph rend="ul">sitt</emph></emph> namns skull vill Han ju leda oss på
                  <lb /><emph rend="ul">rätta</emph> vägar. Om vi blott äro stilla och vänta
                  <lb />på Herrens stund skola vi inte komma
@@ -540,7 +553,8 @@
                  <lb />
                  <lb />
                  <lb /><signed rend="right"><persName ref="#GUS">Gustaf</persName></signed>
-            </closer>                                                                
+            </closer> 
+         </div>
        </body>
    </text>
 </TEI>
