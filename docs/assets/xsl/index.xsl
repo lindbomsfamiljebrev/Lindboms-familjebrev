@@ -80,9 +80,10 @@
                                     <p>
                                         <strong>Projektansvariga:</strong>
                                         <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:princial"/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:princial[1]"/>
+                                        &amp; <xsl:apply-templates select="//tei:TEI//tei:princial[2]"/>
                                     </p>
-                                    
+                                    <lb/>                                  
                                     <p>
                                         <strong>Text skriven av:</strong>
                                         <br/>
@@ -157,6 +158,12 @@
         <s>
             <xsl:apply-templates/>
         </s>
+    </xsl:template>
+    
+    <xsl:template match="tei:emph[@bold]">
+        <b>
+            <xsl:apply-templates/>
+        </b>
     </xsl:template>
     
     
