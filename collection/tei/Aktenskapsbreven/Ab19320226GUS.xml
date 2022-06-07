@@ -381,7 +381,9 @@
       
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19320226GUS_1s" />
+            <lb />
             <opener>
                <dateline rend="right"><placeName ref="#Vtorp">Wretstorp</placeName>
                   <date when="1932-02-26">den 26/2-32</date>
@@ -420,22 +422,21 @@
           <div type="vardagsliv">
            <p> 
             <seg type="leftMargin" subtype="sideways" />
-              <seg>
+              
                <lb />Jag kom inte riktigt ihåg när jag var i <placeName ref="#Etuna">E-tuna</placeName>
                <lb />vad jag skulle ha så mycket pengar till, men nu
                <lb />vet jag, 33:70 skulle ju gå åter till Länsföreningen.
                <lb />Satte upp 
                   <choice>
-                     <sic>jämt</sic>
-                     <corr>jämnt</corr>
-                  </choice> hälften för telef: 2:40. <emph rend="ul">Nu är det fred.</emph>
-             </seg>
+                     <sic>jämt</sic><corr>jämnt</corr>
+                  </choice> hälften för telef: 2:40. <emph rend="ul">Nu är det fred.</emph> 
            </p>
          </div>
-         <div type="faderskap">
-            <p>
-            
+         </div>
+          <div n="sida2">  
           <pb n="02" facs="#Ab19320226GUS_2s" />
+            <div type="faderskap">
+               <p>
                <lb />filten är viken precis efter vagnen
                <lb />annars får han ligga i ett dike. För
                <lb />säkerhetens skull kan du lägga tidningar
@@ -443,8 +444,7 @@
                <lb />inte ond på mig lilla gumman jag äl-
                <lb />skar er ser du. 
                   <choice>
-                     <sic>Sej</sic>
-                     <corr>Säg</corr>
+                     <sic>Sej</sic><corr>Säg</corr>
                   </choice> inget till de andra
                <lb />om detta brev, ty kanske dom tycker
                <lb />att jag är barnslig. Men ser du ingenting
@@ -461,8 +461,7 @@
                <lb />Tel. gick till 80 öre, det blir för dyrt
                <lb />att ringa. Apropå 
                    <choice>
-                      <sic>bilg.</sic>
-                      <corr>bilj.</corr>
+                      <sic>bilg.</sic><corr>bilj.</corr>
                    </choice> så var det 1:50
                <lb />i tillägg för snälltåg, alltså kostar den någon-
                <lb />ting på 8:70 eller något mer, men kanske
@@ -471,8 +470,7 @@
             <p>
                <lb /> Nu är jag så 
                    <choice>
-                      <sic>lugn</sic>
-                      <corr>lugn</corr>
+                      <sic>lugn</sic><corr>lugn</corr>
                    </choice> för Er båda, jag
                <lb /> vet ju huru gott Ni ha det, huru snälla
                <lb /> <addName ref="#HA">mormor</addName> och <addName ref="#AA">morfar</addName> är, att de på allt
@@ -487,7 +485,8 @@
                  <lb /> lilla <addName ref="#GUS">pappa,</addName>
               </salute> 
                  <signed><persName ref="#GUS">Gustaf.</persName></signed>
-           </closer>      
+           </closer>
+          </div>
       </body>
   </text>
 </TEI>

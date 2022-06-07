@@ -411,7 +411,9 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19331113GUS_1s" />
+            <lb />
             <opener>
                <dateline rend="right"><placeName ref="#Sthlm">Stockholm</placeName>
                   <date when="1933-11-13">den 13/11-33.</date>
@@ -436,8 +438,13 @@
                 <lb />tiden riktigt inser vad man
                 <lb />betyder för varandra. Jag ser
                 <lb />dig inför mig och du är så
-                 
+              </p>
+           </div>
+            </div>
+            <div n="sida2">
             <pb n="02" facs="#Ab19331113GUS_2s" />
+           <div type="vardagsliv">
+              <p>
                 <lb />rar och god, ja även skön, just
                 <lb />som jag vill att du skall
                 <lb />vara. (Att du <unclear>kokar</unclear> för starkt
@@ -458,8 +465,13 @@
            <div type="faderskap">
               <p>
                 <lb />Du talade om <persName ref="#TL">Tomas.</persName> Jag tror
-                   
+              </p>
+           </div>
+           </div>
+         <div n="sida3">
            <pb n="03" facs="#Ab19331113GUS_3s" />
+           <div type="faderskap">
+              <p>
                 <lb />att pojken är frisk. Det lidande
                 <lb />draget är hans <q>”stämpel”</q>, det
                 <lb />kan ingen doktor taga bort.
@@ -476,8 +488,13 @@
                 <lb />kakor å kaffe, inga mel-
                 <lb />lanmål, utom torrt bröd.
                 <lb />Försök får du se. Så uppe
-              
+              </p>
+           </div>
+         </div>
+         <div n="sida4">
            <pb n="04" facs="#Ab19331113GUS_4s" />
+           <div type="faderskap">
+              <p>
                 <lb />på allt detta, så krama
                 <lb />om honom duktigt och
                 <lb />pojken blir bra – tror jag.
@@ -496,8 +513,13 @@
                 <lb /><persName ref="#ERI">Erik</persName> i-dag. Vet ännu inget
                 <lb />om hemresan. I varje fall
                 <lb />är det nog klokt att jag
-              
+              </p>
+           </div>
+            </div>
+           <div n="sida5">
            <pb n="05" facs="#Ab19331113GUS_5s" />
+            <div>
+               <p>
                 <lb />hämtar Er då jag reser hem.
                 <lb />Underrättar så snart det blir
                 <lb />klart. Ja nu skall du alltså
@@ -517,7 +539,8 @@
                 <signed>
                    <emph><persName ref="#GUS">Gustaf.</persName></emph>
                 </signed>
-           </closer>           
+           </closer>
+        </div>
       </body>
   </text>
 </TEI>
