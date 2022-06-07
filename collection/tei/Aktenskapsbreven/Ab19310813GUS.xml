@@ -340,7 +340,9 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19310813GUS_1s" />
+            <lb />
             <opener>
                <dateline rend="right"><placeName ref="#Obro">Örebro</placeName>
                   <date when="1931-08-13">den 13/8-31.</date>
@@ -376,8 +378,7 @@
                  <lb /> tecken. Nu håller jag på och lagar mat.
                  <lb /> 
                     <choice>
-                       <sic>Kottlet</sic>
-                       <corr>Kotlett</corr>
+                       <sic>Kottlet</sic><corr>Kotlett</corr>
                     </choice> å potatis och god mjölk. Tänk om
                  <lb /> du vore här. Klockan är 6 em. nu måste
                  <lb /> jag passa spisen, adjö ett tag! Nu
@@ -385,15 +386,20 @@
                  <lb /> i dag. De och <emph rend="ul">alla</emph> andra hälsa dig. Fick blommor
                       
              <seg type="upperMargin" subtype="upsideDown" />
-               <seg>
+            
                  <lb />Fick ditt brev nu. O, vad det
                  <lb />gladde mig! Har sopat
                  <lb />hela våningen idag. Skall
                  <lb />gå till <unclear><persName>Lunander</persName></unclear> på kaffe,
                  <lb />nu
-               </seg>
-                        
+               </p>
+              </div>
+            </div>
+         
+             <div n="sida2">           
             <pb n="02" facs="#Ab19310813GUS_2s" />
+            <div type="vardagsliv">
+               <p>
                  <lb /> av <del>Ad</del> <persName>André</persName> i morse. Imorgon bjuda de
                  <lb /> på middag. Till frukost åt jag två stekta
                  <lb /> ägg, stekt korv och filbunke. Klockan är nu
@@ -412,8 +418,7 @@
                  <lb /> ligt. Det var med bärfest. Jag gav frågor och fick svar.
                  <lb /> Tala om att 
                     <choice>
-                       <sic>huvudvilkoret</sic>
-                       <corr>huvudvillkoret</corr>
+                       <sic>huvudvilkoret</sic><corr>huvudvillkoret</corr>
                     </choice> för att bären skall
                  <lb /> mogna är att de förbliva vid sitt fäste i
                  <lb /> grenen. Tillämpningen förstår du. Vi måste för-
@@ -440,6 +445,7 @@
                  <lb /> <emph rend="ul"><persName ref="#GUS">Gustaf</persName></emph>
               </salute>
             </closer>
+        </div>
       </body>
   </text>
 </TEI>
