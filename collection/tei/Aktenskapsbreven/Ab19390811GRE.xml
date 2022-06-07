@@ -401,8 +401,10 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19390811GRE_1s" />
-            <opener> 
+            <lb />            
+               <opener> 
                <dateline rend="right"><placeName ref="#Hlj">Herrljunga</placeName>
                   <date when="1939-08-11">den 11 aug 39.</date>
                </dateline>
@@ -419,8 +421,7 @@
                  <lb /> brev. Som du förstår blev det en
                  <lb /> stor 
                     <choice>
-                       <sic>överaskning</sic>
-                       <corr>överraskning</corr>
+                       <sic>överaskning</sic><corr>överraskning</corr>
                     </choice> för <persName ref="#TL">Tomas</persName> han
                  <lb /> blev så glad. Du må tro det
                  <lb /> var ett riktigt kalas i går. Utav
@@ -428,16 +429,14 @@
                  <lb />  det blev 4 kr av <persName>Inga H.</persName> 2 kr och
                  <lb /> en 
                     <choice>
-                       <sic>chocladkaka</sic>
-                       <corr>chokladkaka</corr>
+                       <sic>chocladkaka</sic><corr>chokladkaka</corr>
                     </choice> av <persName>Elsa</persName> 1 kr av
                  <lb /> <persName>Carl-Olov Ekström</persName> 1 kr. <persName>Lövgren</persName>
                  <lb /> och <persName>Ekström</persName> kom hit i går fm. han
                  <lb /> hade möte här kvällen före. Av <persName>Maj-Lis</persName>
                  <lb /> <persName>Nyström</persName> fick han en fin 
                     <choice>
-                       <sic>portmonä,</sic>
-                       <corr>portmonnä,</corr>
+                       <sic>portmonä,</sic><corr>portmonnä,</corr>
                     </choice> av
                  <lb /> <persName>Tore Sjärna</persName> en bok <title level="m">Sussen</title> kostar 2.75
                  <lb />  av <persName>Margaret </persName>1/2 duss. trevliga näsdukar.
@@ -451,20 +450,23 @@
                  <lb /> sockerdricka och Orange samt frukt.
                  <lb /> sallad med tårta till, de, voro 11 st barn
                      
-           <seg type="leftMargin" subtype="sideways" />
-              <seg>
-                 <lb />Själv är du så innerligt hälsad ifrån oss allesamman</seg>
+           <seg type="leftMargin" subtype="sideways" />             
+                 <lb />Själv är du så innerligt hälsad ifrån oss allesamman
                      
-           <seg type="upperMargin" subtype="upsideDown" />
-              <seg>
+           <seg type="upperMargin" subtype="upsideDown" />             
                  <lb />Gud välsigne
                  <lb />dig min käre
                  <lb /><persName ref="#GUS">Gustaf,</persName> allt
                  <lb />gott från din egen <persName ref="#GRE">Greta</persName> som också längtar
                  <lb />efter <emph rend="ul">dig</emph>
-              </seg>
-                           
+              
+               </p>
+            </div>
+           </div> 
+          <div n="sida2">
           <pb n="02" facs="#Ab19390811GRE_2s" />
+            <div type="vardagsliv">
+               <p>
                  <lb /> på kvällen kom <persName>Yngve Nilssons</persName> och
                  <lb /> <persName>Hallbergs</persName> så jag var alldeles slut
                  <lb /> när det blev liggdags. För övrigt
@@ -496,6 +498,7 @@
                  <lb /> kommen. 
                </p>
             </div>
+         </div>
       </body>
   </text>
 </TEI>
