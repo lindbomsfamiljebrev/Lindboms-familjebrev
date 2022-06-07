@@ -90,7 +90,7 @@
                                         <xsl:apply-templates select="//tei:TEI//tei:princial[1]"/>
                                         &amp; <xsl:apply-templates select="//tei:TEI//tei:princial[2]"/>
                                     </p>
-                                    <lb/> 
+                                    <br/> 
                                     <p>
                                         <strong>Texten skriven av:</strong>
                                         <br/>
