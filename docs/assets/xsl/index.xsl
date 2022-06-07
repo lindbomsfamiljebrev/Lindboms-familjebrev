@@ -116,8 +116,15 @@
                         <div class="row">
                             <div class="col-sm">
                                 <article id="details">
+                                    
                                     <p>
-                                        <strong>Skriven av:</strong>
+                                        <strong>Projektansvariga:</strong>
+                                        <br/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:author"/>
+                                    </p>
+                                    
+                                    <p>
+                                        <strong>Text skriven av:</strong>
                                         <br/>
                                         <xsl:apply-templates select="//tei:TEI//tei:author[1]"/>
                                     </p>

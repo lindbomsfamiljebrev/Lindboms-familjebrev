@@ -7,22 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title>Hem</title>
-            <author ref="#CL">Carl Lindbom</author>
             <principal>Hanna Lindbom</principal>
             <principal>Malin Sandstedt</principal>
-            
-            <respStmt>
-               <resp>Originalbrev delvis transkriberat av</resp>
-               <name>Marcus Lindbom</name>
-            </respStmt>
-            <respStmt>
-               <resp>Transkribering redigerad och kompletterad av</resp>
-               <name>Hanna Lindbom</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI-kodad av</resp>
-               <name>Hanna Lindbom</name>
-            </respStmt>
          </titleStmt>
          
          <editionStmt>
@@ -48,13 +34,47 @@
             <title type="sub"> Hem </title>
          </seriesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Från Marcus Lindboms privata samling av familjebrev.</repository>
+               </msIdentifier>                                 
+            </msDesc>                
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Digitaliseringen, transkriberingen och TEI-kodningen av det här brevet (och de övriga breven
+               i samlingen) utfördes som ett digitaliseringsprojekt som var en del av kursen
+               'Digitising Cultural Heritage Materials' vid Högskolan i Borås. Kursen är en del av
+               Högskolan i Borås masterprogram i Biblioteks- och Informationsvetenskap.</p>
+            
+            <p>Detta brev (och de övriga breven i samlingen) digitaliserades med tillstånd av 
+               mottagarnas närmaste levande anhöriga, <persName ref="#GUS">Gustaf Lindboms</persName> och 
+               <persName ref="#GRE">Greta Lindboms</persName> söner Johannes Lindbom och Marcus Lindbom. 
+               Marcus Lindbom är också den privata ägaren av Lindboms familjebrevsamling.</p>
+            
+            <p>Syftet med att digitalisera delar av Lindboms familjebrevsamling är att bevara breven och
+               tillgängliggöra dem så att andra kan läsa dem. Tanken är att brevens innehåll skulle kunna
+               vara av intresse för de som är intresserade av svensk historia eller svensk religionshistoria.
+               Breven ger en detaljerad insikt i människors vardagsliv i Sverige under 1920- och 1930-talen.
+               För att öka användarvänligheten för den historieintresserade har delar av breven blivit
+               markerade med olika historietematiska kategoriseringar, så som kvinnohistoria och pastorsyrket.</p>
+         </projectDesc>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <p>Svensk historia 
+            Efter efterkrigsdepressionen ca 1920–1922 började den svenska ekonomin återhämta sig och arbetslösheten sjönk från 25% till 10% och den svenska industrin fick samtidigt ett uppsving. Detta medförde materiella framsteg och en höjd standard för stora delar av det svenska folket. Exempel på detta är ökning av antal bilar, utökad elektrifiering. Telefoner blev allt vanligare och 1925 kom de första regelbundna radiosändningarna. Detta reflekteras i breven på flera ställen. Carl skriver om radiopredikningar, Gustaf skriver till Greta för att berätta att han rest med bil, Greta skriver till Gustaf om att de nu fått in el i hemmet, och Greta och Gustaf nämner även både telefonsamtal de haft och telefonräkningar.
+            
+            Runt år 1930 började även Sverige påverkas av den internationella ekonomiska krisen, bland annat genom minskad export vilket ledde till minskad produktion och ökad arbetslöshet. På grund av den höga arbetslösheten (ca 30%) kunde arbetsgivarna pressa lönerna och som en följd av det skapades många arbetsmarknadskonflikter som bland annat ledde till ett stort antal strejker. Carl kommenterar de pågående strejkerna på porslinsfabriken i Gustavsberg i flera av sina brev.
+            
+            Väckelserörelsen
+            Väckelserörelsen tog fart under 1800-talet och som en del av den skapades flera frikyrkosamfund och även en missionsrörelse. Det väckta kallades även för ’läsare’ eftersom läsandet av religiösa skrifter stod i fokus. Väckelserörelsen ansågs av vissa hota den allmänna ordningen eftersom vanligt folk genom att studera och diskutera bibeln och andra religiösa skrifter gjorde sig till tolkare av den kristna tron som hotade kyrkans monopol på förkunnelse.
+            
+            Svenska Missionsförbundet
+            Svenska Missionsförbundet (numera kallad Svenska Missionskyrkan) bildades 1878 och var en del av väckelserörelsen. 1870-talet var en tid som innebar splittring i Svenska Kyrkan och framväxandet av nya idéer. Svenska Missionsförbundet hade två skolor där missionärer och predikanter utbildades. Den Gustaf Lindbom studerade vid låg på Lidingö i Stockholm. Under Gustafs studietid var Gustav Mosesson skolans föreståndare. 
+         </p>
       </body>
    </text>
 </TEI>

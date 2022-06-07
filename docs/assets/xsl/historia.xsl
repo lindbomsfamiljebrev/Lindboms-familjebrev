@@ -74,8 +74,8 @@
                             <div class="col-sm">
                                 <article id="transcription">
                                     <p>
-                                        <strong>Description:</strong>
-                                        <xsl:apply-templates select="//tei:TEI//tei:figDesc"/>
+                                        <strong>Historiskt sammanhang:</strong>
+                                        <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                     </p>
                                 </article>
                             </div>
@@ -84,14 +84,9 @@
                             <div class="col-sm">
                                 <article id="details">
                                     <p>
-                                        <strong>Author:</strong>
+                                        <strong>Text skriven av:</strong>
                                         <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:author"/>
-                                    </p>
-                                    <p>
-                                        <strong>Transcription by:</strong>
-                                        <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:principal"/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:author[1]"/>
                                     </p>
                                 </article>
                             </div>
