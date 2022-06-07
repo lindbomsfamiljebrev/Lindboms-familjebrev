@@ -394,7 +394,9 @@
    
   <text type="letter">
       <body>
+        <div n="sida1">
          <pb n="01" facs="#Ab19301115GRE_1s" />
+           <lb />
             <opener> 
                <dateline rend="center"><placeName ref="#Nra">Nora</placeName> 
                   <date when="1930-11-15">den 15/11 1930</date>
@@ -432,8 +434,13 @@
                <lb />och trevligt och nu på måndag kommer
                <lb />montören och leder in ljus, så nästa gång
                <lb />du kommer hem hoppas jag allt är riktigt
-                 
+              </p>
+            </div>
+           </div>
+            <div n="sida2">
            <pb n="02" facs="#Ab19301115GRE_2s" />
+           <div type="kvinnohistoria">
+              <p>
                <lb />färdigt. Nu jar jag garderoben och linneskåpet
                <lb />färdigt om du visste vad trevligt det blev
                <lb />där uppe, jag är så glad över mitt linne-
@@ -465,75 +472,81 @@
                <lb /> string</unclear> ty bara det ena kortet kom tillbaka
                <lb />och var kvitterat. 
                  <choice>
-                    <sic>Manfalsförteckningen</sic>
-                    <corr>Manfallsförteckningen</corr>
+                    <sic>Manfalsförteckningen</sic><corr>Manfallsförteckningen</corr>
                  </choice> har
                <lb />jag lämnat upp, så nu skall vi väl snart
-               
+               </p>
+              </div>
+            </div>
+            <div n="sida3">
             <pb n="03" facs="#Ab19301115GRE_3s" />
-               <lb />ha allt klart. Du fick väl brevet från
-               <lb />Pensionskassan eller vad den hette? Jag väntar
-               <lb />brev så från <addName ref="#HA">Mamma</addName> så jag får veta när
-               <lb />hon kommer. <persName>Elsa P.O.</persName> ringde just i dag
-               <lb />att hon kanske kommer att resa till <placeName ref="#Obro">Örebro</placeName>
-               <lb />i nästa vecka det skulle vara på onsdag
-               <lb />så om då <persName>Elsa</persName> reser kommer väl <addName ref="#HA">Mamma</addName>
-               <lb />på onsdag ty de skulle ju ha sällskap.
-               <lb />Sen kommer <persName>Elsa</persName>denna vägen på hem-
-               <lb />resan för hon tyckte ju det skulle vara så
-               <lb />roligt att se hur vi ha det. Hoppas du är
-               <lb />hemma då. I dag skickade jag den lilla presen
-               <lb />ten till <persName ref="#SIG">Sigrid.</persName>
-               <lb />Ja, min lilla älskade make hur kärt
-               <lb />är det icke att få skriva och tala om
-               <lb />alla småsaker för dig du kanske blir trött
-               <lb />på mig att jag håller på så här längre.
-               <lb />Men jag tror icke det eller hur?
-               <lb />Jag skulle så gärna vilja skriva något
-               <lb />riktigt vackert till dig, något som jag har
-               <lb />i mitt hjärta som hör dig till. Ofta när
-               <lb />jag tänker på dig och påminner mig dig
-               <lb />vid det eller det tillfället, då tänker jag ock-
-               <lb />så på Jesus. Skulle du se mig nu skulle du
-               <lb />nog tycka jag vore underlig, ty den en glädje-
-               <lb />kåren efter den andra vill komma. Min lilla
-               <lb /><persName ref="#GUS">Gustaf</persName> jag är så lycklig att Jesus
-                
+               <div>
+                  <p>
+                   <lb />ha allt klart. Du fick väl brevet från
+                   <lb />Pensionskassan eller vad den hette? Jag väntar
+                   <lb />brev så från <addName ref="#HA">Mamma</addName> så jag får veta när
+                   <lb />hon kommer. <persName>Elsa P.O.</persName> ringde just i dag
+                   <lb />att hon kanske kommer att resa till <placeName ref="#Obro">Örebro</placeName>
+                   <lb />i nästa vecka det skulle vara på onsdag
+                   <lb />så om då <persName>Elsa</persName> reser kommer väl <addName ref="#HA">Mamma</addName>
+                   <lb />på onsdag ty de skulle ju ha sällskap.
+                   <lb />Sen kommer <persName>Elsa</persName>denna vägen på hem-
+                   <lb />resan för hon tyckte ju det skulle vara så
+                   <lb />roligt att se hur vi ha det. Hoppas du är
+                   <lb />hemma då. I dag skickade jag den lilla presen
+                   <lb />ten till <persName ref="#SIG">Sigrid.</persName>
+                   <lb />Ja, min lilla älskade make hur kärt
+                   <lb />är det icke att få skriva och tala om
+                   <lb />alla småsaker för dig du kanske blir trött
+                   <lb />på mig att jag håller på så här längre.
+                   <lb />Men jag tror icke det eller hur?
+                   <lb />Jag skulle så gärna vilja skriva något
+                   <lb />riktigt vackert till dig, något som jag har
+                   <lb />i mitt hjärta som hör dig till. Ofta när
+                   <lb />jag tänker på dig och påminner mig dig
+                   <lb />vid det eller det tillfället, då tänker jag ock-
+                   <lb />så på Jesus. Skulle du se mig nu skulle du
+                   <lb />nog tycka jag vore underlig, ty den en glädje-
+                   <lb />kåren efter den andra vill komma. Min lilla
+                   <lb /><persName ref="#GUS">Gustaf</persName> jag är så lycklig att Jesus
+                  </p>
+               </div>
+           </div>
+           <div n="sida4">
            <pb n="04" facs="#Ab19301115GRE_4s" />
-               <lb />är min och att du är min älskade make
-               <lb />Du har gjort mitt liv så rikt under denna
-               <lb />tid vi vart förenade med varandra i
-               <lb />vårt lilla hem och det förunderliga är
-               <lb />att allt det gamla som var likasom kval
-               <lb />är alldeles bortglömt och är som om det
-               <lb />aldrig vart. Därför grep det mig så när jag
-               <lb />läste verserna du skrev, det är Jesu 
-                   <choice>
-                      <sic>välsing-<lb />nade</sic>
-                      <corr>välsig-<lb />nade</corr>
-                   </choice> händer och hans kärleksfulla öga som
-               <lb />har 
-                   <choice>
-                      <sic>ledit</sic>
-                      <corr>lett</corr>
-                   </choice> oss rätt väg.
-               <lb />Ja, lilla <persName ref="#GUS">Gustaf</persName> nu har jag fått
-               <lb />tala litet vid dig och det är så kärt att
-               <lb />få komma till dig då o då.
-               <lb />Det är en sak som jag nu sitter och
-               <lb />tänker på, att den ena tröjan du fick med
-               <lb />dig är alldeles för tunn att ha om dagarna
-               <lb />ha den om nätterna för jag förstår du är
-               <lb /><unclear>svett</unclear> när du kommer hem om kvällarna.
-               <lb />Jag har 
-                   <choice>
-                      <sic>kännt</sic>
-                      <corr>känt</corr>
-                   </choice> riktiga förebråelser att du
-               <lb /> icke hade allt i ordning men jag ville ju
-               <lb /> så gärna men kunde icke, nu när jag är
-               <lb /> hemma skall det väl bliva bättre. 
-              </p>
+              <div>
+                 <p>
+                   <lb />är min och att du är min älskade make
+                   <lb />Du har gjort mitt liv så rikt under denna
+                   <lb />tid vi vart förenade med varandra i
+                   <lb />vårt lilla hem och det förunderliga är
+                   <lb />att allt det gamla som var likasom kval
+                   <lb />är alldeles bortglömt och är som om det
+                   <lb />aldrig vart. Därför grep det mig så när jag
+                   <lb />läste verserna du skrev, det är Jesu 
+                       <choice>
+                          <sic>välsing-<lb />nade</sic><corr>välsig-<lb />nade</corr>
+                       </choice> händer och hans kärleksfulla öga som
+                   <lb />har 
+                       <choice>
+                          <sic>ledit</sic><corr>lett</corr>
+                       </choice> oss rätt väg.
+                   <lb />Ja, lilla <persName ref="#GUS">Gustaf</persName> nu har jag fått
+                   <lb />tala litet vid dig och det är så kärt att
+                   <lb />få komma till dig då o då.
+                   <lb />Det är en sak som jag nu sitter och
+                   <lb />tänker på, att den ena tröjan du fick med
+                   <lb />dig är alldeles för tunn att ha om dagarna
+                   <lb />ha den om nätterna för jag förstår du är
+                   <lb /><unclear>svett</unclear> när du kommer hem om kvällarna.
+                   <lb />Jag har 
+                       <choice>
+                          <sic>kännt</sic><corr>känt</corr>
+                       </choice> riktiga förebråelser att du
+                   <lb /> icke hade allt i ordning men jag ville ju
+                   <lb /> så gärna men kunde icke, nu när jag är
+                   <lb /> hemma skall det väl bliva bättre. 
+                  </p>
             </div>
            <closer> 
               <salute>Nu till
@@ -549,6 +562,7 @@
                    <lb />det ju med eller hur. Gud välsigne oss båda! 
                </ab>
            </postscript>
+        </div>
       </body>
   </text>
 </TEI>

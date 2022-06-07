@@ -407,8 +407,10 @@
    </facsimile>
   
   <text type="letter">
-      <body> 
+      <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19301030GRE_1s" />
+            <lb />
             <opener> 
                <dateline rend="right"><placeName ref="#Nra">Nora</placeName> sjukhus 
                   <date when="1930-10-30">den 30/10 1930</date> 
@@ -419,8 +421,7 @@
                   <lb />
                   <lb /> <s rend="right"><emph rend="ul">Guds rika 
                             <choice>
-                               <sic>välsingnelse!</sic>
-                               <corr>välsignelse!</corr>
+                               <sic>välsingnelse!</sic><corr>välsignelse!</corr>
                             </choice></emph></s>
                </salute>
             </opener>
@@ -437,19 +438,20 @@
                 <lb />Du skall väl icke tycka att
                 <lb />jag har för stora 
                     <choice>
-                       <sic>fodringar,</sic>
-                       <corr>fordringar,</corr>
+                       <sic>fodringar,</sic><corr>fordringar,</corr>
                     </choice> men
                 <lb />vet du <persName ref="#GUS">Gustaf </persName>lilla att jag läng-
                 <lb />tar så innerligt efter dig. Kära
                 <lb />lilla <persName ref="#GUS">Gustaf</persName> jag mår så gott
                 <lb />här, fastän i går tänkte jag
                 <lb />det skulle bliva så tråkigt.
-              </p>
+               </p>
+             </div>
             </div>
+            <div n="sida2">
+            <pb n="02" facs="#Ab19301030GRE_3s" />
             <div type="vardagsliv">
-              <p>
-             <pb n="02" facs="#Ab19301030GRE_3s" />
+               <p>
                 <lb />Litet ont i benen har jag ju
                 <lb />haft men det har jag icke
                 <lb />fäst mig vid. Men så i förr-
@@ -481,13 +483,17 @@
                 <lb />har danat er.”!</q> Syster <persName><unclear>Lotten</unclear></persName> kom
                 <lb />i dag in med en gördel och
                 <lb />visade mig som är så bra att
-                 
+               </p>
+             </div>
+            </div>
+            <div n="sida3">
              <pb n="03" facs="#Ab19301030GRE_2s" />
+               <div type="kvinnohistoria">
+                  <p>
                 <lb />ha under grossestiden och det var
                 <lb />
                     <choice>
-                       <sic>presic</sic>
-                       <corr>precis</corr>
+                       <sic>presic</sic><corr>precis</corr>
                     </choice> samma sort som jag
                 <lb />talade om för dig vi hade på
                 <lb />hemmet, nu erbjöd Syster mig
@@ -504,8 +510,7 @@
                 <lb />ljuset summa 12.55 för alltsam-
                 <lb />man. Jag har haft brev 
                     <choice>
-                       <sic>hemmifrån</sic>
-                       <corr>hemifrån</corr>
+                       <sic>hemmifrån</sic><corr>hemifrån</corr>
                     </choice>
                   <lb />de må gott. <persName>Karin Rytterqvist</persName> hade
                 <lb />jag kort ifrån att hon tänkte
@@ -522,8 +527,13 @@
                 <lb />matta på. Nu är det ju bara
                 <lb />sängkläderna och mattan
                 <lb />att vädra och piska men
-                  
+               </p> 
+              </div>
+            </div>
+             <div n="sida4">
              <pb n="04" facs="#Ab19301030GRE_4s" />
+               <div type="vardagsliv">
+                <p>
                 <lb />det går nog att få gjort sedan
                 <lb />jag kommer hem. 
                </p>
@@ -560,19 +570,19 @@
                 <lb />
                 <lb />Gud 
                   <choice>
-                     <sic>välsingne</sic>
-                     <corr>välsigne</corr>
+                     <sic>välsingne</sic><corr>välsigne</corr>
                   </choice> dig och  <gap reason="illegible" quantity="1" unit="word" />
                 <lb />dig till både kropp o själ.
               </closer>
               <postscript>
                <ab>
                 <seg type="leftMargin" subtype="sideways" />
-                  <seg>
+                 
                     <lb /><emph rend="ul">skriv snart!</emph>
-                  </seg>
+                  
                 </ab>
               </postscript>
+         </div>
         </body>
    </text>
 </TEI>
