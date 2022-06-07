@@ -377,7 +377,9 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19310814GRE_1s" />
+            <lb />
             <opener> 
                <dateline rend="right">Sjukhuset 
                   <date when="1931-08-14">den 14/8 31</date>
@@ -406,17 +408,20 @@
                   <lb />grät och ropade till Gud att
                   <lb />Han skulle hjälpa och jag tror
                   <lb />Gud hörde mig! Likaså kl
-                  
-               <pb n="02" facs="#Ab19310814GRE_2s" />
+                  </p>
+            </div>
+        </div>
+        <div n="sida2">
+        <pb n="02" facs="#Ab19310814GRE_2s" />
+           <div type="kvinnohistoria">
+              <p>
                   <lb />9 i 
                      <choice>
-                        <sic>morgse</sic>
-                        <corr>morse</corr>
+                        <sic>morgse</sic><corr>morse</corr>
                      </choice> var han så duk-
                   <lb />tig. Men han 
                      <choice>
-                        <sic>fodrar</sic>
-                        <corr>fordrar</corr>
+                        <sic>fodrar</sic><corr>fordrar</corr>
                      </choice> väl icke
                   <lb />så mycket mat, som sover
                   <lb />mest hela dygnet. Vi få
@@ -437,8 +442,13 @@
                   <lb />alla barn ett tag. Ja <persName ref="#GUS">Gustaf</persName>
                   <lb />lilla vi längta så till Sön-
                   <lb />dagen tills du kommer hit
-                  
-               <pb n="03" />
+                 </p>
+              </div>
+           </div>
+           <div n="sida3">
+           <pb n="03" facs="#Ab19310814GRE_3s" />
+            <div type="kvinnohistoria">
+              <p>
                   <lb />Jag undrar så mycker hur
                   <lb />du har det och hur det
                   <lb />går för dig. Om du visste
@@ -464,7 +474,7 @@
                <postscript>
                  <ab>
                   <seg type="bottomRightMargin" subtype="mixed" />
-                    <seg>
+                    
                        <lb />Välkommen till oss på
                        <lb />Söndag. I morgon skriver jag väl
                        <lb />icke när du kommer på Söndag.
@@ -472,9 +482,10 @@
                        <lb />och må en särskild välsignelse
                        <lb />komma dig till del under den
                        <lb />tid du har kvar i <placeName ref="#Obro">Örebro.</placeName>
-                    </seg>       
+                          
                   </ab>
-               </postscript>                          
+               </postscript>
+            </div>
          </body>
     </text>
 </TEI>
