@@ -117,47 +117,12 @@
                             <div class="col-sm">
                                 <article id="details">
                                     <p>
-                                        <strong>Author:</strong>
+                                        <strong>Skriven av:</strong>
                                         <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:author"/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:author[1]"/>
                                     </p>
-                                    <p>
-                                        <strong>Modifications by:</strong>
-                                        <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:editor"/>
-                                    </p>
-                                    <p>
-                                        <strong>Transcription by:</strong>
-                                        <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:principal[1]"/>
-                                        &amp;
-                                        <xsl:apply-templates select="//tei:TEI//tei:principal[2]"/>
-                                    </p>
-                                    <p>
-                                        <strong>Based on the work of:</strong>
-                                        <br/>
-                                        <a href="http://shelleygodwinarchive.org">The Shelley Godwin
-                                            Archive</a>
-                                    </p>
-                                    <p>
-                                        <strong>Holding Library:</strong>
-                                        <br/>
-                                        <a href="https://www.bodleian.ox.ac.uk/home">
-                                            <xsl:apply-templates
-                                                select="//tei:TEI//tei:msIdentifier/tei:institution"
-                                            />
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <strong>Manuscript:</strong>
-                                        <br/>
-                                        <a>
-                                            <xsl:attribute name="href">
-                                                <xsl:value-of select="//tei:TEI/tei:idno"/>
-                                            </xsl:attribute>
-                                            <xsl:apply-templates select="//tei:TEI//tei:msName"/>
-                                        </a>
-                                    </p>
+                                    
+                            
                                 </article>
                             </div>
                         </div>
