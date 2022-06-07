@@ -366,15 +366,17 @@
             <figDesc>
                Äktenskapsbrev från Greta till Gustaf 27/1-1932, sida 4.
             </figDesc>
-            <graphic xml:id="Ab19320127GRE_4g" url="assets/img/documents/Aktenskapsbreven/Ab19320127GRE_4.jpg"/> 
+            <graphic xml:id="Ab19320127GRE_4g" url="assets/img/documents/Aktenskapsbreven/Ab19320127GRE_1.jpg"/> 
          </figure>
       </surface> 
    </facsimile>
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19320127GRE_1s" />
-            <opener>
+            <lb />
+              <opener>
                <dateline rend="right"><placeName ref="#Nra">Nora</placeName>
                   <date when="1932-01-27">den 27/1 32</date>
                </dateline>
@@ -383,158 +385,164 @@
                   <lb />
                   <lb /><s rend="right"><emph rend="ul">Guds rika 
                           <choice>
-                             <sic>välsingnelse!</sic>
-                             <corr>välsignelse!</corr>
+                             <sic>välsingnelse!</sic><corr>välsignelse!</corr>
                           </choice></emph></s>
                </salute>
             </opener>
-                <div type="tro">
-                   <p>
-                     <lb />
-                     <lb />Tack lilla du för det kära
-                     <lb />brevet som kom mig till-
-                     <lb />handa i går. Som jag ser i
-                     <lb /> det, är du återigen undrande
-                     <lb />hur det är med dig. Jag tror
-                     <lb />att när tiden är inne kommer
-                     <lb />Gud med bönesvar, men in-
-                     <lb />nan dess, under väntetiden,
-                     <lb />mejslar och slipar Mästaren
-                     <lb />redskapet för att det skall
-                     <lb />bliva till mycken större nytta.
-                   </p>
+          <div type="tro">
+             <p>
+               <lb />
+               <lb />Tack lilla du för det kära
+               <lb />brevet som kom mig till-
+               <lb />handa i går. Som jag ser i
+               <lb /> det, är du återigen undrande
+               <lb />hur det är med dig. Jag tror
+               <lb />att när tiden är inne kommer
+               <lb />Gud med bönesvar, men in-
+               <lb />nan dess, under väntetiden,
+               <lb />mejslar och slipar Mästaren
+               <lb />redskapet för att det skall
+               <lb />bliva till mycken större nytta.
+             </p>
+          </div>
+          <div>
+             <p>
+               <lb />Som du nog förstår så vän-
+               <lb />tar jag så innerligt att få
+               <lb />höra ifrån dig, ty vad du sade
+               <lb />i telefon gladde mig obeskriv-
+               
+         <seg type="upperMargin" subtype="upsideDown" />              
+               <lb />Ring eller skriv snart du förstår
+               <lb />vad jag väntar. 
+               </p>
+            </div>
+          </div>
+          <div n="sida2">
+          <pb n="02" facs="#Ab19320127GRE_2s" />
+             <div>
+                <p>
+                  <lb />ligt, trots jag icke vet vad
+                  <lb />som skett, men jag tackar
+                  <lb />Gud för detta underbara du
+                  <lb />nämnde. Jag trodde tills i
+                  <lb />
+                     <choice>
+                        <sic>morgse</sic><corr>morse</corr>
+                     </choice> kl 4 att det skett
+                  <lb />något särskilt i mötena
+                  <lb />men så räknade jag ut
+                  <lb />att du endast haft disku
+                  <lb />tionsmötet mellan brevet du
+                  <lb />skrev och påringningen, men
+                  <lb />så i 
+                     <choice>
+                        <sic>morgse</sic><corr>morse</corr>
+                     </choice> väckte <persName ref="#TL">Tomas</persName>
+                  <lb />mig vid 4 tiden och sen
+                  <lb />kunde jag icke somna på
+                  <lb />en stund och då tänkte
+                  <lb />jag på vår andliga ställ-
+                  <lb />ning och på dig och vet
+                  <lb />du det genomströmmade
+                  <lb />mig en sån lyckokänsla
+                  <lb />och jag fick som förviss-
+                  <lb />ning om att du upplevat
+                  <lb />något, och denna glädje
+                  
+                  <seg type="topLeftMargin" subtype="mixed" />
+             
+                     <lb />I <unclear>Detel</unclear> hade de bönenatt i lördags
+                     <lb />natt. I söndags kväll fingo de
+                     <lb />bedja med fem st. flickor. Där
+                     <lb />det är bön där sker det något. 
+               
+                  </p>
                 </div>
+             </div>
+             <div n="sida3">
+             <pb n="03" facs="#Ab19320127GRE_3s" />
                 <div>
                    <p>
-                     <lb />Som du nog förstår så vän-
-                     <lb />tar jag så innerligt att få
-                     <lb />höra ifrån dig, ty vad du sade
-                     <lb />i telefon gladde mig obeskriv-
-                     
-               <seg type="upperMargin" subtype="upsideDown" />
-                  <seg>
-                     <lb />Ring eller skriv snart du förstår
-                     <lb />vad jag väntar. 
-                  </seg>
-                     
-                <pb n="02" facs="#Ab19320127GRE_2s" />
-                        <lb />ligt, trots jag icke vet vad
-                        <lb />som skett, men jag tackar
-                        <lb />Gud för detta underbara du
-                        <lb />nämnde. Jag trodde tills i
-                        <lb />
-                           <choice>
-                              <sic>morgse</sic>
-                              <corr>morse</corr>
-                           </choice> kl 4 att det skett
-                        <lb />något särskilt i mötena
-                        <lb />men så räknade jag ut
-                        <lb />att du endast haft disku
-                        <lb />tionsmötet mellan brevet du
-                        <lb />skrev och påringningen, men
-                        <lb />så i 
-                           <choice>
-                              <sic>morgse</sic>
-                              <corr>morse</corr>
-                           </choice> väckte <persName ref="#TL">Tomas</persName>
-                        <lb />mig vid 4 tiden och sen
-                        <lb />kunde jag icke somna på
-                        <lb />en stund och då tänkte
-                        <lb />jag på vår andliga ställ-
-                        <lb />ning och på dig och vet
-                        <lb />du det genomströmmade
-                        <lb />mig en sån lyckokänsla
-                        <lb />och jag fick som förviss-
-                        <lb />ning om att du upplevat
-                        <lb />något, och denna glädje
-                        
-                  <seg type="topLeftMargin" subtype="mixed" />
-                     <seg>
-                        <lb />I <unclear>Detel</unclear> hade de bönenatt i lördags
-                        <lb />natt. I söndags kväll fingo de
-                        <lb />bedja med fem st. flickor. Där
-                        <lb />det är bön där sker det något. 
-                     </seg> 
-                        
-                   <pb n="03" facs="#Ab19320127GRE_3s" />
-                        <lb />har fortsatt hela dagen. Har
-                        <lb />jag rätt lilla <persName ref="#GUS">Gustaf.</persName> Jag
-                        <lb />har 
-                           <choice>
-                              <sic>kännt</sic>
-                              <corr>känt</corr>
-                           </choice> en sån glädje
-                        <lb />och 
-                           <choice>
-                              <sic>välsingnelse</sic>
-                              <corr>välsignelse</corr>
-                           </choice> hela dagen.
-                        <lb />Vad det än må innebära bara
-                        <lb /><unclear>vi</unclear> få vara i Jesu närhet
-                        <lb />endast där finna <unclear>vi</unclear> den
-                        <lb />rätta glädjen och lyckan.
-                   </p>
-                </div>
+                  <lb />har fortsatt hela dagen. Har
+                  <lb />jag rätt lilla <persName ref="#GUS">Gustaf.</persName> Jag
+                  <lb />har 
+                     <choice>
+                        <sic>kännt</sic><corr>känt</corr>
+                     </choice> en sån glädje
+                  <lb />och 
+                     <choice>
+                        <sic>välsingnelse</sic><corr>välsignelse</corr>
+                     </choice> hela dagen.
+                  <lb />Vad det än må innebära bara
+                  <lb /><unclear>vi</unclear> få vara i Jesu närhet
+                  <lb />endast där finna <unclear>vi</unclear> den
+                  <lb />rätta glädjen och lyckan.
+             </p>
+          </div>
+          <div type="kvinnohistoria">
+             <p>
+                  <lb />Vi må så gott lilla <persName ref="#TL">Tomas</persName>
+                  <lb />och jag, lilla <q>”gull-hjärtat”</q> är
+                  <lb />så snäll och rar. I går var
+                  <lb />jag i tvättstugan hela för-
+                  <lb />middagen och han var ensam
+                  <lb />inne. När jag kom upp mellan
+                  <lb />8 - 1/2 9 var han vaken och
+                  <lb />låg så snäll och just som
+                  <lb />jag kom fram till sängen
+                  <lb />slog han undan lakanet
+                  <lb />och skratta. Likaså på middagen
+                  <lb />ty han sov i nära tre tim.
+                  <lb />sen kl 10 då låg han vänd
+                    
+                  <seg type="upperMargin" subtype="upsideDown" />
+               
+                   <lb />Vi möts vid Nådens tron. 
+                  </p>
+               </div>  
+            </div>
+            <div n="sida4">
+            <pb n="04" facs="#Ab19320127GRE_4s" />
                 <div type="kvinnohistoria">
                    <p>
-                        <lb />Vi må så gott lilla <persName ref="#TL">Tomas</persName>
-                        <lb />och jag, lilla <q>”gull-hjärtat”</q> är
-                        <lb />så snäll och rar. I går var
-                        <lb />jag i tvättstugan hela för-
-                        <lb />middagen och han var ensam
-                        <lb />inne. När jag kom upp mellan
-                        <lb />8 - 1/2 9 var han vaken och
-                        <lb />låg så snäll och just som
-                        <lb />jag kom fram till sängen
-                        <lb />slog han undan lakanet
-                        <lb />och skratta. Likaså på middagen
-                        <lb />ty han sov i nära tre tim.
-                        <lb />sen kl 10 då låg han vänd
-                          
-                 <seg type="upperMargin" subtype="upsideDown" />
-                     <seg>
-                        <lb />Vi möts vid Nådens tron. 
-                     </seg>
-                           
-                  <pb n="04" facs="#Ab19320127GRE_4s" />
-                        <lb />åt kakelugnen men han
-                        <lb />vände icke på sig när jag
-                        <lb />fråga <q>”var är <persName ref="#TL">Tomas</persName>”!</q> och icke
-                        <lb />när jag sade, <q>”är <persName ref="#TL">Tomas</persName> borta”!</q>
-                        <lb />men så när jag stod tyst
-                        <lb />då vände han sig om och
-                        <lb />skratta, det ser ut som om
-                        <lb />han ville leva med mig.
-                        <lb />Ja, om du nu anade lilla
-                        <lb /><persName ref="#GUS">Gustaf</persName> vad jag längtar efter
-                        <lb />dig, jag måste se på ditt kort
-                        <lb />ibland för att ej glömma bort
-                        <lb />hur du ser ut. Hur outsägligt
-                        <lb />lyckliga äro vi icke med var-
-                        <lb />andra och nu blir det så kärt
-                        <lb />när du kommer hem igen.
-                        <lb /><persName ref="#TL">Tomas</persName> sover så gott och han
-                        <lb />sände <addName ref="#GUS">Pappa</addName>många kramar
-                        <lb />och kyssar, men han är litet
-                        <lb />våldsam när han skall krama
-                        <lb />han river som en liten katt.
-                   </p>
-                </div>
-                <closer>
-                  <salute>
-                    <seg type="upperMargin" subtype="upsideDown" />
-                      <seg>
-                        <lb />Till sist de varmaste kramar
-                        <lb />och kyssar från din egen väntan-
-                        <lb />de <persName ref="#GRE">Greta.</persName> Gud 
-                           <choice>
-                              <sic>välsingne</sic>
-                              <corr>välsigne</corr>
-                           </choice> dig i
-                        <lb />fortsättningen.
-                        </seg>
-                   </salute>
-                </closer>
+                  <lb />åt kakelugnen men han
+                  <lb />vände icke på sig när jag
+                  <lb />fråga <q>”var är <persName ref="#TL">Tomas</persName>”!</q> och icke
+                  <lb />när jag sade, <q>”är <persName ref="#TL">Tomas</persName> borta”!</q>
+                  <lb />men så när jag stod tyst
+                  <lb />då vände han sig om och
+                  <lb />skratta, det ser ut som om
+                  <lb />han ville leva med mig.
+                  <lb />Ja, om du nu anade lilla
+                  <lb /><persName ref="#GUS">Gustaf</persName> vad jag längtar efter
+                  <lb />dig, jag måste se på ditt kort
+                  <lb />ibland för att ej glömma bort
+                  <lb />hur du ser ut. Hur outsägligt
+                  <lb />lyckliga äro vi icke med var-
+                  <lb />andra och nu blir det så kärt
+                  <lb />när du kommer hem igen.
+                  <lb /><persName ref="#TL">Tomas</persName> sover så gott och han
+                  <lb />sände <addName ref="#GUS">Pappa</addName>många kramar
+                  <lb />och kyssar, men han är litet
+                  <lb />våldsam när han skall krama
+                  <lb />han river som en liten katt.
+             </p>
+          </div>
+          <closer>
+            <salute>
+              <seg type="upperMargin" subtype="upsideDown" />
+                
+                  <lb />Till sist de varmaste kramar
+                  <lb />och kyssar från din egen väntan-
+                  <lb />de <persName ref="#GRE">Greta.</persName> Gud 
+                     <choice>
+                        <sic>välsingne</sic><corr>välsigne</corr>
+                     </choice> dig i
+                  <lb />fortsättningen. 
+             </salute>
+          </closer>
+       </div>              
       </body>
   </text>
 </TEI>

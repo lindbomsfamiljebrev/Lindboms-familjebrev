@@ -353,7 +353,9 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19311128GRE_1s" />
+            <lb />          
             <opener>
                <dateline rend="right"><placeName ref="#Nra">Nora</placeName>
                   <date when="1931-11-28">den 28/11 1931</date>
@@ -387,7 +389,7 @@
             <div>
               <p>    
               <seg type="upperMargin" subtype="normal" />
-                <seg>
+                
                   <lb />Detta är en liten hälsning till lilla <addName ref="#GUS">Pappa</addName>
                   <lb />från <persName ref="#TL">Tomas</persName> och hans <addName ref="#GRE">mamma.</addName> Många
                   <lb />kyssar får du. Gud välsigne dig rikligen
@@ -399,17 +401,18 @@
                   <lb />
                   <lb />Godnatt min lilla rara
                   <lb /><persName ref="#GUS">Gustaf!</persName> Din <emph rend="ul"><persName ref="#GRE">Greta</persName></emph>
-                </seg>
+               
               </p>
             </div>
-            <div type="kvinnohistoria">
-              <p>
+           </div>
+            <div n="sida2">
            <pb n="02" facs="#Ab19311128GRE_2s" />
+            <div type="kvinnohistoria">
+               <p>
                   <lb />Men det beror nog på att jag icke
                   <lb />
                       <choice>
-                         <sic>kännt</sic>
-                         <corr>känt</corr>
+                         <sic>kännt</sic><corr>känt</corr>
                       </choice> mig riktigt stark på sista
                   <lb />tiden. Jag har vart riktigt rädd
                   <lb />om kvällarna när jag lagt mig
@@ -417,14 +420,12 @@
                   <lb />lilla <persName ref="#TL">Tomas</persName> under natten. I dag har
                   <lb />jag 
                       <choice>
-                         <sic>kännt</sic>
-                         <corr>känt</corr>
+                         <sic>kännt</sic><corr>känt</corr>
                       </choice> mig litet bättre igen.
                   <lb />Även till mitt inre har jag vart
                   <lb />alldeles nere, men i 
                       <choice>
-                         <sic>morgse</sic>
-                         <corr>morse</corr>
+                         <sic>morgse</sic><corr>morse</corr>
                       </choice> var
                   <lb />det som det brast för mig och
                   <lb />jag riktigt fick gråta ut hos
@@ -439,15 +440,15 @@
                   <lb />men hem till oss.
                   <lb />Lilla <persName ref="#TL">Tomas</persName> vill 
                       <choice>
-                         <sic>hellst</sic>
-                         <corr>helst</corr>
+                         <sic>hellst</sic><corr>helst</corr>
                       </choice> vara
                   <lb />uppe hela dagarna om han
                   <lb />finge, han vill icke lyda sin
                   <lb /><addName ref="#GRE">mamma</addName> längre nu, så det är
                   <lb />bäst <addName ref="#GUS">pappa</addName> kommer hem och säger till.
                </p>
-           </div>        
+           </div>
+         </div>
       </body>
   </text>
 </TEI>

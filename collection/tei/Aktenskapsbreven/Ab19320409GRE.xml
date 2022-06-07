@@ -383,8 +383,10 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19320409GRE_1s" />
-            <opener> 
+            <lb />            
+               <opener> 
                <dateline rend="center"><placeName ref="#Nra">Nora</placeName>
                   <date when="1932-04-09">den 9/4 32.</date>
                </dateline>
@@ -394,6 +396,7 @@
                   <lb /><s rend="center">Guds rika frid!</s>
                </salute>
             </opener>
+            
             <div type="vardagsliv">
                <p>
                  <lb />
@@ -422,95 +425,100 @@
                <div type="kvinnohistoria">
                   <p>Lilla
                  <lb /><persName ref="#TL">Tomas</persName> är så kry, men litet orolig om nätter-
-                  
-              <pb n="02" facs="#Ab19320409GRE_2s"/>
-                 <lb />na så det har blivit dåligt med sova
-                 <lb />hela denna vecka. Du hade nog rätt
-                 <lb /><persName ref="#GUS">Gustaf</persName> att han icke tål att ha både filt
-                 <lb />och täcke ty nu har svettningen upphört
-                 <lb />alldeles. Oron om nätterna tror jag beror på
-                 <lb />tänderna. Härom kvällen fick han skrika
-                 <lb />riktigt men det kommer jag aldrig att
-                 <lb />göra om mer ty jag trodde han skulle
-                 <lb />dö han miste alldeles andan. Och jag blev
-                 <lb />så förstörd så jag kunde bara gråta en
-                 <lb />lång stund efteråt. O, det var så ömt om
-                 <lb />honom den lilla älsklingen. Han är då så
-                 <lb />rar och jag är så rädd för att vi på något
-                 <lb />
-                    <choice>
-                       <sic>sett</sic>
-                       <corr>sätt</corr>
-                    </choice> skall förgå oss emot honom som kanske
-                 <lb />blir till skada i stället för till nytta. 
                </p>
-             </div>
-             <div type="vardagsliv">
-                <p> I
-                 <lb />morgon skall jag väl gå ut med honom
-                 <lb />om det är vackert. Det har vart så ruskigt
-                 <lb />väder sen du reste. <persName ref="#GUS">Gustaf</persName> lilla vilken över-
-                 <lb />raskning det blev för oss att icke lilla
-                 <lb /><addName ref="#GUS">Pappa </addName>kommer hem. Jag höll på att bliva knot-
-                 <lb />sam, ty jag hade glatt mig <add place="above"><emph rend="ul">så</emph></add> åt att du skulle
-                 <lb />komma på måndag. Ännu en hel vecka kvar,
-                 <lb />o, <persName ref="#GUS">Gustaf</persName> vilken försakelse att ej få vara hos
-                 <lb />varandra, det blir smärtsammare för varje
-                 <lb />gång att 
-                    <choice>
-                       <sic>skjiljas.</sic>
-                       <corr>skiljas.</corr>
-                    </choice> Livet är ju så kort och
-                 <lb />tiden går så fort, och mest äro vi
-                    <choice>
-                       <sic>skjiljda</sic>
-                       <corr>skilda</corr>
-                    </choice>
-                 <lb />åt. Men jag får icke klaga, ty det skänker
-                 
-            <pb n="03" facs="#Ab19320409GRE_3s" />
-                 <lb />även glädje och välsignelse. Hur 
-                    <choice>
-                       <sic>glädjs</sic>
-                       <corr>gläds</corr>
-                    </choice> jag
-                 <lb />icke med dig över den Nåd som kommit
-                 <lb />dig till del under den snart gångna vintern.
-                 <lb />Hur är det med <add place="above">dig</add> nu, hoppas du är rädd om dig.
-                 <lb />Nu undrar jag hur du skall klara dig med
-                 <lb />kläder ännu en vecka, särskilt strumpor?
-                 <lb />Skall jag skicka kanske? Bifogar <persName>Hj. Janssons</persName>
-                 <lb />kort samt eftersänder ett brev. Postförskott
-                 <lb />på bibeln samt <title level="j">Predikanternas tidskrift</title> har
-                 <lb />kommit så jag har läst dem. Bibeln var så
-                 <lb />trevlig kostade 5.25 mycket billigt var det.
-                 <lb />telefon-räkningen har kommit 20.90. För övrigt
-                 <lb />ingenting nytt. Lilla <persName ref="#GUS">Gustaf</persName>bliv ej ledsen
-                 <lb />på mig men jag måste sluta nu ty jag är
-                 <lb />så trött så det bara <unclear>kryper</unclear> i kroppen och
-                 <lb />då kan jag icke sitta stilla. Sänder dig de
-                 <lb />sämsta korten ty de två andra tänker jag
-                 <lb />skicka till <addName ref="#CL">Farfar.</addName> 
-                </p>
-             </div>
-            <closer>Älskade <persName ref="#GUS">Gustaf</persName> god-natt
-                 <lb />med dig nu, du är väl icke ledsen på mig.
-               <salute><lb />Många varma kyssar och kramar
-                 <lb />får du nu från din lilla <persName ref="#TL">Tomas</persName> och <persName ref="#GRE">Greta.</persName>
-               </salute>
-                 <lb />Vi möts vid Nådens <unclear>tron</unclear>. Jag beder för dig.
-                 <lb />Glöm ej oss här hemma.
-            </closer>
-            <postscript>
-              <ab>
-               <seg type="upperMargin" subtype="upsideDown" />
-                 <seg>
-                   <lb />Det var roligt att du bjöd <persName>Axelssons</persName> hoppas
-                   <lb />de komma.
-                   <lb />Snälla lilla <persName ref="#GUS">Gustaf</persName> skriv snart igen.
-                </seg>
-              </ab>
-            </postscript>                         
-      </body>
+            </div>
+        </div>
+        <div n="sida2">
+        <pb n="02" facs="#Ab19320409GRE_2s"/>
+         <div type="kvinnohistoria">
+            <p>
+             <lb />na så det har blivit dåligt med sova
+             <lb />hela denna vecka. Du hade nog rätt
+             <lb /><persName ref="#GUS">Gustaf</persName> att han icke tål att ha både filt
+             <lb />och täcke ty nu har svettningen upphört
+             <lb />alldeles. Oron om nätterna tror jag beror på
+             <lb />tänderna. Härom kvällen fick han skrika
+             <lb />riktigt men det kommer jag aldrig att
+             <lb />göra om mer ty jag trodde han skulle
+             <lb />dö han miste alldeles andan. Och jag blev
+             <lb />så förstörd så jag kunde bara gråta en
+             <lb />lång stund efteråt. O, det var så ömt om
+             <lb />honom den lilla älsklingen. Han är då så
+             <lb />rar och jag är så rädd för att vi på något
+             <lb />
+                <choice>
+                   <sic>sett</sic><corr>sätt</corr>
+                </choice> skall förgå oss emot honom som kanske
+             <lb />blir till skada i stället för till nytta. 
+            </p>
+         </div>
+         <div type="vardagsliv">
+            <p> I
+               <lb />morgon skall jag väl gå ut med honom
+               <lb />om det är vackert. Det har vart så ruskigt
+               <lb />väder sen du reste. <persName ref="#GUS">Gustaf</persName> lilla vilken över-
+               <lb />raskning det blev för oss att icke lilla
+               <lb /><addName ref="#GUS">Pappa </addName>kommer hem. Jag höll på att bliva knot-
+               <lb />sam, ty jag hade glatt mig <add place="above"><emph rend="ul">så</emph></add> åt att du skulle
+               <lb />komma på måndag. Ännu en hel vecka kvar,
+               <lb />o, <persName ref="#GUS">Gustaf</persName> vilken försakelse att ej få vara hos
+               <lb />varandra, det blir smärtsammare för varje
+               <lb />gång att 
+                  <choice>
+                     <sic>skjiljas.</sic><corr>skiljas.</corr>
+                  </choice> Livet är ju så kort och
+               <lb />tiden går så fort, och mest äro vi
+                  <choice>
+                     <sic>skjiljda</sic><corr>skilda</corr>
+                  </choice>
+               <lb />åt. Men jag får icke klaga, ty det skänker
+            </p>
+         </div>
+         </div>
+         <div n="brev3">
+          <pb n="03" facs="#Ab19320409GRE_3s" />
+           <div type="vardagsliv">
+              <p>
+                  <lb />även glädje och välsignelse. Hur 
+                     <choice>
+                        <sic>glädjs</sic><corr>gläds</corr>
+                     </choice> jag
+                  <lb />icke med dig över den Nåd som kommit
+                  <lb />dig till del under den snart gångna vintern.
+                  <lb />Hur är det med <add place="above">dig</add> nu, hoppas du är rädd om dig.
+                  <lb />Nu undrar jag hur du skall klara dig med
+                  <lb />kläder ännu en vecka, särskilt strumpor?
+                  <lb />Skall jag skicka kanske? Bifogar <persName>Hj. Janssons</persName>
+                  <lb />kort samt eftersänder ett brev. Postförskott
+                  <lb />på bibeln samt <title level="j">Predikanternas tidskrift</title> har
+                  <lb />kommit så jag har läst dem. Bibeln var så
+                  <lb />trevlig kostade 5.25 mycket billigt var det.
+                  <lb />telefon-räkningen har kommit 20.90. För övrigt
+                  <lb />ingenting nytt. Lilla <persName ref="#GUS">Gustaf</persName>bliv ej ledsen
+                  <lb />på mig men jag måste sluta nu ty jag är
+                  <lb />så trött så det bara <unclear>kryper</unclear> i kroppen och
+                  <lb />då kan jag icke sitta stilla. Sänder dig de
+                  <lb />sämsta korten ty de två andra tänker jag
+                  <lb />skicka till <addName ref="#CL">Farfar.</addName> 
+               </p>
+           </div>
+          <closer>Älskade <persName ref="#GUS">Gustaf</persName> god-natt
+               <lb />med dig nu, du är väl icke ledsen på mig.
+             <salute><lb />Många varma kyssar och kramar
+               <lb />får du nu från din lilla <persName ref="#TL">Tomas</persName> och <persName ref="#GRE">Greta.</persName>
+             </salute>
+               <lb />Vi möts vid Nådens <unclear>tron</unclear>. Jag beder för dig.
+               <lb />Glöm ej oss här hemma.
+          </closer>
+          <postscript>
+            <ab>
+             <seg type="upperMargin" subtype="upsideDown" />             
+                 <lb />Det var roligt att du bjöd <persName>Axelssons</persName> hoppas
+                 <lb />de komma.
+                 <lb />Snälla lilla <persName ref="#GUS">Gustaf</persName> skriv snart igen.            
+            </ab>
+          </postscript>       
+      </div>   
+   </body>
   </text>
 </TEI>

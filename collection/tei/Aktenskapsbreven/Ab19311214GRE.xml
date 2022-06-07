@@ -388,7 +388,9 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19311214GRE_1s" />
+               <lb />
             <opener>
                <dateline rend="right"><placeName ref="#Nra">Nora</placeName>
                   <date when="1931-12-14">den 14/12 1931</date>
@@ -418,17 +420,20 @@
                 <lb /> när jag tittade till hade han
                 <lb /> somnat ifrån leken, trots att
                    
-          <seg type="upperMargin" subtype="normal" />
-             <seg>
-                <lb />skall jag beställa av korten till Jul.
-             </seg>
-                  
+            <seg type="upperMargin" subtype="normal" />
+             
+                  <lb />skall jag beställa av korten till Jul.
+               </p>           
+            </div>
+         </div>
+         <div n="sida1">         
          <pb n="02" facs="#Ab19311214GRE_2s" />
+            <div type="kvinnohistoria">
+               <p>
                 <lb /> jag höll på med kläderna och
                 <lb /> 
                    <choice>
-                      <sic>skjöljde</sic>
-                      <corr>sköljde</corr>
+                      <sic>skjöljde</sic><corr>sköljde</corr>
                    </choice> dem och skramlade, han 
                 <lb /> stod i köket då. Han var så
                 <lb /> rar där han låg. Han badade i
@@ -441,7 +446,7 @@
                 <lb /> honom och höll fram honom
                 <lb /> och det blev en stor bäck
                 <lb /> på golvet. Nu ligger han och knar-
-                <lb /> rar litet men somnar nog <unclear>snart.</unclear>
+                <lb /> rar litet men somnar nog <unclear>snart</unclear>.
               </p>
             </div>
             <div>
@@ -457,8 +462,13 @@
                 <lb /> synnerligen trevligt i vårt lilla
                 <lb /> hem, och en särskilt fin möbel
                 <lb /> <s rend="right">i rummet.</s>
-    
+               </p>
+            </div>
+           </div>
+            <div n="sida3">
            <pb n="03" facs="#Ab19311214GRE_3s" />
+               <div>
+                  <p>
                 <lb />Jag tror icke han väntat att vi
                 <lb />skulle ha så trevligt.
               </p>     
@@ -480,8 +490,7 @@
                 <lb />mig så kan jag ringa upp ho-
                 <lb />nom och 
                     <choice>
-                       <sic>meddela</sic>
-                       <corr>meddela</corr>
+                       <sic>meddela</sic><corr>meddela</corr>
                     </choice> hur du gör.
                </p>
             </div>
@@ -493,14 +502,19 @@
                 <lb /> vi skulle få tre barn till, med
                 <lb /> två års mellanrum mellan varje
                                  
-             <seg type="upperMargin" subtype="upsideDown">
+             <seg type="upperMargin" subtype="upsideDown" />
                 <lb />En annan sak, har du skickat efter boken
                 <lb />till <addName>Mamma</addName> o <addName>Pappa?</addName> Kanske vi i stället
                 <lb />skulle prenumerera på <title level="j">Hemmets vän</title> åt
                 <lb />våra föräldrar vad säger du om det?
-                <lb />den kostar 4.50 helår.</seg>
-                                
+                <lb />den kostar 4.50 helår.
+             </p>
+            </div>
+           </div>
+         <div n="sida4">
            <pb n="04" facs="#Ab19311214GRE_4s" />
+             <div type="vardagsliv">
+               <p>
                 <lb /> då skulle jag vara 39 år när lilla
                 <lb /> <persName>Elisabet</persName> eller <persName>Johannes</persName> kom. När
                 <lb /> jag fyller 50 år skulle <persName ref="#TL">Tomas</persName> vara
@@ -537,18 +551,15 @@
              </closer>
              <postscript>
                <ab>
-                 <seg type="rightMargin" subtype="sideways" />
-                   <seg>
-                     <lb /> Vad tyckte du om korten? 
-                   </seg>
+                 <seg type="rightMargin" subtype="sideways" />         
+                     <lb /> Vad tyckte du om korten?                 
                                       
-                 <seg type="leftBottomMargin" subtype="mixed" />
-                    <seg>
+                 <seg type="leftBottomMargin" subtype="mixed" />                 
                       <lb />Gud välsigne dig lilla Gustaf. Jag beder för dig
-                      <lb />och ditt arbete.
-                    </seg>  
+                      <lb />och ditt arbete.               
                 </ab>
              </postscript>
+         </div>
       </body>
   </text>
 </TEI>

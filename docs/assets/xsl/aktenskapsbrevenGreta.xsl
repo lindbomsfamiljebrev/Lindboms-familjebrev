@@ -526,6 +526,10 @@
         <br/>
         <br/> [ÖVRE MARGINALEN] </xsl:template>
     
+    <xsl:template match="tei:seg[@type = 'upperMargin'][@subtype = 'normal']">
+        <br/>
+        <br/> [ÖVRE MARGINALEN] </xsl:template>
+    
     <xsl:template match="tei:seg[@type = 'bottomMargin'][@subtype = 'normal']">
         <br/>
         <br/> [NEDRE MARGINALEN] </xsl:template>
