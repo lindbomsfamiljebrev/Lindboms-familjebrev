@@ -19,6 +19,10 @@
             <respStmt>
                <resp>TEI-kodad av</resp>
                <name>Hanna Lindbom</name>
+            </respStmt>
+            
+            <respStmt>
+               <resp>TEI-kod redigerad av</resp>
                <name>Malin Sandstedt</name>
             </respStmt>
          </titleStmt>
@@ -89,7 +93,7 @@
             </msDesc>
             
             <bibl>
-               <title>Äktenskapsbrev från Greta till Gustaf 9/4-1932</title>
+               <title>9/4-1932: Äktenskapsbrev från Greta</title>
                <author ref="#GRE">Greta Lindbom</author>
                <biblScope unit="page" n="03"></biblScope>
                <series>Lindboms familjebrevsamling</series>
@@ -320,6 +324,28 @@
            </keywords>
         </textClass>
      </profileDesc>  
+  
+     <revisionDesc>
+        <change>
+           Ändradade alla brevs <gi>title</gi> i <gi>teiHeader</gi>ns <gi>bibl</gi> till den brevrubrik
+           som skulle synas ovanför brevet så att en XPath kan dras i XSL istället för att behöva skapa
+           ny XSL för varje brev.
+        </change>
+        <change>
+           Lade till <gi>div</gi> tillsammans med ett <att>n</att> attribut med attribytvärden 'sida1', 'sida2' osv. 
+           runt enskilda sidor i breven för skunna använda XPath till att bara publicera specifika sidor.
+        </change>
+        <change>
+           Lade in en radbyte i början av första brevsidan så att alla sidor börjar på samma nivå som facsimilen då
+           första sidan alltid började med <gi>opener</gi> medan resterade började med <gi>lb</gi>.
+        </change>
+        <change>
+           Lade till rätt <att>URL</att> för alla facsimiler. 
+        </change>
+        <change>
+           Ändrade dubbelunderstrykningar till att markeras med attibutet <att>ulx2</att>.
+        </change> 
+     </revisionDesc> 
   </teiHeader>
    
    
