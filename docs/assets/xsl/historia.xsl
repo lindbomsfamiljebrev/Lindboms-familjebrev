@@ -87,12 +87,12 @@
                                     <p>
                                         <strong>Projektansvariga:</strong>
                                         <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:author"/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:principal"/>
                                     </p>
                                     <p>
                                         <strong>Texten skriven av:</strong>
                                         <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:autor[1]"/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:principal[1]"/>
                                     </p>
                                 </article>
                                
