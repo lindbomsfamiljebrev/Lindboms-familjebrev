@@ -43,46 +43,6 @@
 
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns) -->
-
-                        <div class="row">
-                            <!-- first column: load the image based on the IIIF link in the graphic above -->
-
-                            <div class="col-sm">
-
-                                <article id="thumbnail">
-                                    <img>
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of
-                                                select="//tei:facsimile/tei:surface//tei:graphic[@xml:id = 'x']/@url"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of
-                                                select="//tei:facsimile/tei:surface[@xml:id = 'x']//tei:label"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of
-                                                select="//tei:facsimile/tei:surface[@xml:id = 'x']//tei:figDesc"
-                                            />
-                                        </xsl:attribute>
-                                    </img>
-                                </article>
-                            </div>
-
-                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
-                            <div class="col-sm">
-                                <article id="transcription">
-                                    <p>
-                                        <strong>Beskrivning:</strong>
-                                        <xsl:apply-templates select="//tei:TEI//tei:figDesc"/>
-                                    </p>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
