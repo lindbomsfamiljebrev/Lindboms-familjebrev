@@ -436,7 +436,9 @@
    
   <text type="letter">
       <body>
+         <div n="sida1">
          <pb n="01" facs="#Ab19301026GRE_1s" />
+            <lb />
             <opener> 
                <dateline rend="right"><placeName ref="#Nra">Nora</placeName> sjukhus 
                   <date when="1930-10-26"> den 26/10 30</date> 
@@ -447,8 +449,7 @@
                   <lb />
                   <lb /><s rend="left">Joh. 17.19.</s> <s rend="right"> <emph rend="ul">Gud</emph> 
                            <choice>
-                              <sic>välsingne</sic>
-                              <corr>välsigne</corr>
+                              <sic>välsingne</sic><corr>välsigne</corr>
                            </choice>dig!</s>
                </salute>
             </opener>
@@ -460,8 +461,7 @@
                <lb />och även i mitt inre är det en stilla frid.
                <lb />Redan tidigt i 
                    <choice>
-                      <sic>morgse</sic>
-                      <corr>morse</corr>
+                      <sic>morgse</sic><corr>morse</corr>
                    </choice>  blev det så levande
                <lb />för mig att, <q>”Jesus älskar mig!”</q> och att han
                <lb />längtar efter att få se sin egen bild i
@@ -473,8 +473,13 @@
                <lb />behåll på nytt i hans hand. Det är
                <lb />som om Jesu underbara kärlek har
                <lb />blivit mera uppenbar för mig under
-                  
-            <pb n="02" facs="#Ab19301026GRE_2s" />
+              </p>
+            </div>
+            </div>
+           <div n="sida2">
+           <pb n="02" facs="#Ab19301026GRE_2s" />
+           <div type="tro">
+              <p>
                <lb />denna tid.
               </p>
             </div>
@@ -510,9 +515,11 @@
                 <lb />men jag vill bedja för dig
               </p>
             </div>
+            </div>
+            <div n="sida3">
+            <pb n="03" facs="#Ab19301026GRE_3s" />
             <div type="vardagsliv">
-              <p>
-             <pb n="03" facs="#Ab19301026GRE_3s" />
+               <p>
                 <lb />KL. 2 em. Jag har just nu slutat och ätit
                 <lb />middag det smakade så gott, det var
                 <lb />soppa med grönsaker, kalvstek med
@@ -533,8 +540,7 @@
                 <lb />är så gott. I dag har jag gått från sängen
                 <lb />till tvättstället och 
                    <choice>
-                      <sic>setat</sic>
-                      <corr>suttit</corr>
+                      <sic>setat</sic><corr>suttit</corr>
                    </choice> på en stol
                 <lb />och tvättat mig medan syster bäddade
                 <lb />sängen. I går var tant <persName ref="#SOF">Sofi</persName> här och
@@ -544,18 +550,21 @@
                 <lb />Syster att jag hade <unclear>pratfeber</unclear> det
                 <lb />var <unclear>J 7.6.</unclear> I natt har jag sovit så
                         
-           <seg type="upperMargin" subtype="upsideDown" />
-              <seg>
+           <seg type="upperMargin" subtype="upsideDown" />     
                 <lb />Skriv snart och tala om mycket. Tala om
                 <lb />hur du har det. Gud 
                    <choice>
-                      <sic>välsingne</sic>
-                      <corr>välsigne</corr>
+                      <sic>välsingne</sic><corr>välsigne</corr>
                    </choice> dig. Var
                 <lb />trogen din Frälsare in i döden.
-              </seg>
-                             
+              
+                </p>
+               </div>
+            </div>
+            <div n="sida4">
             <pb n="04" facs="#Ab19301026GRE_4s" />
+            <div type="vardagsliv">
+               <p>
                 <lb />gott och i dag kom Syster in med
                 <lb />en så bra och lättläst bok den
                 <lb />heter, <title level="m">Prästhuset i Harz</title> av <persName>Wolllmar.</persName>
@@ -572,8 +581,7 @@
                 <lb />lilla det var så smärtsamt att
                 <lb />
                    <choice>
-                      <sic>skjiljas</sic>
-                      <corr>skiljas</corr>
+                      <sic>skjiljas</sic><corr>skiljas</corr>
                    </choice> ifrån <add place="above">dig</add> denna gång och
                 <lb />jag kände det så svårt för sin
                 <lb />skull att du fick känna dig så
@@ -589,17 +597,17 @@
                 <lb />och vår kärlek varmare till vår
                 <lb />älskade Jesus till varandra och
                 <lb />till våra medmänniskor
-               </p>
-             </div>                          
+              </p>
+             </div>
              <closer>
                <salute>
                 <seg type="leftMargin" subtype="sideways" />
-                 <seg>
+                
                    <lb />Till sist de varmaste hälsningar o kyssar från <emph rend="ul">din egen</emph> lilla hustru <persName ref="#GRE">Greta</persName>
-                 </seg>
+                 
               </salute>                  
            </closer>
-                   
+         </div>          
       </body>
   </text>
 </TEI>
