@@ -77,6 +77,7 @@
                                         <strong>Historiskt sammanhang:</strong>
                                         <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                     </p>
+                                    
                                 </article>
                             </div>
                         </div>
@@ -84,11 +85,17 @@
                             <div class="col-sm">
                                 <article id="details">
                                     <p>
-                                        <strong>Text skriven av:</strong>
+                                        <strong>Projektansvariga:</strong>
                                         <br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:author[1]"/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:author"/>
+                                    </p>
+                                    <p>
+                                        <strong>Texten skriven av:</strong>
+                                        <br/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:autor[1]"/>
                                     </p>
                                 </article>
+                               
                             </div>
                         </div>
                     </div>
