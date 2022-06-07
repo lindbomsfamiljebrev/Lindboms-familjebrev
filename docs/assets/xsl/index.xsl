@@ -157,4 +157,239 @@
             </body>
         </html>
     </xsl:template>
+    
+    <!-- by default all text nodes are printed out, unless something else is defined.
+    We don't want to show the metadata. So we write a template for the teiHeader that
+    stops the text nodes underneath (=nested in) teiHeader from being printed into our
+    html-->
+    <xsl:template match="tei:teiHeader"/>
+    
+    
+    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+    <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
+    process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
+    apply to the nodes nested within it.-->
+    
+    <!-- we turn the tei head element (headline) into an html h1 element-->
+    <xsl:template match="tei:head">
+        <h2>
+            <xsl:apply-templates/>
+        </h2>
+    </xsl:template>
+    
+    <xsl:template match="tei:figure">
+        <img src="{tei:graphic/@url}" alt="{tei:figDesc}"/>
+    </xsl:template>
+    
+    <!-- transform tei paragraphs into html paragraphs -->
+    <xsl:template match="tei:p">
+        <p>
+            <!-- apply matching templates for anything that was nested in tei:p -->
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <!-- transform tei del into html del -->
+    <xsl:template match="tei:del">
+        <s>
+            <xsl:apply-templates/>
+        </s>
+    </xsl:template>
+    
+    
+    <!-- transform tei add into html sup -->
+    <xsl:template match="tei:add[@place = 'above']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:template>
+    
+    <!-- transform tei add into html sup -->
+    <xsl:template match="tei:add[@place = 'above']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:template>
+    
+    <!-- transform tei hi (highlighting) with the attribute @rend="ul" into html u elements -->
+    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
+    <xsl:template match="tei:hi[@rend = 'ul']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+    
+    <xsl:template match="tei:emph[@rend = 'ul']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+    
+    <xsl:template match="tei:emph[@rend = 'ulx2']">
+        <u>
+            <span style=" text-decoration-line: underline; text-decoration-style: double">
+                <xsl:apply-templates/>
+            </span>
+        </u>
+    </xsl:template>
+    
+    <xsl:template match="tei:gap[@reason = 'illegible'][@quantity = '1'][@unit = 'word']">
+        <span style="color: #888ad1">[oläsligt]</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:gap[@reason = 'illegible'][@quantity = '03'][@unit = 'char']">
+        <span style="color: #888ad1">[oläsligt: 3 bokstäver]</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:damage[@agent = 'folding'][@type = 'hole']">
+        <xsl:apply-templates/>
+        <sup>
+            <span style="color: #c4906c">[hål i papperet]</span>
+        </sup>
+    </xsl:template>
+    
+    <xsl:template match="tei:damage[@agent = 'folding'][@type = 'tear']">
+        <xsl:apply-templates/>
+        <sup>
+            <span style="color: #c4906c">[reva i papperet]</span>
+        </sup>
+    </xsl:template>
+    
+    <xsl:template match="tei:seg[@type = 'leftMargin'][@subtype = 'sideways']">
+        <br/>
+        <br/> [VÄNSTERMARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:seg[@hand = '#HBY'] [@type = 'leftMargin'][@subtype = 'sideways']">
+        <br/>
+        <br/> [VÄNSTERMARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:seg[@type = 'upperMargin'][@subtype = 'upsideDown']">
+        <br/>
+        <br/> [ÖVRE MARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:seg[@type = 'upperMargin'][@subtype = 'normal']">
+        <br/>
+        <br/> [ÖVRE MARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:seg[@type = 'bottomMargin'][@subtype = 'normal']">
+        <br/>
+        <br/> [NEDRE MARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:seg[@type = 'topLeftMargin'][@subtype = 'mixed']">
+        <br/>
+        <br/> [VÄNSTRA OCH ÖVRE MARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:seg[@type = 'leftBottomMargin'][@subtype = 'mixed']">
+        <br/>
+        <br/> [VÄNSTRA OCH NEDRE MARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:seg[@type = 'bottomRightMargin'][@subtype = 'mixed']">
+        <br/>
+        <br/> [NEDRE OCH HÖGRA MARGINALEN] </xsl:template>
+    
+    <xsl:template match="tei:emph[@rend = 'circle']">
+        <span style="border:1px solid black;border-radius:60%">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'below']">
+        <sub>
+            <xsl:apply-templates/>
+        </sub>
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'above']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:w[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:s[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:s[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:s[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:dateline[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:dateline[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:dateline[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute[@rend = 'center']">
+        <div class="center">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute[@rend = 'right']">
+        <div class="right">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:salute[@rend = 'left']">
+        <div class="left">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:corr">
+        <sup>
+            <span style="color: green">[<xsl:apply-templates/>]</span>
+        </sup>
+    </xsl:template>
+    
+    <xsl:template match="tei:metamark[@rend = 'line']"> _______ </xsl:template>
+    
+    <xsl:template match="tei:unclear">
+        <xsl:apply-templates/>
+        <span style="color: #888ad1">[?]</span>
+    </xsl:template>
 </xsl:stylesheet>
